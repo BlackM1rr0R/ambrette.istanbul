@@ -5,9 +5,24 @@
 }
 .background{
     padding-top: 80px;
-    .images{
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
+    padding-bottom: 80px;
+   .headers{
+    display: flex;
+    justify-content: center;
+    h2{
+        font-size: 25px;
     }
+   }
+   .boxs{
+    padding-top: 40px;
+    .border{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+        img{
+            width: 350px;
+        }
+    }
+   }
 }

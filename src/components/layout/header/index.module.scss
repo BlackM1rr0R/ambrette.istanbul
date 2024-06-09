@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.background{
+    padding-top: 20px;
+    .control{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        .images{
+            img{
+                width: 150px;
+            }
+        }
+        .input{
+            input{
+                width: 400px;
+                background-color: #F4f4f4;
+                border: none;
+                border-radius: 30px;
+                padding: 10px 26px;
+                outline: none;
+            }
+            input::placeholder{
+                font-family: "Ubuntu", sans-serif;
+            }
+        }
+        .selected {
+           select{
+            padding: 5px;
+            border-radius: 10px;
+            border: 1px solid #c5c5c5;
+            font-family: "Ubuntu", sans-serif;
+               option {
+                padding: 20px;
+                font-family: "Ubuntu", sans-serif;
+                }
+            }
+        }
+    }
+}

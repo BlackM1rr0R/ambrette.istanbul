@@ -6,9 +6,24 @@
 
 .background {
   padding-top: 80px;
+  padding-bottom: 80px;
 }
-.background .images {
+.background .headers {
   display: flex;
+  justify-content: center;
+}
+.background .headers h2 {
+  font-size: 25px;
+}
+.background .boxs {
+  padding-top: 40px;
+}
+.background .boxs .border {
+  display: flex;
+  flex-direction: column;
   align-items: center;
-  justify-content: space-between;
+  gap: 10px;
+}
+.background .boxs .border img {
+  width: 350px;
 }/*# sourceMappingURL=index.module.css.map */
