@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.background{
+
+    padding-bottom: 20px;
+    .headers{
+        display: flex;
+        justify-content: center;
+        h2{
+            font-size: 25px;
+        }
+    }
+    .boxs{
+        padding-bottom: 40px;
+        padding-top: 40px;
+        .border{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding-left: 40px;
+            padding-right: 40px;
+            cursor: pointer;
+            img{
+                width: 100%;
+            }
+        }
+    }
+    .hr{
+        hr{
+            border: 2px solid black;
+        }
+    }
+}

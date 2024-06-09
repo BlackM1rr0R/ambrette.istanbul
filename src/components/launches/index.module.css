@@ -1,0 +1,34 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.background {
+  padding-bottom: 20px;
+}
+.background .headers {
+  display: flex;
+  justify-content: center;
+}
+.background .headers h2 {
+  font-size: 25px;
+}
+.background .boxs {
+  padding-bottom: 40px;
+  padding-top: 40px;
+}
+.background .boxs .border {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-left: 40px;
+  padding-right: 40px;
+  cursor: pointer;
+}
+.background .boxs .border img {
+  width: 100%;
+}
+.background .hr hr {
+  border: 2px solid black;
+}/*# sourceMappingURL=index.module.css.map */

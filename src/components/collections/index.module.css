@@ -1,0 +1,28 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.background {
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+.background .headers {
+  display: flex;
+  justify-content: center;
+}
+.background .headers h2 {
+  font-size: 25px;
+}
+.background .boxs {
+  padding-top: 40px;
+}
+.background .boxs .border {
+  padding-left: 40px;
+  padding-right: 40px;
+  cursor: pointer;
+}
+.background .boxs .border img {
+  width: 100%;
+}/*# sourceMappingURL=index.module.css.map */

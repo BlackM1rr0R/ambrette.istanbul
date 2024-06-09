@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.background{
+    padding-top: 80px;
+    padding-bottom: 80px;
+    .headers{
+        display: flex;
+        justify-content: center;
+        h2{
+            font-size: 25px;
+        }
+    }
+    .boxs{
+        padding-top: 40px;
+        .border{
+            padding-left: 40px;
+            padding-right: 40px;
+            cursor: pointer;
+            img{
+                width: 100%;
+            }
+        }
+    }
+}

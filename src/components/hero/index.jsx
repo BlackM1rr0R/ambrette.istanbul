@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import styles from "./index.module.css";
 import Wrapper from "../UI/wrapper";
-import Logo from "../../assets/images/parfumlogo.png";
+
 import Banner from '../../assets/images/banner.webp'
 import { Navigation} from "swiper/modules";
 
