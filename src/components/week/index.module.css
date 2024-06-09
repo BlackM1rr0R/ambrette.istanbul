@@ -1,0 +1,125 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.background {
+  padding-top: 111px;
+}
+.background .headers {
+  display: flex;
+  align-items: center;
+  gap: 36px;
+}
+.background .headers .weekfeatured {
+  font-family: Sen;
+  font-size: 40px;
+  font-weight: 600;
+  line-height: 48px;
+  text-align: left;
+}
+.background .headers .buttons {
+  display: flex;
+  gap: 4px;
+}
+.background .headers .buttons .passive {
+  background: #f0edf0;
+  border: none;
+  padding: 7px 16px;
+  cursor: pointer;
+  border-radius: 30px;
+}
+.background .headers .buttons button:hover {
+  background-color: black;
+  color: white;
+}
+.background .slider {
+  display: flex;
+  padding-top: 41px;
+  width: 100%;
+}
+.background .slider .price {
+  width: 100%;
+  display: flex;
+}
+.background .slider .swiperscontrol {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  background: #f4f3ef;
+  border-radius: 30px;
+  padding: 21px 24px;
+}
+.background .slider .swiperscontrol .swiperheaders button {
+  outline: none;
+  background-color: #ffffff;
+  font-family: Inter !important;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 18px;
+  letter-spacing: 0.6399999857px;
+  color: #6a1ba6;
+  border: none;
+  padding: 7px 15px;
+  border-radius: 30px;
+}
+.background .slider .swiperscontrol .swiperimages {
+  display: flex;
+  justify-content: center;
+}
+.background .slider .swiperscontrol .swiperimages img {
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.background .slider .swiperscontrol .swiperraiting {
+  display: flex;
+  gap: 5px;
+  justify-content: center;
+  align-items: center;
+}
+.background .slider .swiperscontrol .swiperraiting .swipericons {
+  display: flex;
+  gap: 5px;
+}
+.background .slider .swiperscontrol .swipername {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.background .slider .swiperscontrol .swipername h2 {
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19.2px;
+  letter-spacing: 0.6399999857px;
+  text-align: center;
+}
+.background .slider .swiperscontrol .swiperprice {
+  display: flex;
+  justify-content: center;
+}
+.background .slider .swiperscontrol .swiperprice button {
+  background: #6a1ba6;
+  outline: none;
+  border: none;
+  border-radius: 30px;
+  padding: 12px 62px;
+  color: white;
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19.2px;
+  letter-spacing: 0.6399999857px;
+  text-align: center;
+}
+
+.active {
+  background: rgb(0, 0, 0) 0;
+  border: none;
+  padding: 7px 16px;
+  cursor: pointer;
+  color: white;
+  border-radius: 30px;
+}/*# sourceMappingURL=index.module.css.map */

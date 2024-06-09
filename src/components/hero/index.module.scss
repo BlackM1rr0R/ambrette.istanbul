@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.background {
+  background-image: url("../../assets/images/backgroundhero1.png");
+background-size: cover;
+  background-position: center; 
+  object-fit: cover;
+ height: 100vh;
+  .headers {
+    padding-top: 24px;
+
+    .headersbackground {
+      background-color: white;
+      width: 1280px;
+      margin: auto;
+      border-radius: 30px;
+      padding: 20px 48px;
+      display: flex;
+      justify-content: space-between;
+      ul {
+        display: flex;
+        align-items: center;
+        gap: 24px;
+        li {
+          cursor: pointer;
+          font-family: "Manrope", sans-serif !important;
+          font-size: 12px;
+          font-weight: 700;
+          line-height: 16.8px;
+          letter-spacing: 0.1em;
+          text-align: center;
+        }
+      }
+    }
+  }
+}

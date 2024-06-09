@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.background {
+  background-image: url("../../assets/images/backgroundhero1.png");
+  background-size: cover;
+  background-position: center;
+  -o-object-fit: cover;
+     object-fit: cover;
+  height: 100vh;
+}
+.background .headers {
+  padding-top: 24px;
+}
+.background .headers .headersbackground {
+  background-color: white;
+  width: 1280px;
+  margin: auto;
+  border-radius: 30px;
+  padding: 20px 48px;
+  display: flex;
+  justify-content: space-between;
+}
+.background .headers .headersbackground ul {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+.background .headers .headersbackground ul li {
+  cursor: pointer;
+  font-family: "Manrope", sans-serif !important;
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 16.8px;
+  letter-spacing: 0.1em;
+  text-align: center;
+}/*# sourceMappingURL=index.module.css.map */
