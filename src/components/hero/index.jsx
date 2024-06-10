@@ -12,7 +12,7 @@ import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
 import "swiper/css/scrollbar";
-import { ArrowIcon } from "../../icons";
+
 import { Link } from "react-router-dom";
 const Hero = () => {
   const[data,setData]=useState([
@@ -26,36 +26,10 @@ const Hero = () => {
       image:`${Banner}`
     },
   ])
+ 
   return (
     <div className={styles.background}>
-      <div className={styles.headers}>
-        <hr />
-      </div>
-      <Wrapper>
-
-      <ul>
-        <li className={styles.li}>
-            Category <ArrowIcon />
-            <div className={styles.dropdown}>
-              <ul>
-                <li>Category 1</li>
-                <li>Category 2</li>
-                <li>Category 3</li>
-                <li>Category 3</li>
-                <li>Category 3</li>
-                <li>Category 3</li>
-                <li>Category 3</li>
-
-       
-              </ul>
-            </div>
-          </li>
-        <li>All</li>
-        <li>Man</li>
-        <li>Women</li>
-        <li>Unisex</li>
-      </ul>
-      </Wrapper>
+     
       <div className={styles.boxs}>
               <Swiper
                 modules={[Navigation]}

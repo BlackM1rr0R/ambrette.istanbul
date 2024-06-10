@@ -1,43 +1,155 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
-.background{
-    padding-top: 20px;
-    .control{
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        .images{
-            img{
-                width: 150px;
-            }
-        }
-        .input{
-            input{
-                width: 400px;
-                background-color: #F4f4f4;
-                border: none;
-                border-radius: 30px;
-                padding: 10px 26px;
-                outline: none;
-            }
-            input::placeholder{
-                font-family: "Ubuntu", sans-serif;
-            }
-        }
-        .selected {
-           select{
-            padding: 5px;
-            border-radius: 10px;
-            border: 1px solid #c5c5c5;
-            font-family: "Ubuntu", sans-serif;
-               option {
-                padding: 20px;
-                font-family: "Ubuntu", sans-serif;
-                }
-            }
-        }
+.background {
+  padding-top: 20px;
+  .control {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    .images {
+      img {
+        width: 150px;
+      }
     }
+    .input {
+      input {
+        width: 400px;
+        background-color: #f4f4f4;
+        border: none;
+        border-radius: 30px;
+        padding: 10px 26px;
+        outline: none;
+      }
+      input::placeholder {
+        font-family: "Ubuntu", sans-serif;
+      }
+    }
+    .selected {
+      select {
+        padding: 5px;
+        border-radius: 10px;
+        border: 1px solid #c5c5c5;
+        font-family: "Ubuntu", sans-serif;
+        option {
+          padding: 20px;
+          font-family: "Ubuntu", sans-serif;
+        }
+      }
+    }
+  }
+}
+.menuContainer {
+  position: relative;
+
+  .menu {
+    list-style: none;
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    li {
+      font-family: "Ubuntu", sans-serif;
+      cursor: pointer;
+      position: relative;
+      &.li {
+        display: flex;
+        align-items: center;
+        gap: 5px;
+        &:hover .dropdown {
+          display: block;
+        }
+      }
+    }
+  }
+}
+
+.dropdown {
+  position: absolute;
+  margin-top: 16px;
+  top: 100%;
+  left: 0;
+  background-color: white;
+  color: white;
+
+  z-index: 10;
+  animation: 0.5s fadeIn ease-in-out;
+  ul {
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    a {
+      text-decoration: none;
+      flex: 1 1 25%; // 25% width to ensure 4 items per row
+      max-width: 25%;
+      cursor: pointer;
+      padding: 10px;
+      border-bottom: 1px solid white;
+      color: black;
+    }
+  }
+}
+.brends {
+  position: absolute;
+  margin-top: 16px;
+  top: 100%;
+
+  background-color: white;
+  color: white;
+
+  width: 1440px;
+  z-index: 10;
+  animation: 0.5s fadeIn ease-in-out;
+
+  ul {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    list-style: none;
+    gap: 30px;
+    padding-left: 20px;
+    margin: 0;
+
+    h2 {
+      text-decoration: none;
+      flex: 1 1 15%;
+      max-width: 15%;
+      cursor: pointer;
+      padding: 10px;
+      border-bottom: 1px solid white;
+      color: red;
+    }
+
+    ul {
+      padding-top: 10px;
+      padding-left: 10px;
+      display: flex;
+      gap: 5px;
+      flex-direction: column;
+
+      a {
+        color: black;
+      }
+    }
+    .aclass {
+      ul {
+        a {
+          text-decoration: none;
+        }
+      }
+    }
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
 }

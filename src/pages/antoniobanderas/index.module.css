@@ -1,0 +1,60 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.background {
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+.background .control {
+  display: flex;
+  justify-content: space-around;
+}
+.background .control .images {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+.background .control .images img {
+  width: 400px;
+}
+.background .control .images h2 {
+  font-size: 32px;
+}
+.background .control .description {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.background .control .description .info {
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+}
+.background .control .description .info h2 {
+  font-size: 32px;
+}
+.background .control .description .modalclass p {
+  width: 500px;
+  font-size: 24px;
+}
+.background .control .description .notesclass {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.background .control .description .notesclass .fragments {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.background .control .description .notesclass .fragments h2 {
+  font-size: 20px;
+  font-weight: 600;
+}
+.background .control .description .notesclass .fragments h3 {
+  font-size: 16px;
+}/*# sourceMappingURL=index.module.css.map */

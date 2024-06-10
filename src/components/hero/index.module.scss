@@ -8,25 +8,8 @@
   .headers {
     margin-top: 15px;
   }
-  ul {
-    margin-top: 10px;
-    display: flex;
-    justify-content: space-between;
-    position: relative;
-    li {
-      font-family: "Ubuntu", sans-serif;
-      cursor: pointer;
-      position: relative;
-      &.li {
-        display: flex;
-        align-items: center;
-        gap: 5px;
-        &:hover .dropdown {
-          display: block;
-        }
-      }
-    }
-  }
+
+
   .boxs {
     padding-top: 15px;
     .border {
@@ -37,49 +20,7 @@
   }
 }
 
-.dropdown {
-  margin-top: 16px;
-  display: none;
-  width: 1440px;
-  position: absolute;
-  top: 100%;
-  left: 0;
-  background-color: white;
-  border: 1px solid #ccc;
-  z-index: 1000;
-  ul {
-    display: flex;
-    justify-content: flex-start;
-    flex-wrap: wrap;
-    width: 100%;
-    list-style: none;
-    padding-left: 120px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    margin: 0;
-    animation: fadeIn 0.5s ease-in-out forwards; 
-    li {
-      flex: 1 1 20%;
-      max-width: 20%;
-      padding: 10px;
-      white-space: nowrap;
-      &:hover {
-        background-color: #f0f0f0;
-      }
-    }
-  }
-}
 
-@keyframes fadeIn {
-  from {
-    opacity: 0;
-    transform: translateY(-10px);
-  }
-  to {
-    opacity: 1;
-    transform: translateY(0);
-  }
-}
 
 .swiper-button-prev,
 .swiper-button-next {

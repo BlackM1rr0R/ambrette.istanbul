@@ -1,0 +1,62 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.background {
+  padding-top: 80px;
+  padding-bottom: 80px;
+  .control {
+    display: flex;
+    justify-content: space-around;
+
+    .images {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 10px;
+      img {
+        width: 400px;
+      }
+      h2 {
+        font-size: 32px;
+      }
+    }
+    .description {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      .info {
+        cursor: pointer;
+        display: flex;
+        justify-content: space-between;
+        h2 {
+          font-size: 32px;
+        }
+      }
+      .modalclass {
+        p {
+          width: 500px;
+          font-size: 24px;
+        }
+      }
+      .notesclass {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        .fragments {
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          h2{
+            font-size: 20px;
+            font-weight: 600;
+          }
+          h3{
+            font-size: 16px;
+          }
+        }
+      }
+    }
+  }
+}

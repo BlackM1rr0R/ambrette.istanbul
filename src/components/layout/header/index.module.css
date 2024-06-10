@@ -17,7 +17,7 @@
 }
 .background .control .input input {
   width: 400px;
-  background-color: #F4f4f4;
+  background-color: #f4f4f4;
   border: none;
   border-radius: 30px;
   padding: 10px 26px;
@@ -38,4 +38,106 @@
 .background .control .selected select option {
   padding: 20px;
   font-family: "Ubuntu", sans-serif;
+}
+
+.menuContainer {
+  position: relative;
+}
+.menuContainer .menu {
+  list-style: none;
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+}
+.menuContainer .menu li {
+  font-family: "Ubuntu", sans-serif;
+  cursor: pointer;
+  position: relative;
+}
+.menuContainer .menu li.li {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+.menuContainer .menu li.li:hover .dropdown {
+  display: block;
+}
+
+.dropdown {
+  position: absolute;
+  margin-top: 16px;
+  top: 100%;
+  left: 0;
+  background-color: white;
+  color: white;
+  z-index: 10;
+  animation: 0.5s fadeIn ease-in-out;
+}
+.dropdown ul {
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.dropdown ul a {
+  text-decoration: none;
+  flex: 1 1 25%;
+  max-width: 25%;
+  cursor: pointer;
+  padding: 10px;
+  border-bottom: 1px solid white;
+  color: black;
+}
+
+.brends {
+  position: absolute;
+  margin-top: 16px;
+  top: 100%;
+  background-color: white;
+  color: white;
+  width: 1440px;
+  z-index: 10;
+  animation: 0.5s fadeIn ease-in-out;
+}
+.brends ul {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  list-style: none;
+  gap: 30px;
+  padding-left: 20px;
+  margin: 0;
+}
+.brends ul h2 {
+  text-decoration: none;
+  flex: 1 1 15%;
+  max-width: 15%;
+  cursor: pointer;
+  padding: 10px;
+  border-bottom: 1px solid white;
+  color: red;
+}
+.brends ul ul {
+  padding-top: 10px;
+  padding-left: 10px;
+  display: flex;
+  gap: 5px;
+  flex-direction: column;
+}
+.brends ul ul a {
+  color: black;
+}
+.brends ul .aclass ul a {
+  text-decoration: none;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
 }/*# sourceMappingURL=index.module.css.map */
