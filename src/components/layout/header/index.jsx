@@ -19,9 +19,9 @@ const Header = () => {
     <Wrapper>
       <div className={styles.background}>
         <div className={styles.control}>
-          <div className={styles.images}>
-            <img src={Logo} alt="" />
-          </div>
+          <Link to={"/"} className={styles.images}>
+            <h2>AMBRETTE</h2>
+          </Link>
           <div className={styles.input}>
             <input type="text" placeholder="Search..." />
           </div>
@@ -47,7 +47,7 @@ const Header = () => {
               Brends <ArrowIcon/>
             </li>
             <li>About us</li>
-            <li>Magazins</li>
+            <Link to={"/magazins"}>Magazins</Link>
             <li>Contact us</li>
           </ul>
           {modal && (

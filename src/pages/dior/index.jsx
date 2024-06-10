@@ -1,103 +1,79 @@
 import React, { useState } from "react";
 import styles from "./index.module.css";
 import Wrapper from "../../components/UI/wrapper";
-import Antonio from "../../assets/images/antoniobanderas1.webp";
+import Antonio from "../../assets/images/dior.svg";
+import DiorLogo from '../../assets/images/dior1.jpg'
 import { Link } from "react-router-dom";
-const AntonioBanderas = () => {
-  const [modal, setModal] = useState(false);
-  const [notes, setNotes] = useState(false);
-  const [brends, setBrends] = useState(false);
-  const handleClick = () => {
-    setModal((prevModal) => !prevModal);
-  };
-  const handleClick1 = () => {
-    setNotes((prevNotes) => !prevNotes);
-  };
-  const handleClick2 = () => {
-    setBrends((prevBrends) => !prevBrends);
-  };
+
+const DiorPerfume = () => {
+
   return (
     <Wrapper>
       <div className={styles.background}>
         <div className={styles.control}>
           <div className={styles.images}>
-            <h2>Antonio Banderas Golden Secret M</h2>
+            <h2>Dior fragrances</h2>
             <img src={Antonio} alt="" />
+          
           </div>
           <div className={styles.description}>
-            <div onClick={() => handleClick()} className={styles.info}>
-              <h2>Description</h2>
-              <h2>+</h2>
-            </div>
-            <div className={styles.hr}>
-              <hr />
-            </div>
-            {modal ? (
+           
+        
+           
               <div className={styles.modalclass}>
                 <p>
-                  The Golden Secret men's fragrance by Banderas is an
-                  unmistakable distillation of seduction, thanks to the perfect
-                  blend of spicy red peppercorn and nutmeg accords and the
-                  warmth of cedar wood and leather. A spicy, woody fragrance
-                  with a leather scent, presented in a luxurious gold bottle
-                  made for special moments.
+                  Dior is represented by 278 fragrances in our encyclopedia.
+                  Dior is a brand with history. The earliest fragrance of this
+                  brand in our encyclopedia was created in 1947, the last - in
+                  2024. Dior has worked with such perfumers as Francis
+                  Kurkdjian, Edmond Roudnitska, Beatrice Piquet, Paul Vacher,
+                  Pierre Bourdon, Maurice Roger, Max Gavarry, Domitille Michalon
+                  Bertier, Jacques Cavallier, Jean Martel, Florence Idier,
+                  Nathalie Lorson, François Demachy, Thierry Wasser, Christian
+                  Dussoulier, Olivier Polge, Guy Robert, Jean-Louis Sieuzac,
+                  Nejla Barbir, Dominique Ropion, Olivier Cresp, Jean-Pierre
+                  Bethouart, Michel Almairac, Bertrand Duchaufour, Louise
+                  Turner, Olivier Gillotin, Olivier Pescheux, Natalie
+                  Gracia-Cetto, Carlos Viñals , Calice Becker, Annick Menardo,
+                  Jean Carles, Christine Nagel, Edouard Flechier, Carlos Benaim
+                  and Edouard Fléchier.
                 </p>
               </div>
-            ) : (
-              ""
-            )}
-            <div onClick={() => handleClick1()} className={styles.info}>
-              <h2>FRAGRANCE NOTES</h2>
-              <h2>+</h2>
-            </div>
-            <div className={styles.hr}>
-              <hr />
-            </div>
-            {notes ? (
-              <div className={styles.notesclass}>
-                <div className={styles.fragments}>
-                  <h2>Fragrance Family</h2>
-                  <h3>Floral,Amber</h3>
-                </div>
-                <div className={styles.fragments}>
-                  <h2>Top Notes</h2>
-                  <h3>Mandarin</h3>
-                </div>
-                <div className={styles.fragments}>
-                  <h2>Mid Notes</h2>
-                  <h3>Rose,Jasmine</h3>
-                </div>
-                <div className={styles.fragments}>
-                  <h2>Base Notes</h2>
-                  <h3>Patchouli</h3>
-                </div>
-              </div>
-            ) : (
-              ""
-            )}
-            <div onClick={() => handleClick2()} className={styles.info}>
-              <h2>Brends</h2>
-              <h2>+</h2>
-            </div>
-            <div className={styles.hr}>
-              <hr />
-            </div>
-            {brends ? (
-              <div className={styles.notesclass}>
-                <div className={styles.fragments}>
-                  <Link to={"/dior"}>Dior</Link>
-                </div>
-              </div>
-            ) : (
-              ""
-            )}
-            <div className={styles.info}>
-              <h2>#4097582</h2>
-            </div>
-            <div className={styles.hr}>
-              <hr />
-            </div>
+          
           </div>
+        </div>
+        <div className={styles.allperfumes}>
+                <div className={styles.allheaders}>
+                    <h2>All Fragrances</h2>
+                </div>
+                <div className={styles.dior}>
+                        <img src={DiorLogo} alt="" />
+                        <h2>Chris 1947</h2>
+                </div>
+                <div className={styles.dior}>
+                        <img src={DiorLogo} alt="" />
+                        <h2>Chris 1947</h2>
+                </div>
+                <div className={styles.dior}>
+                        <img src={DiorLogo} alt="" />
+                        <h2>Chris 1947</h2>
+                </div>
+                <div className={styles.dior}>
+                        <img src={DiorLogo} alt="" />
+                        <h2>Chris 1947</h2>
+                </div>
+                <div className={styles.dior}>
+                        <img src={DiorLogo} alt="" />
+                        <h2>Chris 1947</h2>
+                </div>
+                <div className={styles.dior}>
+                        <img src={DiorLogo} alt="" />
+                        <h2>Chris 1947</h2>
+                </div>
+                <div className={styles.dior}>
+                        <img src={DiorLogo} alt="" />
+                        <h2>Chris 1947</h2>
+                </div>
         </div>
         <div className={styles.headers}>
           <div className={styles.hr}>
@@ -205,4 +181,4 @@ const AntonioBanderas = () => {
   );
 };
 
-export default AntonioBanderas;
+export default DiorPerfume;

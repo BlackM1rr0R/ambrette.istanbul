@@ -1,0 +1,57 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.background {
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+.background h1 {
+  font-size: 48px;
+}
+.background .control {
+  display: flex;
+  justify-content: space-between;
+}
+.background .control .leftside {
+  border: 1px solid gray;
+  border-radius: 10px;
+  padding: 20px;
+  padding-right: 120px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.background .control .leftside .azadlig {
+  cursor: pointer;
+}
+.background .control .leftside .azadlig h2 {
+  font-size: 32px;
+}
+.background .control .leftside .modalclass {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.background .control .leftside .modalclass h2 {
+  font-size: 24px;
+}
+.background .control .leftside .genclik {
+  cursor: pointer;
+}
+.background .control .leftside .genclik h2 {
+  font-size: 32px;
+}
+.background .control .leftside .nerimanov {
+  cursor: pointer;
+}
+.background .control .leftside .nerimanov h2 {
+  font-size: 32px;
+}
+.background .control .rightside {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}/*# sourceMappingURL=index.module.css.map */

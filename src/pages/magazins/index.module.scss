@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.background{
+    padding-top: 40px;
+    padding-bottom: 40px;
+    h1{
+        font-size: 48px;
+    }
+    .control{
+        display: flex;
+        justify-content: space-between;
+        .leftside{
+            border: 1px solid gray;
+            border-radius: 10px;
+            padding: 20px;
+            padding-right: 120px;
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+            .azadlig{
+                
+                cursor: pointer;
+                h2{
+                    font-size: 32px;
+                }
+            }
+            .modalclass{
+                display: flex;
+                flex-direction: column;
+                gap: 10px;
+                h2{
+                    font-size: 24px;
+                }
+            }
+            .genclik{
+                cursor: pointer;
+                h2{
+                    font-size: 32px;
+                }
+            }
+            .nerimanov{
+                cursor: pointer;
+                h2{
+                    font-size: 32px;
+                }
+            }
+        }
+        .rightside{
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+        }
+    }
+}

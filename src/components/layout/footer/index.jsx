@@ -9,7 +9,7 @@ const Footer = () => {
       <div className={styles.background}>
         <div className={styles.control}>
           <div className={styles.list1}>
-            <img src={Logo} alt="" />
+          <h2>AMBRETTE</h2>
             <p>Contact with our:</p>
             <div className={styles.icons}>
               <WhatsappIcon />

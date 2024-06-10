@@ -5,15 +5,17 @@
 }
 
 .background {
-  padding-top: 20px;
+  padding-top: 40px;
 }
 .background .control {
+  padding-bottom: 20px;
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
-.background .control .images img {
-  width: 150px;
+.background .control .images {
+  text-decoration: none;
+  color: black;
 }
 .background .control .input input {
   width: 400px;
@@ -62,6 +64,10 @@
 }
 .menuContainer .menu li.li:hover .dropdown {
   display: block;
+}
+.menuContainer .menu a {
+  text-decoration: none;
+  color: black;
 }
 
 .dropdown {

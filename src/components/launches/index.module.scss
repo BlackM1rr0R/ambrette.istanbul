@@ -1,36 +1,96 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
-.background{
-
-    padding-bottom: 20px;
-    .headers{
-        display: flex;
-        justify-content: center;
-        h2{
-            font-size: 25px;
-        }
+.background {
+  padding-bottom: 50px;
+  .headers1 {
+    display: flex;
+    align-items: center;
+      gap: 30px;
+    justify-content: center;
+    .hr {
+      hr {
+      border: 1px solid black;
+      width: 400px;
+       
+      }
     }
-    .boxs{
-        padding-bottom: 40px;
-        padding-top: 40px;
-        .border{
+    .h2 {
+      h2 {
+        font-size: 32px;
+        width: 100%;
+      }
+    }
+  }
+  .perfumelist1{
+    padding-bottom: 60px;
+      .firstside1{
+        padding-top: 30px;
+        display: flex;
+        justify-content: space-between;
+        ul{
             display: flex;
             flex-direction: column;
-            align-items: center;
-            padding-left: 40px;
-            padding-right: 40px;
-            cursor: pointer;
-            img{
-                width: 100%;
+            gap: 20px;
+            li{
+                font-size: 20px;
             }
         }
     }
-    .hr{
-        hr{
-            border: 2px solid black;
+  }
+  .headers {
+    display: flex;
+    align-items: center;
+      gap: 30px;
+    justify-content: center;
+    .hr {
+      hr {
+      border: 1px solid black;
+      width: 500px;
+       
+      }
+    }
+    .h2 {
+      h2 {
+        font-size: 32px;
+        width: 100%;
+      }
+    }
+  }
+  .perfumelist{
+    padding-bottom: 30px;
+    .firstside{
+        padding-top: 30px;
+        display: flex;
+        justify-content: space-between;
+        ul{
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+            a{
+                text-decoration: none;
+                font-size: 24px;
+                color: black;
+            }
+            li{
+                font-size: 24px;
+            }
         }
     }
+    .twoside{
+        padding-top: 30px;
+        display: flex;
+        justify-content: space-between;
+        ul{
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+            li{
+                font-size: 24px;
+            }
+        }
+    }
+  }
 }

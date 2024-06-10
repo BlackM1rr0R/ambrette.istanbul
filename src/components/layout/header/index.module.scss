@@ -4,15 +4,16 @@
   box-sizing: border-box;
 }
 .background {
-  padding-top: 20px;
+  padding-top: 40px;
   .control {
+    padding-bottom: 20px;
     display: flex;
     justify-content: space-between;
     align-items: center;
     .images {
-      img {
-        width: 150px;
-      }
+      text-decoration: none;
+      color: black;
+      
     }
     .input {
       input {
@@ -62,6 +63,10 @@
           display: block;
         }
       }
+    }
+    a{
+      text-decoration: none;
+      color: black;
     }
   }
 }

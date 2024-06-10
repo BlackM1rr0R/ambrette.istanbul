@@ -5,30 +5,83 @@
 }
 
 .background {
-  padding-bottom: 20px;
+  padding-bottom: 50px;
+}
+.background .headers1 {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  justify-content: center;
+}
+.background .headers1 .hr hr {
+  border: 1px solid black;
+  width: 400px;
+}
+.background .headers1 .h2 h2 {
+  font-size: 32px;
+  width: 100%;
+}
+.background .perfumelist1 {
+  padding-bottom: 60px;
+}
+.background .perfumelist1 .firstside1 {
+  padding-top: 30px;
+  display: flex;
+  justify-content: space-between;
+}
+.background .perfumelist1 .firstside1 ul {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.background .perfumelist1 .firstside1 ul li {
+  font-size: 20px;
 }
 .background .headers {
   display: flex;
+  align-items: center;
+  gap: 30px;
   justify-content: center;
 }
-.background .headers h2 {
-  font-size: 25px;
+.background .headers .hr hr {
+  border: 1px solid black;
+  width: 500px;
 }
-.background .boxs {
-  padding-bottom: 40px;
-  padding-top: 40px;
-}
-.background .boxs .border {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding-left: 40px;
-  padding-right: 40px;
-  cursor: pointer;
-}
-.background .boxs .border img {
+.background .headers .h2 h2 {
+  font-size: 32px;
   width: 100%;
 }
-.background .hr hr {
-  border: 2px solid black;
+.background .perfumelist {
+  padding-bottom: 30px;
+}
+.background .perfumelist .firstside {
+  padding-top: 30px;
+  display: flex;
+  justify-content: space-between;
+}
+.background .perfumelist .firstside ul {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.background .perfumelist .firstside ul a {
+  text-decoration: none;
+  font-size: 24px;
+  color: black;
+}
+.background .perfumelist .firstside ul li {
+  font-size: 24px;
+}
+.background .perfumelist .twoside {
+  padding-top: 30px;
+  display: flex;
+  justify-content: space-between;
+}
+.background .perfumelist .twoside ul {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.background .perfumelist .twoside ul li {
+  font-size: 24px;
 }/*# sourceMappingURL=index.module.css.map */

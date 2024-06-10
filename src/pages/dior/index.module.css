@@ -5,7 +5,6 @@
 }
 
 .background {
-  padding-top: 80px;
   padding-bottom: 80px;
 }
 .background .control {
@@ -13,10 +12,11 @@
   justify-content: space-around;
 }
 .background .control .images {
+  padding-top: 40px;
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 30px;
+  gap: 10px;
 }
 .background .control .images img {
   width: 400px;
@@ -25,21 +25,18 @@
   font-size: 32px;
 }
 .background .control .description {
+  padding-top: 80px;
   display: flex;
   flex-direction: column;
   gap: 10px;
 }
 .background .control .description .info {
   cursor: pointer;
-  padding-top: 20px;
   display: flex;
   justify-content: space-between;
 }
 .background .control .description .info h2 {
   font-size: 32px;
-}
-.background .control .description .hr {
-  padding-top: 20px;
 }
 .background .control .description .modalclass p {
   width: 500px;
@@ -59,14 +56,25 @@
   font-size: 20px;
   font-weight: 600;
 }
-.background .control .description .notesclass .fragments a {
-  font-size: 32px;
-  font-weight: 600;
-  color: red;
-  text-decoration: none;
-}
 .background .control .description .notesclass .fragments h3 {
   font-size: 16px;
+}
+.background .allperfumes {
+  padding-top: 50px;
+}
+.background .allperfumes .allheaders h2 {
+  font-size: 32px;
+}
+.background .allperfumes .dior {
+  margin-top: 30px;
+  display: flex;
+  align-items: center;
+  border: 1px solid rgb(160, 160, 160);
+  border-radius: 10px;
+  padding: 20px;
+}
+.background .allperfumes .dior h2 {
+  font-size: 32px;
 }
 .background .headers {
   padding-top: 50px;
