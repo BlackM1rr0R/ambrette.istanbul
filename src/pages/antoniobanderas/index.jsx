@@ -47,7 +47,7 @@ const AntonioBanderas = () => {
               ""
             )}
             <div onClick={() => handleClick1()} className={styles.info}>
-              <h2>FRAGRANCE NOTES</h2>
+              <h2>Fragrance notes</h2>
               <h2>+</h2>
             </div>
             <div className={styles.hr}>
@@ -56,19 +56,19 @@ const AntonioBanderas = () => {
             {notes ? (
               <div className={styles.notesclass}>
                 <div className={styles.fragments}>
-                  <h2>Fragrance Family</h2>
+                  <h2>Fragrance Family:</h2>
                   <h3>Floral,Amber</h3>
                 </div>
                 <div className={styles.fragments}>
-                  <h2>Top Notes</h2>
+                  <h2>Top Notes:</h2>
                   <h3>Mandarin</h3>
                 </div>
                 <div className={styles.fragments}>
-                  <h2>Mid Notes</h2>
+                  <h2>Mid Notes:</h2>
                   <h3>Rose,Jasmine</h3>
                 </div>
                 <div className={styles.fragments}>
-                  <h2>Base Notes</h2>
+                  <h2>Base Notes:</h2>
                   <h3>Patchouli</h3>
                 </div>
               </div>

@@ -14,6 +14,7 @@
 .background .control {
   display: flex;
   justify-content: space-between;
+  margin-top: 50px;
 }
 .background .control .leftside {
   border: 1px solid gray;
@@ -28,7 +29,7 @@
   cursor: pointer;
 }
 .background .control .leftside .azadlig h2 {
-  font-size: 32px;
+  font-size: 24px;
 }
 .background .control .leftside .modalclass {
   display: flex;
@@ -36,22 +37,26 @@
   gap: 10px;
 }
 .background .control .leftside .modalclass h2 {
-  font-size: 24px;
+  font-size: 18px;
 }
 .background .control .leftside .genclik {
   cursor: pointer;
 }
 .background .control .leftside .genclik h2 {
-  font-size: 32px;
+  font-size: 24px;
 }
 .background .control .leftside .nerimanov {
   cursor: pointer;
 }
 .background .control .leftside .nerimanov h2 {
-  font-size: 32px;
+  font-size: 24px;
 }
 .background .control .rightside {
   display: flex;
   flex-direction: column;
   gap: 20px;
+}
+
+.active h2 {
+  color: red;
 }/*# sourceMappingURL=index.module.css.map */

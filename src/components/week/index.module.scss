@@ -3,10 +3,27 @@
   padding: 0;
   box-sizing: border-box;
 }
+
 .background {
- .headers{
-  img{
-    width: 100%;
+  .headers {
+    display: flex;
+    flex-direction: column;
+
+    .top, .bottom {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+     
+
+      img {
+        cursor: pointer;
+        width: 50%;
+        transition: transform 0.3s ease;
+
+        &:hover {
+          transform: scale(1.1); 
+        }
+      }
+    }
   }
- }
 }

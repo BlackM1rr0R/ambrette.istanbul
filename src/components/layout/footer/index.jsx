@@ -1,12 +1,12 @@
 import React from "react";
 import styles from "./index.module.css";
-import Logo from "../../../assets/images/logo1.avif";
+import Logo from "../../../assets/images/logo2.png";
 import Wrapper from "../../UI/wrapper";
 import { InstagramIcon, TelegramIcon, WhatsappIcon } from "../../../icons";
 const Footer = () => {
   return (
-    <Wrapper>
-      <div className={styles.background}>
+    <div className={styles.background}>
+        <Wrapper>
         <div className={styles.control}>
           <div className={styles.list1}>
           <h2>AMBRETTE</h2>
@@ -54,8 +54,8 @@ const Footer = () => {
             </ul>
           </div>
         </div>
-      </div>
     </Wrapper>
+      </div>
   );
 };
 

@@ -4,6 +4,20 @@
   box-sizing: border-box;
 }
 
-.background .headers img {
-  width: 100%;
+.background .headers {
+  display: flex;
+  flex-direction: column;
+}
+.background .headers .top, .background .headers .bottom {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.background .headers .top img, .background .headers .bottom img {
+  cursor: pointer;
+  width: 50%;
+  transition: transform 0.3s ease;
+}
+.background .headers .top img:hover, .background .headers .bottom img:hover {
+  transform: scale(1.1);
 }/*# sourceMappingURL=index.module.css.map */

@@ -1,26 +1,230 @@
 import React, { useState } from "react";
 import styles from "./index.module.css";
-import Logo from "../../../assets/images/logo1.avif";
+import Logo from "../../../assets/images/logo2.png";
 import Wrapper from "../../UI/wrapper";
 import { Link } from "react-router-dom";
 import { ArrowIcon } from "../../../icons";
+
 const Header = () => {
   const [modal, setModal] = useState(false);
   const [brends, setBrends] = useState(false);
+  const [data, setData] = useState([
+    [
+      {
+        aname: "Antonio Banderas Golden S M",
+        link:"/antonio"
+      },
+      {
+        aname: "Armani Basi In Blue",
+        link:"/dior"
+      },
+      {
+        aname: "A Cologne Rose Cuirre",
+        link:"/dior"
+      },
+      {
+        aname: "A.Dunhil Desire",
+        link:"/dior"
+      },
+      {
+        aname: "Ajmal Amber Wood",
+        link:"/dior"
+      },
+      {
+        aname: "Ajmal Aristocrat",
+        link:"/dior"
+      },
+      {
+        aname: "Alexandra Black Musk",
+        link:"/dior"
+      },
+      {
+        aname: "Alexandra Argentic",
+        link:"/dior"
+      },
+      {
+        aname: "Alfred Dunhill Desire",
+        link:"/dior"
+      },
+      {
+        aname: "Alfred Dunhill Black",
+        link:"/dior"
+      },
+      {
+        aname: "Amor Egzotik",
+        link:"/dior"
+      },
+      {
+        aname: "Amouage Sunshine",
+        link:"/dior"
+      },
+      {
+        aname: "Antonio Banderas Blue",
+        link:"/dior"
+      },
+      {
+        aname: "Antonio Banderas Blue W",
+        link:"/dior"
+      },
+      {
+        aname: "Armand Basi Homme",
+        link:"/dior"
+      },
+      {
+        aname: "Armani Code",
+        link:"/dior"
+      },
+      {
+        aname: "Armani My Way Intense",
+        link:"/dior"
+      },
+      {
+        aname: "Armani My Way",
+        link:"/dior"
+      },
+      {
+        aname: "Armani Si Passione",
+        link:"/dior"
+      },
+      {
+        aname: "Armani Stronger With You",
+        link:"/dior"
+      },
+      {
+        aname: "Attar Musk Kashmir",
+        link:"/dior"
+      },
+      {
+        aname: "Attar The Queen of Sheba",
+        link:"/dior"
+      },
+      {
+        aname: "Avon Today",
+        link:"/dior"
+      },
+      {
+        aname: "Azzaro Chrome",
+        link:"/dior"
+      },
+      {
+        aname: "Azzaro Mademoiselle",
+        link:"/dior"
+      },
+    ],
+  ]);
+  const [dataB,setDataB]=useState([
+    [
+      {
+        bname:"Baccarat Rouge 540",
+        link:"/dior"
+      },
+      {
+        bname:"Baccarat 540 Delux",
+        link:"/dior"
+      },
+      {
+        bname:"Black Afgano Delux",
+        link:"/dior"
+      },
+      {
+        bname:"Black Afgano Pour Homme",
+        link:"/dior"
+      },
+      {
+        bname:"Boadicea Knight of Love",
+        link:"/dior"
+      },
+      {
+        bname:"Bois Imperial",
+        link:"/dior"
+      },
+      {
+        bname:"B.Omnia Crystalline",
+        link:"/dior"
+      },
+      {
+        bname:"Bond West Side",
+        link:"/dior"
+      },
+      {
+        bname:"Brioni",
+        link:"/dior"
+      },
+      {
+        bname:"Burberry Body",
+        link:"/dior"
+      },
+      {
+        bname:"Burberry Sport For Men",
+        link:"/dior"
+      },
+      {
+        bname:"Burberry Wekend",
+        link:"/dior"
+      },
+      {
+        bname:"Bvlgari Aqva Amara",
+        link:"/dior"
+      },
+      {
+        bname:"Bvlgari Aqva Marine",
+        link:"/dior"
+      },
+      {
+        bname:"Bvlgari Gyan Le Gemme",
+        link:"/dior"
+      },
+      {
+        bname:"Bvlgari Omnia Crystalline",
+        link:"/dior"
+      },
+      {
+        bname:"Bvlgari Tygar Delux",
+        link:"/dior"
+      },
+      {
+        bname:"By Killian White Cristal",
+        link:"/dior"
+      },
+      {
+        bname:"By Redo Blanch",
+        link:"/dior"
+      },
+      {
+        bname:"By Redo Marixuana",
+        link:"/dior"
+      },
+      {
+        bname:"Burberry Body",
+        link:"/dior"
+      },
+      {
+        bname:"Burberry Body",
+        link:"/dior"
+      },
+      {
+        bname:"Burberry Body",
+        link:"/dior"
+      },
+    ]
+  ])
+
   const handleClick = () => {
     setModal((prevModal) => !prevModal);
-    setBrends(false)
+    setBrends(false);
   };
+
   const handleClick1 = () => {
     setBrends((prevBrends) => !prevBrends);
-    setModal(false)
+    setModal(false);
   };
+
   return (
     <Wrapper>
       <div className={styles.background}>
         <div className={styles.control}>
           <Link to={"/"} className={styles.images}>
-            <h2>AMBRETTE</h2>
+            <img src={Logo} alt="" />
           </Link>
           <div className={styles.input}>
             <input type="text" placeholder="Search..." />
@@ -44,7 +248,7 @@ const Header = () => {
             </li>
 
             <li onClick={handleClick1} className={styles.li}>
-              Brends <ArrowIcon/>
+              Brends <ArrowIcon />
             </li>
             <li>About us</li>
             <Link to={"/magazins"}>Magazins</Link>
@@ -53,51 +257,45 @@ const Header = () => {
           {modal && (
             <div className={styles.dropdown}>
               <ul>
-                <Link>Man</Link>
-                <Link>Women</Link>
-                <Link>Unisex</Link>
+                <li>
+                  <Link to={"/man"}>Man</Link>
+                </li>
+                <li>
+                  <Link to={"/women"}>Women</Link>
+                </li>
+                <li>
+                  <Link to={"/unisex"}>Unisex</Link>
+                </li>
               </ul>
             </div>
           )}
           {brends && (
             <div className={styles.brends}>
               <ul>
-                <div className={styles.aclass}>
-
-                <h2>A</h2>
-                <ul>
-                  <Link to={"/antonio"}>Antonio Banderas Golden Secret M</Link>
-                
-                </ul>
-                </div>
-                <div className={styles.bclass}>
-                <Link>B</Link>
-                <ul>
-                  <Link to={"/antonio"}>Bacarat</Link>
-                </ul>
-                </div>
-                <h2>C</h2>
-                <h2>D</h2>
-                <h2>E</h2>
-                <h2>F</h2>
-                <h2>G</h2>
-                <h2>H</h2>
-                <h2>I</h2>
-                <h2>J</h2>
-                <h2>K</h2>
-                <h2>L</h2>
-                <h2>M</h2>
-                <h2>N</h2>
-                <h2>O</h2>
-                <h2>P</h2>
-                <h2>R</h2>
-                <h2>S</h2>
-                <h2>T</h2>
-                <h2>V</h2>
-                <h2>W</h2>
-                <h2>X</h2>
-                <h2>Y</h2>
-                <h2>Z</h2>
+                {data.map((innerArray, index) => (
+                  <div key={index} className={styles.aclass}>
+                    <h2>A</h2>
+                    <ul>
+                      {innerArray.map((item, innerIndex) => (
+                        <li key={innerIndex}>
+                          <Link to={item.link}>{item.aname}</Link>
+                        </li>
+                      ))}
+                    </ul>
+                  </div>
+                ))}
+                {dataB.map((innerArrayB, index) => (
+                  <div key={index} className={styles.aclass}>
+                    <h2>B</h2>
+                    <ul>
+                      {innerArrayB.map((item, innerIndex) => (
+                        <li key={innerIndex}>
+                          <Link to={item.link}>{item.bname}</Link>
+                        </li>
+                      ))}
+                    </ul>
+                  </div>
+                ))}
               </ul>
             </div>
           )}

@@ -12,6 +12,7 @@
     .control{
         display: flex;
         justify-content: space-between;
+        margin-top: 50px;
         .leftside{
             border: 1px solid gray;
             border-radius: 10px;
@@ -24,7 +25,7 @@
                 
                 cursor: pointer;
                 h2{
-                    font-size: 32px;
+                    font-size: 24px;
                 }
             }
             .modalclass{
@@ -32,19 +33,19 @@
                 flex-direction: column;
                 gap: 10px;
                 h2{
-                    font-size: 24px;
+                    font-size: 18px;
                 }
             }
             .genclik{
                 cursor: pointer;
                 h2{
-                    font-size: 32px;
+                    font-size: 24px;
                 }
             }
             .nerimanov{
                 cursor: pointer;
                 h2{
-                    font-size: 32px;
+                    font-size: 24px;
                 }
             }
         }
@@ -53,5 +54,10 @@
             flex-direction: column;
             gap: 20px;
         }
+    }
+}
+.active{
+    h2{
+        color: red;
     }
 }
