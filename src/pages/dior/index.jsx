@@ -17,9 +17,6 @@ const DiorPerfume = () => {
           
           </div>
           <div className={styles.description}>
-           
-        
-           
               <div className={styles.modalclass}>
                 <p>
                   Dior is represented by 278 fragrances in our encyclopedia.

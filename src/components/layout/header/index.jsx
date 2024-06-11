@@ -8,6 +8,16 @@ import { ArrowIcon } from "../../../icons";
 const Header = () => {
   const [modal, setModal] = useState(false);
   const [brends, setBrends] = useState(false);
+  const [modalContent, setModalContent] = useState('');
+  const [isModalOpen, setIsModalOpen] = useState(false);
+  const openModal = (content) => {
+    setModalContent(content);
+    setIsModalOpen(true);
+  };
+
+  const closeModal = () => {
+    setIsModalOpen(false);
+  };
   const [data, setData] = useState([
     [
       {
@@ -195,17 +205,264 @@ const Header = () => {
         link:"/dior"
       },
       {
-        bname:"Burberry Body",
+        bname:"By Redo Pulp",
         link:"/dior"
       },
       {
-        bname:"Burberry Body",
+        bname:"By Redo Bal Dafrique",
         link:"/dior"
       },
       {
-        bname:"Burberry Body",
+        bname:"By Redo Bibliotheque",
         link:"/dior"
       },
+      {
+        bname:"By Redo La Tulipe",
+        link:"/dior"
+      },
+      {
+        bname:"By Redo Marijuanna",
+        link:"/dior"
+      },
+      {
+        bname:"By Redo Mojave Ghost",
+        link:"/dior"
+      },
+
+      
+    ]
+  ])
+  const [dataC,setDataC]=useState([
+    [
+      {
+          cname:"C.Amour Pour Homme",
+          link:"/dior"
+      },
+      {
+          cname:"C.Dior Miss Dior",
+          link:"/dior"
+      },
+      {
+          cname:"C.Dior Savuage",
+          link:"/dior"
+      },
+      {
+          cname:"C.Herera 212 Men",
+          link:"/dior"
+      },
+      {
+          cname:"C.Herera 212 On Ice",
+          link:"/dior"
+      },
+      {
+          cname:"C.A.H.Sport Extreme",
+          link:"/dior"
+      },
+      {
+          cname:"Calvin Klein Euphoria",
+          link:"/dior"
+      },
+      {
+          cname:"Captan Black",
+          link:"/dior"
+      },
+      {
+          cname:"Cartier Declaration",
+          link:"/dior"
+      },
+      {
+          cname:"Cartier La Panthere",
+          link:"/dior"
+      },
+      {
+          cname:"C.Dior Adict 2",
+          link:"/dior"
+      },
+      {
+          cname:"C.Dior Eau Savuage Delux",
+          link:"/dior"
+      },
+      {
+          cname:"C.Duir Fahrenheit Le Parfum",
+          link:"/dior"
+      },
+      {
+          cname:"C.Dior Home Sport",
+          link:"/dior"
+      },
+      {
+          cname:"C.Dior Home Intense",
+          link:"/dior"
+      },
+      {
+          cname:"C.Dior Jadore",
+          link:"/dior"
+      },
+      {
+          cname:"C.Dior Miss Cherie",
+          link:"/dior"
+      },
+      {
+          cname:"C.Dior Rouge Trafalger",
+          link:"/dior"
+      },
+      {
+          cname:"C.Dior Savuage",
+          link:"/dior"
+      },
+      {
+          cname:"C.Dior Savuage Delux",
+          link:"/dior"
+      },
+      {
+          cname:"C.Dior Blooming",
+          link:"/dior"
+      },
+      {
+          cname:"Cerutti 1881 M",
+          link:"/dior"
+      },
+      {
+          cname:"Cerutti 1881 Pour",
+          link:"/dior"
+      },
+      {
+          cname:"C.H 212 On Ice Men",
+          link:"/dior"
+      },
+      {
+          cname:"Chanel Allure Home Sport",
+          link:"/dior"
+      },
+      {
+          cname:"Chanel Chanel 19",
+          link:"/dior"
+      },
+      {
+          cname:"Chanel Coco Chanel",
+          link:"/dior"
+      },
+      {
+          cname:"Chanel Coco Mademoiselle",
+          link:"/dior"
+      },
+      {
+          cname:"Chanel Coramandel",
+          link:"/dior"
+      },
+      {
+          cname:"Chanel De Blue",
+          link:"/dior"
+      },
+      {
+          cname:"Chanel Eau fraiche",
+          link:"/dior"
+      },
+      {
+          cname:"Chanel Egoist",
+          link:"/dior"
+      },
+      {
+          cname:"Chanel Tendre",
+          link:"/dior"
+      },
+      {
+          cname:"Chanel 5",
+          link:"/dior"
+      },
+      {
+          cname:"Chanel Chic For Men",
+          link:"/dior"
+      },
+      {
+          cname:"Chanel 212 Sexy",
+          link:"/dior"
+      },
+      {
+          cname:"Chanel 212 VIP",
+          link:"/dior"
+      },
+      {
+          cname:"C.Herera 212 W",
+          link:"/dior"
+      },
+      {
+          cname:"C.Herera Good Girl",
+          link:"/dior"
+      },
+      {
+          cname:"C.Herera 212 Sexy",
+          link:"/dior"
+      },
+      {
+          cname:"C.Herera 212 VIP",
+          link:"/dior"
+      },
+      {
+          cname:"Chloe",
+          link:"/dior"
+      },
+      {
+          cname:"Chloe Love Chloe",
+          link:"/dior"
+      },
+      {
+          cname:"Chloe Nomade",
+          link:"/dior"
+      },
+      {
+          cname:"Chrome Azzaro Sport",
+          link:"/dior"
+      },
+      {
+          cname:"C.H 212 VIP Black",
+          link:"/dior"
+      },
+      {
+          cname:"C.H 212 VIP For Men",
+          link:"/dior"
+      },
+      {
+          cname:"Clinique Happy",
+          link:"/dior"
+      },
+      {
+          cname:"Cocoine",
+          link:"/dior"
+      },
+      {
+          cname:"Creed Aventus Black Delux",
+          link:"/dior"
+      },
+      {
+          cname:"Creed Aventus Black S",
+          link:"/dior"
+      },
+      {
+          cname:"Creed Aventus Black T",
+          link:"/dior"
+      },
+      {
+          cname:"Creed Aventus Delux",
+          link:"/dior"
+      },
+      {
+          cname:"Creed Aventus S",
+          link:"/dior"
+      },
+      {
+          cname:"Creed Love In White",
+          link:"/dior"
+      },
+      {
+          cname:"Creed Silver Mountain Water",
+          link:"/dior"
+      },
+      {
+          cname:"Creed Viking",
+          link:"/dior"
+      },
+      
     ]
   ])
 
@@ -291,6 +548,18 @@ const Header = () => {
                       {innerArrayB.map((item, innerIndex) => (
                         <li key={innerIndex}>
                           <Link to={item.link}>{item.bname}</Link>
+                        </li>
+                      ))}
+                    </ul>
+                  </div>
+                ))}
+                {dataC.map((innerArrayC, index) => (
+                  <div key={index} className={styles.aclass}>
+                    <h2>B</h2>
+                    <ul>
+                      {innerArrayC.map((item, innerIndex) => (
+                        <li key={innerIndex}>
+                          <Link to={item.link}>{item.cname}</Link>
                         </li>
                       ))}
                     </ul>
