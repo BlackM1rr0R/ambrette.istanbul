@@ -14,13 +14,12 @@
 .background .control {
   display: flex;
   justify-content: space-between;
-  margin-top: 50px;
+  margin-top: 30px;
 }
 .background .control .leftside {
   border: 1px solid gray;
   border-radius: 10px;
-  padding: 20px;
-  padding-right: 120px;
+  padding: 30px 80px 30px 40px;
   display: flex;
   flex-direction: column;
   gap: 20px;
@@ -37,7 +36,7 @@
   gap: 10px;
 }
 .background .control .leftside .modalclass h2 {
-  font-size: 18px;
+  font-size: 15px;
 }
 .background .control .leftside .genclik {
   cursor: pointer;

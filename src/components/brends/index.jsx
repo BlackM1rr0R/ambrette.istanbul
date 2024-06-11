@@ -8,50 +8,8 @@ import "swiper/css/pagination";
 import "swiper/css/scrollbar";
 import { Link } from "react-router-dom";
 import Parfum from "../../assets/images/parfuim1webp.webp";
+import DB from "../../db.json";
 const Brends = () => {
-  const [data, setData] = useState([
-    {
-      image: `${Parfum}`,
-      name:"PRIVATE MUSK"
-    },
-    {
-      image: `${Parfum}`,
-      name:"PRIVATE MUSK"
-    },
-    {
-      image: `${Parfum}`,
-      name:"PRIVATE MUSK"
-    },
-    {
-      image: `${Parfum}`,
-      name:"PRIVATE MUSK"
-    },
-    {
-      image: `${Parfum}`,
-      name:"PRIVATE MUSK"
-    },
-    {
-      image: `${Parfum}`,
-      name:"PRIVATE MUSK"
-    },
-    {
-      image: `${Parfum}`,
-      name:"PRIVATE MUSK"
-    },
-    {
-      image: `${Parfum}`,
-      name:"PRIVATE MUSK"
-    },
-    {
-      image: `${Parfum}`,
-      name:"PRIVATE MUSK"
-    },
-    {
-      image: `${Parfum}`,
-      name:"PRIVATE MUSK"
-    },
-    
-  ]);
   return (
     <div className={styles.background}>
       <div className={styles.headers}>
@@ -81,12 +39,12 @@ const Brends = () => {
             },
           }}
         >
-          {data.map((item) => (
+          {DB.map((item) => (
             <SwiperSlide>
-              <div className={styles.border}>
-                <img src={item.image} alt="" />
-                <h2>{item.name}</h2>
-              </div>
+              <Link to={"/parfum-details/" + item.id} className={styles.border}>
+                <img src={item.imageurl} alt="" />
+                <h2>{item.title}</h2>
+              </Link>
             </SwiperSlide>
           ))}
         </Swiper>

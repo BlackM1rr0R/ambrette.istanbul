@@ -4,478 +4,512 @@ import Logo from "../../../assets/images/logo2.png";
 import Wrapper from "../../UI/wrapper";
 import { Link } from "react-router-dom";
 import { ArrowIcon } from "../../../icons";
-
+import DB from "../../../db.json";
 const Header = () => {
-  const [modal, setModal] = useState(false);
-  const [brends, setBrends] = useState(false);
-  const [modalContent, setModalContent] = useState('');
-  const [isModalOpen, setIsModalOpen] = useState(false);
-  const openModal = (content) => {
-    setModalContent(content);
-    setIsModalOpen(true);
-  };
-
-  const closeModal = () => {
-    setIsModalOpen(false);
-  };
   const [data, setData] = useState([
     [
       {
-        aname: "Antonio Banderas Golden S M",
-        link:"/antonio"
+        aname: "Antonio Banderas",
+        link: `${"/parfum-details/" + 4097582}`,
       },
       {
-        aname: "Armani Basi In Blue",
-        link:"/dior"
+        aname: "Armani Basi",
+        link: `${"/parfum-details/" + 4097582}`,
       },
       {
-        aname: "A Cologne Rose Cuirre",
-        link:"/dior"
+        aname: "A Cologne",
+        link: `${"/parfum-details/" + 4097582}`,
       },
       {
-        aname: "A.Dunhil Desire",
-        link:"/dior"
+        aname: "A.Dunhil",
+        link: `${"/parfum-details/" + 4097582}`,
       },
       {
-        aname: "Ajmal Amber Wood",
-        link:"/dior"
+        aname: "Ajmal",
+        link: `${"/parfum-details/" + 4097582}`,
+      },
+
+      {
+        aname: "Alexandra",
+        link: `${"/parfum-details/" + 4097582}`,
+      },
+
+      {
+        aname: "Alfred Dunhill",
+        link: `${"/parfum-details/" + 4097582}`,
+      },
+
+      {
+        aname: "Amor",
+        link: `${"/parfum-details/" + 4097582}`,
       },
       {
-        aname: "Ajmal Aristocrat",
-        link:"/dior"
+        aname: "Amouage",
+        link: `${"/parfum-details/" + 4097582}`,
       },
+
       {
-        aname: "Alexandra Black Musk",
-        link:"/dior"
+        aname: "Attar",
+        link: `${"/parfum-details/" + 4097582}`,
       },
-      {
-        aname: "Alexandra Argentic",
-        link:"/dior"
-      },
-      {
-        aname: "Alfred Dunhill Desire",
-        link:"/dior"
-      },
-      {
-        aname: "Alfred Dunhill Black",
-        link:"/dior"
-      },
-      {
-        aname: "Amor Egzotik",
-        link:"/dior"
-      },
-      {
-        aname: "Amouage Sunshine",
-        link:"/dior"
-      },
-      {
-        aname: "Antonio Banderas Blue",
-        link:"/dior"
-      },
-      {
-        aname: "Antonio Banderas Blue W",
-        link:"/dior"
-      },
-      {
-        aname: "Armand Basi Homme",
-        link:"/dior"
-      },
-      {
-        aname: "Armani Code",
-        link:"/dior"
-      },
-      {
-        aname: "Armani My Way Intense",
-        link:"/dior"
-      },
-      {
-        aname: "Armani My Way",
-        link:"/dior"
-      },
-      {
-        aname: "Armani Si Passione",
-        link:"/dior"
-      },
-      {
-        aname: "Armani Stronger With You",
-        link:"/dior"
-      },
-      {
-        aname: "Attar Musk Kashmir",
-        link:"/dior"
-      },
-      {
-        aname: "Attar The Queen of Sheba",
-        link:"/dior"
-      },
+
       {
         aname: "Avon Today",
-        link:"/dior"
+        link: `${"/parfum-details/" + 4097582}`,
       },
       {
-        aname: "Azzaro Chrome",
-        link:"/dior"
-      },
-      {
-        aname: "Azzaro Mademoiselle",
-        link:"/dior"
+        aname: "Azzaro",
+        link: `${"/parfum-details/" + 4097582}`,
       },
     ],
   ]);
-  const [dataB,setDataB]=useState([
+  const [dataB, setDataB] = useState([
     [
       {
-        bname:"Baccarat Rouge 540",
-        link:"/dior"
-      },
-      {
-        bname:"Baccarat 540 Delux",
-        link:"/dior"
-      },
-      {
-        bname:"Black Afgano Delux",
-        link:"/dior"
-      },
-      {
-        bname:"Black Afgano Pour Homme",
-        link:"/dior"
-      },
-      {
-        bname:"Boadicea Knight of Love",
-        link:"/dior"
-      },
-      {
-        bname:"Bois Imperial",
-        link:"/dior"
-      },
-      {
-        bname:"B.Omnia Crystalline",
-        link:"/dior"
-      },
-      {
-        bname:"Bond West Side",
-        link:"/dior"
-      },
-      {
-        bname:"Brioni",
-        link:"/dior"
-      },
-      {
-        bname:"Burberry Body",
-        link:"/dior"
-      },
-      {
-        bname:"Burberry Sport For Men",
-        link:"/dior"
-      },
-      {
-        bname:"Burberry Wekend",
-        link:"/dior"
-      },
-      {
-        bname:"Bvlgari Aqva Amara",
-        link:"/dior"
-      },
-      {
-        bname:"Bvlgari Aqva Marine",
-        link:"/dior"
-      },
-      {
-        bname:"Bvlgari Gyan Le Gemme",
-        link:"/dior"
-      },
-      {
-        bname:"Bvlgari Omnia Crystalline",
-        link:"/dior"
-      },
-      {
-        bname:"Bvlgari Tygar Delux",
-        link:"/dior"
-      },
-      {
-        bname:"By Killian White Cristal",
-        link:"/dior"
-      },
-      {
-        bname:"By Redo Blanch",
-        link:"/dior"
-      },
-      {
-        bname:"By Redo Marixuana",
-        link:"/dior"
-      },
-      {
-        bname:"By Redo Pulp",
-        link:"/dior"
-      },
-      {
-        bname:"By Redo Bal Dafrique",
-        link:"/dior"
-      },
-      {
-        bname:"By Redo Bibliotheque",
-        link:"/dior"
-      },
-      {
-        bname:"By Redo La Tulipe",
-        link:"/dior"
-      },
-      {
-        bname:"By Redo Marijuanna",
-        link:"/dior"
-      },
-      {
-        bname:"By Redo Mojave Ghost",
-        link:"/dior"
+        bname: "Baccarat Rouge",
+        link: `${"/parfum-details/" + 4097582}`,
       },
 
-      
-    ]
-  ])
-  const [dataC,setDataC]=useState([
+      {
+        bname: "Black Afgano",
+        link: `${"/parfum-details/" + 4097582}`,
+      },
+      {
+        bname: "Boadicea Knight",
+        link: `${"/parfum-details/" + 4097582}`,
+      },
+      {
+        bname: "Bois Imperial",
+        link: `${"/parfum-details/" + 4097582}`,
+      },
+      {
+        bname: "B.Omnia Crystalline",
+        link: `${"/parfum-details/" + 4097582}`,
+      },
+      {
+        bname: "Bond N9",
+        link: `${"/parfum-details/" + 4097582}`,
+      },
+      {
+        bname: "Brioni",
+        link: `${"/parfum-details/" + 4097582}`,
+      },
+      {
+        bname: "Burberry",
+        link: `${"/parfum-details/" + 4097582}`,
+      },
+
+      {
+        bname: "Bvlgari",
+        link: `${"/parfum-details/" + 4097582}`,
+      },
+
+      {
+        bname: "By Killian White Cristal",
+        link: `${"/parfum-details/" + 4097582}`,
+      },
+      {
+        bname: "By Redo",
+        link: `${"/parfum-details/" + 4097582}`,
+      },
+    ],
+  ]);
+  const [dataC, setDataC] = useState([
     [
       {
-          cname:"C.Amour Pour Homme",
-          link:"/dior"
+        cname: "C.Amour",
+        link: `${"/parfum-details/" + 4097582}`,
       },
       {
-          cname:"C.Dior Miss Dior",
-          link:"/dior"
+        cname: "Christian parfum-details",
+        link: `${"/parfum-details/" + 4097582}`,
+      },
+
+      {
+        cname: "C.Herera 212",
+        link: `${"/parfum-details/" + 4097582}`,
+      },
+
+      {
+        cname: "Calvin Klein Euphoria",
+        link: `${"/parfum-details/" + 4097582}`,
       },
       {
-          cname:"C.Dior Savuage",
-          link:"/dior"
+        cname: "Captan Black",
+        link: `${"/parfum-details/" + 4097582}`,
       },
       {
-          cname:"C.Herera 212 Men",
-          link:"/dior"
+        cname: "Cartier Declaration",
+        link: `${"/parfum-details/" + 4097582}`,
+      },
+
+      {
+        cname: "Cerutti 1881",
+        link: `${"/parfum-details/" + 4097582}`,
+      },
+
+      {
+        cname: "Chanel ",
+        link: "/dior",
+      },
+
+      {
+        cname: "Chloe",
+        link: "/dior",
+      },
+
+      {
+        cname: "Clinique Happy",
+        link: "/dior",
       },
       {
-          cname:"C.Herera 212 On Ice",
-          link:"/dior"
+        cname: "Cocoine",
+        link: "/dior",
       },
       {
-          cname:"C.A.H.Sport Extreme",
-          link:"/dior"
+        cname: "Creed Aventus Black Delux",
+        link: "/dior",
+      },
+    ],
+  ]);
+  const [dataD, setDataD] = useState([
+    [
+      {
+        dname: "Dalal",
       },
       {
-          cname:"Calvin Klein Euphoria",
-          link:"/dior"
+        dname: "Davidov",
       },
       {
-          cname:"Captan Black",
-          link:"/dior"
+        dname: "D.Cool",
       },
       {
-          cname:"Cartier Declaration",
-          link:"/dior"
+        dname: "D & G",
       },
       {
-          cname:"Cartier La Panthere",
-          link:"/dior"
+        dname: "Dior",
       },
       {
-          cname:"C.Dior Adict 2",
-          link:"/dior"
+        dname: "DIP",
       },
       {
-          cname:"C.Dior Eau Savuage Delux",
-          link:"/dior"
+        dname: "Donna Karan",
+      },
+    ],
+  ]);
+  const [dataE, setDataE] = useState([
+    [
+      {
+        ename: "E.Molecules 02",
       },
       {
-          cname:"C.Duir Fahrenheit Le Parfum",
-          link:"/dior"
+        ename: "Eclat Sport",
       },
       {
-          cname:"C.Dior Home Sport",
-          link:"/dior"
+        ename: "Escada",
       },
       {
-          cname:"C.Dior Home Intense",
-          link:"/dior"
+        ename: "Escentric Molecule",
       },
       {
-          cname:"C.Dior Jadore",
-          link:"/dior"
+        ename: "EX Fleur Narcotique",
       },
       {
-          cname:"C.Dior Miss Cherie",
-          link:"/dior"
+        ename: "Explore",
+      },
+    ],
+  ]);
+  const [dataF, setDataF] = useState([
+    [
+      {
+        fname: "Fendi",
       },
       {
-          cname:"C.Dior Rouge Trafalger",
-          link:"/dior"
+        fname: "Firdaus",
       },
       {
-          cname:"C.Dior Savuage",
-          link:"/dior"
+        fname: "F.K Baccarat",
       },
       {
-          cname:"C.Dior Savuage Delux",
-          link:"/dior"
+        fname: "Fleur Narcotique",
+      },
+    ],
+  ]);
+  const [dataG, setDataG] = useState([
+    [
+      {
+        gname: "G.Angel & Demon",
       },
       {
-          cname:"C.Dior Blooming",
-          link:"/dior"
+        gname: "Gall Mandarin",
       },
       {
-          cname:"Cerutti 1881 M",
-          link:"/dior"
+        gname: "Givenchy",
       },
       {
-          cname:"Cerutti 1881 Pour",
-          link:"/dior"
+        gname: "G.M.Bloom",
       },
       {
-          cname:"C.H 212 On Ice Men",
-          link:"/dior"
+        gname: "Gucci",
+      },
+    ],
+  ]);
+  const [dataH, setDataH] = useState([
+    [
+      {
+        hname: "Huge Boss",
       },
       {
-          cname:"Chanel Allure Home Sport",
-          link:"/dior"
+        hname: "Huge Boss",
       },
       {
-          cname:"Chanel Chanel 19",
-          link:"/dior"
+        hname: "Hunca Caldion",
+      },
+    ],
+  ]);
+  const [dataI, setDataI] = useState([
+    [
+      {
+        iname: "Initio",
+      },
+    ],
+  ]);
+  const [dataJ, setDataJ] = useState([
+    [
+      {
+        jname: "Ja Malone",
       },
       {
-          cname:"Chanel Coco Chanel",
-          link:"/dior"
+        jname: "Juliette",
+      },
+    ],
+  ]);
+  const [dataK, setDataK] = useState([
+    [
+      {
+        kname: "Kajal",
       },
       {
-          cname:"Chanel Coco Mademoiselle",
-          link:"/dior"
+        kname: "Kayali",
       },
       {
-          cname:"Chanel Coramandel",
-          link:"/dior"
+        kname: "Kenzo",
       },
       {
-          cname:"Chanel De Blue",
-          link:"/dior"
+        kname: "Killian",
       },
       {
-          cname:"Chanel Eau fraiche",
-          link:"/dior"
+        kname: "Kokain",
       },
       {
-          cname:"Chanel Egoist",
-          link:"/dior"
+        kname: "K.Playing",
+      },
+    ],
+  ]);
+  const [dataL, setDataL] = useState([
+    [
+      {
+        lname: "Lacoste",
       },
       {
-          cname:"Chanel Tendre",
-          link:"/dior"
+        lname: "Lancome",
       },
       {
-          cname:"Chanel 5",
-          link:"/dior"
+        lname: "Lanvin",
       },
       {
-          cname:"Chanel Chic For Men",
-          link:"/dior"
+        lname: "L.Eclat",
       },
       {
-          cname:"Chanel 212 Sexy",
-          link:"/dior"
+        lname: "Louis Vuitton",
+      },
+    ],
+  ]);
+  const [dataM, setDataM] = useState([
+    [
+      {
+        mname: "Mancera",
       },
       {
-          cname:"Chanel 212 VIP",
-          link:"/dior"
+        mname: "Mango",
       },
       {
-          cname:"C.Herera 212 W",
-          link:"/dior"
+        mname: "Memo African",
       },
       {
-          cname:"C.Herera Good Girl",
-          link:"/dior"
+        mname: "Molecule",
       },
       {
-          cname:"C.Herera 212 Sexy",
-          link:"/dior"
+        mname: "Mono",
       },
       {
-          cname:"C.Herera 212 VIP",
-          link:"/dior"
+        mname: "Montale",
       },
       {
-          cname:"Chloe",
-          link:"/dior"
+        mname: "Montblanc",
       },
       {
-          cname:"Chloe Love Chloe",
-          link:"/dior"
+        mname: "Moschino",
       },
       {
-          cname:"Chloe Nomade",
-          link:"/dior"
+        mname: "My Burberry",
+      },
+    ],
+  ]);
+  const [dataN,setDataN]=useState([
+    [
+      {
+        nname:"Narciso"
       },
       {
-          cname:"Chrome Azzaro Sport",
-          link:"/dior"
+        nname:"Narcos'is"
       },
       {
-          cname:"C.H 212 VIP Black",
-          link:"/dior"
+        nname:"N.Black"
       },
       {
-          cname:"C.H 212 VIP For Men",
-          link:"/dior"
+        nname:"Nina Ricci"
       },
       {
-          cname:"Clinique Happy",
-          link:"/dior"
+        nname:"N.Rodriguez"
       },
-      {
-          cname:"Cocoine",
-          link:"/dior"
-      },
-      {
-          cname:"Creed Aventus Black Delux",
-          link:"/dior"
-      },
-      {
-          cname:"Creed Aventus Black S",
-          link:"/dior"
-      },
-      {
-          cname:"Creed Aventus Black T",
-          link:"/dior"
-      },
-      {
-          cname:"Creed Aventus Delux",
-          link:"/dior"
-      },
-      {
-          cname:"Creed Aventus S",
-          link:"/dior"
-      },
-      {
-          cname:"Creed Love In White",
-          link:"/dior"
-      },
-      {
-          cname:"Creed Silver Mountain Water",
-          link:"/dior"
-      },
-      {
-          cname:"Creed Viking",
-          link:"/dior"
-      },
-      
     ]
   ])
+  const [dataO,setDataO]=useState([
+    [
+      {
+        oname:"Orto Paris"
+      },
+      {
+        oname:"Orto P.Megamare"
+      }
+    ]
+  ])
+  const [dataP,setDataP]=useState([
+    [
+      {
+        pname:"Paco Rabanne"
+      },
+      {
+        pname:"Parfums De Marley"
+      },
+      {
+        pname:"Prada Candy"
+      },
+      {
+        pname:"P.R.Invictus"
+      },
+    ]
+  ])
+  const [dataR,setDataR]=useState([
+    [
+      {
+        rname:"Ralph Lauren"
+      },
+      {
+        rname:"Rassasi Timsah"
+      },
+      {
+        rname:"Ricardo Veron"
+      },
+      {
+        rname:"Roja"
+      },
+      {
+        rname:"R.Reckless"
+      },
+    ]
+  ])
+  const [dataS,setDataS]=useState([
+    [
+      {
+        sname:"Sah Parfum"
+      },
+      {
+        sname:"Salvatore Ferragamo"
+      },
+      {
+        sname:"Sospiro"
+      },
+      {
+        sname:"Shaik"
+      },
+      {
+        sname:"Sisley"
+      },
+      {
+        sname:"Stefano Ricci"
+      },
+    ]
+  ])
+  const [dataT,setDataT]=useState([
+    [
+      {
+        tname:"Tom Ford"
+      },
+      {
+        tname:"Tiziana Trenzi"
+      },
+      {
+        tname:"Thamen Green"
+      },
+      {
+        tname:"Trussardi Donna"
+      },
 
-  const handleClick = () => {
-    setModal((prevModal) => !prevModal);
-    setBrends(false);
-  };
+    ]
+  ])
+  const [dataV,setDataV]=useState([
+    [
+      {
+        vname:"Victoria Secret"
+      },
+      {
+        vname:"Versace"
+      },
+      {
+        vname:"Valentina"
+      },
+      {
+        vname:"Vertus"
+      },
 
-  const handleClick1 = () => {
-    setBrends((prevBrends) => !prevBrends);
-    setModal(false);
-  };
-
+    ]
+  ])
+  const [dataW,setDataW]=useState([
+    [
+      {
+        wname:"White Musk"
+      }
+    ]
+  ])
+  const [dataX,setDataX]=useState([
+    [
+      {
+        xname:"Xerjoff"
+      }
+    ]
+  ])
+  const [dataY,setDataY]=useState([
+    [
+      {
+        yname:"Y.S.L"
+      }
+    ]
+  ])
+  const [dataZ,setDataZ]=useState([
+    [
+      {
+        zname:"Zadig Voltaire"
+      },
+      {
+        zname:"Zemzem"
+      },
+      {
+        zname:"Zielenski"
+      }
+    ]
+  ])
   return (
     <Wrapper>
       <div className={styles.background}>
@@ -499,21 +533,10 @@ const Header = () => {
       </div>
       <Wrapper>
         <div className={styles.menuContainer}>
-          <ul className={styles.menu}>
-            <li onClick={handleClick} className={styles.li}>
-              Category <ArrowIcon />
-            </li>
-
-            <li onClick={handleClick1} className={styles.li}>
-              Brends <ArrowIcon />
-            </li>
-            <li>About us</li>
-            <Link to={"/magazins"}>Magazins</Link>
-            <li>Contact us</li>
-          </ul>
-          {modal && (
+          <div className={styles.menu}>
             <div className={styles.dropdown}>
-              <ul>
+              Category <ArrowIcon />
+              <ul className={styles.dropdowncontent}>
                 <li>
                   <Link to={"/man"}>Man</Link>
                 </li>
@@ -525,49 +548,280 @@ const Header = () => {
                 </li>
               </ul>
             </div>
-          )}
-          {brends && (
-            <div className={styles.brends}>
-              <ul>
+
+            <div className={styles.dropdownbrends}>
+              Brends <ArrowIcon />
+              <div className={styles.dropdowncontrol}>
                 {data.map((innerArray, index) => (
                   <div key={index} className={styles.aclass}>
                     <h2>A</h2>
-                    <ul>
-                      {innerArray.map((item, innerIndex) => (
-                        <li key={innerIndex}>
-                          <Link to={item.link}>{item.aname}</Link>
-                        </li>
-                      ))}
-                    </ul>
+
+                    {innerArray.map((item, innerIndex) => (
+                      <li key={innerIndex}>
+                        <Link to={item.link}>{item.aname}</Link>
+                      </li>
+                    ))}
                   </div>
                 ))}
                 {dataB.map((innerArrayB, index) => (
                   <div key={index} className={styles.aclass}>
                     <h2>B</h2>
-                    <ul>
-                      {innerArrayB.map((item, innerIndex) => (
-                        <li key={innerIndex}>
-                          <Link to={item.link}>{item.bname}</Link>
-                        </li>
-                      ))}
-                    </ul>
+
+                    {innerArrayB.map((item, innerIndex) => (
+                      <li key={innerIndex}>
+                        <Link to={item.link}>{item.bname}</Link>
+                      </li>
+                    ))}
                   </div>
                 ))}
                 {dataC.map((innerArrayC, index) => (
                   <div key={index} className={styles.aclass}>
-                    <h2>B</h2>
-                    <ul>
-                      {innerArrayC.map((item, innerIndex) => (
-                        <li key={innerIndex}>
-                          <Link to={item.link}>{item.cname}</Link>
-                        </li>
-                      ))}
-                    </ul>
+                    <h2>C</h2>
+
+                    {innerArrayC.map((item, innerIndex) => (
+                      <li key={innerIndex}>
+                        <Link to={item.link}>{item.cname}</Link>
+                      </li>
+                    ))}
                   </div>
                 ))}
-              </ul>
+                {dataD.map((innerArrayD, index) => (
+                  <div key={index} className={styles.aclass}>
+                    <h2>D</h2>
+
+                    {innerArrayD.map((item, innerIndex) => (
+                      <li key={innerIndex}>
+                        <Link to={item.link}>{item.dname}</Link>
+                      </li>
+                    ))}
+                  </div>
+                ))}
+                {dataE.map((innerArrayE, index) => (
+                  <div key={index} className={styles.aclass}>
+                    <h2>E</h2>
+
+                    {innerArrayE.map((item, innerIndex) => (
+                      <li key={innerIndex}>
+                        <Link to={item.link}>{item.ename}</Link>
+                      </li>
+                    ))}
+                  </div>
+                ))}
+                {dataF.map((innerArrayF, index) => (
+                  <div key={index} className={styles.aclass}>
+                    <h2>F</h2>
+
+                    {innerArrayF.map((item, innerIndex) => (
+                      <li key={innerIndex}>
+                        <Link to={item.link}>{item.fname}</Link>
+                      </li>
+                    ))}
+                  </div>
+                ))}
+                {dataG.map((innerArrayG, index) => (
+                  <div key={index} className={styles.aclass}>
+                    <h2>G</h2>
+
+                    {innerArrayG.map((item, innerIndex) => (
+                      <li key={innerIndex}>
+                        <Link to={item.link}>{item.gname}</Link>
+                      </li>
+                    ))}
+                  </div>
+                ))}
+                {dataH.map((innerArrayH, index) => (
+                  <div key={index} className={styles.aclass}>
+                    <h2>H</h2>
+
+                    {innerArrayH.map((item, innerIndex) => (
+                      <li key={innerIndex}>
+                        <Link to={item.link}>{item.hname}</Link>
+                      </li>
+                    ))}
+                  </div>
+                ))}
+                {dataI.map((innerArrayI, index) => (
+                  <div key={index} className={styles.aclass}>
+                    <h2>I</h2>
+
+                    {innerArrayI.map((item, innerIndex) => (
+                      <li key={innerIndex}>
+                        <Link to={item.link}>{item.iname}</Link>
+                      </li>
+                    ))}
+                  </div>
+                ))}
+                {dataJ.map((innerArrayJ, index) => (
+                  <div key={index} className={styles.aclass}>
+                    <h2>J</h2>
+
+                    {innerArrayJ.map((item, innerIndex) => (
+                      <li key={innerIndex}>
+                        <Link to={item.link}>{item.jname}</Link>
+                      </li>
+                    ))}
+                  </div>
+                ))}
+                {dataK.map((innerArrayK, index) => (
+                  <div key={index} className={styles.aclass}>
+                    <h2>K</h2>
+
+                    {innerArrayK.map((item, innerIndex) => (
+                      <li key={innerIndex}>
+                        <Link to={item.link}>{item.kname}</Link>
+                      </li>
+                    ))}
+                  </div>
+                ))}
+                {dataL.map((innerArrayL, index) => (
+                  <div key={index} className={styles.aclass}>
+                    <h2>L</h2>
+
+                    {innerArrayL.map((item, innerIndex) => (
+                      <li key={innerIndex}>
+                        <Link to={item.link}>{item.lname}</Link>
+                      </li>
+                    ))}
+                  </div>
+                ))}
+                {dataM.map((innerArrayM, index) => (
+                  <div key={index} className={styles.aclass}>
+                    <h2>M</h2>
+
+                    {innerArrayM.map((item, innerIndex) => (
+                      <li key={innerIndex}>
+                        <Link to={item.link}>{item.mname}</Link>
+                      </li>
+                    ))}
+                  </div>
+                ))}
+                {dataN.map((innerArrayN, index) => (
+                  <div key={index} className={styles.aclass}>
+                    <h2>N</h2>
+
+                    {innerArrayN.map((item, innerIndex) => (
+                      <li key={innerIndex}>
+                        <Link to={item.link}>{item.nname}</Link>
+                      </li>
+                    ))}
+                  </div>
+                ))}
+                {dataO.map((innerArrayO, index) => (
+                  <div key={index} className={styles.aclass}>
+                    <h2>O</h2>
+
+                    {innerArrayO.map((item, innerIndex) => (
+                      <li key={innerIndex}>
+                        <Link to={item.link}>{item.oname}</Link>
+                      </li>
+                    ))}
+                  </div>
+                ))}
+                {dataP.map((innerArrayP, index) => (
+                  <div key={index} className={styles.aclass}>
+                    <h2>P</h2>
+
+                    {innerArrayP.map((item, innerIndex) => (
+                      <li key={innerIndex}>
+                        <Link to={item.link}>{item.pname}</Link>
+                      </li>
+                    ))}
+                  </div>
+                ))}
+                {dataR.map((innerArrayR, index) => (
+                  <div key={index} className={styles.aclass}>
+                    <h2>R</h2>
+
+                    {innerArrayR.map((item, innerIndex) => (
+                      <li key={innerIndex}>
+                        <Link to={item.link}>{item.rname}</Link>
+                      </li>
+                    ))}
+                  </div>
+                ))}
+                {dataS.map((innerArrayS, index) => (
+                  <div key={index} className={styles.aclass}>
+                    <h2>S</h2>
+
+                    {innerArrayS.map((item, innerIndex) => (
+                      <li key={innerIndex}>
+                        <Link to={item.link}>{item.sname}</Link>
+                      </li>
+                    ))}
+                  </div>
+                ))}
+                {dataT.map((innerArrayT, index) => (
+                  <div key={index} className={styles.aclass}>
+                    <h2>T</h2>
+
+                    {innerArrayT.map((item, innerIndex) => (
+                      <li key={innerIndex}>
+                        <Link to={item.link}>{item.tname}</Link>
+                      </li>
+                    ))}
+                  </div>
+                ))}
+                {dataV.map((innerArrayV, index) => (
+                  <div key={index} className={styles.aclass}>
+                    <h2>V</h2>
+
+                    {innerArrayV.map((item, innerIndex) => (
+                      <li key={innerIndex}>
+                        <Link to={item.link}>{item.vname}</Link>
+                      </li>
+                    ))}
+                  </div>
+                ))}
+                {dataW.map((innerArrayW, index) => (
+                  <div key={index} className={styles.aclass}>
+                    <h2>W</h2>
+
+                    {innerArrayW.map((item, innerIndex) => (
+                      <li key={innerIndex}>
+                        <Link to={item.link}>{item.wname}</Link>
+                      </li>
+                    ))}
+                  </div>
+                ))}
+                {dataX.map((innerArrayX, index) => (
+                  <div key={index} className={styles.aclass}>
+                    <h2>X</h2>
+
+                    {innerArrayX.map((item, innerIndex) => (
+                      <li key={innerIndex}>
+                        <Link to={item.link}>{item.xname}</Link>
+                      </li>
+                    ))}
+                  </div>
+                ))}
+                {dataY.map((innerArrayY, index) => (
+                  <div key={index} className={styles.aclass}>
+                    <h2>Y</h2>
+
+                    {innerArrayY.map((item, innerIndex) => (
+                      <li key={innerIndex}>
+                        <Link to={item.link}>{item.yname}</Link>
+                      </li>
+                    ))}
+                  </div>
+                ))}
+                {dataZ.map((innerArrayZ, index) => (
+                  <div key={index} className={styles.aclass}>
+                    <h2>Z</h2>
+
+                    {innerArrayZ.map((item, innerIndex) => (
+                      <li key={innerIndex}>
+                        <Link to={item.link}>{item.zname}</Link>
+                      </li>
+                    ))}
+                  </div>
+                ))}
+              </div>
             </div>
-          )}
+            <li>About us</li>
+            <Link to={"/magazins"}>Magazins</Link>
+            <li>Contact us</li>
+          </div>
         </div>
       </Wrapper>
     </Wrapper>

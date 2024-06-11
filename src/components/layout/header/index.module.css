@@ -18,7 +18,7 @@
   color: black;
 }
 .background .control .images img {
-  width: 100px;
+  width: 150px;
   -o-object-fit: cover;
      object-fit: cover;
 }
@@ -57,99 +57,95 @@
   justify-content: space-between;
   position: relative;
 }
+.menuContainer .menu .dropdown {
+  position: relative;
+  display: inline-block;
+}
+.menuContainer .menu .dropdown .dropdowncontent {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+.menuContainer .menu .dropdown .dropdowncontent li {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+.menuContainer .menu .dropdown:hover {
+  cursor: pointer;
+}
+.menuContainer .menu .dropdown:hover .dropdowncontent {
+  background: rgb(252, 249, 245);
+  padding-top: 10px;
+  padding-bottom: 10px;
+  display: block;
+  z-index: 1000000000000000000000;
+}
+.menuContainer .menu a:hover {
+  color: red;
+}
 .menuContainer .menu li {
   font-family: "Ubuntu", sans-serif;
   cursor: pointer;
   position: relative;
 }
-.menuContainer .menu li.li {
-  display: flex;
-  align-items: center;
-  gap: 5px;
-}
-.menuContainer .menu li.li:hover .dropdown {
-  display: block;
-}
 .menuContainer .menu a {
   text-decoration: none;
   color: black;
 }
-
-.dropdown {
+.menuContainer .menu .dropdownbrends {
+  position: relative;
+  display: inline-block;
+}
+.menuContainer .menu .dropdownbrends .dropdowncontrol {
+  display: none;
   position: absolute;
-  margin-top: 16px;
-  top: 100%;
-  left: 0;
-  background-color: white;
-  color: white;
-  z-index: 10;
-  animation: 0.5s fadeIn ease-in-out;
+  background-color: #f9f9f9;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
 }
-.dropdown ul {
-  display: flex;
-  flex-direction: column;
-  list-style: none;
-  padding: 0;
-  margin: 0;
-  gap: 10px;
-}
-.dropdown ul a {
+.menuContainer .menu .dropdownbrends .dropdowncontrol li {
+  color: black;
+  padding: 12px 16px;
   text-decoration: none;
-  flex: 1 1 20%;
-  max-width: 20%;
+  display: block;
+}
+.menuContainer .menu .dropdownbrends:hover {
   cursor: pointer;
-  padding: 10px;
-  border-bottom: 1px solid white;
+  position: relative;
+  animation: 0.3s fadeIn ease-in;
   color: black;
 }
-
-.brends {
+.menuContainer .menu .dropdownbrends:hover .dropdowncontrol {
+  border-radius: 10px;
   position: absolute;
-  margin-top: 16px;
-  top: 100%;
-  background-color: white;
-  color: white;
-  width: 1440px;
-  z-index: 10;
-  animation: 0.5s fadeIn ease-in-out;
-  border-bottom-left-radius: 10px;
-  border-bottom-right-radius: 10px;
-}
-.brends ul {
   display: grid;
-  grid-template-columns: repeat(5, 1fr);
+  grid-template-columns: repeat(6, 1fr);
   flex-wrap: wrap;
-  list-style: none;
-  gap: 30px;
   padding-top: 10px;
   padding-bottom: 20px;
-  padding-left: 50px;
   margin: 0;
+  gap: 30px;
+  background: rgb(252, 249, 245);
+  left: 25%;
+  transform: translateX(-25%);
+  width: 1440px;
+  z-index: 1000000000000000000000;
 }
-.brends ul h2 {
-  text-decoration: none;
-  cursor: pointer;
-  padding: 10px;
-  border-bottom: 1px solid white;
+.menuContainer .menu .dropdownbrends:hover .dropdowncontrol .aclass {
+  display: flex;
+  flex-direction: column;
+}
+.menuContainer .menu .dropdownbrends:hover .dropdowncontrol .aclass h2 {
+  padding-top: 15px;
+  padding-left: 15px;
   color: red;
 }
-.brends ul ul {
-  padding-top: 10px;
-  padding-left: 10px;
-  display: flex;
-  gap: 5px;
-  flex-direction: column;
-}
-.brends ul ul a {
-  color: black;
-}
-.brends ul .aclass ul {
-  display: flex;
-  flex-direction: column;
-  gap: 20px;
-}
-.brends ul .aclass ul a {
-  text-decoration: none;
+.menuContainer .menu .dropdownbrends:hover .dropdowncontrol .aclass li a {
+  font-size: 14px;
 }
 
 @keyframes fadeIn {

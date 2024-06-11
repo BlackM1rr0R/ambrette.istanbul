@@ -12,15 +12,16 @@
     .control{
         display: flex;
         justify-content: space-between;
-        margin-top: 50px;
+        margin-top: 30px;
         .leftside{
             border: 1px solid gray;
             border-radius: 10px;
-            padding: 20px;
-            padding-right: 120px;
+            padding: 30px 80px 30px 40px;
+          
             display: flex;
             flex-direction: column;
             gap: 20px;
+           
             .azadlig{
                 
                 cursor: pointer;
@@ -33,7 +34,7 @@
                 flex-direction: column;
                 gap: 10px;
                 h2{
-                    font-size: 18px;
+                    font-size: 15px;
                 }
             }
             .genclik{

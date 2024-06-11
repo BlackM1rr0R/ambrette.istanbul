@@ -46,7 +46,9 @@ const MagazinsLocation = () => {
                 <h2>09:00-22:00</h2>
               </div>
             )}
-
+            <div className={styles.hr}>
+              <hr />
+            </div>
             <div
               onClick={() => clickGenclik()}
               className={`${styles.genclik} ${genclik ? styles.active : ""}`}
@@ -60,11 +62,14 @@ const MagazinsLocation = () => {
                 <h2>09:00-22:00</h2>
               </div>
             )}
-
-
+<div className={styles.hr}>
+              <hr />
+            </div>
             <div
               onClick={() => clickNerimanov()}
-              className={`${styles.nerimanov} ${nerimanov ? styles.active : ""}`}
+              className={`${styles.nerimanov} ${
+                nerimanov ? styles.active : ""
+              }`}
             >
               <h2>Nerimanov branch</h2>
             </div>
@@ -76,11 +81,14 @@ const MagazinsLocation = () => {
                 <h2>09:00-22:00</h2>
               </div>
             )}
+            <div className={styles.hr}>
+              <hr />
+            </div>
           </div>
           <div className={styles.rightside}>
             <iframe
               width="860"
-              height="315"
+              height="255"
               src="https://www.youtube.com/embed/Vo5YEWBSKmU?si=iF3x-oGIRqR9O3v7"
               title="YouTube video player"
               frameBorder="0"
@@ -91,7 +99,7 @@ const MagazinsLocation = () => {
             <iframe
               src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d577329.6677428926!2d36.72647335408706!3d55.58123062687081!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x414ac82c9958e7af%3A0xb57a3f488cfc4ca!2sMoskova%2C%20Rusya!5e0!3m2!1str!2saz!4v1718025626995!5m2!1str!2saz"
               width="860"
-              height="350"
+              height="250"
               allowFullScreen=""
               loading="lazy"
               referrerPolicy="no-referrer-when-downgrade"
