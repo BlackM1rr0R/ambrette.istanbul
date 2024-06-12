@@ -535,7 +535,7 @@ const Header = () => {
         <div className={styles.menuContainer}>
           <div className={styles.menu}>
             <div className={styles.dropdown}>
-              Category <ArrowIcon />
+              <Link to={"/gender"}>Category <ArrowIcon /></Link> 
               <ul className={styles.dropdowncontent}>
                 <li>
                   <Link to={"/man"}>Man</Link>
@@ -550,7 +550,7 @@ const Header = () => {
             </div>
 
             <div className={styles.dropdownbrends}>
-              Brends <ArrowIcon />
+              <Link to={"/brends"}>Brends <ArrowIcon /></Link>
               <div className={styles.dropdowncontrol}>
                 {data.map((innerArray, index) => (
                   <div key={index} className={styles.aclass}>

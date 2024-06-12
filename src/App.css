@@ -2,3 +2,23 @@ body{
     background-color: rgb(252,249,245);
     font-family: "Ubuntu", sans-serif !important;
 }
+
+  .whatsappButton {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    color: white;
+    border-radius: 50%;
+    padding: 10px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.3);
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+  }
+  
+  .whatsappButton:hover {
+    background-color: #019c41;
+  }
+  

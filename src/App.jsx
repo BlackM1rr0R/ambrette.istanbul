@@ -1,28 +1,36 @@
 import React from 'react';
-import './App.css';
+import './App.css';  // CSS dosyasını doğru import edin
 import { routeArr } from './routes';
 import Header from './components/layout/header';
 import Footer from './components/layout/footer';
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import { BrowserRouter, Routes, Route, Link } from 'react-router-dom';
+import { WhatsappIcon } from './icons';
+
 function App() {
   return (
     <BrowserRouter>
-      <Routes>
-        {routeArr.map((item) => (
-          <Route
-            exact
-            path={item.path}
-            key={item.id}
-            element={
-              <>
-                <Header />
-                <item.component />
-                <Footer />
-              </>
-            }
-          />
-        ))}
-      </Routes>
+      <div className="appContainer">
+        <Header />
+        <Routes>
+          {routeArr.map((item) => (
+            <Route
+              exact
+              path={item.path}
+              key={item.id}
+              element={<item.component />}
+            />
+          ))}
+        </Routes>
+        <Footer />
+        <Link 
+          to="https://wa.me/yourwhatsappphonenumber" 
+          className="whatsappButton" 
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <WhatsappIcon />
+        </Link>
+      </div>
     </BrowserRouter>
   );
 }

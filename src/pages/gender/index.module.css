@@ -1,0 +1,43 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.background {
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+.background .headers {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.background .headers .hr hr {
+  width: 500px;
+  border: 1px solid black;
+}
+.background .headers .headersh2 h2 {
+  font-size: 32px;
+}
+.background .box {
+  padding-top: 60px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+}
+.background .box .controlbox {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+.background .box .controlbox .border {
+  background-color: white;
+  border: 1px solid gray;
+  border-radius: 10px;
+  padding: 20px;
+}
+.background .box .controlbox .border img {
+  width: 200px;
+}/*# sourceMappingURL=index.module.css.map */
