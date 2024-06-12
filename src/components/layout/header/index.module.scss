@@ -57,6 +57,8 @@
     .dropdown {
       position: relative;
       display: inline-block;
+      z-index: 99999999999999999999999;
+
       .dropdowncontent {
         display: none;
         position: absolute;
