@@ -67,7 +67,7 @@
   position: absolute;
   background-color: #f9f9f9;
   box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
-  z-index: 100000000000000000000000;
+  z-index: 1000000000000000000;
 }
 .menuContainer .menu .dropdown .dropdowncontent li {
   color: black;
