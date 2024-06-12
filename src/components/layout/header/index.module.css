@@ -86,6 +86,7 @@
 }
 .menuContainer .menu a:hover {
   color: red;
+  z-index: 1000000000000000000000000000;
 }
 .menuContainer .menu li {
   font-family: "Ubuntu", sans-serif;

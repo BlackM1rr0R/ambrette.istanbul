@@ -73,6 +73,7 @@
     }
     .dropdown:hover {
       cursor: pointer;
+      
       .dropdowncontent {
         background: rgb(252, 249, 245);
         padding-top: 10px;
@@ -84,6 +85,7 @@
     }
     a:hover{
       color: red;
+      z-index: 999999999999999999999999999;
     }
     li {
       font-family: "Ubuntu", sans-serif;
