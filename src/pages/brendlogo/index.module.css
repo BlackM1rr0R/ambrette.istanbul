@@ -14,7 +14,6 @@
   align-items: center;
 }
 .background .headers .hr hr {
-  width: 500px;
   border: 1px solid black;
 }
 .background .headers .headersh2 h2 {
@@ -34,4 +33,12 @@
 }
 .background .box .controlbox .border {
   border: 1px solid gray;
+}
+.background .box .controlbox .border img {
+  background-color: white;
+  padding: 20px;
+  width: 200px;
+}
+.background .box .controlbox h2 {
+  font-weight: 600;
 }/*# sourceMappingURL=index.module.css.map */

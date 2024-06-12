@@ -12,7 +12,6 @@
     align-items: center;
     .hr {
       hr {
-        width: 500px;
         border: 1px solid black;
       }
     }
@@ -27,14 +26,22 @@
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 20px;
-    .controlbox{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        gap: 10px;
-        .border{
-            border: 1px solid gray;
+    .controlbox {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 10px;
+      .border {
+        border: 1px solid gray;
+        img {
+          background-color: white;
+          padding: 20px;
+          width: 200px;
         }
+      }
+      h2{
+        font-weight: 600;
+      }
     }
   }
 }
