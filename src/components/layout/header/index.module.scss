@@ -73,7 +73,7 @@
     }
     .dropdown:hover {
       cursor: pointer;
-      
+      z-index: 9999999999999999999999;
       .dropdowncontent {
         background: rgb(252, 249, 245);
         padding-top: 10px;
@@ -119,7 +119,7 @@
     .dropdownbrends:hover {
       cursor: pointer;
       position: relative;
-
+z-index: 9999999999999999999999;
       color: black;
       .dropdowncontrol {
         border-radius: 10px;
