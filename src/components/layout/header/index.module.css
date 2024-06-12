@@ -116,7 +116,6 @@
 .menuContainer .menu .dropdownbrends:hover {
   cursor: pointer;
   position: relative;
-  animation: 0.3s fadeIn ease-in;
   color: black;
 }
 .menuContainer .menu .dropdownbrends:hover .dropdowncontrol {
@@ -146,13 +145,4 @@
 }
 .menuContainer .menu .dropdownbrends:hover .dropdowncontrol .aclass li a {
   font-size: 14px;
-}
-
-@keyframes fadeIn {
-  from {
-    opacity: 0;
-  }
-  to {
-    opacity: 1;
-  }
 }/*# sourceMappingURL=index.module.css.map */
