@@ -18,6 +18,66 @@ import BrioniLogo from "../../assets/images/brionilogo.jpg";
 import BurberryLogo from "../../assets/images/burberrylogo.jpg";
 import BvlgariLogo from "../../assets/images/bvlgarilogo.jpg";
 import ByRedoLogo from "../../assets/images/byredologo.jpg";
+import ChristianLogo from '../../assets/images/christianlogo.jpg'
+import CarolinaLogo from '../../assets/images/carolinalogo.jpg'
+import CalvinKleinLogo from '../../assets/images/calvinkleinlogo.jpg'
+import CaptainLogo from '../../assets/images/captainlogo.jpg'
+import CartierLogo from '../../assets/images/cartierlogo.jpg'
+import ChanelLogo from '../../assets/images/chanellogo.jpg'
+import ChloeLogo from '../../assets/images/chloelogo.jpg'
+import CliniqueLogo from '../../assets/images/cliniquelogo.jpg'
+import CreedLogo from '../../assets/images/creedlogo.jpg'
+import DavidoffLogo from '../../assets/images/davidofflogo.jpg'
+import DolceLogo from '../../assets/images/dolcelogo.jpg'
+import DIPLogo from '../../assets/images/diptyquelogo.png'
+import DonnaLogo from '../../assets/images/donnakaranlogo.jpg'
+import EscentricLogo from '../../assets/images/escentriclogo.jpg'
+import EscadaLogo from '../../assets/images/escadalogo.jpg'
+import ExNihiloLogo from '../../assets/images/exnihilologo.jpg'
+import FendiLogo from '../../assets/images/fendilogo.jpg'
+import GivenchyLogo from '../../assets/images/givenchylogo.jpg'
+import GucciLogo from '../../assets/images/guccilogo.jpg'
+import HugeBossLogo from '../../assets/images/hugobosslogo.jpg'
+import HuncaLogo from '../../assets/images/huncalogo.jpg'
+import InitioLogo from '../../assets/images/initiologo.jpg'
+import JoMalenoLogo from '../../assets/images/jomalonelogo.jpg'
+import JulietteLogo from '../../assets/images/juliettelogo.jpg'
+import KayaliLogo from '../../assets/images/kayalilogo.jpg'
+import KenzoLogo from '../../assets/images/kenzologo.jpg'
+import KillianLogo from '../../assets/images/killianlogo.jpg'
+import LacosteLogo from '../../assets/images/lacostelogo.jpg'
+import LancomeLogo from '../../assets/images/lancomelogo.jpg'
+import LanvinLogo from '../../assets/images/lanvinlogo.jpg'
+import LouisVuittonLogo from '../../assets/images/louisvuittonlogo.jpg'
+import ManceraLogo from '../../assets/images/manceralogo.jpg'
+import MemoLogo from '../../assets/images/memologo.jpg'
+import MontaleLogo from '../../assets/images/montalelogo.jpg'
+import MoschinoLogo from '../../assets/images/moschinologo.jpg'
+import Narcisologo from '../../assets/images/narcissologo.jpg'
+import NinaRicciLogo from '../../assets/images/ninariccilogo.jpg'
+import OrtoParisiLogo from '../../assets/images/ortoparisilogo.jpg'
+import PacoLogo from '../../assets/images/pacologo.jpg'
+import ParfumsDeMarleyLogo from '../../assets/images/parfumsdemarleylogo.jpg'
+import PradaLogo from '../../assets/images/pradalogo.jpg'
+import RalphLogo from '../../assets/images/ralphlogo.jpg'
+import RasasiLogo from '../../assets/images/rasasilogo.jpg'
+import RicardoLogo from '../../assets/images/ricardoveronlogo.jpg'
+import RojaLogo from '../../assets/images/rojalogo.jpg'
+import SalvadorLogo from '../../assets/images/salvadorlogo.png'
+import SospiroLogo from '../../assets/images/sospirologo.jpg'
+import ShaikLogo from '../../assets/images/shaiklogo.jpg'
+import SisleyLogo from '../../assets/images/sisleylogo.jpg'
+import TomFordLogo from '../../assets/images/tomfordlogo.jpg'
+import TizianaLogo from '../../assets/images/tizianalogo.jpg'
+import TrussardiLogo from '../../assets/images/trussardilogo.jpg'
+import VictoriaLogo from '../../assets/images/victorialogo.jpg'
+import VersaceLogo from '../../assets/images/versacelogo.jpg'
+import ValentinoLogo from '../../assets/images/valentinologo.jpg'
+import VertusLogo from '../../assets/images/vertuslogo.jpg'
+import XerjoffLogo from '../../assets/images/xerjofflogo.jpg'
+import YSLLogo from '../../assets/images/ysllogo.jpg'
+import ZadigLogo from '../../assets/images/zadiglogo.jpg'
+
 const BrendLogo = () => {
   const [data, setData] = useState([
     {
@@ -122,25 +182,25 @@ const BrendLogo = () => {
       aname: "C.Amour",
     },
     {
-      image: `${AntonioLogo}`,
-      aname: "Christian parfum-details",
+      image: `${ChristianLogo}`,
+      aname: "Christian Dior",
     },
 
     {
-      image: `${AntonioLogo}`,
-      aname: "C.Herera 212",
+      image: `${CarolinaLogo}`,
+      aname: "Carolina Herrera",
     },
 
     {
-      image: `${AntonioLogo}`,
-      aname: "Calvin Klein Euphoria",
+      image: `${CalvinKleinLogo}`,
+      aname: "Calvin Klein",
     },
     {
-      image: `${AntonioLogo}`,
-      aname: "Captan Black",
+      image: `${CaptainLogo}`,
+      aname: "Captain Black",
     },
     {
-      image: `${AntonioLogo}`,
+      image: `${CartierLogo}`,
       aname: "Cartier Declaration",
     },
 
@@ -150,19 +210,19 @@ const BrendLogo = () => {
     },
 
     {
-      image: `${AntonioLogo}`,
-      aname: "Chanel ",
+      image: `${ChanelLogo}`,
+      aname: "Chanel",
       link: "/dior",
     },
 
     {
-      image: `${AntonioLogo}`,
+      image: `${ChloeLogo}`,
       aname: "Chloe",
       link: "/dior",
     },
 
     {
-      image: `${AntonioLogo}`,
+      image: `${CliniqueLogo}`,
       aname: "Clinique Happy",
       link: "/dior",
     },
@@ -172,8 +232,8 @@ const BrendLogo = () => {
       link: "/dior",
     },
     {
-      image: `${AntonioLogo}`,
-      aname: "Creed Aventus Black Delux",
+      image: `${CreedLogo}`,
+      aname: "Creed",
       link: "/dior",
     },
 
@@ -182,49 +242,41 @@ const BrendLogo = () => {
       aname: "Dalal",
     },
     {
-      image: `${AntonioLogo}`,
-      aname: "Davidov",
+      image: `${DavidoffLogo}`,
+      aname: "Davidoff",
     },
     {
       image: `${AntonioLogo}`,
       aname: "D.Cool",
     },
     {
-      image: `${AntonioLogo}`,
-      aname: "D & G",
+      image: `${DolceLogo}`,
+      aname: "Dolce&Gabbana",
     },
     {
-      image: `${AntonioLogo}`,
-      aname: "Dior",
-    },
-    {
-      image: `${AntonioLogo}`,
+      image: `${DIPLogo}`,
       aname: "DIP",
     },
     {
-      image: `${AntonioLogo}`,
+      image: `${DonnaLogo}`,
       aname: "Donna Karan",
     },
 
     {
-      image: `${AntonioLogo}`,
-      aname: "E.Molecules 02",
+      image: `${EscentricLogo}`,
+      aname: "Escentric Molecules",
     },
     {
       image: `${AntonioLogo}`,
       aname: "Eclat Sport",
     },
     {
-      image: `${AntonioLogo}`,
+      image: `${EscadaLogo}`,
       aname: "Escada",
     },
     {
-      image: `${AntonioLogo}`,
-      aname: "Escentric Molecule",
-    },
-    {
-      image: `${AntonioLogo}`,
-      aname: "EX Fleur Narcotique",
+      image: `${ExNihiloLogo}`,
+      aname: "Ex Nihilo",
     },
     {
       image: `${AntonioLogo}`,
@@ -232,7 +284,7 @@ const BrendLogo = () => {
     },
 
     {
-      image: `${AntonioLogo}`,
+      image: `${FendiLogo}`,
       aname: "Fendi",
     },
     {
@@ -245,11 +297,6 @@ const BrendLogo = () => {
     },
     {
       image: `${AntonioLogo}`,
-      aname: "Fleur Narcotique",
-    },
-
-    {
-      image: `${AntonioLogo}`,
       aname: "G.Angel & Demon",
     },
     {
@@ -257,7 +304,7 @@ const BrendLogo = () => {
       aname: "Gall Mandarin",
     },
     {
-      image: `${AntonioLogo}`,
+      image: `${GivenchyLogo}`,
       aname: "Givenchy",
     },
     {
@@ -265,34 +312,30 @@ const BrendLogo = () => {
       aname: "G.M.Bloom",
     },
     {
-      image: `${AntonioLogo}`,
+      image: `${GucciLogo}`,
       aname: "Gucci",
     },
 
     {
-      image: `${AntonioLogo}`,
+      image: `${HugeBossLogo}`,
       aname: "Huge Boss",
     },
     {
-      image: `${AntonioLogo}`,
-      aname: "Huge Boss",
-    },
-    {
-      image: `${AntonioLogo}`,
-      aname: "Hunca Caldion",
+      image: `${HuncaLogo}`,
+      aname: "Hunca",
     },
 
     {
-      image: `${AntonioLogo}`,
+      image: `${InitioLogo}`,
       aname: "Initio",
     },
 
     {
-      image: `${AntonioLogo}`,
-      aname: "Ja Malone",
+      image: `${JoMalenoLogo}`,
+      aname: "Jo Malone",
     },
     {
-      image: `${AntonioLogo}`,
+      image: `${JulietteLogo}`,
       aname: "Juliette",
     },
 
@@ -301,15 +344,15 @@ const BrendLogo = () => {
       aname: "Kajal",
     },
     {
-      image: `${AntonioLogo}`,
+      image: `${KayaliLogo}`,
       aname: "Kayali",
     },
     {
-      image: `${AntonioLogo}`,
+      image: `${KenzoLogo}`,
       aname: "Kenzo",
     },
     {
-      image: `${AntonioLogo}`,
+      image: `${KillianLogo}`,
       aname: "Killian",
     },
     {
@@ -322,28 +365,24 @@ const BrendLogo = () => {
     },
 
     {
-      image: `${AntonioLogo}`,
+      image: `${LacosteLogo}`,
       aname: "Lacoste",
     },
     {
-      image: `${AntonioLogo}`,
+      image: `${LancomeLogo}`,
       aname: "Lancome",
     },
     {
-      image: `${AntonioLogo}`,
+      image: `${LanvinLogo}`,
       aname: "Lanvin",
     },
     {
-      image: `${AntonioLogo}`,
-      aname: "L.Eclat",
-    },
-    {
-      image: `${AntonioLogo}`,
+      image: `${LouisVuittonLogo}`,
       aname: "Louis Vuitton",
     },
 
     {
-      image: `${AntonioLogo}`,
+      image: `${ManceraLogo}`,
       aname: "Mancera",
     },
     {
@@ -351,27 +390,20 @@ const BrendLogo = () => {
       aname: "Mango",
     },
     {
-      image: `${AntonioLogo}`,
+      image: `${MemoLogo}`,
       aname: "Memo African",
-    },
-    {
-      image: `${AntonioLogo}`,
-      aname: "Molecule",
     },
     {
       image: `${AntonioLogo}`,
       aname: "Mono",
     },
     {
-      image: `${AntonioLogo}`,
+      image: `${MontaleLogo}`,
       aname: "Montale",
     },
+
     {
-      image: `${AntonioLogo}`,
-      aname: "Montblanc",
-    },
-    {
-      image: `${AntonioLogo}`,
+      image: `${MoschinoLogo}`,
       aname: "Moschino",
     },
     {
@@ -380,90 +412,69 @@ const BrendLogo = () => {
     },
 
     {
-      image: `${AntonioLogo}`,
-      aname: "Narciso",
+      image: `${Narcisologo}`,
+      aname: "Narciso Rodriguez",
     },
+
     {
-      image: `${AntonioLogo}`,
-      aname: "Narcos'is",
-    },
-    {
-      image: `${AntonioLogo}`,
-      aname: "N.Black",
-    },
-    {
-      image: `${AntonioLogo}`,
+      image: `${NinaRicciLogo}`,
       aname: "Nina Ricci",
     },
     {
-      image: `${AntonioLogo}`,
-      aname: "N.Rodriguez",
+      image: `${OrtoParisiLogo}`,
+      aname: "Orto Parisi",
     },
 
     {
-      image: `${AntonioLogo}`,
-      aname: "Orto Paris",
-    },
-    {
-      image: `${AntonioLogo}`,
-      aname: "Orto P.Megamare",
-    },
-    {
-      image: `${AntonioLogo}`,
+      image: `${PacoLogo}`,
       aname: "Paco Rabanne",
     },
     {
-      image: `${AntonioLogo}`,
+      image: `${ParfumsDeMarleyLogo}`,
       aname: "Parfums De Marley",
     },
     {
-      image: `${AntonioLogo}`,
-      aname: "Prada Candy",
-    },
-    {
-      image: `${AntonioLogo}`,
-      aname: "P.R.Invictus",
+      image: `${PradaLogo}`,
+      aname: "Prada",
     },
 
+
     {
-      image: `${AntonioLogo}`,
+      image: `${RalphLogo}`,
       aname: "Ralph Lauren",
     },
     {
-      image: `${AntonioLogo}`,
-      aname: "Rassasi Timsah",
+      image: `${RasasiLogo}`,
+      aname: "Rasasi",
     },
     {
-      image: `${AntonioLogo}`,
+      image: `${RicardoLogo}`,
       aname: "Ricardo Veron",
     },
     {
-      image: `${AntonioLogo}`,
+      image: `${RojaLogo}`,
       aname: "Roja",
     },
-    {
-      image: `${AntonioLogo}`,
-      aname: "R.Reckless",
-    },
+
 
     {
       image: `${AntonioLogo}`,
       aname: "Sah Parfum",
     },
     {
-      image: `${AntonioLogo}`,
-      aname: "Salvatore Ferragamo",
+      image: `${SalvadorLogo}`,
+      aname: "Salvador Ferragamo",
     },
     {
-      image: `${AntonioLogo}`,
+      image: `${SospiroLogo}`,
       aname: "Sospiro",
     },
     {
-      image: `${AntonioLogo}`,
+      image: `${ShaikLogo}`,
       aname: "Shaik",
     },
     {
-      image: `${AntonioLogo}`,
+      image: `${SisleyLogo}`,
       aname: "Sisley",
     },
     {
@@ -472,11 +483,11 @@ const BrendLogo = () => {
     },
 
     {
-      image: `${AntonioLogo}`,
+      image: `${TomFordLogo}`,
       aname: "Tom Ford",
     },
     {
-      image: `${AntonioLogo}`,
+      image: `${TizianaLogo}`,
       aname: "Tiziana Trenzi",
     },
     {
@@ -484,24 +495,24 @@ const BrendLogo = () => {
       aname: "Thamen Green",
     },
     {
-      image: `${AntonioLogo}`,
-      aname: "Trussardi Donna",
+      image: `${TrussardiLogo}`,
+      aname: "Trussardi",
     },
 
     {
-      image: `${AntonioLogo}`,
+      image: `${VictoriaLogo}`,
       aname: "Victoria Secret",
     },
     {
-      image: `${AntonioLogo}`,
+      image: `${VersaceLogo}`,
       aname: "Versace",
     },
     {
-      image: `${AntonioLogo}`,
-      aname: "Valentina",
+      image: `${ValentinoLogo}`,
+      aname: "Valentino",
     },
     {
-      image: `${AntonioLogo}`,
+      image: `${VertusLogo}`,
       aname: "Vertus",
     },
 
@@ -511,16 +522,16 @@ const BrendLogo = () => {
     },
 
     {
-      image: `${AntonioLogo}`,
+      image: `${XerjoffLogo}`,
       aname: "Xerjoff",
     },
     {
-      image: `${AntonioLogo}`,
-      aname: "Y.S.L",
+      image: `${YSLLogo}`,
+      aname: "Yves Saint Laurent",
     },
     {
-      image: `${AntonioLogo}`,
-      aname: "Zadig Voltaire",
+      image: `${ZadigLogo}`,
+      aname: "Zadig & Voltaire",
     },
     {
       image: `${AntonioLogo}`,
