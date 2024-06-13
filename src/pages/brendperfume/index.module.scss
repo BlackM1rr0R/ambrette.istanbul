@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.background {
+  .control {
+    display: flex;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    flex-wrap: wrap;
+    gap: 50px;
+    .flexborder {
+      display: flex;
+      flex-direction: column;
+      width: 30%;
+        gap: 20px;
+        text-decoration: none;
+        color: black;
+      .border {
+        display: flex;
+
+        justify-content: center;
+        border: 1px solid gray;
+        background-color: white;
+        padding: 30px;
+        img {
+          width: 150px;
+        }
+      }
+      h2{
+        font-weight: 500;
+        font-size: 20px;
+        text-align: center;
+      }
+    }
+  }
+}

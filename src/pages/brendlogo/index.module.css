@@ -48,6 +48,8 @@
   padding-bottom: 40px;
 }
 .background .box .controlbox .controlclass {
+  text-decoration: none;
+  color: black;
   display: flex;
   flex-direction: column;
   align-items: center;

@@ -47,8 +47,10 @@
       gap: 30px;
       padding-top: 40px;
       padding-bottom: 40px;
+     
       .controlclass{
-
+ text-decoration: none;
+      color: black;
         display: flex;
         flex-direction: column;
         align-items: center;

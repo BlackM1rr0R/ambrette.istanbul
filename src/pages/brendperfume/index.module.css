@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.background .control {
+  display: flex;
+  padding-top: 80px;
+  padding-bottom: 80px;
+  flex-wrap: wrap;
+  gap: 50px;
+}
+.background .control .flexborder {
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+  gap: 20px;
+  text-decoration: none;
+  color: black;
+}
+.background .control .flexborder .border {
+  display: flex;
+  justify-content: center;
+  border: 1px solid gray;
+  background-color: white;
+  padding: 30px;
+}
+.background .control .flexborder .border img {
+  width: 150px;
+}
+.background .control .flexborder h2 {
+  font-weight: 500;
+  font-size: 20px;
+  text-align: center;
+}/*# sourceMappingURL=index.module.css.map */

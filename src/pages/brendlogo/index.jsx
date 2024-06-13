@@ -77,6 +77,7 @@ import VertusLogo from "../../assets/images/vertuslogo.jpg";
 import XerjoffLogo from "../../assets/images/xerjofflogo.jpg";
 import YSLLogo from "../../assets/images/ysllogo.jpg";
 import ZadigLogo from "../../assets/images/zadiglogo.jpg";
+import { Link } from "react-router-dom";
 
 const BrendLogo = () => {
   const [brendA, setBrendA] = useState([
@@ -641,12 +642,12 @@ const BrendLogo = () => {
               </div>
               <div key={index} className={styles.controlbox}>
                 {innerArray.map((item, innerIndex) => (
-                  <div className={styles.controlclass}>
+                  <Link to={"/brend-perfume"} className={styles.controlclass}>
                     <div key={innerIndex} className={styles.border}>
                       <img src={item.image} alt="" />
                     </div>
                     <h2>{item.aname}</h2>
-                  </div>
+                  </Link>
                 ))}
               </div>
             </>
