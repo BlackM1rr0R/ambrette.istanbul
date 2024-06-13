@@ -19,8 +19,9 @@
                 width: 150px;
             }
             .icons{
-                display: flex;
-                gap: 30px;
+                display: grid;
+                gap: 20px;
+                grid-template-columns: repeat(3, 1fr);
             }
         }
         .list2{

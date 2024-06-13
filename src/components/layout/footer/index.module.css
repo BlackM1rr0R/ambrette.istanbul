@@ -23,8 +23,9 @@
   width: 150px;
 }
 .background .control .list1 .icons {
-  display: flex;
-  gap: 30px;
+  display: grid;
+  gap: 20px;
+  grid-template-columns: repeat(3, 1fr);
 }
 .background .control .list2 {
   display: flex;

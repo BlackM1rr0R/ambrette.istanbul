@@ -2,7 +2,7 @@ import React from "react";
 import styles from "./index.module.css";
 import Logo from "../../../assets/images/logo2.png";
 import Wrapper from "../../UI/wrapper";
-import { InstagramIcon, TelegramIcon, WhatsappIcon } from "../../../icons";
+import {  FacebookIcon, InstagramIcon, LinkedinIcon, TelegramIcon, TikTokIcon, YouTubeIcon, } from "../../../icons";
 const Footer = () => {
   return (
     <div className={styles.background}>
@@ -12,9 +12,12 @@ const Footer = () => {
           <h2>AMBRETTE</h2>
             <p>Contact with our:</p>
             <div className={styles.icons}>
-              <WhatsappIcon />
-              <InstagramIcon />
+              <LinkedinIcon/>
+              <TikTokIcon />
               <TelegramIcon />
+              <InstagramIcon/>
+              <FacebookIcon/>
+              <YouTubeIcon/>
             </div>
           </div>
           <div className={styles.list2}>

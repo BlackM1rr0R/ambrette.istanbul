@@ -13,7 +13,7 @@
 }
 .background .control {
   display: flex;
-  justify-content: space-between;
+  gap: 100px;
   margin-top: 30px;
 }
 .background .control .leftside {
@@ -33,10 +33,15 @@
 .background .control .leftside .modalclass {
   display: flex;
   flex-direction: column;
+  gap: 20px;
+}
+.background .control .leftside .modalclass .iconsclass {
+  display: flex;
+  align-items: center;
   gap: 10px;
 }
-.background .control .leftside .modalclass h2 {
-  font-size: 15px;
+.background .control .leftside .modalclass .iconsclass h2 {
+  font-size: 17px;
 }
 .background .control .leftside .genclik {
   cursor: pointer;

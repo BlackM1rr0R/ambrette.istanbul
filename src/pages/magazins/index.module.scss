@@ -11,7 +11,7 @@
     }
     .control{
         display: flex;
-        justify-content: space-between;
+        gap: 100px;
         margin-top: 30px;
         .leftside{
             border: 1px solid gray;
@@ -31,10 +31,16 @@
             }
             .modalclass{
                 display: flex;
+             
                 flex-direction: column;
-                gap: 10px;
-                h2{
-                    font-size: 15px;
+                gap: 20px;
+                .iconsclass{
+                    display: flex;
+                    align-items: center;
+                    gap: 10px;
+                    h2{
+                        font-size: 17px;
+                    }
                 }
             }
             .genclik{
@@ -52,8 +58,10 @@
         }
         .rightside{
             display: flex;
+            
             flex-direction: column;
             gap: 20px;
+           
         }
     }
 }
