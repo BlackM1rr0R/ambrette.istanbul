@@ -818,7 +818,7 @@ const Header = () => {
                 ))}
               </div>
             </div>
-            <li>About us</li>
+            <Link to={"/about"}>About us</Link>
             <Link to={"/magazins"}>Magazins</Link>
             <li>Contact us</li>
           </div>

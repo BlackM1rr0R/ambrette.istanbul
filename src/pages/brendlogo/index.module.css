@@ -14,6 +14,7 @@
   align-items: center;
 }
 .background .headers .hr hr {
+  width: 500px;
   border: 1px solid black;
 }
 .background .headers .headersh2 h2 {
@@ -21,24 +22,49 @@
 }
 .background .box {
   padding-top: 60px;
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  display: flex;
+  flex-direction: column;
   gap: 20px;
 }
+.background .box .brendheaders {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  align-items: center;
+}
+.background .box .brendheaders hr {
+  border: 2px solid black;
+  width: 50px;
+}
+.background .box .brendheaders h2 {
+  font-size: 32px;
+  font-weight: 600;
+}
 .background .box .controlbox {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 30px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+.background .box .controlbox .controlclass {
   display: flex;
   flex-direction: column;
   align-items: center;
   gap: 10px;
 }
-.background .box .controlbox .border {
+.background .box .controlbox .controlclass .border {
+  display: flex;
+  justify-content: center;
   border: 1px solid gray;
-}
-.background .box .controlbox .border img {
   background-color: white;
+}
+.background .box .controlbox .controlclass .border img {
   padding: 20px;
   width: 200px;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
-.background .box .controlbox h2 {
+.background .box .controlbox .controlclass h2 {
   font-weight: 600;
 }/*# sourceMappingURL=index.module.css.map */

@@ -57,6 +57,12 @@
   justify-content: space-between;
   position: relative;
 }
+.menuContainer .menu a {
+  font-size: 20px;
+}
+.menuContainer .menu li {
+  font-size: 20px;
+}
 .menuContainer .menu .dropdown {
   position: relative;
   display: inline-block;

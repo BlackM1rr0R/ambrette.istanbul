@@ -12,6 +12,7 @@
     align-items: center;
     .hr {
       hr {
+        width: 500px;
         border: 1px solid black;
       }
     }
@@ -23,24 +24,51 @@
   }
   .box {
     padding-top: 60px;
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    display: flex;
+    flex-direction: column;
     gap: 20px;
-    .controlbox {
+    .brendheaders{
       display: flex;
-      flex-direction: column;
+      justify-content: center;
+      gap: 30px;
       align-items: center;
-      gap: 10px;
-      .border {
-        border: 1px solid gray;
-        img {
-          background-color: white;
-          padding: 20px;
-          width: 200px;
-        }
+      hr{
+        border: 2px solid black;
+        width: 50px;
       }
       h2{
+        font-size: 32px;
         font-weight: 600;
+      }
+    }
+    .controlbox {
+      display: grid;
+      grid-template-columns: repeat(5, 1fr);
+      gap: 30px;
+      padding-top: 40px;
+      padding-bottom: 40px;
+      .controlclass{
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+        .border {
+          display: flex;
+          justify-content: center;
+          border: 1px solid gray;
+            background-color: white;
+  
+          img {
+            padding: 20px;
+            width: 200px;
+            object-fit: cover;
+          }
+        }
+
+        h2 {
+          font-weight: 600;
+        }
       }
     }
   }
