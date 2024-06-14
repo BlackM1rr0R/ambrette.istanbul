@@ -11,7 +11,7 @@ const LaunchesPerfume = () => {
             <hr />
           </div>
           <div className={styles.h2}>
-            <h2>The Most Popular Perfumes</h2>
+            <h2>Most Popular Perfumes</h2>
           </div>
           <div className={styles.hr}>
             <hr />

@@ -17,4 +17,16 @@
 .swiper-button-prev,
 .swiper-button-next {
   color: black;
+}
+
+@media (max-width: 490px) {
+  .background .boxs {
+    padding-top: 30px;
+  }
+  .background .boxs .border img {
+    width: 100%;
+    height: 25vh;
+    -o-object-fit: fill;
+       object-fit: fill;
+  }
 }/*# sourceMappingURL=index.module.css.map */

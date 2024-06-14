@@ -85,21 +85,17 @@
       }
     }
     .images {
-        display: grid;
-        grid-template-columns: repeat(4, 1fr);
-        gap: 30px;
-        position: relative;
-      
-        img {
-          padding: 20px;
-          border: 1px solid black;
-          border-radius: 10px;
-       
-      
-          
-        }
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 30px;
+      position: relative;
+
+      img {
+        padding: 20px;
+        border: 1px solid black;
+        border-radius: 10px;
       }
-      
+    }
   }
 }
 @keyframes fadeIn {
@@ -108,5 +104,49 @@
   }
   100% {
     opacity: 1;
+  }
+}
+@media (max-width: 490px) {
+  .background {
+    .principle {
+      padding: 30px;
+      h2 {
+        font-size: 24px;
+      }
+      p {
+        font-size: 14px;
+        line-height: 24px;
+      }
+    }
+    .future {
+      display: flex;
+      flex-direction: column;
+      gap: 30px;
+      .futuretext {
+        padding: 30px;
+        h2 {
+          font-size: 24px;
+        }
+        p {
+          font-size: 14px;
+          line-height: 24px;
+        }
+      }
+    }
+    .certificates {
+      .certificatesheaders {
+        h2 {
+          font-size: 24px;
+        }
+      }
+      .images {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        img {
+          width: 150px;
+        }
+      }
+    }
   }
 }

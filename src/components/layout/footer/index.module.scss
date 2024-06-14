@@ -37,3 +37,31 @@
         }
     }
 }
+@media(max-width:490px){
+    .background{
+        .control{
+            display: flex;
+            flex-direction: column;
+            gap: 30px;
+            .list1{
+                p{
+                    font-weight: 600;
+                }
+                .icons{
+                    display: flex;
+                    justify-content: center;
+                }
+            }
+            .list2{
+               h2{
+                font-weight: 600;
+               }
+               ul{
+                li{
+                    font-size: 14px;
+                }
+               }
+            }
+        }
+    }
+}

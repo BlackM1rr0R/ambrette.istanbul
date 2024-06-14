@@ -105,4 +105,42 @@
   100% {
     opacity: 1;
   }
+}
+@media (max-width: 490px) {
+  .background .principle {
+    padding: 30px;
+  }
+  .background .principle h2 {
+    font-size: 24px;
+  }
+  .background .principle p {
+    font-size: 14px;
+    line-height: 24px;
+  }
+  .background .future {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+  }
+  .background .future .futuretext {
+    padding: 30px;
+  }
+  .background .future .futuretext h2 {
+    font-size: 24px;
+  }
+  .background .future .futuretext p {
+    font-size: 14px;
+    line-height: 24px;
+  }
+  .background .certificates .certificatesheaders h2 {
+    font-size: 24px;
+  }
+  .background .certificates .images {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  .background .certificates .images img {
+    width: 150px;
+  }
 }/*# sourceMappingURL=index.module.css.map */

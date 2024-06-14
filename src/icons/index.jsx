@@ -19,6 +19,7 @@ const WhatsappIcon = () => {
       viewBox="0 0 500 500"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
+      className="whatsappIcon"
     >
       <g clip-path="url(#clip0_7_5172)">
         <path

@@ -3,7 +3,7 @@ import styles from "./index.module.css";
 import Wrapper from "../UI/wrapper";
 
 import Banner from '../../assets/images/banner.webp'
-import { Navigation} from "swiper/modules";
+import { Autoplay, Navigation} from "swiper/modules";
 
 import { Swiper, SwiperSlide } from "swiper/react";
 
@@ -32,11 +32,11 @@ const Hero = () => {
      
       <div className={styles.boxs}>
               <Swiper
-                modules={[Navigation]}
+                modules={[Autoplay]}
                 className={styles.price}
                 spaceBetween={50}
                 slidesPerView={3}
-                navigation
+                autoplay={{ delay: 2000, disableOnInteraction: false }}
                 onSwiper={(swiper) => console.log(swiper)}
                 onSlideChange={() => console.log("slide change")}
                 breakpoints={{

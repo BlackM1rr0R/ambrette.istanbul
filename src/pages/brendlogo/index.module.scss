@@ -27,16 +27,16 @@
     display: flex;
     flex-direction: column;
     gap: 20px;
-    .brendheaders{
+    .brendheaders {
       display: flex;
       justify-content: center;
       gap: 30px;
       align-items: center;
-      hr{
+      hr {
         border: 2px solid black;
         width: 50px;
       }
-      h2{
+      h2 {
         font-size: 32px;
         font-weight: 600;
       }
@@ -47,10 +47,10 @@
       gap: 30px;
       padding-top: 40px;
       padding-bottom: 40px;
-     
-      .controlclass{
- text-decoration: none;
-      color: black;
+
+      .controlclass {
+        text-decoration: none;
+        color: black;
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -59,8 +59,8 @@
           display: flex;
           justify-content: center;
           border: 1px solid gray;
-            background-color: white;
-  
+          background-color: white;
+
           img {
             padding: 20px;
             width: 200px;
@@ -70,6 +70,45 @@
 
         h2 {
           font-weight: 600;
+        }
+      }
+    }
+  }
+}
+@media (max-width: 490px) {
+  .background {
+    .headers {
+      .hr {
+        hr {
+          width: 80px;
+        }
+      }
+      .headersh2 {
+        h2 {
+          font-size: 24px;
+        }
+      }
+    }
+    .box {
+      display: flex;
+      flex-direction: column;
+      gap: 30px;
+      flex-wrap: wrap;
+   
+      .controlbox {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 30px;
+        .controlclass {
+          width: 45%;
+          .border {
+            img {
+              width: 150px;
+            }
+          }
+          h2 {
+            font-weight: 600;
+          }
         }
       }
     }

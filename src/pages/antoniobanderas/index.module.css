@@ -118,4 +118,83 @@
 }
 .background .perfumelist .twoside ul li {
   font-size: 24px;
+}
+
+@media (max-width: 490px) {
+  .background .control {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+  }
+  .background .control .images h2 {
+    font-size: 20px;
+    font-weight: 600;
+  }
+  .background .control .images img {
+    width: 250px;
+  }
+  .background .control .description {
+    width: 100%;
+  }
+  .background .control .description .info h2 {
+    font-size: 18px;
+    font-weight: 500;
+  }
+  .background .control .description .modalclass p {
+    width: 100%;
+    line-height: 20px;
+    font-size: 14px;
+  }
+  .background .control .description .notesclass {
+    gap: 30px;
+  }
+  .background .control .description .notesclass .fragments {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+  }
+  .background .control .description .notesclass .fragments h2 {
+    font-size: 16px;
+  }
+  .background .control .description .notesclass .fragments h3 {
+    font-size: 14px;
+  }
+  .background .control .description .hr hr {
+    width: 100%;
+  }
+  .background .headers .hr hr {
+    width: auto;
+    width: 30px;
+  }
+  .background .headers .h2 h2 {
+    font-size: 16px;
+    font-weight: 600;
+  }
+  .background .perfumelist .firstside {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 30px;
+  }
+  .background .perfumelist .firstside ul a {
+    font-size: 16px;
+  }
+  .background .perfumelist .firstside ul li {
+    font-size: 16px;
+  }
+  .background .perfumelist .twoside {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 30px;
+  }
+  .background .perfumelist .twoside ul a {
+    font-size: 16px;
+  }
+  .background .perfumelist .twoside ul li {
+    font-size: 16px;
+  }
 }/*# sourceMappingURL=index.module.css.map */

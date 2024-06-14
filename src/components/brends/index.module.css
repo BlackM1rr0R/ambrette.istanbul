@@ -29,4 +29,21 @@
 }
 .background .boxs .border img {
   width: 350px;
+}
+
+@media (max-width: 490px) {
+  .background {
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+  .background .headers h2 {
+    font-size: 16px;
+    font-weight: 600;
+  }
+  .background .boxs .border img {
+    width: 150px;
+  }
+  .background .boxs .border h2 {
+    font-size: 14px;
+  }
 }/*# sourceMappingURL=index.module.css.map */

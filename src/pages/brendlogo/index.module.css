@@ -69,4 +69,33 @@
 }
 .background .box .controlbox .controlclass h2 {
   font-weight: 600;
+}
+
+@media (max-width: 490px) {
+  .background .headers .hr hr {
+    width: 80px;
+  }
+  .background .headers .headersh2 h2 {
+    font-size: 24px;
+  }
+  .background .box {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    flex-wrap: wrap;
+  }
+  .background .box .controlbox {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+  }
+  .background .box .controlbox .controlclass {
+    width: 45%;
+  }
+  .background .box .controlbox .controlclass .border img {
+    width: 150px;
+  }
+  .background .box .controlbox .controlclass h2 {
+    font-weight: 600;
+  }
 }/*# sourceMappingURL=index.module.css.map */

@@ -152,4 +152,61 @@
 }
 .menuContainer .menu .dropdownbrends:hover .dropdowncontrol .aclass li a {
   font-size: 14px;
+}
+
+@media (max-width: 490px) {
+  .background .control {
+    gap: 10px;
+  }
+  .background .control .images img {
+    width: 50px;
+  }
+  .background .control .input input {
+    width: auto;
+  }
+  .menuContainer .menu {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+  }
+  .menuContainer .menu a {
+    font-size: 14px;
+  }
+  .menuContainer .menu li {
+    font-size: 14px;
+  }
+  .menuContainer .menu .dropdownbrends:hover {
+    cursor: pointer;
+    position: relative;
+    z-index: 10000000000000000000000;
+    color: black;
+  }
+  .menuContainer .menu .dropdownbrends:hover .dropdowncontrol {
+    border-radius: 10px;
+    position: absolute;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    flex-wrap: wrap;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    margin: 0;
+    gap: 30px;
+    background: rgb(252, 249, 245);
+    left: 50%;
+    transform: translateX(-50%);
+    width: 300px;
+    z-index: 1000000000000000000000;
+  }
+  .menuContainer .menu .dropdownbrends:hover .dropdowncontrol .aclass {
+    display: flex;
+    flex-direction: column;
+  }
+  .menuContainer .menu .dropdownbrends:hover .dropdowncontrol .aclass h2 {
+    padding-top: 15px;
+    padding-left: 15px;
+    color: red;
+  }
+  .menuContainer .menu .dropdownbrends:hover .dropdowncontrol .aclass li a {
+    font-size: 14px;
+  }
 }/*# sourceMappingURL=index.module.css.map */

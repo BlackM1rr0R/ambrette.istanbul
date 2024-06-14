@@ -2,3 +2,9 @@
     width: 1440px;
     margin: auto;
 }
+@media(max-width:490px){
+    .background{
+        max-width: 90%;
+        margin: auto;
+    }
+}

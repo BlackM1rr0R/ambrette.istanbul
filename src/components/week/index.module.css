@@ -20,4 +20,14 @@
 }
 .background .headers .top img:hover, .background .headers .bottom img:hover {
   transform: scale(1.1);
+}
+
+@media (max-width: 490px) {
+  .background .headers .top, .background .headers .bottom {
+    display: flex;
+    flex-direction: column;
+  }
+  .background .headers .top img, .background .headers .bottom img {
+    width: 100%;
+  }
 }/*# sourceMappingURL=index.module.css.map */

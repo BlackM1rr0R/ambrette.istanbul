@@ -21,4 +21,14 @@ body{
   .whatsappButton:hover {
     background-color: #019c41;
   }
+  @media(max-width:490px){
+    .whatsappButton{
+      border-radius: 50%;
+      
+    }
+    .whatsappIcon{
+      height: 30px;
+     width: 30px;
+    }
+  }
   

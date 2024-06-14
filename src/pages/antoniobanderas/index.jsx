@@ -90,7 +90,7 @@ console.log(foundObject)
             {brends ? (
               <div className={styles.notesclass}>
                 <div className={styles.fragments}>
-                  <h2>{foundObject?.brands}</h2>
+                  <h3>{foundObject?.brands}</h3>
                 </div>
               </div>
             ) : (

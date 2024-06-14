@@ -28,7 +28,10 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          <WhatsappIcon />
+          <div>
+
+          <WhatsappIcon className="svgWhatsapp"/>
+          </div>
         </Link>
       </div>
     </BrowserRouter>

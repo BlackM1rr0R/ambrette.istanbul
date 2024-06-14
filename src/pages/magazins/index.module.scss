@@ -70,3 +70,11 @@
         color: red;
     }
 }
+@media(max-width:490px){
+    .background{
+        .control{
+            display: flex;
+            flex-direction: column;
+        }
+    }
+}
