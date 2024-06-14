@@ -36,15 +36,12 @@
 .background .control .input input::placeholder {
   font-family: "Ubuntu", sans-serif;
 }
-.background .control .selected select {
-  padding: 5px;
-  border-radius: 10px;
-  border: 1px solid #c5c5c5;
-  font-family: "Ubuntu", sans-serif;
+.background .control .selected {
+  display: flex;
+  gap: 5px;
 }
-.background .control .selected select option {
-  padding: 20px;
-  font-family: "Ubuntu", sans-serif;
+.background .control .selected hr {
+  border: 1px solid black;
 }
 
 .menuContainer {

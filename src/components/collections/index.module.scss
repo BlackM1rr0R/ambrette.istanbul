@@ -16,8 +16,11 @@
     .boxs{
         padding-top: 40px;
         .border{
-            padding-left: 40px;
-            padding-right: 40px;
+            border: 1px solid gray;
+            margin-left: 70px;
+            margin-right: 70px;
+            padding: 20px;
+          
             cursor: pointer;
             img{
                 width: 100%;

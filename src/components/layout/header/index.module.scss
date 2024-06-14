@@ -32,16 +32,11 @@
       }
     }
     .selected {
-      select {
-        padding: 5px;
-        border-radius: 10px;
-        border: 1px solid #c5c5c5;
-        font-family: "Ubuntu", sans-serif;
-        option {
-          padding: 20px;
-          font-family: "Ubuntu", sans-serif;
+        display: flex;
+        gap: 5px;
+        hr{
+          border: 1px solid black;
         }
-      }
     }
   }
 }

@@ -6,6 +6,7 @@
 
 .background .control {
   display: flex;
+  justify-content: space-between;
   padding-top: 80px;
   padding-bottom: 80px;
   flex-wrap: wrap;
@@ -14,7 +15,7 @@
 .background .control .flexborder {
   display: flex;
   flex-direction: column;
-  width: 30%;
+  width: 20%;
   gap: 20px;
   text-decoration: none;
   color: black;
@@ -31,6 +32,6 @@
 }
 .background .control .flexborder h2 {
   font-weight: 500;
-  font-size: 20px;
+  font-size: 18px;
   text-align: center;
 }/*# sourceMappingURL=index.module.css.map */

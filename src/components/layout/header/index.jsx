@@ -356,160 +356,158 @@ const Header = () => {
       },
     ],
   ]);
-  const [dataN,setDataN]=useState([
+  const [dataN, setDataN] = useState([
     [
       {
-        nname:"Narciso"
+        nname: "Narciso",
       },
       {
-        nname:"Narcos'is"
+        nname: "Narcos'is",
       },
       {
-        nname:"N.Black"
+        nname: "N.Black",
       },
       {
-        nname:"Nina Ricci"
+        nname: "Nina Ricci",
       },
       {
-        nname:"N.Rodriguez"
+        nname: "N.Rodriguez",
       },
-    ]
-  ])
-  const [dataO,setDataO]=useState([
+    ],
+  ]);
+  const [dataO, setDataO] = useState([
     [
       {
-        oname:"Orto Paris"
+        oname: "Orto Paris",
       },
       {
-        oname:"Orto P.Megamare"
-      }
-    ]
-  ])
-  const [dataP,setDataP]=useState([
+        oname: "Orto P.Megamare",
+      },
+    ],
+  ]);
+  const [dataP, setDataP] = useState([
     [
       {
-        pname:"Paco Rabanne"
+        pname: "Paco Rabanne",
       },
       {
-        pname:"Parfums De Marley"
+        pname: "Parfums De Marley",
       },
       {
-        pname:"Prada Candy"
+        pname: "Prada Candy",
       },
       {
-        pname:"P.R.Invictus"
+        pname: "P.R.Invictus",
       },
-    ]
-  ])
-  const [dataR,setDataR]=useState([
+    ],
+  ]);
+  const [dataR, setDataR] = useState([
     [
       {
-        rname:"Ralph Lauren"
+        rname: "Ralph Lauren",
       },
       {
-        rname:"Rassasi Timsah"
+        rname: "Rassasi Timsah",
       },
       {
-        rname:"Ricardo Veron"
+        rname: "Ricardo Veron",
       },
       {
-        rname:"Roja"
+        rname: "Roja",
       },
       {
-        rname:"R.Reckless"
+        rname: "R.Reckless",
       },
-    ]
-  ])
-  const [dataS,setDataS]=useState([
+    ],
+  ]);
+  const [dataS, setDataS] = useState([
     [
       {
-        sname:"Sah Parfum"
+        sname: "Sah Parfum",
       },
       {
-        sname:"Salvatore Ferragamo"
+        sname: "Salvatore Ferragamo",
       },
       {
-        sname:"Sospiro"
+        sname: "Sospiro",
       },
       {
-        sname:"Shaik"
+        sname: "Shaik",
       },
       {
-        sname:"Sisley"
+        sname: "Sisley",
       },
       {
-        sname:"Stefano Ricci"
+        sname: "Stefano Ricci",
       },
-    ]
-  ])
-  const [dataT,setDataT]=useState([
+    ],
+  ]);
+  const [dataT, setDataT] = useState([
     [
       {
-        tname:"Tom Ford"
+        tname: "Tom Ford",
       },
       {
-        tname:"Tiziana Trenzi"
+        tname: "Tiziana Trenzi",
       },
       {
-        tname:"Thamen Green"
+        tname: "Thamen Green",
       },
       {
-        tname:"Trussardi Donna"
+        tname: "Trussardi Donna",
       },
-
-    ]
-  ])
-  const [dataV,setDataV]=useState([
+    ],
+  ]);
+  const [dataV, setDataV] = useState([
     [
       {
-        vname:"Victoria Secret"
+        vname: "Victoria Secret",
       },
       {
-        vname:"Versace"
+        vname: "Versace",
       },
       {
-        vname:"Valentina"
+        vname: "Valentina",
       },
       {
-        vname:"Vertus"
+        vname: "Vertus",
       },
-
-    ]
-  ])
-  const [dataW,setDataW]=useState([
+    ],
+  ]);
+  const [dataW, setDataW] = useState([
     [
       {
-        wname:"White Musk"
-      }
-    ]
-  ])
-  const [dataX,setDataX]=useState([
+        wname: "White Musk",
+      },
+    ],
+  ]);
+  const [dataX, setDataX] = useState([
     [
       {
-        xname:"Xerjoff"
-      }
-    ]
-  ])
-  const [dataY,setDataY]=useState([
+        xname: "Xerjoff",
+      },
+    ],
+  ]);
+  const [dataY, setDataY] = useState([
     [
       {
-        yname:"Y.S.L"
-      }
-    ]
-  ])
-  const [dataZ,setDataZ]=useState([
+        yname: "Y.S.L",
+      },
+    ],
+  ]);
+  const [dataZ, setDataZ] = useState([
     [
       {
-        zname:"Zadig Voltaire"
+        zname: "Zadig Voltaire",
       },
       {
-        zname:"Zemzem"
+        zname: "Zemzem",
       },
       {
-        zname:"Zielenski"
-      }
-    ]
-  ])
+        zname: "Zielenski",
+      },
+    ],
+  ]);
   return (
     <Wrapper>
       <div className={styles.background}>
@@ -521,10 +519,9 @@ const Header = () => {
             <input type="text" placeholder="Search..." />
           </div>
           <div className={styles.selected}>
-            <select name="" id="">
-              <option value="">English</option>
-              <option value="">Russian</option>
-            </select>
+            <h2>en</h2>
+            <hr />
+            <h2>ru</h2>
           </div>
         </div>
       </div>
@@ -535,7 +532,9 @@ const Header = () => {
         <div className={styles.menuContainer}>
           <div className={styles.menu}>
             <div className={styles.dropdown}>
-              <Link to={"/gender"}>Category <ArrowIcon /></Link> 
+              <Link to={"/gender"}>
+                Category <ArrowIcon />
+              </Link>
               <ul className={styles.dropdowncontent}>
                 <li>
                   <Link to={"/man"}>Man</Link>
@@ -550,7 +549,9 @@ const Header = () => {
             </div>
 
             <div className={styles.dropdownbrends}>
-              <Link to={"/brends"}>Brends <ArrowIcon /></Link>
+              <Link to={"/brends"}>
+                Brends <ArrowIcon />
+              </Link>
               <div className={styles.dropdowncontrol}>
                 {data.map((innerArray, index) => (
                   <div key={index} className={styles.aclass}>

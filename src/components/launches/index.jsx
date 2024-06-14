@@ -156,7 +156,7 @@ const LaunchesPerfume = () => {
             </ul>
           </div>
         </div>
-        <hr />
+      
       </div>
     </Wrapper>
   );
