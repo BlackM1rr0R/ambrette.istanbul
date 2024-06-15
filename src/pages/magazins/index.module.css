@@ -28,7 +28,7 @@
   cursor: pointer;
 }
 .background .control .leftside .azadlig h2 {
-  font-size: 24px;
+  font-size: 20px;
 }
 .background .control .leftside .modalclass {
   display: flex;
@@ -40,20 +40,31 @@
   align-items: center;
   gap: 10px;
 }
+.background .control .leftside .modalclass .iconsclass svg {
+  width: 17px;
+  height: 17px;
+}
 .background .control .leftside .modalclass .iconsclass h2 {
-  font-size: 17px;
+  width: 150px;
+  font-size: 14px;
 }
 .background .control .leftside .genclik {
   cursor: pointer;
 }
 .background .control .leftside .genclik h2 {
-  font-size: 24px;
+  font-size: 20px;
+}
+.background .control .leftside .moskow {
+  cursor: pointer;
+}
+.background .control .leftside .moskow h2 {
+  font-size: 20px;
 }
 .background .control .leftside .nerimanov {
   cursor: pointer;
 }
 .background .control .leftside .nerimanov h2 {
-  font-size: 24px;
+  font-size: 20px;
 }
 .background .control .rightside {
   display: flex;
@@ -66,8 +77,36 @@
 }
 
 @media (max-width: 490px) {
+  .background h1 {
+    font-size: 20px;
+    font-weight: 600;
+  }
   .background .control {
     display: flex;
     flex-direction: column;
+    gap: 20px;
+  }
+  .background .control .leftside .azadlig h2 {
+    font-size: 20px;
+    font-weight: 600;
+  }
+  .background .control .leftside .moskow h2 {
+    font-size: 20px;
+    font-weight: 600;
+  }
+  .background .control .leftside .genclik h2 {
+    font-size: 20px;
+    font-weight: 600;
+  }
+  .background .control .leftside .nerimanov h2 {
+    font-size: 20px;
+    font-weight: 600;
+  }
+  .background .control .leftside .modalclass .iconsclass h2 {
+    font-size: 14px;
+  }
+  .background .control .rightside .frame1 {
+    width: 100%;
+    height: 250px;
   }
 }/*# sourceMappingURL=index.module.css.map */

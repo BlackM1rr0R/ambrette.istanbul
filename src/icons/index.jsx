@@ -167,6 +167,7 @@ const InstagramIcon=()=>{
 const LocationIcon = () => {
   return (
     <svg
+ 
       width="17"
       height="17"
       viewBox="0 0 14 15"
@@ -185,6 +186,7 @@ const LocationIcon = () => {
 const PhoneIcon = () => {
   return (
     <svg
+ 
       width="17"
       height="17"
       viewBox="0 0 14 15"
@@ -202,7 +204,9 @@ const PhoneIcon = () => {
 };
 const ClockIcon = () => {
   return (
+    
     <svg
+   
       width="17"
       height="17"
       viewBox="0 0 18 18"

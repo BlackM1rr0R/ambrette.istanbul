@@ -83,52 +83,22 @@
 .background .allperfumes .dior h2 {
   font-size: 32px;
 }
-.background .headers {
-  padding-top: 50px;
-  display: flex;
-  align-items: center;
-  gap: 30px;
-  justify-content: center;
-}
-.background .headers .hr hr {
-  border: 1px solid black;
-  width: 500px;
-}
-.background .headers .h2 h2 {
-  font-size: 32px;
-  width: 100%;
-}
-.background .perfumelist {
-  padding-bottom: 30px;
-}
-.background .perfumelist .firstside {
-  padding-top: 30px;
-  display: flex;
-  justify-content: space-between;
-}
-.background .perfumelist .firstside ul {
-  display: flex;
-  flex-direction: column;
-  gap: 10px;
-}
-.background .perfumelist .firstside ul a {
-  text-decoration: none;
-  font-size: 24px;
-  color: black;
-}
-.background .perfumelist .firstside ul li {
-  font-size: 24px;
-}
-.background .perfumelist .twoside {
-  padding-top: 30px;
-  display: flex;
-  justify-content: space-between;
-}
-.background .perfumelist .twoside ul {
-  display: flex;
-  flex-direction: column;
-  gap: 10px;
-}
-.background .perfumelist .twoside ul li {
-  font-size: 24px;
+
+@media (max-width: 490px) {
+  .background .control {
+    display: flex;
+    flex-direction: column;
+  }
+  .background .control .images h2 {
+    font-size: 24px;
+    font-weight: 600;
+  }
+  .background .control .images img {
+    width: 100%;
+  }
+  .background .control .description .modalclass {
+    padding-top: 10px;
+    width: 100%;
+    height: 60vh;
+  }
 }/*# sourceMappingURL=index.module.css.map */

@@ -1,80 +1,139 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
-.background{
-    padding-top: 40px;
-    padding-bottom: 40px;
-    h1{
-        font-size: 32px;
-    }
-    .control{
-        display: flex;
-        gap: 100px;
-        margin-top: 30px;
-        .leftside{
-            border: 1px solid gray;
-            border-radius: 10px;
-            padding: 30px 80px 30px 40px;
-          
-            display: flex;
-            flex-direction: column;
-            gap: 20px;
-           
-            .azadlig{
-                
-                cursor: pointer;
-                h2{
-                    font-size: 24px;
-                }
-            }
-            .modalclass{
-                display: flex;
-             
-                flex-direction: column;
-                gap: 20px;
-                .iconsclass{
-                    display: flex;
-                    align-items: center;
-                    gap: 10px;
-                    h2{
-                        font-size: 17px;
-                    }
-                }
-            }
-            .genclik{
-                cursor: pointer;
-                h2{
-                    font-size: 24px;
-                }
-            }
-            .nerimanov{
-                cursor: pointer;
-                h2{
-                    font-size: 24px;
-                }
-            }
-        }
-        .rightside{
-            display: flex;
+.background {
+  padding-top: 40px;
+  padding-bottom: 40px;
+  h1 {
+    font-size: 32px;
+  }
+  .control {
+    display: flex;
+    gap: 100px;
+    margin-top: 30px;
+    .leftside {
+      border: 1px solid gray;
+      border-radius: 10px;
+      padding: 30px 80px 30px 40px;
+
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+
+      .azadlig {
+        svg{
             
-            flex-direction: column;
-            gap: 20px;
-           
         }
-    }
-}
-.active{
-    h2{
-        color: red;
-    }
-}
-@media(max-width:490px){
-    .background{
-        .control{
-            display: flex;
-            flex-direction: column;
+        cursor: pointer;
+        h2 {
+          font-size: 20px;
         }
+      }
+      .modalclass {
+        display: flex;
+
+        flex-direction: column;
+        gap: 20px;
+        .iconsclass {
+          display: flex;
+          align-items: center;
+          gap: 10px;
+          svg{
+            width: 17px;
+            height: 17px;
+          }
+          h2 {
+            width: 150px;
+            font-size: 14px;
+          }
+        }
+      }
+      .genclik {
+       
+        cursor: pointer;
+        h2 {
+          font-size: 20px;
+        }
+      }
+      .moskow {
+        
+        cursor: pointer;
+        h2 {
+          font-size: 20px;
+        }
+      }
+      .nerimanov {
+      
+        cursor: pointer;
+        h2 {
+          font-size: 20px;
+        }
+      }
     }
+    .rightside {
+      display: flex;
+
+      flex-direction: column;
+      gap: 20px;
+    }
+  }
+}
+.active {
+  h2 {
+    color: red;
+  }
+}
+@media (max-width: 490px) {
+  .background {
+    h1 {
+      font-size: 20px;
+      font-weight: 600;
+    }
+    .control {
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+      .leftside {
+        .azadlig {
+          h2 {
+            font-size: 20px;
+            font-weight: 600;
+          }
+        }
+        .moskow {
+          h2 {
+            font-size: 20px;
+            font-weight: 600;
+          }
+        }
+        .genclik {
+          h2 {
+            font-size: 20px;
+            font-weight: 600;
+          }
+        }
+        .nerimanov {
+          h2 {
+            font-size: 20px;
+            font-weight: 600;
+          }
+        }
+        .modalclass {
+          .iconsclass {
+            h2 {
+              font-size: 14px;
+            }
+          }
+        }
+      }
+      .rightside {
+        .frame1 {
+          width: 100%;
+          height: 250px;
+        }
+      }
+    }
+  }
 }

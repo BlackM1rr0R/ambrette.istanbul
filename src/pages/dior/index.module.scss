@@ -30,7 +30,7 @@
 
       .modalclass {
         width: 500px;
-       height: 100%;
+        height: 100%;
         overflow: hidden;
         position: relative;
         p {
@@ -85,56 +85,26 @@
       }
     }
   }
-  .headers {
-    padding-top: 50px;
-
-    display: flex;
-    align-items: center;
-    gap: 30px;
-    justify-content: center;
-    .hr {
-      hr {
-        border: 1px solid black;
-        width: 500px;
-      }
-    }
-    .h2 {
-      h2 {
-        font-size: 32px;
-        width: 100%;
-      }
-    }
-  }
-  .perfumelist {
-    padding-bottom: 30px;
-    .firstside {
-      padding-top: 30px;
+}
+@media (max-width: 490px) {
+  .background {
+    .control {
       display: flex;
-      justify-content: space-between;
-      ul {
-        display: flex;
-        flex-direction: column;
-        gap: 10px;
-        a {
-          text-decoration: none;
+      flex-direction: column;
+      .images {
+        h2 {
           font-size: 24px;
-          color: black;
+          font-weight: 600;
         }
-        li {
-          font-size: 24px;
+        img {
+          width: 100%;
         }
       }
-    }
-    .twoside {
-      padding-top: 30px;
-      display: flex;
-      justify-content: space-between;
-      ul {
-        display: flex;
-        flex-direction: column;
-        gap: 10px;
-        li {
-          font-size: 24px;
+      .description {
+        .modalclass {
+          padding-top: 10px;
+          width: 100%;
+          height: 60vh;
         }
       }
     }
