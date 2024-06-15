@@ -37,3 +37,14 @@
     }
   }
 }
+@media(max-width:490px){
+  .background{
+    .control{
+      display: flex;
+      flex-direction: column;
+      .flexborder{
+        width: 100%;
+      }
+    }
+  }
+}

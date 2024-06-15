@@ -33,7 +33,6 @@ const BrendPerfume = () => {
         <div className={styles.control}>
           {DB.map((item) => (
             <Link to={"/parfum-details/" + item.id} className={styles.flexborder}>
-
             <div className={styles.border}>
               <img src={item.imageurl} alt="" />
             </div>
