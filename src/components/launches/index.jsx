@@ -5,7 +5,12 @@ import { Link } from "react-router-dom";
 import DB from "../../db.json";
 const LaunchesPerfume = () => {
   const uniqueBrands = [...new Set(DB.map((product) => product.brands))];
-
+  const capitalizeWords = (str) => {
+    return str
+      .split(" ")
+      .map((word) => word.charAt(0).toUpperCase() + word.slice(1).toLowerCase())
+      .join(" ");
+  };
   return (
     <Wrapper>
       <div className={styles.background}>
@@ -72,12 +77,12 @@ const LaunchesPerfume = () => {
         <div className={styles.perfumelist}>
           <div className={styles.firstside}>
             <ul>
-              {uniqueBrands.slice(0, 48).map((brand) => (
-                <li>
+              {uniqueBrands.slice(0, 48).map((brand, index) => (
+                <li key={index}>
                   <Link
                     to={`/brend/${brand.replace(/\s+/g, "").toLowerCase()}`}
                   >
-                    {brand}
+                    {capitalizeWords(brand)}
                   </Link>
                 </li>
               ))}

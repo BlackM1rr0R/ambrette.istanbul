@@ -4,7 +4,7 @@ import DB from "../../db.json";
 import brands from "../../brends.json";
 import { Link } from "react-router-dom";
 import Wrapper from '../../components/UI/wrapper';
-
+import Azzaro from '../../assets/images/ajmal.jpg'
 const BrendLogo = () => {
   const uniqueBrands = [...new Set(DB.map((product) => product.brands))].sort();
 
@@ -45,7 +45,7 @@ const BrendLogo = () => {
                           alt={brand}
                         />
                       ) : (
-                        <div>No image available</div>
+                        <img src={Azzaro} alt="" />
                       )}
                     </div>
                     <h2>{brand}</h2>
