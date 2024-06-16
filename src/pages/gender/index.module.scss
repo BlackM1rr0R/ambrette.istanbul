@@ -1,79 +1,83 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.background {
+  padding-top: 80px;
+  padding-bottom: 80px;
+  .headers {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    .hr {
+      hr {
+        width: 500px;
+        border: 1px solid black;
+      }
+    }
+    .headersh2 {
+      h2 {
+        font-size: 32px;
+      }
+    }
   }
-  .background {
-    padding-top: 80px;
-    padding-bottom: 80px;
-    .headers {
+  .box {
+    padding-top: 60px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    .controlbox {
       display: flex;
-      justify-content: space-between;
+      flex-direction: column;
       align-items: center;
+      text-decoration: none;
+      gap: 10px;
+      .border {
+        background-color: white;
+        border: 1px solid gray;
+        border-radius: 10px;
+        padding: 20px;
+        img {
+          width: 200px;
+        }
+      }
+      h2{
+        color: black;
+      }
+    }
+  }
+}
+@media (max-width: 490px) {
+  .background {
+    .headers {
       .hr {
         hr {
-          width: 500px;
-          border: 1px solid black;
+          width: 80px;
         }
       }
       .headersh2 {
         h2 {
-          font-size: 32px;
+          font-size: 24px;
         }
       }
     }
     .box {
-      padding-top: 60px;
-      display: grid;
-      grid-template-columns: repeat(4, 1fr);
-      gap: 20px;
-      .controlbox{
-          display: flex;
-          flex-direction: column;
-          align-items: center;
-          gap: 10px;
-          .border{
-            background-color: white;
-              border: 1px solid gray;
-              border-radius: 10px;
-              padding: 20px;
-              img{
-                width: 200px;
-              }
-          }
-      }
-    }
-  }
-  @media(max-width:490px){
-    .background{
-      .headers{
-        .hr{
-          hr{
-            width: 80px;
+      display: flex;
+      gap: 30px;
+      flex-wrap: wrap;
+      .controlbox {
+        gap: 20px;
+        width: 45%;
+        .border {
+          img {
+            width: 100px;
           }
         }
-        .headersh2{
-          h2{
-            font-size: 24px;
-          }
-        }
-      }
-      .box{
-        display: flex;
-       gap: 30px;
-        flex-wrap: wrap;
-        .controlbox{
-          gap: 20px;
-          width: 45%;
-          .border{
-            img{
-              width: 100px;
-            }
-          }
-          h2{
-            font-weight: 500;
-          }
+        h2 {
+          font-weight: 500;
         }
       }
     }
   }
+}

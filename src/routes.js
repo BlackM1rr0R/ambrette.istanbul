@@ -22,7 +22,7 @@ const routes = {
   notFound: routeItem(3, 'notFound', "*", NotFound),
   parfumdetails:routeItem(4,"parfumdetails","/parfum-details/:id",ParfumDetails),
   magazins:routeItem(5,"magazins","/magazins",MagazinsLocation),
-  dior:routeItem(6,"dior","/dior",DiorPerfume),
+  dior:routeItem(6,"dior","/brend/:brendId",DiorPerfume),
   brendlogo:routeItem(7,"brendlogo","/brends",BrendLogo),
   gender:routeItem(8,"gender","/gender",Gender),
   brendperfume:routeItem(9,"brend-perfume","/brend-perfume/:brendId",BrendPerfume)

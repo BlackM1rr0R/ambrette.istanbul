@@ -63,17 +63,16 @@
     align-items: center;
     .firstside {
       padding-top: 30px;
-      display: grid;
-      gap: 150px;
-      grid-template-columns: repeat(6, 1fr);
       width: 90%;
       ul {
-        display: flex;
-        flex-direction: column;
+        display: grid;
+  
+        grid-template-columns: repeat(6, 1fr);
+        
         gap: 20px;
         a {
           text-decoration: none;
-          font-size: 16px;
+          font-size: 18px;
           color: black;
         }
         li {
@@ -81,21 +80,7 @@
         }
       }
     }
-    .twoside {
-      padding-top: 30px;
-      display: grid;
-      gap: 150px;
-      grid-template-columns: repeat(6, 1fr);
-      width: 90%;
-      ul {
-        display: flex;
-        flex-direction: column;
-        gap: 20px;
-        li {
-          font-size: 18px;
-        }
-      }
-    }
+
   }
 }
 @media (max-width: 490px) {

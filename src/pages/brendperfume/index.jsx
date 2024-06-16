@@ -1,18 +1,20 @@
-import React, { useState } from "react";
+import React from "react";
 import styles from "./index.module.css";
 import Wrapper from "../../components/UI/wrapper";
-import { Link } from "react-router-dom";
+import { Link, useParams } from "react-router-dom";
 import DB from "../../db.json";
-import { useParams } from "react-router-dom";
+import brands from "../../brends.json";
+
 const BrendPerfume = () => {
   const { brendId } = useParams();
+
   function filterByBrand(data, brand) {
     const normalizedBrand = brand.replace(/\s+/g, "").toLowerCase();
     return data.filter(
-      (item) =>
-        item.brands.replace(/\s+/g, "").toLowerCase() === normalizedBrand
+      (item) => item.brands.replace(/\s+/g, "").toLowerCase() === normalizedBrand
     );
   }
+
   const filteredResult = filterByBrand(DB, brendId);
 
   return (
@@ -23,9 +25,10 @@ const BrendPerfume = () => {
             <Link
               to={"/parfum-details/" + item.id}
               className={styles.flexborder}
+              key={item.id}
             >
               <div className={styles.border}>
-                <img src={item.imageurl} alt="" />
+                <img src={item.imageurl} alt={item.title} />
               </div>
               <h2>{item.title}</h2>
             </Link>

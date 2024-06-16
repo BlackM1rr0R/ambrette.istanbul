@@ -1,73 +1,382 @@
 {
-  "antoniobanderas": "/logo/antoniologo.jpg",
-  "armanibasi": "/logo/armanibasi.jpg",
-  "dunhill": "/logo/alfredlogo.jpg",
-  "ajmal": "/logo/ajmal.jpg",
-  "alexandra": "/logo/alexandralogo.jpg",
-  "amor": "/logo/amorelogo.png",
-  "amouage": "/logo/amouagelogo.jpg",
-  "attar": "/logo/attarlogo.jpg",
-  "avon": "/logo/avonlogo.jpg",
-  "azzaro": "/logo/azzarologo.jpg",
-  "boadicea": "/logo/boadicealogo.jpg",
-  "bond": "/logo/bondlogo.jpg",
-  "brioni": "/logo/brionilogo.jpg",
-  "myburberry": "/logo/burberrylogo.jpg",
-  "bvlgari": "/logo/bvlgarilogo.jpg",
-  "byredo": "/logo/byredologo.jpg",
-  "christiandior": "/logo/christianlogo.jpg",
-  "carolinaherrera": "/logo/carolinalogo.jpg",
-  "calvinklein": "/logo/calvinkleinlogo.jpg",
-  "captainblack": "/logo/captainlogo.jpg",
-  "cartier": "/logo/cartierlogo.jpg",
-  "chanel": "/logo/chanellogo.jpg",
-  "chloe": "/logo/chloelogo.jpg",
-  "clinique": "/logo/cliniquelogo.jpg",
-  "creed": "/logo/creedlogo.jpg",
-  "davidoff": "/logo/davidofflogo.jpg",
-  "trussardi": "/logo/donnakaranlogo.jpg",
-  "essmolecule": "/logo/escentriclogo.jpg",
-  "exnihilo": "/logo/exnihilologo.jpg",
-  "fendi": "/logo/fendilogo.jpg",
-  "givenchy": "/logo/givenchylogo.jpg",
-  "gucci": "/logo/guccilogo.jpg",
-  "hugoboss": "/logo/hugobosslogo.jpg",
-  "hunca": "/logo/huncalogo.jpg",
-  "inito": "/logo/initiologo.jpg",
-  "jomalone": "/logo/jomalonelogo.jpg",
-  "juliettehasagun": "/logo/juliettelogo.jpg",
-  "kayali": "/logo/kayalilogo.jpg",
-  "kenzo": "/logo/kenzologo.jpg",
-  "kilian": "/logo/killianlogo.jpg",
-  "lacoste": "/logo/lacostelogo.jpg",
-  "lancome": "/logo/lancomelogo.jpg",
-  "lanvin": "/logo/lanvinlogo.jpg",
-  "louisvuitton": "/logo/louisvuittonlogo.jpg",
-  "mancera": "/logo/manceralogo.jpg",
-  "memo": "/logo/memologo.jpg",
-  "montale": "/logo/montalelogo.jpg",
-  "moschino": "/logo/moschinologo.jpg",
-  "narcisorodriguez": "/logo/narcissologo.jpg",
-  "ninaricci": "/logo/ninariccilogo.jpg",
-  "ortoparisi": "/logo/ortoparisilogo.jpg",
-  "pacorabane": "/logo/pacologo.jpg",
-  "parfumsdemarley": "/logo/parfumsdemarleylogo.jpg",
-  "prada": "/logo/pradalogo.jpg",
-  "ralphlauren": "/logo/ralphlogo.jpg",
-  "rassasi": "/logo/rasasilogo.jpg",
-  "ricardoveron": "/logo/ricardoveronlogo.jpg",
-  "roja": "/logo/rojalogo.jpg",
-  "salvatoreferragamo": "/logo/salvadorlogo.png",
-  "sospiro": "/logo/sospirologo.jpg",
-  "shaik": "/logo/shaiklogo.jpg",
-  "sisley": "/logo/sisleylogo.jpg",
-  "tomford": "/logo/tomfordlogo.jpg",
-  "tizianaterenzi": "/logo/tizianalogo.jpg",
-  "victoria'ssecret": "/logo/victorialogo.jpg",
-  "versace": "/logo/versacelogo.jpg",
-  "valentino": "/logo/valentinologo.jpg",
-  "vertus": "/logo/vertuslogo.jpg",
-  "xerjoff": "/logo/xerjofflogo.jpg",
-  "ysl": "/logo/ysllogo.jpg",
-  "zadigvoltaire": "/logo/zadiglogo.jpg"
+  "antoniobanderas": {
+    "imageurl": "/logo/antoniologo.jpg",
+    "title": "Antonio Banderas",
+    "description": "LoremSasasdasdiamsiddsifjdnsijfgdfijgijdfgijudfjdfnijugijn"
+  },
+  "armanibasi": {
+    "imageurl": "/logo/armanibasi.jpg",
+    "title": "Armand",
+    "description": "LoremSasasdasdiamsiddsifjdnsijfgdfijgijdfgijudfjdfnijugijn"
+  },
+  "dunhill": {
+    "imageurl": "/logo/alfredlogo.jpg",
+    "title": "Dunhill",
+    "description": "LoremSasasdasdiamsiddsifjdnsijfgdfijgijdfgijudfjdfnijugijn"
+  },
+  "ajmal": {
+    "imageurl": "/logo/ajmal.jpg",
+    "title": "Ajmal",
+    "description": "LoremSasasdasdiamsiddsifjdnsijfgdfijgijdfgijudfjdfnijugijn"
+  },
+  "alexandra": {
+    "imageurl": "/logo/alexandralogo.jpg",
+    "title": "Alexandra",
+    "description": "LoremSasasdasdiamsiddsifjdnsijfgdfijgijdfgijudfjdfnijugijn"
+  },
+  "amor": {
+    "imageurl": "/logo/amorelogo.png",
+    "title": "Amor",
+    "description": "LoremSasasdasdiamsiddsifjdnsijfgdfijgijdfgijudfjdfnijugijn"
+  },
+  "amouage": {
+    "imageurl": "/logo/amouagelogo.jpg",
+    "title": "Amouage",
+    "description": "LoremSasasdasdiamsiddsifjdnsijfgdfijgijdfgijudfjdfnijugijn"
+  },
+  "attar": {
+    "imageurl": "/logo/attarlogo.jpg",
+    "title": "Attar",
+    "description": "LoremSasasdasdiamsiddsifjdnsijfgdfijgijdfgijudfjdfnijugijn"
+  },
+  "avon": {
+    "imageurl": "/logo/avonlogo.jpg",
+    "title": "Avon",
+    "description": "LoremSasasdasdiamsiddsifjdnsijfgdfijgijdfgijudfjdfnijugijn"
+  },
+  "azzaro": {
+    "imageurl": "/logo/azzarologo.jpg",
+    "title": "AZZARO",
+    "description": "LoremSasasdasdiamsiddsifjdnsijfgdfijgijdfgijudfjdfnijugijn"
+  },
+  "boadice": {
+    "imageurl": "/logo/boadicealogo.jpg",
+    "title": "Boadice",
+    "description": "LoremSasasdasdiamsiddsifjdnsijfgdfijgijdfgijudfjdfnijugijn"
+  },
+  "bond": {
+    "imageurl": "/logo/bondlogo.jpg",
+    "title": "Bond",
+    "description": "LoremSasasdasdiamsiddsifjdnsijfgdfijgijdfgijudfjdfnijugijn"
+  },
+  "brioni": {
+    "imageurl": "/logo/brionilogo.jpg",
+    "title": "Brioni",
+    "description": "LoremSasasdasdiamsiddsifjdnsijfgdfijgijdfgijudfjdfnijugijn"
+  },
+  "myburberry": {
+    "imageurl": "/logo/burberrylogo.jpg",
+    "title": "My Burberry",
+    "description": "LoremSasasdasdiamsiddsifjdnsijfgdfijgijdfgijudfjdfnijugijn"
+  },
+  "bvlgari": {
+    "imageurl": "/logo/bvlgarilogo.jpg",
+    "title": "Bvlgari",
+    "description": "LoremSasasdasdiamsiddsifjdnsijfgdfijgijdfgijudfjdfnijugijn"
+  },
+  "byredo": {
+    "imageurl": "/logo/byredologo.jpg",
+    "title": "By Redo",
+    "description": "LoremSasasdasdiamsiddsifjdnsijfgdfijgijdfgijudfjdfnijugijn"
+  },
+  "christiandior": {
+    "imageurl": "/logo/christianlogo.jpg",
+    "title": "Christian Dior",
+    "description": "LoremSasasdasdiamsiddsifjdnsijfgdfijgijdfgijudfjdfnijugijn"
+  },
+  "carolinaherrera": {
+    "imageurl": "/logo/carolinalogo.jpg",
+    "title": "Carolina Herrera",
+    "description": "LoremSasasdasdiamsiddsifjdnsijfgdfijgijdfgijudfjdfnijugijn"
+  },
+  "calvinklein": {
+    "imageurl": "/logo/calvinkleinlogo.jpg",
+    "title": "Calvin Klein",
+    "description": "LoremSasasdasdiamsiddsifjdnsijfgdfijgijdfgijudfjdfnijugijn"
+  },
+  "captainblack": {
+    "imageurl": "/logo/captainlogo.jpg",
+    "title": "Captain Black",
+    "description": "LoremSasasdasdiamsiddsifjdnsijfgdfijgijdfgijudfjdfnijugijn"
+  },
+  "cartier": {
+    "imageurl": "/logo/cartierlogo.jpg",
+    "title": "Cartier",
+    "description": "LoremSasasdasdiamsiddsifjdnsijfgdfijgijdfgijudfjdfnijugijn"
+  },
+  "chanel": {
+    "imageurl": "/logo/chanellogo.jpg",
+    "title": "Chanel",
+    "description": "LoremSasasdasdiamsiddsifjdnsijfgdfijgijdfgijudfjdfnijugijn"
+  },
+  "chloe": {
+    "imageurl": "/logo/chloelogo.jpg",
+    "title": "Chloe",
+    "description": "LoremSasasdasdiamsiddsifjdnsijfgdfijgijdfgijudfjdfnijugijn"
+  },
+  "clinique": {
+    "imageurl": "/logo/cliniquelogo.jpg",
+    "title": "Clinique",
+    "description": "LoremSasasdasdiamsiddsifjdnsijfgdfijgijdfgijudfjdfnijugijn"
+  },
+  "creed": {
+    "imageurl": "/logo/creedlogo.jpg",
+    "title": "CREED",
+    "description": "LoremSasasdasdiamsiddsifjdnsijfgdfijgijdfgijudfjdfnijugijn"
+  },
+  "dalal": {
+    "imageurl": "/logo/creedlogo.jpg",
+    "title": "Dalal",
+    "description": "LoremSasasdasdiamsiddsifjdnsijfgdfijgijdfgijudfjdfnijugijn"
+  },
+  "davidoff": {
+    "imageurl": "/logo/davidofflogo.jpg",
+    "title": "Davidoff",
+    "description": "LoremSasasdasdiamsiddsifjdnsijfgdfijgijdfgijudfjdfnijugijn"
+  },
+  "d&g": {
+    "imageurl": "/logo/dolcelogo.jpg",
+    "title": "D&G",
+    "description": "LoremSasasdasdiamsiddsifjdnsijfgdfijgijdfgijudfjdfnijugijn"
+  },
+  "escada": {
+    "imageurl": "/logo/escadalogo.jpg",
+    "title": "ESCADA",
+    "description": "LoremSasasdasdiamsiddsifjdnsijfgdfijgijdfgijudfjdfnijugijn"
+  },
+  "escentric": {
+    "imageurl": "/logo/escentriclogo.jpg",
+    "title": "ESCADA",
+    "description": "LoremSasasdasdiamsiddsifjdnsijfgdfijgijdfgijudfjdfnijugijn"
+  },
+  "dip": {
+    "imageurl": "/logo/diptyquelogo.png",
+    "title": "DIP",
+    "description": "LoremSasasdasdiamsiddsifjdnsijfgdfijgijdfgijudfjdfnijugijn"
+  },
+  "trussardi": {
+    "imageurl": "/logo/donnakaranlogo.jpg",
+    "title": "Trussardi",
+    "description": "LoremSasasdasdiamsiddsifjdnsijfgdfijgijdfgijudfjdfnijugijn"
+  },
+  "essmolecule": {
+    "imageurl": "/logo/escentriclogo.jpg",
+    "title": "ESS Molecule",
+    "description": "LoremSasasdasdiamsiddsifjdnsijfgdfijgijdfgijudfjdfnijugijn"
+  },
+  "exnihilo": {
+    "imageurl": "/logo/exnihilologo.jpg",
+    "title": "Ex Nihilo",
+    "description": "LoremSasasdasdiamsiddsifjdnsijfgdfijgijdfgijudfjdfnijugijn"
+  },
+  "fendi": {
+    "imageurl": "/logo/fendilogo.jpg",
+    "title": "Fendi",
+    "description": "LoremSasasdasdiamsiddsifjdnsijfgdfijgijdfgijudfjdfnijugijn"
+  },
+  "givenchy": {
+    "imageurl": "/logo/givenchylogo.jpg",
+    "title": "Givenchy",
+    "description": "LoremSasasdasdiamsiddsifjdnsijfgdfijgijdfgijudfjdfnijugijn"
+  },
+  "gucci": {
+    "imageurl": "/logo/guccilogo.jpg",
+    "title": "Gucci",
+    "description": "LoremSasasdasdiamsiddsifjdnsijfgdfijgijdfgijudfjdfnijugijn"
+  },
+  "hugoboss": {
+    "imageurl": "/logo/hugobosslogo.jpg",
+    "title": "Hugo Boss",
+    "description": "LoremSasasdasdiamsiddsifjdnsijfgdfijgijdfgijudfjdfnijugijn"
+  },
+  "hunca": {
+    "imageurl": "/logo/huncalogo.jpg",
+    "title": "Hunca",
+    "description": "LoremSasasdasdiamsiddsifjdnsijfgdfijgijdfgijudfjdfnijugijn"
+  },
+  "inito": {
+    "imageurl": "/logo/initiologo.jpg",
+    "title": "Inito",
+    "description": "LoremSasasdasdiamsiddsifjdnsijfgdfijgijdfgijudfjdfnijugijn"
+  },
+  "jomalone": {
+    "imageurl": "/logo/jomalonelogo.jpg",
+    "title": "Jo Malone",
+    "description": "LoremSasasdasdiamsiddsifjdnsijfgdfijgijdfgijudfjdfnijugijn"
+  },
+  "juliettehasagun": {
+    "imageurl": "/logo/juliettelogo.jpg",
+    "title": "Juliette Has a Gun",
+    "description": "LoremSasasdasdiamsiddsifjdnsijfgdfijgijdfgijudfjdfnijugijn"
+  },
+  "kayali": {
+    "imageurl": "/logo/kayalilogo.jpg",
+    "title": "Kayali",
+    "description": "LoremSasasdasdiamsiddsifjdnsijfgdfijgijdfgijudfjdfnijugijn"
+  },
+  "kenzo": {
+    "imageurl": "/logo/kenzologo.jpg",
+    "title": "Kenzo",
+    "description": "LoremSasasdasdiamsiddsifjdnsijfgdfijgijdfgijudfjdfnijugijn"
+  },
+  "kilian": {
+    "imageurl": "/logo/killianlogo.jpg",
+    "title": "By Killian",
+    "description": "LoremSasasdasdiamsiddsifjdnsijfgdfijgijdfgijudfjdfnijugijn"
+  },
+  "lacoste": {
+    "imageurl": "/logo/lacostelogo.jpg",
+    "title": "Lacoste",
+    "description": "LoremSasasdasdiamsiddsifjdnsijfgdfijgijdfgijudfjdfnijugijn"
+  },
+  "lancome": {
+    "imageurl": "/logo/lancomelogo.jpg",
+    "title": "Lancome",
+    "description": "LoremSasasdasdiamsiddsifjdnsijfgdfijgijdfgijudfjdfnijugijn"
+  },
+  "lanvin": {
+    "imageurl": "/logo/lanvinlogo.jpg",
+    "title": "Lanvin",
+    "description": "LoremSasasdasdiamsiddsifjdnsijfgdfijgijdfgijudfjdfnijugijn"
+  },
+  "louisvuitton": {
+    "imageurl": "/logo/louisvuittonlogo.jpg",
+    "title": "Louis Vuitton",
+    "description": "LoremSasasdasdiamsiddsifjdnsijfgdfijgijdfgijudfjdfnijugijn"
+  },
+  "mancera": {
+    "imageurl": "/logo/manceralogo.jpg",
+    "title": "Mancera",
+    "description": "LoremSasasdasdiamsiddsifjdnsijfgdfijgijdfgijudfjdfnijugijn"
+  },
+  "memo": {
+    "imageurl": "/logo/memologo.jpg",
+    "title": "Memo",
+    "description": "LoremSasasdasdiamsiddsifjdnsijfgdfijgijdfgijudfjdfnijugijn"
+  },
+  "montale": {
+    "imageurl": "/logo/montalelogo.jpg",
+    "title": "Montale",
+    "description": "LoremSasasdasdiamsiddsifjdnsijfgdfijgijdfgijudfjdfnijugijn"
+  },
+  "moschino": {
+    "imageurl": "/logo/moschinologo.jpg",
+    "title": "Moschino",
+    "description": "LoremSasasdasdiamsiddsifjdnsijfgdfijgijdfgijudfjdfnijugijn"
+  },
+  "narcisorodriguez": {
+    "imageurl": "/logo/narcissologo.jpg",
+    "title": "Narciso Rodriguez",
+    "description": "LoremSasasdasdiamsiddsifjdnsijfgdfijgijdfgijudfjdfnijugijn"
+  },
+  "ninaricci": {
+    "imageurl": "/logo/ninariccilogo.jpg",
+    "title": "Nina Ricci",
+    "description": "LoremSasasdasdiamsiddsifjdnsijfgdfijgijdfgijudfjdfnijugijn"
+  },
+  "ortoparisi": {
+    "imageurl": "/logo/ortoparisilogo.jpg",
+    "title": "Orto Parisi",
+    "description": "LoremSasasdasdiamsiddsifjdnsijfgdfijgijdfgijudfjdfnijugijn"
+  },
+  "pacorabane": {
+    "imageurl": "/logo/pacologo.jpg",
+    "title": "Paco Rabane",
+    "description": "LoremSasasdasdiamsiddsifjdnsijfgdfijgijdfgijudfjdfnijugijn"
+  },
+  "parfumsdemarley": {
+    "imageurl": "/logo/parfumsdemarleylogo.jpg",
+    "title": "Parfums de Marley",
+    "description": "LoremSasasdasdiamsiddsifjdnsijfgdfijgijdfgijudfjdfnijugijn"
+  },
+  "prada": {
+    "imageurl": "/logo/pradalogo.jpg",
+    "title": "Prada",
+    "description": "LoremSasasdasdiamsiddsifjdnsijfgdfijgijdfgijudfjdfnijugijn"
+  },
+  "ralphlauren": {
+    "imageurl": "/logo/ralphlogo.jpg",
+    "title": "Ralph Lauren",
+    "description": "LoremSasasdasdiamsiddsifjdnsijfgdfijgijdfgijudfjdfnijugijn"
+  },
+  "rassasi": {
+    "imageurl": "/logo/rasasilogo.jpg",
+    "title": "Rassasi",
+    "description": "LoremSasasdasdiamsiddsifjdnsijfgdfijgijdfgijudfjdfnijugijn"
+  },
+  "ricardoveron": {
+    "imageurl": "/logo/ricardoveronlogo.jpg",
+    "title": "Ricardo Veron",
+    "description": "LoremSasasdasdiamsiddsifjdnsijfgdfijgijdfgijudfjdfnijugijn"
+  },
+  "roja": {
+    "imageurl": "/logo/rojalogo.jpg",
+    "title": "Roja",
+    "description": "LoremSasasdasdiamsiddsifjdnsijfgdfijgijdfgijudfjdfnijugijn"
+  },
+  "salvatoreferragamo": {
+    "imageurl": "/logo/salvadorlogo.png",
+    "title": "Salvatore Ferragamo",
+    "description": "LoremSasasdasdiamsiddsifjdnsijfgdfijgijdfgijudfjdfnijugijn"
+  },
+  "sospiro": {
+    "imageurl": "/logo/sospirologo.jpg",
+    "title": "Sospiro",
+    "description": "LoremSasasdasdiamsiddsifjdnsijfgdfijgijdfgijudfjdfnijugijn"
+  },
+  "shaik": {
+    "imageurl": "/logo/shaiklogo.jpg",
+    "title": "Shaik",
+    "description": "LoremSasasdasdiamsiddsifjdnsijfgdfijgijdfgijudfjdfnijugijn"
+  },
+  "sisley": {
+    "imageurl": "/logo/sisleylogo.jpg",
+    "title": "Sisley",
+    "description": "LoremSasasdasdiamsiddsifjdnsijfgdfijgijdfgijudfjdfnijugijn"
+  },
+  "tomford": {
+    "imageurl": "/logo/tomfordlogo.jpg",
+    "title": "Tom Ford",
+    "description": "LoremSasasdasdiamsiddsifjdnsijfgdfijgijdfgijudfjdfnijugijn"
+  },
+  "tizianaterenzi": {
+    "imageurl": "/logo/tizianalogo.jpg",
+    "title": "Tiziana Terenzi",
+    "description": "LoremSasasdasdiamsiddsifjdnsijfgdfijgijdfgijudfjdfnijugijn"
+  },
+  "victoria'ssecret": {
+    "imageurl": "/logo/victorialogo.jpg",
+    "title": "Versace",
+    "description": "LoremSasasdasdiamsiddsifjdnsijfgdfijgijdfgijudfjdfnijugijn"
+  },
+  "versace": {
+    "imageurl": "/logo/versacelogo.jpg",
+    "title": "Versace",
+    "description": "LoremSasasdasdiamsiddsifjdnsijfgdfijgijdfgijudfjdfnijugijn"
+  },
+  "valentino": {
+    "imageurl": "/logo/valentinologo.jpg",
+    "title": "Valentino",
+    "description": "LoremSasasdasdiamsiddsifjdnsijfgdfijgijdfgijudfjdfnijugijn"
+  },
+  "vertus": {
+    "imageurl": "/logo/vertuslogo.jpg",
+    "title": "Xerjoff",
+    "description": "LoremSasasdasdiamsiddsifjdnsijfgdfijgijdfgijudfjdfnijugijn"
+  },
+  "xerjoff": {
+    "imageurl": "/logo/xerjofflogo.jpg",
+    "title": "Xerjoff",
+    "description": "LoremSasasdasdiamsiddsifjdnsijfgdfijgijdfgijudfjdfnijugijn"
+  },
+  "ysl": {
+    "imageurl": "/logo/ysllogo.jpg",
+    "title": "YSL",
+    "description": "LoremSasasdasdiamsiddsifjdnsijfgdfijgijdfgijudfjdfnijugijn"
+  },
+  "zadigvoltaire": {
+    "imageurl": "/logo/zadiglogo.jpg",
+    "title": "Zadig Voltaire",
+    "description": "LoremSasasdasdiamsiddsifjdnsijfgdfijgijdfgijudfjdfnijugijn"
+  }
 }

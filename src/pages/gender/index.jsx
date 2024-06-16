@@ -1,46 +1,28 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import styles from "./index.module.css";
-import Wrapper from "../../components/UI/wrapper";
-import PerfumePhoto from '../../assets/images/antonio.jpeg'
+import Wrapper from "../../components/UI/wrapper"; // Wrapper bileşeninin doğru yolunu kontrol edin
+import DB from "../../db.json";
+import { Link } from "react-router-dom";
+
 const Gender = () => {
-const [data,setData]=useState([
- {
-    image:`${PerfumePhoto}`,
-    name:"Antonio Banderas"
- },
- {
-    image:`${PerfumePhoto}`,
-    name:"Antonio Banderas"
- },
- {
-    image:`${PerfumePhoto}`,
-    name:"Antonio Banderas"
- },
- {
-    image:`${PerfumePhoto}`,
-    name:"Antonio Banderas"
- },
- {
-    image:`${PerfumePhoto}`,
-    name:"Antonio Banderas"
- },
- {
-    image:`${PerfumePhoto}`,
-    name:"Antonio Banderas"
- },
- {
-    image:`${PerfumePhoto}`,
-    name:"Antonio Banderas"
- },
- {
-    image:`${PerfumePhoto}`,
-    name:"Antonio Banderas"
- },
- {
-    image:`${PerfumePhoto}`,
-    name:"Antonio Banderas"
- },
-])
+  const [formattedTitles, setFormattedTitles] = useState([]);
+
+  useEffect(() => {
+    const formatted = DB.map((item) => ({
+      id: item.id,
+      formattedTitle: formatTitle(item.title)
+    }));
+    setFormattedTitles(formatted);
+  }, []);
+
+  const formatTitle = (title) => {
+    return title
+      .toLowerCase()
+      .split(' ')
+      .map(word => word.charAt(0).toUpperCase() + word.slice(1))
+      .join(' ');
+  };
+
   return (
     <Wrapper>
       <div className={styles.background}>
@@ -56,17 +38,14 @@ const [data,setData]=useState([
           </div>
         </div>
         <div className={styles.box}>
-                {data.map((item)=>(
-                  
-                    <div className={styles.controlbox}>
-
-                    <div className={styles.border}>
-                                    <img src={item.image} alt="" />
-                    </div>
-                    <h2>{item.name}</h2>
-                    </div>
-                 
-                ))}
+          {formattedTitles.map((item) => (
+            <Link to={"/parfum-details/" + item.id} className={styles.controlbox} key={item.id}>
+              <div className={styles.border}>
+                <img src={DB.innerimageurl} alt="" /> {/* Güvenli erişim: DB[item.id - 1] kullanarak doğru indeksi alın */}
+              </div>
+              <h2>{item.formattedTitle}</h2>
+            </Link>
+          ))}
         </div>
       </div>
     </Wrapper>

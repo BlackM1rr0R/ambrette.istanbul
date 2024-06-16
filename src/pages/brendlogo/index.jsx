@@ -3,7 +3,8 @@ import styles from "./index.module.css";
 import DB from "../../db.json";
 import brands from "../../brends.json";
 import { Link } from "react-router-dom";
-import Wrapper from '../../components/UI/wrapper'
+import Wrapper from '../../components/UI/wrapper';
+
 const BrendLogo = () => {
   const uniqueBrands = [...new Set(DB.map((product) => product.brands))].sort();
 
@@ -27,21 +28,30 @@ const BrendLogo = () => {
               <hr />
             </div>
             <div className={styles.controlbox}>
-              {groupedBrands[letter].map((brand, brandIndex) => (
-                <Link
-                  to={`/brend-perfume/${brand.replace(/\s+/g, "").toLowerCase()}`}
-                  key={brandIndex}
-                  className={styles.controlclass}
-                >
-                  <div className={styles.border}>
-                    <img
-                      src={brands[brand.replace(/\s+/g, "").toLowerCase()]}
-                      alt={brand}
-                    />
-                  </div>
-                  <h2>{brand}</h2>
-                </Link>
-              ))}
+              {groupedBrands[letter].map((brand, brandIndex) => {
+                const brandKey = brand.replace(/\s+/g, "").toLowerCase();
+                const brandData = brands[brandKey];
+
+                return (
+                  <Link
+                    to={brandData ? `/brend-perfume/${brandKey}` : "#"}
+                    key={brandIndex}
+                    className={styles.controlclass}
+                  >
+                    <div className={styles.border}>
+                      {brandData ? (
+                        <img
+                          src={brandData.imageurl}
+                          alt={brand}
+                        />
+                      ) : (
+                        <div>No image available</div>
+                      )}
+                    </div>
+                    <h2>{brand}</h2>
+                  </Link>
+                );
+              })}
             </div>
           </div>
         ))}
