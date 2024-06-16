@@ -8,46 +8,26 @@
   padding-top: 80px;
   padding-bottom: 80px;
 }
-.background .headers {
+.background .control .brendheaders {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
-.background .headers .hr hr {
-  width: 500px;
+.background .control .brendheaders hr {
+  width: 100%;
   border: 1px solid black;
+  margin: 0;
 }
-.background .headers .headersh2 h2 {
+.background .control .brendheaders h2 {
   font-size: 32px;
 }
-.background .box {
+.background .control .controlbox {
   padding-top: 60px;
-  display: flex;
-  flex-direction: column;
-  gap: 20px;
-}
-.background .box .brendheaders {
-  display: flex;
-  justify-content: center;
-  gap: 30px;
-  align-items: center;
-}
-.background .box .brendheaders hr {
-  border: 2px solid black;
-  width: 50px;
-}
-.background .box .brendheaders h2 {
-  font-size: 32px;
-  font-weight: 600;
-}
-.background .box .controlbox {
   display: grid;
   grid-template-columns: repeat(5, 1fr);
-  gap: 30px;
-  padding-top: 40px;
-  padding-bottom: 40px;
+  gap: 20px;
 }
-.background .box .controlbox .controlclass {
+.background .control .controlbox .controlclass {
   text-decoration: none;
   color: black;
   display: flex;
@@ -55,47 +35,44 @@
   align-items: center;
   gap: 10px;
 }
-.background .box .controlbox .controlclass .border {
+.background .control .controlbox .controlclass .border {
   display: flex;
   justify-content: center;
   border: 1px solid gray;
   background-color: white;
 }
-.background .box .controlbox .controlclass .border img {
+.background .control .controlbox .controlclass .border img {
   padding: 20px;
   width: 200px;
   -o-object-fit: cover;
      object-fit: cover;
 }
-.background .box .controlbox .controlclass h2 {
+.background .control .controlbox .controlclass h2 {
   font-weight: 600;
 }
 
+/* Media query for smaller screens */
 @media (max-width: 490px) {
-  .background .headers .hr hr {
-    width: 80px;
+  .background .control .brendheaders hr {
+    width: 50px;
   }
-  .background .headers .headersh2 h2 {
+  .background .control .brendheaders h2 {
     font-size: 24px;
   }
-  .background .box {
-    display: flex;
-    flex-direction: column;
-    gap: 30px;
-    flex-wrap: wrap;
-  }
-  .background .box .controlbox {
+  .background .control .controlbox {
     display: flex;
     flex-wrap: wrap;
     gap: 30px;
+    padding-top: 40px;
+    padding-bottom: 40px;
   }
-  .background .box .controlbox .controlclass {
+  .background .control .controlbox .controlclass {
     width: 45%;
   }
-  .background .box .controlbox .controlclass .border img {
+  .background .control .controlbox .controlclass .border img {
     width: 150px;
   }
-  .background .box .controlbox .controlclass h2 {
+  .background .control .controlbox .controlclass h2 {
     font-weight: 600;
   }
 }/*# sourceMappingURL=index.module.css.map */

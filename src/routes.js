@@ -25,7 +25,7 @@ const routes = {
   dior:routeItem(6,"dior","/dior",DiorPerfume),
   brendlogo:routeItem(7,"brendlogo","/brends",BrendLogo),
   gender:routeItem(8,"gender","/gender",Gender),
-  brendperfume:routeItem(9,"brend-perfume","/brend-perfume",BrendPerfume)
+  brendperfume:routeItem(9,"brend-perfume","/brend-perfume/:brendId",BrendPerfume)
 };
 
 const routeArr = Object.values(routes);

@@ -1,52 +1,37 @@
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
+
+
 .background {
   padding-top: 80px;
   padding-bottom: 80px;
-  .headers {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    .hr {
-      hr {
-        width: 500px;
-        border: 1px solid black;
-      }
-    }
-    .headersh2 {
-      h2 {
-        font-size: 32px;
-      }
-    }
-  }
-  .box {
-    padding-top: 60px;
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
+
+  .control {
     .brendheaders {
       display: flex;
-      justify-content: center;
-      gap: 30px;
+      justify-content: space-between;
       align-items: center;
+
       hr {
-        border: 2px solid black;
-        width: 50px;
+        width: 100%;
+        border: 1px solid black;
+        margin: 0;
       }
+
       h2 {
         font-size: 32px;
-        font-weight: 600;
       }
     }
+
     .controlbox {
+      padding-top: 60px;
       display: grid;
       grid-template-columns: repeat(5, 1fr);
-      gap: 30px;
-      padding-top: 40px;
-      padding-bottom: 40px;
+      gap: 20px;
 
       .controlclass {
         text-decoration: none;
@@ -55,6 +40,7 @@
         flex-direction: column;
         align-items: center;
         gap: 10px;
+
         .border {
           display: flex;
           justify-content: center;
@@ -75,37 +61,37 @@
     }
   }
 }
+
+/* Media query for smaller screens */
 @media (max-width: 490px) {
   .background {
-    .headers {
-      .hr {
+    .control {
+      .brendheaders {
         hr {
-          width: 80px;
+          width: 50px;
         }
-      }
-      .headersh2 {
+
         h2 {
           font-size: 24px;
         }
       }
-    }
-    .box {
-      display: flex;
-      flex-direction: column;
-      gap: 30px;
-      flex-wrap: wrap;
-   
+
       .controlbox {
         display: flex;
         flex-wrap: wrap;
         gap: 30px;
+        padding-top: 40px;
+        padding-bottom: 40px;
+
         .controlclass {
           width: 45%;
+
           .border {
             img {
               width: 150px;
             }
           }
+
           h2 {
             font-weight: 600;
           }
