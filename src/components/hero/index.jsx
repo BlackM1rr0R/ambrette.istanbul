@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import styles from "./index.module.css";
 import Wrapper from "../UI/wrapper";
-
+import BannerBackground from '../../assets/images/banner5.png'
 import Banner from '../../assets/images/banner.webp'
 import { Autoplay, Navigation} from "swiper/modules";
 
@@ -17,7 +17,7 @@ import { Link } from "react-router-dom";
 const Hero = () => {
   const[data,setData]=useState([
     {
-      image:`${Banner}`
+      image:`${BannerBackground}`
     },
     {
       image:`${Banner}`
