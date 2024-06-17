@@ -32,6 +32,8 @@
         grid-template-columns: repeat(5, 1fr);
         gap: 30px;
         li {
+          border: 1px solid gray;
+          padding: 10px;
           font-size: 16px;
           a {
             text-decoration: none;
@@ -73,13 +75,15 @@
         grid-template-columns: repeat(6, 1fr);
 
         gap: 20px;
-        a {
-          text-decoration: none;
-          font-size: 18px;
-          color: black;
-        }
         li {
-          font-size: 18px;
+          border: 1px solid gray;
+          padding: 10px;
+
+          a {
+            text-decoration: none;
+            font-size: 18px;
+            color: black;
+          }
         }
       }
     }
@@ -108,9 +112,16 @@
         justify-content: center;
         align-items: center;
         gap: 30px;
-        ul{
+        ul {
           display: grid;
-          grid-template-columns: repeat(3,1fr);
+          grid-template-columns: repeat(2, 1fr);
+          li{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            line-height: 25px;
+          }
         }
       }
     }
@@ -134,10 +145,20 @@
         justify-content: center;
         align-items: center;
         flex-wrap: wrap;
-        gap: 30px;
-        ul{
+        ul {
           display: grid;
-          grid-template-columns: repeat(3,1fr);
+          grid-template-columns: repeat(2, 1fr);
+        gap: 30px;
+
+          li{
+            height: 80px;
+            
+             display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            line-height: 25px;
+          }
         }
       }
       .twoside {

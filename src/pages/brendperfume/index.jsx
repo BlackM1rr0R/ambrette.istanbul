@@ -3,7 +3,6 @@ import styles from "./index.module.css";
 import Wrapper from "../../components/UI/wrapper";
 import { Link, useParams } from "react-router-dom";
 import DB from "../../db.json";
-import brands from "../../brends.json";
 
 const BrendPerfume = () => {
   const { brendId } = useParams();
