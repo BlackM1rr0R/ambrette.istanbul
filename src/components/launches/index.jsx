@@ -11,6 +11,15 @@ const LaunchesPerfume = () => {
       .map((word) => word.charAt(0).toUpperCase() + word.slice(1).toLowerCase())
       .join(" ");
   };
+  const shuffleArray = (array) => {
+    for (let i = array.length - 1; i > 0; i--) {
+      const j = Math.floor(Math.random() * (i + 1));
+      [array[i], array[j]] = [array[j], array[i]];
+    }
+    return array;
+  };
+  const shuffledDB = shuffleArray([...DB]);
+  const randomBrands = shuffledDB.slice(0, 25);
   return (
     <Wrapper>
       <div className={styles.background}>
@@ -27,39 +36,16 @@ const LaunchesPerfume = () => {
         </div>
         <div className={styles.perfumelist1}>
           <div className={styles.firstside1}>
-            <ul>
-              <li>1. Khamrah Lattafa Perfumes</li>
-              <li>2. Khamrah Lattafa Perfumes</li>
-              <li>3. Khamrah Lattafa Perfumes</li>
-              <li>4. Khamrah Lattafa Perfumes</li>
-              <li>5. Khamrah Lattafa Perfumes</li>
-            </ul>
-            <ul>
-              <li>6. Khamrah Lattafa Perfumes</li>
-              <li>7. Khamrah Lattafa Perfumes</li>
-              <li>8. Khamrah Lattafa Perfumes</li>
-              <li>9. Khamrah Lattafa Perfumes</li>
-              <li>10. Khamrah Lattafa Perfumes</li>
-            </ul>
-            <ul>
-              <li>11. Khamrah Lattafa Perfumes</li>
-              <li>12. Khamrah Lattafa Perfumes</li>
-              <li>13. Khamrah Lattafa Perfumes</li>
-              <li>14. Khamrah Lattafa Perfumes</li>
-              <li>15. Khamrah Lattafa Perfumes</li>
-            </ul>
-            <ul>
-              <li>16. Khamrah Lattafa Perfumes</li>
-              <li>17. Khamrah Lattafa Perfumes</li>
-              <li>18. Khamrah Lattafa Perfumes</li>
-              <li>19. Khamrah Lattafa Perfumes</li>
-              <li>20. Khamrah Lattafa Perfumes</li>
-            </ul>
-            <ul>
-              <li>21. Khamrah Lattafa Perfumes</li>
-              <li>22. Khamrah Lattafa Perfumes</li>
-              <li>23. Khamrah Lattafa Perfumes</li>
-              <li>24. Khamrah Lattafa Perfumes</li>
+          <ul>
+              {randomBrands.slice(0, 25).map((brand, index) => (
+                <li key={index}>
+                  <Link
+                    to={`/parfum-details/${brand.id}`}
+                  >
+                    {capitalizeWords(brand.title)}
+                  </Link>
+                </li>
+              ))}
             </ul>
           </div>
         </div>

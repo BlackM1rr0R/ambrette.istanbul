@@ -26,14 +26,17 @@
     padding-bottom: 60px;
     .firstside1 {
       padding-top: 30px;
-      display: flex;
-      justify-content: space-between;
+
       ul {
-        display: flex;
-        flex-direction: column;
+        display: grid;
+        grid-template-columns: repeat(5, 1fr);
         gap: 30px;
         li {
           font-size: 16px;
+          a {
+            text-decoration: none;
+            color: black;
+          }
         }
       }
     }
@@ -66,9 +69,9 @@
       width: 90%;
       ul {
         display: grid;
-  
+
         grid-template-columns: repeat(6, 1fr);
-        
+
         gap: 20px;
         a {
           text-decoration: none;
@@ -80,7 +83,6 @@
         }
       }
     }
-
   }
 }
 @media (max-width: 490px) {
@@ -106,10 +108,9 @@
         justify-content: center;
         align-items: center;
         gap: 30px;
-        
       }
     }
-     .headers {
+    .headers {
       .hr {
         hr {
           width: auto;
@@ -131,7 +132,7 @@
         flex-wrap: wrap;
         gap: 30px;
       }
-        .twoside {
+      .twoside {
         display: flex;
         justify-content: center;
         align-items: center;
