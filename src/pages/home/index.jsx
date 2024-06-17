@@ -6,6 +6,8 @@ import Brends from "../../components/brends";
 import WeekPerfume from "../../components/week";
 import CollectionsPerfume from "../../components/collections";
 import LaunchesPerfume from "../../components/launches";
+import NewComponent from "../../components/newcomponent";
+import FragmanFotos from "../../components/fragmanfotos";
 
 const Home = () => {
   return (
@@ -14,8 +16,9 @@ const Home = () => {
      <Brends/>
      <WeekPerfume/>
      <CollectionsPerfume/>
+    <NewComponent/>
+     <FragmanFotos/>
      <LaunchesPerfume/>
-
     </div>
   );
 };

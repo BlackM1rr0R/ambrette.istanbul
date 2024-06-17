@@ -63,31 +63,27 @@ const Header = () => {
               </Link>
               <div className={styles.dropdowncontrol}>
                 {Object.keys(groupedBrands).map((letter, index) => (
-                  <div className={styles.control} key={index}>
+                  <div className={styles.control5} key={index}>
                     <div className={styles.brendheaders}>
-                      <hr />
+                     
                       <h2>{letter}</h2>
-                      <hr />
+                    
                     </div>
-                    <div className={styles.controlbox}>
-                      {groupedBrands[letter].map((brand, brandIndex) => {
-                        const brandKey = brand
-                          .replace(/\s+/g, "")
-                          .toLowerCase();
-                        const brandData = brand[brandKey];
 
-                        return (
-                          <Link
-                            to={`/brend-perfume/${brandKey}`}
-                            key={brandIndex}
-                            className={styles.controlclass}
-                          >
-                          
-                            <h2>{brand}</h2>
-                          </Link>
-                        );
-                      })}
-                    </div>
+                    {groupedBrands[letter].map((brand, brandIndex) => {
+                      const brandKey = brand.replace(/\s+/g, "").toLowerCase();
+                      const brandData = brand[brandKey];
+
+                      return (
+                        <Link
+                          to={`/brend-perfume/${brandKey}`}
+                          key={brandIndex}
+                          className={styles.controlclass}
+                        >
+                          <h2>{brand}</h2>
+                        </Link>
+                      );
+                    })}
                   </div>
                 ))}
               </div>

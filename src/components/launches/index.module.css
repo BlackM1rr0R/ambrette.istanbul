@@ -92,6 +92,10 @@
     align-items: center;
     gap: 30px;
   }
+  .background .perfumelist1 .firstside1 ul {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+  }
   .background .headers .hr hr {
     width: auto;
     width: 30px;
@@ -106,6 +110,10 @@
     align-items: center;
     flex-wrap: wrap;
     gap: 30px;
+  }
+  .background .perfumelist .firstside ul {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
   }
   .background .perfumelist .twoside {
     display: flex;

@@ -140,22 +140,26 @@
         transform: translateX(-25%);
         width: 1440px;
         z-index: 999999999999999999999;
-        .aclass {
+        .control5 {
           display: flex;
           flex-direction: column;
-
-          h2 {
-            padding-top: 15px;
-            padding-left: 15px;
-            color: red;
-          }
-
-          li {
-            a {
-              font-size: 14px;
+          gap: 20px;
+          padding: 20px;
+          .brendheaders {
+            h2{
+              color: red;
+              font-size: 18px;
             }
           }
+        a{
+          color: black;
+          font-size: 14px;
         }
+        a:hover{
+          color: red;
+        }
+        }
+    
       }
     }
   }
@@ -204,20 +208,20 @@
           gap: 30px;
           background: rgb(252, 249, 245);
           left: 50%;
-  
+
           transform: translateX(-50%);
           width: 300px;
           z-index: 999999999999999999999;
           .aclass {
             display: flex;
             flex-direction: column;
-  
+
             h2 {
               padding-top: 15px;
               padding-left: 15px;
               color: red;
             }
-  
+
             li {
               a {
                 font-size: 14px;
@@ -227,6 +231,5 @@
         }
       }
     }
-  
   }
 }

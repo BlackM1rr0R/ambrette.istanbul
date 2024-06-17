@@ -141,17 +141,22 @@
   width: 1440px;
   z-index: 1000000000000000000000;
 }
-.menuContainer .menu .dropdownbrends:hover .dropdowncontrol .aclass {
+.menuContainer .menu .dropdownbrends:hover .dropdowncontrol .control5 {
   display: flex;
   flex-direction: column;
+  gap: 20px;
+  padding: 20px;
 }
-.menuContainer .menu .dropdownbrends:hover .dropdowncontrol .aclass h2 {
-  padding-top: 15px;
-  padding-left: 15px;
+.menuContainer .menu .dropdownbrends:hover .dropdowncontrol .control5 .brendheaders h2 {
   color: red;
+  font-size: 18px;
 }
-.menuContainer .menu .dropdownbrends:hover .dropdowncontrol .aclass li a {
+.menuContainer .menu .dropdownbrends:hover .dropdowncontrol .control5 a {
+  color: black;
   font-size: 14px;
+}
+.menuContainer .menu .dropdownbrends:hover .dropdowncontrol .control5 a:hover {
+  color: red;
 }
 
 @media (max-width: 490px) {

@@ -1,0 +1,32 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.background {
+  padding-bottom: 50px;
+}
+.background .control {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 30px;
+}
+.background .control .border {
+  border: 1px solid gray;
+}
+.background .control .border img {
+  width: 100%;
+}
+.background .control .border h2 {
+  padding: 20px;
+  line-height: 30px;
+  font-weight: 600;
+}
+
+@media (max-width: 490px) {
+  .background .control {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
+}/*# sourceMappingURL=index.module.css.map */

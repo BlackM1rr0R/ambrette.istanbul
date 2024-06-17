@@ -108,6 +108,10 @@
         justify-content: center;
         align-items: center;
         gap: 30px;
+        ul{
+          display: grid;
+          grid-template-columns: repeat(3,1fr);
+        }
       }
     }
     .headers {
@@ -131,6 +135,10 @@
         align-items: center;
         flex-wrap: wrap;
         gap: 30px;
+        ul{
+          display: grid;
+          grid-template-columns: repeat(3,1fr);
+        }
       }
       .twoside {
         display: flex;
