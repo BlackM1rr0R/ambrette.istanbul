@@ -8,12 +8,14 @@ import CollectionsPerfume from "../../components/collections";
 import LaunchesPerfume from "../../components/launches";
 import NewComponent from "../../components/newcomponent";
 import FragmanFotos from "../../components/fragmanfotos";
+import Notes from "../../components/notes";
 
 const Home = () => {
   return (
     <div className={styles.background}>
      <Hero/>
      <Brends/>
+     <Notes/>
      <WeekPerfume/>
      <CollectionsPerfume/>
     <NewComponent/>
