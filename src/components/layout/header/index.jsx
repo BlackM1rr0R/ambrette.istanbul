@@ -90,7 +90,7 @@ const Header = () => {
             </div>
             <Link to={"/about"}>About us</Link>
             <Link to={"/magazins"}>Magazins</Link>
-            <li>Contact us</li>
+            <Link to={"/contact"}>Contact us</Link>
           </div>
         </div>
       </Wrapper>

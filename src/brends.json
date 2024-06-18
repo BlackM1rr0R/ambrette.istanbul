@@ -5,7 +5,7 @@
     "description": "LoremSasasdasdiamsiddsifjdnsijfgdfijgijdfgijudfjdfnijugijn"
   },
   "armanibasi": {
-    "imageurl": "/logo/armanibasi.jpg",
+    "imageurl": "/logo/armandbasi.jpg",
     "title": "Armani Basi",
     "description": "LoremSasasdasdiamsiddsifjdnsijfgdfijgijdfgijudfjdfnijugijn"
   },
@@ -15,7 +15,7 @@
     "description": "LoremSasasdasdiamsiddsifjdnsijfgdfijgijdfgijudfjdfnijugijn"
   },
   "ajmal": {
-    "imageurl": "/logo/ajmal.jpg",
+    "imageurl": "/logo/ajmal1.png",
     "title": "Ajmal",
     "description": "LoremSasasdasdiamsiddsifjdnsijfgdfijgijdfgijudfjdfnijugijn"
   },
@@ -51,7 +51,7 @@
   },
   "azzaro": {
     "imageurl": "/logo/azzarologo.jpg",
-    "title": "AZZARO",
+    "title": "Azzaro",
     "description": "LoremSasasdasdiamsiddsifjdnsijfgdfijgijdfgijudfjdfnijugijn"
   },
   "boadice": {
@@ -65,7 +65,7 @@
     "description": "LoremSasasdasdiamsiddsifjdnsijfgdfijgijdfgijudfjdfnijugijn"
   },
   "bois": {
-    "imageurl": "/logo/bois.jpg",
+    "imageurl": "/logo/boislogo.png",
     "title": "Bois",
     "description": "LoremSasasdasdiamsiddsifjdnsijfgdfijgijdfgijudfjdfnijugijn"
   },
@@ -90,7 +90,7 @@
     "description": "LoremSasasdasdiamsiddsifjdnsijfgdfijgijdfgijudfjdfnijugijn"
   },
   "blackafgano": {
-    "imageurl": "/logo/blackafganologo.jpg",
+    "imageurl": "/logo/blackafganologo.png",
     "title": "Black Afgano",
     "description": "LoremSasasdasdiamsiddsifjdnsijfgdfijgijdfgijudfjdfnijugijn"
   },
@@ -105,7 +105,7 @@
     "description": "LoremSasasdasdiamsiddsifjdnsijfgdfijgijdfgijudfjdfnijugijn"
   },
   "cocoine": {
-    "imageurl": "/logo/carolinalogo.jpg",
+    "imageurl": "/logo/cocoinelogo1.png",
     "title": "Cocoine",
     "description": "LoremSasasdasdiamsiddsifjdnsijfgdfijgijdfgijudfjdfnijugijn"
   },
@@ -146,7 +146,7 @@
     "description": "LoremSasasdasdiamsiddsifjdnsijfgdfijgijdfgijudfjdfnijugijn"
   },
   "dalal": {
-    "imageurl": "/logo/creedlogo.jpg",
+    "imageurl": "/logo/dalallogo.png",
     "title": "Dalal",
     "description": "LoremSasasdasdiamsiddsifjdnsijfgdfijgijdfgijudfjdfnijugijn"
   },
@@ -156,7 +156,7 @@
     "description": "LoremSasasdasdiamsiddsifjdnsijfgdfijgijdfgijudfjdfnijugijn"
   },
   "devils": {
-    "imageurl": "/logo/davidofflogo.jpg",
+    "imageurl": "/logo/devilslogo.png",
     "title": "Devils",
     "description": "LoremSasasdasdiamsiddsifjdnsijfgdfijgijdfgijudfjdfnijugijn"
   },
@@ -171,20 +171,16 @@
     "description": "LoremSasasdasdiamsiddsifjdnsijfgdfijgijdfgijudfjdfnijugijn"
   },
   "eclat": {
-    "imageurl": "/logo/esceadalogo.jpg",
+    "imageurl": "/logo/eclatlogo.png",
     "title": "Eclat",
     "description": "LoremSasasdasdiamsiddsifjdnsijfgdfijgijdfgijudfjdfnijugijn"
   },
   "eaudecologne": {
-    "imageurl": "/logo/escadalogo.jpg",
+    "imageurl": "/logo/eaudecologne.png",
     "title": "Eau De Cologne",
     "description": "LoremSasasdasdiamsiddsifjdnsijfgdfijgijdfgijudfjdfnijugijn"
   },
-  "escentric": {
-    "imageurl": "/logo/escentriclogo.jpg",
-    "title": "ESCADA",
-    "description": "LoremSasasdasdiamsiddsifjdnsijfgdfijgijdfgijudfjdfnijugijn"
-  },
+
   "explore": {
     "imageurl": "/logo/escentriclogo.jpg",
     "title": "Explore",
@@ -196,18 +192,18 @@
     "description": "LoremSasasdasdiamsiddsifjdnsijfgdfijgijdfgijudfjdfnijugijn"
   },
   "donnakaran": {
-    "imageurl": "/logo/diptyquelogo.png",
+    "imageurl": "/logo/donnakaranlogo1.png",
     "title": "DONNA KARAN",
     "description": "LoremSasasdasdiamsiddsifjdnsijfgdfijgijdfgijudfjdfnijugijn"
   },
   "trussardi": {
-    "imageurl": "/logo/donnakaranlogo.jpg",
+    "imageurl": "/logo/donnakaranlogo1.png",
     "title": "Trussardi",
     "description": "LoremSasasdasdiamsiddsifjdnsijfgdfijgijdfgijudfjdfnijugijn"
   },
-  "essmolecule": {
+  "escentric": {
     "imageurl": "/logo/escentriclogo.jpg",
-    "title": "ESS Molecule",
+    "title": "escentric",
     "description": "LoremSasasdasdiamsiddsifjdnsijfgdfijgijdfgijudfjdfnijugijn"
   },
   "exnihilo": {
@@ -220,9 +216,29 @@
     "title": "Fendi",
     "description": "LoremSasasdasdiamsiddsifjdnsijfgdfijgijdfgijudfjdfnijugijn"
   },
+  "firdaus": {
+    "imageurl": "/logo/firdauslogo.png",
+    "title": "Firdaus",
+    "description": "LoremSasasdasdiamsiddsifjdnsijfgdfijgijdfgijudfjdfnijugijn"
+  },
+  "franciskurkdjian": {
+    "imageurl": "/logo/fklogo3.png",
+    "title": "Francis Kurkdjian",
+    "description": "LoremSasasdasdiamsiddsifjdnsijfgdfijgijdfgijudfjdfnijugijn"
+  },
+  "fleur": {
+    "imageurl": "/logo/fleurlogo.png",
+    "title": "Fleur",
+    "description": "LoremSasasdasdiamsiddsifjdnsijfgdfijgijdfgijudfjdfnijugijn"
+  },
   "givenchy": {
     "imageurl": "/logo/givenchylogo.jpg",
     "title": "Givenchy",
+    "description": "LoremSasasdasdiamsiddsifjdnsijfgdfijgijdfgijudfjdfnijugijn"
+  },
+  "g.m": {
+    "imageurl": "/logo/gmlogo2.png",
+    "title": "G.M",
     "description": "LoremSasasdasdiamsiddsifjdnsijfgdfijgijdfgijudfjdfnijugijn"
   },
   "gucci": {

@@ -10,11 +10,12 @@
 }
 .background .control .brendheaders {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
+  gap: 30px;
 }
 .background .control .brendheaders hr {
-  width: 100%;
+  width: 50px;
   border: 1px solid black;
   margin: 0;
 }
@@ -23,6 +24,7 @@
 }
 .background .control .controlbox {
   padding-top: 60px;
+  padding-bottom: 80px;
   display: grid;
   grid-template-columns: repeat(5, 1fr);
   gap: 20px;
@@ -40,6 +42,7 @@
   justify-content: center;
   border: 1px solid gray;
   background-color: white;
+  height: 188px;
 }
 .background .control .controlbox .controlclass .border img {
   padding: 20px;

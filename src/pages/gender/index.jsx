@@ -10,7 +10,8 @@ const Gender = () => {
   useEffect(() => {
     const formatted = DB.map((item) => ({
       id: item.id,
-      formattedTitle: formatTitle(item.title)
+      formattedTitle: formatTitle(item.title),
+      innerimageurl:item.innerimageurl
     }));
     setFormattedTitles(formatted);
   }, []);
@@ -41,7 +42,7 @@ const Gender = () => {
           {formattedTitles.map((item) => (
             <Link to={"/parfum-details/" + item.id} className={styles.controlbox} key={item.id}>
               <div className={styles.border}>
-                <img src={DB.innerimageurl} alt="" /> {/* Güvenli erişim: DB[item.id - 1] kullanarak doğru indeksi alın */}
+                <img src={item.innerimageurl} alt="" />
               </div>
               <h2>{item.formattedTitle}</h2>
             </Link>
