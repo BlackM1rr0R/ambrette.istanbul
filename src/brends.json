@@ -256,9 +256,9 @@
     "title": "Hunca",
     "description": "LoremSasasdasdiamsiddsifjdnsijfgdfijgijdfgijudfjdfnijugijn"
   },
-  "inito": {
+  "initio": {
     "imageurl": "/logo/initiologo.jpg",
-    "title": "Inito",
+    "title": "Initio",
     "description": "LoremSasasdasdiamsiddsifjdnsijfgdfijgijdfgijudfjdfnijugijn"
   },
   "jomalone": {
@@ -267,7 +267,12 @@
     "description": "LoremSasasdasdiamsiddsifjdnsijfgdfijgijdfgijudfjdfnijugijn"
   },
   "juliettehasagun": {
-    "imageurl": "/logo/juliettelogo.jpg",
+    "imageurl": "/logo/juliettelogo1.jpg",
+    "title": "Juliette Has a Gun",
+    "description": "LoremSasasdasdiamsiddsifjdnsijfgdfijgijdfgijudfjdfnijugijn"
+  },
+  "jimmychoo": {
+    "imageurl": "/logo/jimmychoo.png",
     "title": "Juliette Has a Gun",
     "description": "LoremSasasdasdiamsiddsifjdnsijfgdfijgijdfgijudfjdfnijugijn"
   },
@@ -279,6 +284,11 @@
   "kenzo": {
     "imageurl": "/logo/kenzologo.jpg",
     "title": "Kenzo",
+    "description": "LoremSasasdasdiamsiddsifjdnsijfgdfijgijdfgijudfjdfnijugijn"
+  },
+  "kajal": {
+    "imageurl": "/logo/kajallogo.png",
+    "title": "Kajal",
     "description": "LoremSasasdasdiamsiddsifjdnsijfgdfijgijdfgijudfjdfnijugijn"
   },
   "bykillian": {
@@ -306,6 +316,11 @@
     "title": "Lanvin",
     "description": "LoremSasasdasdiamsiddsifjdnsijfgdfijgijdfgijudfjdfnijugijn"
   },
+  "lalique": {
+    "imageurl": "/logo/laliquelogo.png",
+    "title": "Lalique",
+    "description": "LoremSasasdasdiamsiddsifjdnsijfgdfijgijdfgijudfjdfnijugijn"
+  },
   "louisvuitton": {
     "imageurl": "/logo/louisvuittonlogo.jpg",
     "title": "Louis Vuitton",
@@ -316,9 +331,24 @@
     "title": "Mancera",
     "description": "LoremSasasdasdiamsiddsifjdnsijfgdfijgijdfgijudfjdfnijugijn"
   },
+  "mango": {
+    "imageurl": "/logo/mangologo.png",
+    "title": "Mancera",
+    "description": "LoremSasasdasdiamsiddsifjdnsijfgdfijgijdfgijudfjdfnijugijn"
+  },
   "memo": {
     "imageurl": "/logo/memologo.jpg",
     "title": "Memo",
+    "description": "LoremSasasdasdiamsiddsifjdnsijfgdfijgijdfgijudfjdfnijugijn"
+  },
+  "molecule": {
+    "imageurl": "/logo/moleculelogo.png",
+    "title": "Molecule",
+    "description": "LoremSasasdasdiamsiddsifjdnsijfgdfijgijdfgijudfjdfnijugijn"
+  },
+  "mono": {
+    "imageurl": "/logo/monologo.png",
+    "title": "Mono",
     "description": "LoremSasasdasdiamsiddsifjdnsijfgdfijgijdfgijudfjdfnijugijn"
   },
   "montale": {
@@ -336,6 +366,11 @@
     "title": "Narciso Rodriguez",
     "description": "LoremSasasdasdiamsiddsifjdnsijfgdfijgijdfgijudfjdfnijugijn"
   },
+  "narcos": {
+    "imageurl": "/logo/narcoslogo.png",
+    "title": "Narcos",
+    "description": "LoremSasasdasdiamsiddsifjdnsijfgdfijgijdfgijudfjdfnijugijn"
+  },
   "ninaricci": {
     "imageurl": "/logo/ninariccilogo.jpg",
     "title": "Nina Ricci",
@@ -346,9 +381,9 @@
     "title": "Orto Parisi",
     "description": "LoremSasasdasdiamsiddsifjdnsijfgdfijgijdfgijudfjdfnijugijn"
   },
-  "pacorabane": {
+  "pacorabanne": {
     "imageurl": "/logo/pacologo.jpg",
-    "title": "Paco Rabane",
+    "title": "Paco Rabanne",
     "description": "LoremSasasdasdiamsiddsifjdnsijfgdfijgijdfgijudfjdfnijugijn"
   },
   "parfumsdemarley": {
@@ -393,7 +428,12 @@
   },
   "shaik": {
     "imageurl": "/logo/shaiklogo.jpg",
-    "title": "Shaik",
+    "title": "shaik",
+    "description": "LoremSasasdasdiamsiddsifjdnsijfgdfijgijdfgijudfjdfnijugijn"
+  },
+  "shiseido": {
+    "imageurl": "/logo/shiseidologo.png",
+    "title": "Shiseido",
     "description": "LoremSasasdasdiamsiddsifjdnsijfgdfijgijdfgijudfjdfnijugijn"
   },
   "sisley": {
@@ -401,9 +441,19 @@
     "title": "Sisley",
     "description": "LoremSasasdasdiamsiddsifjdnsijfgdfijgijdfgijudfjdfnijugijn"
   },
+  "stefanoricci": {
+    "imageurl": "/logo/stefanologo.png",
+    "title": "Stefano Ricci",
+    "description": "LoremSasasdasdiamsiddsifjdnsijfgdfijgijdfgijudfjdfnijugijn"
+  },
   "tomford": {
     "imageurl": "/logo/tomfordlogo.jpg",
     "title": "Tom Ford",
+    "description": "LoremSasasdasdiamsiddsifjdnsijfgdfijgijdfgijudfjdfnijugijn"
+  },
+  "thamen": {
+    "imageurl": "/logo/thamenlogo.png",
+    "title": "Thamen",
     "description": "LoremSasasdasdiamsiddsifjdnsijfgdfijgijdfgijudfjdfnijugijn"
   },
   "tizianaterenzi": {
@@ -431,6 +481,11 @@
     "title": "Xerjoff",
     "description": "LoremSasasdasdiamsiddsifjdnsijfgdfijgijdfgijudfjdfnijugijn"
   },
+  "whitemusk": {
+    "imageurl": "/logo/whitemusklogo.png",
+    "title": "White Musk",
+    "description": "LoremSasasdasdiamsiddsifjdnsijfgdfijgijdfgijudfjdfnijugijn"
+  },
   "xerjoff": {
     "imageurl": "/logo/xerjofflogo.jpg",
     "title": "Xerjoff",
@@ -444,6 +499,16 @@
   "zadigvoltaire": {
     "imageurl": "/logo/zadiglogo.jpg",
     "title": "Zadig Voltaire",
+    "description": "LoremSasasdasdiamsiddsifjdnsijfgdfijgijdfgijudfjdfnijugijn"
+  },
+  "zemzem": {
+    "imageurl": "/logo/zemzemlogo.png",
+    "title": "Zem Zem",
+    "description": "LoremSasasdasdiamsiddsifjdnsijfgdfijgijdfgijudfjdfnijugijn"
+  },
+  "zielenski": {
+    "imageurl": "/logo/zielenskilogo.png",
+    "title": "Zielenski",
     "description": "LoremSasasdasdiamsiddsifjdnsijfgdfijgijdfgijudfjdfnijugijn"
   }
 }

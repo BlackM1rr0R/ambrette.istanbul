@@ -731,7 +731,7 @@
     },
     "innerimageurl": "/logo/antoniobanderas1.webp",
     "imageurl": "/logo/parfuim1webp.webp",
-    "brands": "Byredo",
+    "brands": "By Redo",
     "gender": null
   },
   {
@@ -746,7 +746,7 @@
     },
     "innerimageurl": "/logo/antoniobanderas1.webp",
     "imageurl": "/logo/parfuim1webp.webp",
-    "brands": "Byredo",
+    "brands": "By Redo",
     "gender": null
   },
   {
@@ -761,7 +761,7 @@
     },
     "innerimageurl": "/logo/antoniobanderas1.webp",
     "imageurl": "/logo/parfuim1webp.webp",
-    "brands": "Byredo",
+    "brands": "By Redo",
     "gender": null
   },
   {
@@ -776,7 +776,7 @@
     },
     "innerimageurl": "/logo/antoniobanderas1.webp",
     "imageurl": "/logo/parfuim1webp.webp",
-    "brands": "Byredo",
+    "brands": "By Redo",
     "gender": null
   },
   {
@@ -791,7 +791,7 @@
     },
     "innerimageurl": "/logo/antoniobanderas1.webp",
     "imageurl": "/logo/parfuim1webp.webp",
-    "brands": "Byredo",
+    "brands": "By Redo",
     "gender": null
   },
   {
@@ -806,7 +806,7 @@
     },
     "innerimageurl": "/logo/antoniobanderas1.webp",
     "imageurl": "/logo/parfuim1webp.webp",
-    "brands": "Byredo",
+    "brands": "By Redo",
     "gender": null
   },
   {
@@ -821,7 +821,7 @@
     },
     "innerimageurl": "/logo/antoniobanderas1.webp",
     "imageurl": "/logo/parfuim1webp.webp",
-    "brands": "Byredo",
+    "brands": "By Redo",
     "gender": null
   },
   {
@@ -1890,8 +1890,68 @@
     "gender": "Unisex"
   },
   {
-    "id": 4101992,
-    "title": "MOLECULES 03 DELUX",
+    "id": 4052363,
+    "title": "MOLECULES 02 l",
+    "description": "The Golden Secret men's fragrance by Banderas is an unmistakable distillation of seduction, thanks to the perfect blend of spicy red peppercorn and nutmeg accords and the warmth of cedar wood and leather. A spicy, woody fragrance with a leather scent, presented in a luxurious gold bottle made for special moments.",
+    "fragrance": {
+      "family": "Floral,Amber",
+      "topnotes": "Mandarin",
+      "midnotes": "Rose,Jasmine",
+      "basenotes": "Patchouli"
+    },
+    "innerimageurl": "/logo/antoniobanderas1.webp",
+    "imageurl": "/logo/parfuim1webp.webp",
+    "brands": "ESCENTRIC",
+    "gender": "Unisex"
+  },
+  {
+    "id": 4053886,
+    "title": "MOLECULES 01 l",
+    "description": "The Golden Secret men's fragrance by Banderas is an unmistakable distillation of seduction, thanks to the perfect blend of spicy red peppercorn and nutmeg accords and the warmth of cedar wood and leather. A spicy, woody fragrance with a leather scent, presented in a luxurious gold bottle made for special moments.",
+    "fragrance": {
+      "family": "Floral,Amber",
+      "topnotes": "Mandarin",
+      "midnotes": "Rose,Jasmine",
+      "basenotes": "Patchouli"
+    },
+    "innerimageurl": "/logo/antoniobanderas1.webp",
+    "imageurl": "/logo/parfuim1webp.webp",
+    "brands": "ESCENTRIC",
+    "gender": "Unisex"
+  },
+  {
+    "id": 4058273,
+    "title": "MOLECULES 01 ll",
+    "description": "The Golden Secret men's fragrance by Banderas is an unmistakable distillation of seduction, thanks to the perfect blend of spicy red peppercorn and nutmeg accords and the warmth of cedar wood and leather. A spicy, woody fragrance with a leather scent, presented in a luxurious gold bottle made for special moments.",
+    "fragrance": {
+      "family": "Floral,Amber",
+      "topnotes": "Mandarin",
+      "midnotes": "Rose,Jasmine",
+      "basenotes": "Patchouli"
+    },
+    "innerimageurl": "/logo/antoniobanderas1.webp",
+    "imageurl": "/logo/parfuim1webp.webp",
+    "brands": "ESCENTRIC",
+    "gender": "Unisex"
+  },
+  {
+    "id": 4383864,
+    "title": "MOLECULES 04 S",
+    "description": "The Golden Secret men's fragrance by Banderas is an unmistakable distillation of seduction, thanks to the perfect blend of spicy red peppercorn and nutmeg accords and the warmth of cedar wood and leather. A spicy, woody fragrance with a leather scent, presented in a luxurious gold bottle made for special moments.",
+    "fragrance": {
+      "family": "Floral,Amber",
+      "topnotes": "Mandarin",
+      "midnotes": "Rose,Jasmine",
+      "basenotes": "Patchouli"
+    },
+    "innerimageurl": "/logo/antoniobanderas1.webp",
+    "imageurl": "/logo/parfuim1webp.webp",
+    "brands": "ESCENTRIC",
+    "gender": "Unisex"
+  },
+  {
+    "id": 4054760,
+    "title": "MOLECULES 02",
     "description": "The Golden Secret men's fragrance by Banderas is an unmistakable distillation of seduction, thanks to the perfect blend of spicy red peppercorn and nutmeg accords and the warmth of cedar wood and leather. A spicy, woody fragrance with a leather scent, presented in a luxurious gold bottle made for special moments.",
     "fragrance": {
       "family": "Floral,Amber",
@@ -2606,7 +2666,7 @@
     },
     "innerimageurl": "/logo/antoniobanderas1.webp",
     "imageurl": "/logo/parfuim1webp.webp",
-    "brands": "J.HAS A GUN",
+    "brands": "Juliette Has a Gun",
     "gender": "Unisex"
   },
   {
@@ -3071,7 +3131,7 @@
     },
     "innerimageurl": "/logo/antoniobanderas1.webp",
     "imageurl": "/logo/parfuim1webp.webp",
-    "brands": "Kokain",
+    "brands": "Cocoine",
     "gender": "Unisex"
   },
   {
@@ -3851,7 +3911,7 @@
     },
     "innerimageurl": "/logo/antoniobanderas1.webp",
     "imageurl": "/logo/parfuim1webp.webp",
-    "brands": "Molecules",
+    "brands": "Molecule",
     "gender": "Unisex"
   },
   {
@@ -4121,7 +4181,7 @@
     },
     "innerimageurl": "/logo/antoniobanderas1.webp",
     "imageurl": "/logo/parfuim1webp.webp",
-    "brands": "Montblanc",
+    "brands": "Montale",
     "gender": "Male"
   },
   {
@@ -4136,7 +4196,7 @@
     },
     "innerimageurl": "/logo/antoniobanderas1.webp",
     "imageurl": "/logo/parfuim1webp.webp",
-    "brands": "Montblanc",
+    "brands": "Montale",
     "gender": "Male"
   },
   {
@@ -4166,7 +4226,7 @@
     },
     "innerimageurl": "/logo/antoniobanderas1.webp",
     "imageurl": "/logo/parfuim1webp.webp",
-    "brands": "M.ROSES",
+    "brands": "White Musk",
     "gender": "Unisex"
   },
   {
@@ -4261,7 +4321,7 @@
   },
   {
     "id": 4045834,
-    "title": "NINA RICCI RICCI RICCI R",
+    "title": "NINA RICCI R",
     "description": "The Golden Secret men's fragrance by Banderas is an unmistakable distillation of seduction, thanks to the perfect blend of spicy red peppercorn and nutmeg accords and the warmth of cedar wood and leather. A spicy, woody fragrance with a leather scent, presented in a luxurious gold bottle made for special moments.",
     "fragrance": {
       "family": "Floral,Amber",
@@ -4406,7 +4466,7 @@
     },
     "innerimageurl": "/logo/antoniobanderas1.webp",
     "imageurl": "/logo/parfuim1webp.webp",
-    "brands": "Paco Rabane",
+    "brands": "Paco Rabanne",
     "gender": "Female"
   },
   {
@@ -4421,7 +4481,7 @@
     },
     "innerimageurl": "/logo/antoniobanderas1.webp",
     "imageurl": "/logo/parfuim1webp.webp",
-    "brands": "Paco Rabane",
+    "brands": "Paco Rabanne",
     "gender": "Female"
   },
   {
@@ -4571,7 +4631,7 @@
     },
     "innerimageurl": "/logo/antoniobanderas1.webp",
     "imageurl": "/logo/parfuim1webp.webp",
-    "brands": "P. Rabanne",
+    "brands": "Paco Rabanne",
     "gender": "Male"
   },
   {
@@ -4586,7 +4646,7 @@
     },
     "innerimageurl": "/logo/antoniobanderas1.webp",
     "imageurl": "/logo/parfuim1webp.webp",
-    "brands": "P. Rabanne",
+    "brands": "Paco Rabanne",
     "gender": "Male"
   },
   {
@@ -4601,7 +4661,7 @@
     },
     "innerimageurl": "/logo/antoniobanderas1.webp",
     "imageurl": "/logo/parfuim1webp.webp",
-    "brands": "P. Rabanne",
+    "brands": "Paco Rabanne",
     "gender": "Male"
   },
   {
@@ -4616,7 +4676,7 @@
     },
     "innerimageurl": "/logo/antoniobanderas1.webp",
     "imageurl": "/logo/parfuim1webp.webp",
-    "brands": "P. Rabanne",
+    "brands": "Paco Rabanne",
     "gender": "Male"
   },
   {
@@ -4631,7 +4691,7 @@
     },
     "innerimageurl": "/logo/antoniobanderas1.webp",
     "imageurl": "/logo/parfuim1webp.webp",
-    "brands": "P. Rabanne",
+    "brands": "Paco Rabanne",
     "gender": "Male"
   },
   {
@@ -4785,21 +4845,6 @@
     "gender": "Men"
   },
   {
-    "id": 4326337,
-    "title": "R.RECKLESS POUR HOMME",
-    "description": "The Golden Secret men's fragrance by Banderas is an unmistakable distillation of seduction, thanks to the perfect blend of spicy red peppercorn and nutmeg accords and the warmth of cedar wood and leather. A spicy, woody fragrance with a leather scent, presented in a luxurious gold bottle made for special moments.",
-    "fragrance": {
-      "family": "Floral,Amber",
-      "topnotes": "Mandarin",
-      "midnotes": "Rose,Jasmine",
-      "basenotes": "Patchouli"
-    },
-    "innerimageurl": "/logo/antoniobanderas1.webp",
-    "imageurl": "/logo/parfuim1webp.webp",
-    "brands": "R. Reckless",
-    "gender": "Men"
-  },
-  {
     "id": 4266762,
     "title": "SAH PARFUM",
     "description": "The Golden Secret men's fragrance by Banderas is an unmistakable distillation of seduction, thanks to the perfect blend of spicy red peppercorn and nutmeg accords and the warmth of cedar wood and leather. A spicy, woody fragrance with a leather scent, presented in a luxurious gold bottle made for special moments.",
@@ -4811,7 +4856,7 @@
     },
     "innerimageurl": "/logo/antoniobanderas1.webp",
     "imageurl": "/logo/parfuim1webp.webp",
-    "brands": "Sah",
+    "brands": "Shaik",
     "gender": "Unisex"
   },
   {
@@ -4841,7 +4886,7 @@
     },
     "innerimageurl": "/logo/antoniobanderas1.webp",
     "imageurl": "/logo/parfuim1webp.webp",
-    "brands": "S. Erba",
+    "brands": "Sospiro",
     "gender": "Unisex"
   },
   {
@@ -4856,7 +4901,7 @@
     },
     "innerimageurl": "/logo/antoniobanderas1.webp",
     "imageurl": "/logo/parfuim1webp.webp",
-    "brands": "S. Erba",
+    "brands": "Sospiro",
     "gender": "Unisex"
   },
   {
@@ -4901,7 +4946,7 @@
     },
     "innerimageurl": "/logo/antoniobanderas1.webp",
     "imageurl": "/logo/parfuim1webp.webp",
-    "brands": "Shaikh",
+    "brands": "Shaik",
     "gender": "Men"
   },
   {
@@ -5011,7 +5056,7 @@
   },
   {
     "id": 4447211,
-    "title": "STEFAN RICCI CLASSIC",
+    "title": "STEFANO RICCI CLASSIC",
     "description": "The Golden Secret men's fragrance by Banderas is an unmistakable distillation of seduction, thanks to the perfect blend of spicy red peppercorn and nutmeg accords and the warmth of cedar wood and leather. A spicy, woody fragrance with a leather scent, presented in a luxurious gold bottle made for special moments.",
     "fragrance": {
       "family": "Floral,Amber",
@@ -5021,7 +5066,7 @@
     },
     "innerimageurl": "/logo/antoniobanderas1.webp",
     "imageurl": "/logo/parfuim1webp.webp",
-    "brands": "Stefan Ricci",
+    "brands": "Stefano Ricci",
     "gender": "Men"
   },
   {
@@ -5051,7 +5096,7 @@
     },
     "innerimageurl": "/logo/antoniobanderas1.webp",
     "imageurl": "/logo/parfuim1webp.webp",
-    "brands": "T Terenzi",
+    "brands": "Tiziana Terenzi",
     "gender": "Unisex"
   },
   {
@@ -5591,7 +5636,7 @@
     },
     "innerimageurl": "/logo/antoniobanderas1.webp",
     "imageurl": "/logo/parfuim1webp.webp",
-    "brands": "T. Terenzi",
+    "brands": "Tiziana Terenzi",
     "gender": "Unisex"
   },
   {
@@ -5606,7 +5651,7 @@
     },
     "innerimageurl": "/logo/antoniobanderas1.webp",
     "imageurl": "/logo/parfuim1webp.webp",
-    "brands": "T. Terenzi",
+    "brands": "Tiziana Terenzi",
     "gender": "Unisex"
   },
   {
@@ -5621,7 +5666,7 @@
     },
     "innerimageurl": "/logo/antoniobanderas1.webp",
     "imageurl": "/logo/parfuim1webp.webp",
-    "brands": "T. Terenzi",
+    "brands": "Tiziana Terenzi",
     "gender": "Unisex"
   },
   {
@@ -5636,7 +5681,7 @@
     },
     "innerimageurl": "/logo/antoniobanderas1.webp",
     "imageurl": "/logo/parfuim1webp.webp",
-    "brands": "T. Terenzi",
+    "brands": "Tiziana Terenzi",
     "gender": "Unisex"
   },
   {
@@ -5651,7 +5696,7 @@
     },
     "innerimageurl": "/logo/antoniobanderas1.webp",
     "imageurl": "/logo/parfuim1webp.webp",
-    "brands": "T. Terenzi",
+    "brands": "Tiziana Terenzi",
     "gender": "Unisex"
   },
   {
@@ -5666,7 +5711,7 @@
     },
     "innerimageurl": "/logo/antoniobanderas1.webp",
     "imageurl": "/logo/parfuim1webp.webp",
-    "brands": "T. Terenzi",
+    "brands": "Tiziana Terenzi",
     "gender": "Unisex"
   },
   {
@@ -5681,7 +5726,7 @@
     },
     "innerimageurl": "/logo/antoniobanderas1.webp",
     "imageurl": "/logo/parfuim1webp.webp",
-    "brands": "T. Terenzi",
+    "brands": "Tiziana Terenzi",
     "gender": "Unisex"
   },
   {
@@ -5696,7 +5741,7 @@
     },
     "innerimageurl": "/logo/antoniobanderas1.webp",
     "imageurl": "/logo/parfuim1webp.webp",
-    "brands": "T. Terenzi",
+    "brands": "Tiziana Terenzi",
     "gender": "Unisex"
   },
   {
@@ -6296,7 +6341,7 @@
     },
     "innerimageurl": "/logo/antoniobanderas1.webp",
     "imageurl": "/logo/parfuim1webp.webp",
-    "brands": "Zem",
+    "brands": "ZemZem",
     "gender": "Unisex"
   },
   {
