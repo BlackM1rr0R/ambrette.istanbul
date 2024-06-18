@@ -212,6 +212,20 @@
         input {
           width: auto;
         }
+        .searchControl{
+          .searchResults{
+            .imageControl{
+              padding: 10px;
+              a{
+                font-size: 10px;
+                line-height: 17px;
+              }
+              img{
+                width: 40px;
+              }
+            }
+          }
+        }
       }
     }
   }
