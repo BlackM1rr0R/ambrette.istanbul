@@ -5,9 +5,9 @@ import Wrapper from "../../UI/wrapper";
 import { Link } from "react-router-dom";
 import { ArrowIcon } from "../../../icons";
 import DB from "../../../db.json";
-import ParfumLogo from '../../../assets/images/parfum1.jpg'
+import ParfumLogo from "../../../assets/images/parfum1.jpg";
+
 const uniqueBrands = [...new Set(DB.map((product) => product.brands))].sort();
-const uniquePerfumes = [...new Set(DB.map((product) => product.title))].sort();
 const groupedBrands = uniqueBrands.reduce((acc, brand) => {
   const firstLetter = brand.charAt(0).toUpperCase();
   if (!acc[firstLetter]) {
@@ -27,8 +27,8 @@ const Header = () => {
     const term = event.target.value;
     setSearchTerm(term);
     if (term.length > 0) {
-      const filtered = uniquePerfumes.filter((perfume) =>
-        perfume.toLowerCase().includes(term.toLowerCase())
+      const filtered = DB.filter((product) =>
+        product.title.toLowerCase().includes(term.toLowerCase())
       );
       setFilteredPerfumes(filtered);
       setShowResults(true);
@@ -68,20 +68,16 @@ const Header = () => {
             {showResults && (
               <div className={styles.searchControl}>
                 <div className={styles.searchResults}>
-                  {filteredPerfumes.map((perfume, index) => (
-                    <div className={styles.imageControl}>
-
-                    <Link
-                      key={index}
-                      to={`/perfume/${perfume
-                        .replace(/\s+/g, "")
-                        .toLowerCase()}`}
+                  {filteredPerfumes.map((perfume) => (
+                    <div className={styles.imageControl} key={perfume.id}>
+                      <Link
+                        to={`/parfum-details/${perfume.id}`}
                         className={styles.searchResultItem}
-                        >
-                      {perfume}
-                    </Link>
-                    <img src={ParfumLogo} alt="" />
-                      </div>
+                      >
+                        {perfume.title}
+                      </Link>
+                      <img src={ParfumLogo} alt="" />
+                    </div>
                   ))}
                 </div>
               </div>
@@ -130,8 +126,6 @@ const Header = () => {
 
                     {groupedBrands[letter].map((brand, brandIndex) => {
                       const brandKey = brand.replace(/\s+/g, "").toLowerCase();
-                      const brandData = brand[brandKey];
-
                       return (
                         <Link
                           to={`/brend-perfume/${brandKey}`}
