@@ -41,18 +41,18 @@ const Header = () => {
         <div className={styles.menuContainer}>
           <div className={styles.menu}>
             <div className={styles.dropdown}>
-              <Link to={"/gender"}>
+              <Link to={"/genderselected"}>
                 Category <ArrowIcon />
               </Link>
               <ul className={styles.dropdowncontent}>
                 <li>
-                  <Link to={"/man"}>Man</Link>
+                  <Link to={"/gender/men"}>Man</Link>
                 </li>
                 <li>
-                  <Link to={"/women"}>Women</Link>
+                  <Link to={"/gender/women"}>Women</Link>
                 </li>
                 <li>
-                  <Link to={"/unisex"}>Unisex</Link>
+                  <Link to={"/gender/unisex"}>Unisex</Link>
                 </li>
               </ul>
             </div>

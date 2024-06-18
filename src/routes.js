@@ -5,7 +5,7 @@ import BrendPerfume from "./pages/brendperfume";
 import ContactOur from "./pages/contactour";
 import DiorPerfume from "./pages/dior";
 import Gender from "./pages/gender";
-import GenderSelect from "./pages/genderselect";
+import GenderSelected from "./pages/genderselected";
 import Home from "./pages/home";
 import MagazinsLocation from "./pages/magazins";
 import NotFound from "./pages/notFound";
@@ -26,9 +26,10 @@ const routes = {
   magazins:routeItem(5,"magazins","/magazins",MagazinsLocation),
   dior:routeItem(6,"dior","/brend/:brendId",DiorPerfume),
   brendlogo:routeItem(7,"brendlogo","/brends",BrendLogo),
-  gender:routeItem(8,"gender","/gender",Gender),
+  gender:routeItem(8,"gender","/gender/:genderType",Gender),
   brendperfume:routeItem(9,"brend-perfume","/brend-perfume/:brendId",BrendPerfume),
-  genderselected:routeItem(10,"genderselected","/gender-details/:gender",GenderSelect),
+  genderselected:routeItem(10,"genderselected","/genderselected",GenderSelected),
+
   contactour:routeItem(11,"contact","/contact",ContactOur)
 };
 
