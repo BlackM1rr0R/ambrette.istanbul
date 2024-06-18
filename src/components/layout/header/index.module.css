@@ -36,6 +36,39 @@
 .background .control .input input::placeholder {
   font-family: "Ubuntu", sans-serif;
 }
+.background .control .input .searchControl {
+  position: relative;
+}
+.background .control .input .searchControl .searchResults {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 100%;
+  background-color: white;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  z-index: 1000;
+  display: flex;
+  flex-direction: column;
+  border-radius: 10px;
+  gap: 10px;
+}
+.background .control .input .searchControl .searchResults .imageControl {
+  border: 1px solid rgb(192, 192, 192);
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+  align-items: center;
+  border-radius: 5px;
+  padding: 20px;
+}
+.background .control .input .searchControl .searchResults .imageControl a {
+  text-decoration: none;
+  color: black;
+  padding: 10px;
+}
+.background .control .input .searchControl .searchResults .imageControl img {
+  width: 50px;
+}
 .background .control .selected {
   display: flex;
   gap: 5px;

@@ -28,7 +28,19 @@
   gap: 10px;
 }
 .background .boxs .border img {
-  width: 350px;
+  width: 250px;
+}
+.background .boxs .border .button {
+  padding-top: 20px;
+}
+.background .boxs .border .button button {
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 10px 40px;
+  text-decoration: none;
+  color: white;
+  background-color: black;
 }
 
 @media (max-width: 490px) {

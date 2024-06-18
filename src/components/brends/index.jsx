@@ -1,14 +1,14 @@
-import React, { useState } from "react";
+import React from "react";
 import styles from "./index.module.css";
-import { Autoplay, Navigation } from "swiper/modules";
+import { Autoplay } from "swiper/modules";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
 import "swiper/css/scrollbar";
 import { Link } from "react-router-dom";
-import Parfum from "../../assets/images/parfuim1webp.webp";
 import DB from "../../db.json";
+
 const Brends = () => {
   return (
     <div className={styles.background}>
@@ -21,7 +21,7 @@ const Brends = () => {
           className={styles.price}
           spaceBetween={50}
           slidesPerView={3}
-          autoplay={{ delay: 2000, disableOnInteraction: false }}
+          autoplay={{ delay: 3000, disableOnInteraction: false }}
           onSwiper={(swiper) => console.log(swiper)}
           onSlideChange={() => console.log("slide change")}
           breakpoints={{
@@ -39,12 +39,19 @@ const Brends = () => {
             },
           }}
         >
-          {DB.map((item) => (
-            <SwiperSlide>
-              <Link to={"/parfum-details/" + item.id} className={styles.border}>
+          {DB.slice(0, 15).map((item) => (
+            <SwiperSlide key={item.id}>
+              <div className={styles.border}>
                 <img src={item.imageurl} alt="" />
                 <h2>{item.title}</h2>
-              </Link>
+                <Link
+                  to={"/parfum-details/" + item.id}
+                  target="_blank"
+                  className={styles.button}
+                >
+                  <button>See More</button>
+                </Link>
+              </div>
             </SwiperSlide>
           ))}
         </Swiper>

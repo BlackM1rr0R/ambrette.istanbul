@@ -24,12 +24,25 @@
         align-items: center;
         gap: 10px;
         img{
-            width: 350px;
+            width: 250px;
             
         }
+        .button{
+            padding-top: 20px;
+            button{
+                border: none;
+                outline: none;
+                cursor: pointer;
+                padding: 10px 40px;
+                text-decoration: none;
+                color: white;
+                background-color: black;
+            }
+        }
+    }
     }
    }
-}
+
 @media(max-width:490px){
     .background{
         padding-top: 40px;

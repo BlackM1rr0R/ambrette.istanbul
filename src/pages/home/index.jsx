@@ -3,7 +3,7 @@ import styles from "./index.module.css";
 
 import Hero from "../../components/hero";
 import Brends from "../../components/brends";
-import WeekPerfume from "../../components/week";
+
 import CollectionsPerfume from "../../components/collections";
 import LaunchesPerfume from "../../components/launches";
 import NewComponent from "../../components/newcomponent";
@@ -16,7 +16,7 @@ const Home = () => {
      <Hero/>
      <Brends/>
      <Notes/>
-     <WeekPerfume/>
+
      <CollectionsPerfume/>
     <NewComponent/>
      <FragmanFotos/>
