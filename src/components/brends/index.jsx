@@ -8,12 +8,14 @@ import "swiper/css/pagination";
 import "swiper/css/scrollbar";
 import { Link } from "react-router-dom";
 import DB from "../../db.json";
-
+import Wrapper from '../UI/wrapper'
 const Brends = () => {
   return (
+    <Wrapper>
+
     <div className={styles.background}>
       <div className={styles.headers}>
-        <h2>EXPLORE OUR BEST SELLERS</h2>
+        <h2>Explore Our Best Sellers</h2>
       </div>
       <div className={styles.boxs}>
         <Swiper
@@ -57,6 +59,8 @@ const Brends = () => {
         </Swiper>
       </div>
     </div>
+    </Wrapper>
+
   );
 };
 

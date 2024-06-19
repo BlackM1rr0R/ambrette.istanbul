@@ -4,24 +4,27 @@ import Collections from "../../assets/images/collections.webp";
 import { Navigation } from "swiper/modules";
 
 import { Swiper, SwiperSlide } from "swiper/react";
-
+import Wrapper from '../UI/wrapper'
 import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
 import "swiper/css/scrollbar";
+import ShaghafCollection from '../../assets/images/SHAGHAF_COLLECTION.webp.png'
+import LoveCollection from '../../assets/images/LOVE_COLLECTION.webp.png'
+import HeritageCollection from '../../assets/images/HERITAGE_COLLECTION.webp.png'
 const CollectionsPerfume = () => {
   const [data, setData] = useState([
     {
       image: `${Collections}`,
     },
     {
-      image: `${Collections}`,
+      image: `${ShaghafCollection}`,
     },
     {
-      image: `${Collections}`,
+      image: `${LoveCollection}`,
     },
     {
-      image: `${Collections}`,
+      image: `${HeritageCollection}`,
     },
     {
       image: `${Collections}`,
@@ -34,9 +37,11 @@ const CollectionsPerfume = () => {
     },
   ]);
   return (
+    <Wrapper>
+
     <div className={styles.background}>
       <div className={styles.headers}>
-        <h2>DISCOVER OUR COLLECTIONS</h2>
+        <h2>Discover Our Collections</h2>
       </div>
       <div className={styles.boxs}>
         <Swiper
@@ -73,6 +78,8 @@ const CollectionsPerfume = () => {
       </div>
       
     </div>
+    </Wrapper>
+
   );
 };
 

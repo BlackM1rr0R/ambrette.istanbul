@@ -21,39 +21,40 @@ const Footer = () => {
             </div>
           </div>
           <div className={styles.list2}>
-            <h2>SHOP</h2>
+            <h2>PERFUMES</h2>
             <ul>
-              <li>My Account</li>
-              <li>My Account</li>
-              <li>My Account</li>
-              <li>My Account</li>
+              <li>Men</li>
+              <li>Women</li>
+              <li>Unisex</li>
+           
             </ul>
           </div>
           <div className={styles.list2}>
-            <h2>ABOUT</h2>
+            <h2>LOGO PERFUMES</h2>
             <ul>
-              <li>My Account</li>
-              <li>My Account</li>
-              <li>My Account</li>
-              <li>My Account</li>
+              <li>Perfumes</li>
+              <li>Brands</li>
+              <li>About us</li>
+              <li>Magazens</li>
+              <li>Contact us</li>
             </ul>
           </div>
           <div className={styles.list2}>
-            <h2>SERVICES</h2>
+            <h2>MAGAZENS</h2>
             <ul>
-              <li>My Account</li>
-              <li>My Account</li>
-              <li>My Account</li>
-              <li>My Account</li>
+              <li>1.Moskow branch</li>
+              <li>2.Moskow branch</li>
+              <li>3.Kyrgyzstan branch</li>
+              <li>4.Kazakhstan branch</li>
             </ul>
           </div>
           <div className={styles.list2}>
-            <h2>POLICIES</h2>
+            <h2>CONTACT US</h2>
             <ul>
-              <li>My Account</li>
-              <li>My Account</li>
-              <li>My Account</li>
-              <li>My Account</li>
+              <li>+996 501 662 222</li>
+              <li>Instagram Adress</li>
+              <li>09:00-22:00</li>
+           
             </ul>
           </div>
         </div>

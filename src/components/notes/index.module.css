@@ -2,19 +2,19 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: "Nunito" !important;
 }
 
 .background {
-  padding-top: 30px;
-  padding-bottom: 80px;
+  padding-bottom: 30px;
 }
 .background .headers {
   display: flex;
   justify-content: center;
 }
 .background .headers h2 {
-  font-weight: 600;
-  font-size: 32px;
+  font-size: 25px;
+  font-weight: 500;
 }
 .background .boxs {
   padding-top: 40px;

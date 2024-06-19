@@ -45,6 +45,8 @@ const Notes = () => {
   ]);
 
   return (
+    <Wrapper>
+
     <div className={styles.background}>
     <div className={styles.headers}>
       <h2>Notes</h2>
@@ -84,6 +86,8 @@ const Notes = () => {
     </div>
     
   </div>
+  </Wrapper>
+
   );
 };
 

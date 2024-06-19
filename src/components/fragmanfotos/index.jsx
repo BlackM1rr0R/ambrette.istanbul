@@ -12,6 +12,7 @@ import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
 import "swiper/css/scrollbar";
+import Wrapper from '../UI/wrapper'
 const FragmanFotos = () => {
   const [data, setData] = useState([
     {
@@ -37,6 +38,8 @@ const FragmanFotos = () => {
     },
   ]);
   return (
+    <Wrapper>
+
     <div className={styles.background}>
       <div className={styles.headers}>
         <h2>Fragman Photos</h2>
@@ -76,6 +79,8 @@ const FragmanFotos = () => {
       </div>
       
     </div>
+    </Wrapper>
+
   );
 };
 

@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: "Nunito" !important;
 }
 .background {
   padding-top: 30px;
@@ -10,8 +11,8 @@
     display: flex;
     justify-content: center;
     h2 {
-        font-weight: 600;
-      font-size: 32px;
+        font-weight: 500;
+      font-size: 25px;
     }
   }
   .boxs {

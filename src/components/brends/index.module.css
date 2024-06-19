@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: "Nunito" !important;
 }
 
 .background {
@@ -14,6 +15,7 @@
 }
 .background .headers h2 {
   font-size: 25px;
+  font-weight: 500;
 }
 .background .boxs {
   padding-top: 40px;
@@ -40,7 +42,8 @@
   padding: 10px 40px;
   text-decoration: none;
   color: white;
-  background-color: black;
+  border-radius: 25px;
+  background-color: #0055B8;
 }
 
 @media (max-width: 490px) {

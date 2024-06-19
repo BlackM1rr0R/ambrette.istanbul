@@ -2,7 +2,8 @@ import React, { useState } from "react";
 import styles from "./index.module.css";
 import Wrapper from "../UI/wrapper";
 import BannerBackground from '../../assets/images/banner5.png'
-import Banner from '../../assets/images/banner.webp'
+import Banner from '../../assets/images/imagephoto4.png'
+import Banner2 from '../../assets/images/banner.webp'
 import { Autoplay, Navigation} from "swiper/modules";
 
 import { Swiper, SwiperSlide } from "swiper/react";
@@ -23,7 +24,7 @@ const Hero = () => {
       image:`${Banner}`
     },
     {
-      image:`${Banner}`
+      image:`${Banner2}`
     },
   ])
  

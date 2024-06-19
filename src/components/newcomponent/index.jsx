@@ -1,31 +1,27 @@
 import React, { useState } from "react";
 import styles from "./index.module.css";
 import Wrapper from "../UI/wrapper";
-import BackgroundImage1 from "../../assets/images/box1.jpg";
-import BackgroundImage2 from "../../assets/images/box2.jpg";
-import BackgroundImage3 from "../../assets/images/box3.jpg";
-import BackgroundImage4 from "../../assets/images/box4.jpg";
+import BackgroundImage1 from "../../assets/images/iyde1.png";
+import BackgroundImage2 from "../../assets/images/iyde2.png";
+import BackgroundImage3 from "../../assets/images/iyde3.png";
+import BackgroundImage4 from "../../assets/images/iyde4.png";
 const NewComponent = () => {
   const [data, setData] = useState([
     {
       images: `${BackgroundImage1}`,
-      title:
-        "BEST SCENTS OF SUMMER 2024: Last Season by Meo Fusciuni and Água de Sândalo by Phebo",
+     
     },
     {
       images: `${ BackgroundImage2 }`,
-      title:
-        "BEST SCENTS OF SUMMER 2024: Last Season by Meo Fusciuni and Água de Sândalo by Phebo",
+     
     },
     {
       images: `${BackgroundImage3}`,
-      title:
-        "BEST SCENTS OF SUMMER 2024: Last Season by Meo Fusciuni and Água de Sândalo by Phebo",
+     
     },
     {
       images: `${BackgroundImage4}`,
-      title:
-        "BEST SCENTS OF SUMMER 2024: Last Season by Meo Fusciuni and Água de Sândalo by Phebo",
+    
     },
   ]);
   return (
@@ -35,7 +31,7 @@ const NewComponent = () => {
           {data.map((item) => (
             <div className={styles.border}>
               <img src={item.images} alt="" />
-              <h2>{item.title}</h2>
+            
             </div>
           ))}
         </div>

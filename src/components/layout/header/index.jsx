@@ -98,7 +98,7 @@ const Header = () => {
           <div className={styles.menu}>
             <div className={styles.dropdown}>
               <Link to={"/genderselected"}>
-                Category <ArrowIcon />
+                Perfumes <ArrowIcon />
               </Link>
               <ul className={styles.dropdowncontent}>
                 <li>

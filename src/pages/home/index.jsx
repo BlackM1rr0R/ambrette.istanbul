@@ -13,14 +13,14 @@ import Notes from "../../components/notes";
 const Home = () => {
   return (
     <div className={styles.background}>
-     <Hero/>
-     <Brends/>
-     <Notes/>
+      <Hero />
+      <Brends />
+      <NewComponent />
+      <CollectionsPerfume />
+      <Notes />
 
-     <CollectionsPerfume/>
-    <NewComponent/>
-     <FragmanFotos/>
-     <LaunchesPerfume/>
+      <FragmanFotos />
+      <LaunchesPerfume />
     </div>
   );
 };

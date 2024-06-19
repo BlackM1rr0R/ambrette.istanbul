@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: "Nunito" !important;
 }
 .background {
   padding-bottom: 50px;
@@ -18,7 +19,9 @@
     }
     .h2 {
       h2 {
-        font-size: 26px;
+        font-size: 25px;
+        font-weight: 500;
+        
       }
     }
   }
@@ -29,13 +32,15 @@
 
       ul {
         display: grid;
-        grid-template-columns: repeat(5, 1fr);
+        padding-top: 30px;
+        grid-template-columns: repeat(4, 1fr);
         gap: 30px;
         li {
           border: 1px solid gray;
           padding: 10px;
           font-size: 16px;
           a {
+            
             text-decoration: none;
             color: black;
           }
@@ -56,7 +61,8 @@
     }
     .h2 {
       h2 {
-        font-size: 26px;
+        font-size: 25px;
+        font-weight: 500;
       }
     }
   }
@@ -68,10 +74,10 @@
     align-items: center;
     .firstside {
       padding-top: 30px;
-      width: 90%;
+      width: 100%;
       ul {
         display: grid;
-
+        padding-top: 30px;
         grid-template-columns: repeat(6, 1fr);
 
         gap: 20px;
@@ -81,7 +87,7 @@
 
           a {
             text-decoration: none;
-            font-size: 18px;
+            font-size: 16px;
             color: black;
           }
         }
