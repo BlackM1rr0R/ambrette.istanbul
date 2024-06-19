@@ -46,6 +46,21 @@
           }
         }
       }
+      .button{
+        padding-top: 30px;
+        display: flex;
+        justify-content: center;
+        button{
+          border: none;
+                outline: none;
+                cursor: pointer;
+                padding: 10px 40px;
+                text-decoration: none;
+                color: white;
+             
+                background-color: #0055B8;
+        }
+      }
     }
   }
   .headers {
@@ -90,6 +105,21 @@
             font-size: 16px;
             color: black;
           }
+        }
+      }
+      .button{
+        padding-top: 30px;
+        display: flex;
+        justify-content: center;
+        button{
+          border: none;
+                outline: none;
+                cursor: pointer;
+                padding: 10px 40px;
+                text-decoration: none;
+                color: white;
+             
+                background-color: #0055B8;
         }
       }
     }
