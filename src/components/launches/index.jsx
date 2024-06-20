@@ -53,7 +53,7 @@ const LaunchesPerfume = () => {
         <div className={styles.perfumelist1}>
           <div className={styles.firstside1}>
             <ul>
-              {randomBrands.slice(0, moreRandom ? randomBrands.length : 12).map((brand, index) => (
+              {randomBrands.slice(0, moreRandom ? randomBrands.length : 16).map((brand, index) => (
                 <li key={index}>
                   <Link to={`/parfum-details/${brand.id}`}>
                     {capitalizeWords(brand.title)}
@@ -82,7 +82,7 @@ const LaunchesPerfume = () => {
         <div className={styles.perfumelist}>
           <div className={styles.firstside}>
             <ul>
-              {uniqueBrands.slice(0, more ? 48 : 18).map((brand, index) => (
+              {uniqueBrands.slice(0, more ? 48 : 24).map((brand, index) => (
                 <li key={index}>
                   <Link to={`/brand/${brand.replace(/\s+/g, "").toLowerCase()}`}>
                     {capitalizeWords(brand)}

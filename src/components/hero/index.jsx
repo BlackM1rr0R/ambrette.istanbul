@@ -1,13 +1,12 @@
 import React, { useState } from "react";
 import styles from "./index.module.css";
 import Wrapper from "../UI/wrapper";
-import BannerBackground from '../../assets/images/banner5.png'
+import BannerBackground from '../../assets/images/bannerbackground.png'
 import Banner from '../../assets/images/imagephoto4.png'
-import Banner2 from '../../assets/images/banner.webp'
+import Banner2 from '../../assets/images/bannerbackground1.png'
 import { Autoplay, Navigation} from "swiper/modules";
 
 import { Swiper, SwiperSlide } from "swiper/react";
-
 
 import "swiper/css";
 import "swiper/css/navigation";
@@ -29,6 +28,8 @@ const Hero = () => {
   ])
  
   return (
+    <Wrapper>
+
     <div className={styles.background}>
      
       <div className={styles.boxs}>
@@ -65,6 +66,8 @@ const Hero = () => {
               </Swiper>
           </div>
     </div>
+    </Wrapper>
+
   );
 };
 

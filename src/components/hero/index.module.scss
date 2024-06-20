@@ -15,7 +15,7 @@
       img {
         width: 100%;
         height: 50vh;
-       
+        object-fit: fill;
       }
     }
   }
@@ -27,8 +27,6 @@
 }
 @media (max-width: 490px) {
   .background {
-   
-
     .boxs {
       padding-top: 30px;
       .border {

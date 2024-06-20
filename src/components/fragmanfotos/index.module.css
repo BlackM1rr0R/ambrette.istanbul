@@ -30,7 +30,7 @@
 
 @media (max-width: 490px) {
   .background {
-    padding-top: 40px;
+    padding-top: 0;
     padding-bottom: 40px;
   }
   .background .headers h2 {

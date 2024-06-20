@@ -4,9 +4,6 @@
   box-sizing: border-box;
 }
 
-.background {
-  padding-bottom: 50px;
-}
 .background .control {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
