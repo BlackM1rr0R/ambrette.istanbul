@@ -28,7 +28,7 @@ const Hero = () => {
   ])
  
   return (
-    <Wrapper>
+   
 
     <div className={styles.background}>
      
@@ -66,7 +66,7 @@ const Hero = () => {
               </Swiper>
           </div>
     </div>
-    </Wrapper>
+   
 
   );
 };

@@ -28,7 +28,11 @@
         }
         cursor: pointer;
         h2 {
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
           font-size: 20px;
+          font-weight: 600;
         }
       }
       .modalclass {
@@ -36,15 +40,18 @@
 
         flex-direction: column;
         gap: 20px;
+   
         .iconsclass {
           display: flex;
           align-items: center;
+          
           gap: 10px;
           svg{
             width: 17px;
             height: 17px;
           }
           h2 {
+    
             width: 150px;
             font-size: 14px;
           }
@@ -54,21 +61,45 @@
        
         cursor: pointer;
         h2 {
-          font-size: 20px;
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
+          font-size: 18px;
+          gap: 30px;
+          font-weight: 600;
         }
       }
       .moskow {
         
         cursor: pointer;
         h2 {
-          font-size: 20px;
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
+          font-size: 18px;
+          font-weight: 600;
         }
       }
       .nerimanov {
       
         cursor: pointer;
         h2 {
-          font-size: 20px;
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
+          font-size: 18px;
+          font-weight: 600;
+        }
+      }
+      .ozbekistan {
+      
+        cursor: pointer;
+        h2 {
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
+          font-size: 18px;
+          font-weight: 600;
         }
       }
     }
@@ -98,32 +129,39 @@
       .leftside {
         .azadlig {
           h2 {
-            font-size: 20px;
+            font-size: 16px;
             font-weight: 600;
           }
         }
         .moskow {
           h2 {
-            font-size: 20px;
+            font-size: 16px;
             font-weight: 600;
           }
         }
         .genclik {
           h2 {
-            font-size: 20px;
+            font-size: 16px;
             font-weight: 600;
           }
         }
         .nerimanov {
           h2 {
-            font-size: 20px;
+            font-size: 16px;
+            font-weight: 600;
+          }
+        }
+        .ozbekistan {
+          h2 {
+            font-size: 16px;
             font-weight: 600;
           }
         }
         .modalclass {
           .iconsclass {
             h2 {
-              font-size: 14px;
+              font-size: 12px;
+              line-height: 18px;
             }
           }
         }

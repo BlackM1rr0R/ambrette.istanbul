@@ -28,7 +28,11 @@
   cursor: pointer;
 }
 .background .control .leftside .azadlig h2 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
   font-size: 20px;
+  font-weight: 600;
 }
 .background .control .leftside .modalclass {
   display: flex;
@@ -52,19 +56,42 @@
   cursor: pointer;
 }
 .background .control .leftside .genclik h2 {
-  font-size: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 18px;
+  gap: 30px;
+  font-weight: 600;
 }
 .background .control .leftside .moskow {
   cursor: pointer;
 }
 .background .control .leftside .moskow h2 {
-  font-size: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 18px;
+  font-weight: 600;
 }
 .background .control .leftside .nerimanov {
   cursor: pointer;
 }
 .background .control .leftside .nerimanov h2 {
-  font-size: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 18px;
+  font-weight: 600;
+}
+.background .control .leftside .ozbekistan {
+  cursor: pointer;
+}
+.background .control .leftside .ozbekistan h2 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 18px;
+  font-weight: 600;
 }
 .background .control .rightside {
   display: flex;
@@ -87,23 +114,28 @@
     gap: 20px;
   }
   .background .control .leftside .azadlig h2 {
-    font-size: 20px;
+    font-size: 16px;
     font-weight: 600;
   }
   .background .control .leftside .moskow h2 {
-    font-size: 20px;
+    font-size: 16px;
     font-weight: 600;
   }
   .background .control .leftside .genclik h2 {
-    font-size: 20px;
+    font-size: 16px;
     font-weight: 600;
   }
   .background .control .leftside .nerimanov h2 {
-    font-size: 20px;
+    font-size: 16px;
+    font-weight: 600;
+  }
+  .background .control .leftside .ozbekistan h2 {
+    font-size: 16px;
     font-weight: 600;
   }
   .background .control .leftside .modalclass .iconsclass h2 {
-    font-size: 14px;
+    font-size: 12px;
+    line-height: 18px;
   }
   .background .control .rightside .frame1 {
     width: 100%;
