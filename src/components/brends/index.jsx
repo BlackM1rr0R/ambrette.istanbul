@@ -1,6 +1,6 @@
 import React from "react";
 import styles from "./index.module.css";
-import { Autoplay } from "swiper/modules";
+import { Autoplay, Pagination } from "swiper/modules";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/navigation";
@@ -19,11 +19,12 @@ const Brends = () => {
       </div>
       <div className={styles.boxs}>
         <Swiper
-          modules={[Autoplay]}
+          modules={[Autoplay,Pagination]}
           className={styles.price}
           spaceBetween={50}
           slidesPerView={3}
-          autoplay={{ delay: 3000, disableOnInteraction: false }}
+  
+          pagination={{ clickable: true }} 
           onSwiper={(swiper) => console.log(swiper)}
           onSlideChange={() => console.log("slide change")}
           breakpoints={{

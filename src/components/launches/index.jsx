@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect, useRef } from "react";
 import styles from "./index.module.css";
 import Wrapper from "../UI/wrapper";
 import { Link } from "react-router-dom";
@@ -7,6 +7,7 @@ import DB from "../../db.json";
 const LaunchesPerfume = () => {
   const [more, setMore] = useState(false);
   const [moreRandom, setMoreRandom] = useState(false);
+  const shuffleCounter = useRef(0);
 
   const uniqueBrands = [...new Set(DB.map((product) => product.brands))];
   const capitalizeWords = (str) => {
@@ -24,7 +25,15 @@ const LaunchesPerfume = () => {
     return array;
   };
 
-  const shuffledDB = shuffleArray([...DB]);
+  useEffect(() => {
+    shuffleCounter.current += 1;
+
+    if (shuffleCounter.current % 5 === 0) {
+      setShuffledDB(shuffleArray([...DB]));
+    }
+  }, []);
+
+  const [shuffledDB, setShuffledDB] = useState(shuffleArray([...DB]));
   const randomBrands = shuffledDB.slice(0, 25);
 
   return (
@@ -52,14 +61,11 @@ const LaunchesPerfume = () => {
                 </li>
               ))}
             </ul>
-          
-              <div className={styles.button}>
-
+            <div className={styles.button}>
               <button onClick={() => setMoreRandom(!moreRandom)} className={styles.seeMore}>
-              {moreRandom ? "See Less" : "See More"}
+                {moreRandom ? "See Less" : "See More"}
               </button>
-              </div>
-          
+            </div>
           </div>
         </div>
         <div className={styles.headers}>
@@ -76,7 +82,7 @@ const LaunchesPerfume = () => {
         <div className={styles.perfumelist}>
           <div className={styles.firstside}>
             <ul>
-            {uniqueBrands.slice(0, more ? 48 : 18).map((brand, index) => (
+              {uniqueBrands.slice(0, more ? 48 : 18).map((brand, index) => (
                 <li key={index}>
                   <Link to={`/brand/${brand.replace(/\s+/g, "").toLowerCase()}`}>
                     {capitalizeWords(brand)}
@@ -84,14 +90,11 @@ const LaunchesPerfume = () => {
                 </li>
               ))}
             </ul>
-      
-              <div className={styles.button}>
-
+            <div className={styles.button}>
               <button onClick={() => setMore(!more)} className={styles.seeMore}>
-              {more ? "See Less" : "See More"}
+                {more ? "See Less" : "See More"}
               </button>
-              </div>
-         
+            </div>
           </div>
         </div>
       </div>

@@ -9,7 +9,7 @@ import BannerBackground5 from "../../assets/images/meyve5.png";
 import BannerBackground6 from "../../assets/images/meyve6.png";
 import BannerBackground7 from "../../assets/images/meyve7.png";
 
-import { Autoplay, Navigation } from "swiper/modules";
+import { Autoplay, Navigation, Pagination } from "swiper/modules";
 
 import { Swiper, SwiperSlide } from "swiper/react";
 
@@ -53,13 +53,14 @@ const Notes = () => {
     </div>
     <div className={styles.boxs}>
       <Swiper
-        modules={[Navigation]}
-        className={styles.price}
-        spaceBetween={50}
-        slidesPerView={3}
-        navigation
-        onSwiper={(swiper) => console.log(swiper)}
-        onSlideChange={() => console.log("slide change")}
+       modules={[ Pagination]}
+       className={styles.price}
+       spaceBetween={50}
+       slidesPerView={3}
+ 
+       pagination={{ clickable: true }} 
+       onSwiper={(swiper) => console.log(swiper)}
+       onSlideChange={() => console.log("slide change")}
         breakpoints={{
           0: {
             spaceBetween: 24,

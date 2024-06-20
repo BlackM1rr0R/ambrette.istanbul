@@ -21,7 +21,6 @@
       h2 {
         font-size: 25px;
         font-weight: 500;
-        
       }
     }
   }
@@ -40,25 +39,24 @@
           padding: 10px;
           font-size: 16px;
           a {
-            
             text-decoration: none;
             color: black;
           }
         }
       }
-      .button{
+      .button {
         padding-top: 30px;
         display: flex;
         justify-content: center;
-        button{
+        button {
           border: none;
-                outline: none;
-                cursor: pointer;
-                padding: 10px 40px;
-                text-decoration: none;
-                color: white;
-             
-                background-color: #0055B8;
+          outline: none;
+          cursor: pointer;
+          padding: 10px 40px;
+          text-decoration: none;
+          color: white;
+
+          background-color: #0055b8;
         }
       }
     }
@@ -107,19 +105,19 @@
           }
         }
       }
-      .button{
+      .button {
         padding-top: 30px;
         display: flex;
         justify-content: center;
-        button{
+        button {
           border: none;
-                outline: none;
-                cursor: pointer;
-                padding: 10px 40px;
-                text-decoration: none;
-                color: white;
-             
-                background-color: #0055B8;
+          outline: none;
+          cursor: pointer;
+          padding: 10px 40px;
+          text-decoration: none;
+          color: white;
+
+          background-color: #0055b8;
         }
       }
     }
@@ -151,10 +149,12 @@
         ul {
           display: grid;
           grid-template-columns: repeat(2, 1fr);
-          li{
+          li {
             display: flex;
             align-items: center;
             justify-content: center;
+            padding: 8px;
+            font-size: 14px;
             text-align: center;
             line-height: 25px;
           }
@@ -184,16 +184,19 @@
         ul {
           display: grid;
           grid-template-columns: repeat(2, 1fr);
-        gap: 30px;
-
-          li{
-            height: 80px;
-            
-             display: flex;
+          gap: 30px;
+          width: 100%;
+          li {
+            padding: 12px;
+            display: flex;
             align-items: center;
+            justify-content: space-between;
             justify-content: center;
             text-align: center;
             line-height: 25px;
+            a {
+              font-size: 14px;
+            }
           }
         }
       }

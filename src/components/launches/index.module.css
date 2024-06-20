@@ -55,7 +55,7 @@
   padding: 10px 40px;
   text-decoration: none;
   color: white;
-  background-color: #0055B8;
+  background-color: #0055b8;
 }
 .background .headers {
   display: flex;
@@ -109,7 +109,7 @@
   padding: 10px 40px;
   text-decoration: none;
   color: white;
-  background-color: #0055B8;
+  background-color: #0055b8;
 }
 
 @media (max-width: 490px) {
@@ -136,6 +136,8 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    padding: 8px;
+    font-size: 14px;
     text-align: center;
     line-height: 25px;
   }
@@ -157,14 +159,19 @@
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 30px;
+    width: 100%;
   }
   .background .perfumelist .firstside ul li {
-    height: 80px;
+    padding: 12px;
     display: flex;
     align-items: center;
+    justify-content: space-between;
     justify-content: center;
     text-align: center;
     line-height: 25px;
+  }
+  .background .perfumelist .firstside ul li a {
+    font-size: 14px;
   }
   .background .perfumelist .twoside {
     display: flex;
