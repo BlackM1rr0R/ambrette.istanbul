@@ -3,7 +3,16 @@ import styles from "./index.module.css";
 import Logo from "../../../assets/images/logo2.png";
 import Wrapper from "../../UI/wrapper";
 import { Link } from "react-router-dom";
-import { ArrowIcon } from "../../../icons";
+import {
+  ArrowIcon,
+  FacebookIcon,
+  InstagramIcon,
+  LinkedinIcon,
+  TelegramIcon,
+  TikTokIcon,
+  WhatsappIcon,
+  YouTubeIcon,
+} from "../../../icons";
 import DB from "../../../db.json";
 import ParfumLogo from "../../../assets/images/parfum1.jpg";
 
@@ -53,6 +62,27 @@ const Header = () => {
   return (
     <Wrapper>
       <div className={styles.background}>
+        <div className={styles.icons}>
+          <div className={styles.iconscontrol}>
+            <div className={styles.iconsflex}>
+              <LinkedinIcon />
+              <TikTokIcon />
+              <TelegramIcon />
+              <InstagramIcon />
+              <FacebookIcon />
+              <YouTubeIcon />
+            </div>
+            <div className={styles.language}>
+              <h2>en</h2>
+              <hr />
+              <h2>ru</h2>
+            </div>
+          </div>
+
+          <div className={styles.iconshr}>
+            <hr />
+          </div>
+        </div>
         <div className={styles.control}>
           <Link to={"/"} className={styles.images}>
             <img src={Logo} alt="" />
@@ -84,9 +114,9 @@ const Header = () => {
             )}
           </div>
           <div className={styles.selected}>
-            <h2>en</h2>
+            <WhatsappIcon/>
             <hr />
-            <h2>ru</h2>
+            <h2>+996 501 66 22 22</h2>
           </div>
         </div>
       </div>

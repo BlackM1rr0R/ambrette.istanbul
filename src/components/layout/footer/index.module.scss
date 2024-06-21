@@ -11,19 +11,7 @@
     .control{
         display: flex;
         justify-content: space-between;
-        .list1{
-            display: flex;
-            flex-direction: column;
-            gap: 30px;
-            img{
-                width: 150px;
-            }
-            .icons{
-                display: grid;
-                gap: 20px;
-                grid-template-columns: repeat(3, 1fr);
-            }
-        }
+        
         .list2{
             display: flex;
             flex-direction: column;
@@ -36,6 +24,44 @@
             }
         }
     }
+    .iconscontrol{
+        padding-top: 40px;
+     .list1{
+        padding-top: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        form{
+            input{
+                padding: 10px 50px;
+                border-top-left-radius: 30px;
+                border-bottom-left-radius: 30px;
+                outline: none;
+            
+
+                background-color: black;
+                border: 1px solid white;
+            }
+            input::placeholder{
+                color: white;
+            }
+            button{
+                cursor: pointer;
+                 padding: 10px 50px;
+                border-top-right-radius: 30px;
+                border-bottom-right-radius: 30px;
+                color: white;
+                outline: none;
+                background-color: black;
+                border: 1px solid white;
+            }
+        }
+        .icons{
+            display: flex;
+            gap: 20px;
+        }
+     }
+    }
 }
 @media(max-width:490px){
     .background{
@@ -43,15 +69,7 @@
             display: flex;
             flex-direction: column;
             gap: 30px;
-            .list1{
-                p{
-                    font-weight: 600;
-                }
-                .icons{
-                    display: flex;
-                    justify-content: center;
-                }
-            }
+        
             .list2{
                h2{
                 font-weight: 600;
@@ -61,6 +79,28 @@
                     font-size: 14px;
                 }
                }
+            }
+        }
+        .iconscontrol{
+            .list1{
+                display: flex;
+                flex-direction: column;
+                gap: 40px;
+                form{
+                    display: flex;
+                   width: 100%;
+                input{
+                    padding: 10px 30px;
+                }
+                button{
+                    padding: 10px 30px;
+                }
+                }
+                .icons{
+                    width: 100%;
+                    display: flex;
+                    justify-content: space-between;
+                }
             }
         }
     }

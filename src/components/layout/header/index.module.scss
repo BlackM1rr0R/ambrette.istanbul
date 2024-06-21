@@ -5,11 +5,32 @@
   font-family: "Nunito" !important;
 }
 .background {
-  padding-top: 40px;
+  padding-top: 20px;
   
 
 
-
+  .icons{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding-bottom: 20px;
+    .iconscontrol{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        .iconsflex{
+          display: flex;
+          gap: 20px;
+          svg{
+            width: 25px;
+          }
+        }
+        .language{
+          display: flex;
+          gap: 10px;
+        }
+    }
+  }
   .control {
     padding-bottom: 20px;
     display: flex;
@@ -73,8 +94,18 @@
     }
     .selected {
       display: flex;
-      gap: 5px;
+      align-items: center;
+      gap: 10px;
+      svg{
+        width: 30px;
+      }
+      h2{
+        font-weight: 600;
+        font-size: 22px;
+        border-bottom: 1px solid black;
+      }
       hr {
+        height: 25px;
         border: 1px solid black;
       }
     }
@@ -209,6 +240,12 @@
   .background {
     .control {
       gap: 10px;
+      .selected{
+        h2{
+          font-size: 12px;
+          text-align: center;
+        }
+      }
       .images {
         img {
           width: 50px;

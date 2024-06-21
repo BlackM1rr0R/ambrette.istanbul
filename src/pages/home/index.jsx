@@ -9,12 +9,14 @@ import LaunchesPerfume from "../../components/launches";
 import NewComponent from "../../components/newcomponent";
 import FragmanFotos from "../../components/fragmanfotos";
 import Notes from "../../components/notes";
+import GenderComponenten from "../../components/gendercomponenten";
 
 const Home = () => {
   return (
     <div className={styles.background}>
       <Hero />
       <Brends />
+      <GenderComponenten/>
       <NewComponent />
       <CollectionsPerfume />
       <Notes />

@@ -6,7 +6,29 @@
 }
 
 .background {
-  padding-top: 40px;
+  padding-top: 20px;
+}
+.background .icons {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding-bottom: 20px;
+}
+.background .icons .iconscontrol {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.background .icons .iconscontrol .iconsflex {
+  display: flex;
+  gap: 20px;
+}
+.background .icons .iconscontrol .iconsflex svg {
+  width: 25px;
+}
+.background .icons .iconscontrol .language {
+  display: flex;
+  gap: 10px;
 }
 .background .control {
   padding-bottom: 20px;
@@ -72,9 +94,19 @@
 }
 .background .control .selected {
   display: flex;
-  gap: 5px;
+  align-items: center;
+  gap: 10px;
+}
+.background .control .selected svg {
+  width: 30px;
+}
+.background .control .selected h2 {
+  font-weight: 600;
+  font-size: 22px;
+  border-bottom: 1px solid black;
 }
 .background .control .selected hr {
+  height: 25px;
   border: 1px solid black;
 }
 
@@ -197,6 +229,10 @@
 @media (max-width: 490px) {
   .background .control {
     gap: 10px;
+  }
+  .background .control .selected h2 {
+    font-size: 12px;
+    text-align: center;
   }
   .background .control .images img {
     width: 50px;

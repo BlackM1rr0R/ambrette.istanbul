@@ -14,19 +14,6 @@
   display: flex;
   justify-content: space-between;
 }
-.background .control .list1 {
-  display: flex;
-  flex-direction: column;
-  gap: 30px;
-}
-.background .control .list1 img {
-  width: 150px;
-}
-.background .control .list1 .icons {
-  display: grid;
-  gap: 20px;
-  grid-template-columns: repeat(3, 1fr);
-}
 .background .control .list2 {
   display: flex;
   flex-direction: column;
@@ -38,6 +25,43 @@
   flex-direction: column;
   gap: 20px;
 }
+.background .iconscontrol {
+  padding-top: 40px;
+}
+.background .iconscontrol .list1 {
+  padding-top: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.background .iconscontrol .list1 form input {
+  padding: 10px 50px;
+  border-top-left-radius: 30px;
+  border-bottom-left-radius: 30px;
+  outline: none;
+  background-color: black;
+  border: 1px solid white;
+}
+.background .iconscontrol .list1 form input::-moz-placeholder {
+  color: white;
+}
+.background .iconscontrol .list1 form input::placeholder {
+  color: white;
+}
+.background .iconscontrol .list1 form button {
+  cursor: pointer;
+  padding: 10px 50px;
+  border-top-right-radius: 30px;
+  border-bottom-right-radius: 30px;
+  color: white;
+  outline: none;
+  background-color: black;
+  border: 1px solid white;
+}
+.background .iconscontrol .list1 .icons {
+  display: flex;
+  gap: 20px;
+}
 
 @media (max-width: 490px) {
   .background .control {
@@ -45,17 +69,30 @@
     flex-direction: column;
     gap: 30px;
   }
-  .background .control .list1 p {
-    font-weight: 600;
-  }
-  .background .control .list1 .icons {
-    display: flex;
-    justify-content: center;
-  }
   .background .control .list2 h2 {
     font-weight: 600;
   }
   .background .control .list2 ul li {
     font-size: 14px;
+  }
+  .background .iconscontrol .list1 {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+  }
+  .background .iconscontrol .list1 form {
+    display: flex;
+    width: 100%;
+  }
+  .background .iconscontrol .list1 form input {
+    padding: 10px 30px;
+  }
+  .background .iconscontrol .list1 form button {
+    padding: 10px 30px;
+  }
+  .background .iconscontrol .list1 .icons {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
   }
 }/*# sourceMappingURL=index.module.css.map */
