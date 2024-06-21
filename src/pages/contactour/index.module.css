@@ -82,15 +82,19 @@
   .background .control {
     display: flex;
     flex-direction: column;
+    gap: 5px;
+  }
+  .background .control .leftside {
+    height: 430px;
     gap: 10px;
   }
   .background .control .leftside .border .contactadress h2 {
-    font-size: 18px;
+    font-size: 15px;
     font-weight: 700;
     line-height: 25.2px;
   }
   .background .control .leftside .border .contactadress p {
-    font-size: 14px;
+    font-size: 13px;
     font-weight: 500;
     line-height: 21px;
   }

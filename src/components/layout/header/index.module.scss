@@ -91,6 +91,7 @@
     position: relative;
     a {
       font-size: 20px;
+      font-weight: 600;
     }
     li {
       font-size: 20px;
@@ -240,7 +241,8 @@
       grid-template-columns: repeat(3, 1fr);
       gap: 20px;
       a {
-        font-size: 14px;
+    
+        font-size: 16px;
       }
       li {
         font-size: 14px;

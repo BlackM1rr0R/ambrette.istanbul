@@ -90,6 +90,7 @@
 }
 .menuContainer .menu a {
   font-size: 20px;
+  font-weight: 600;
 }
 .menuContainer .menu li {
   font-size: 20px;
@@ -219,7 +220,7 @@
     gap: 20px;
   }
   .menuContainer .menu a {
-    font-size: 14px;
+    font-size: 16px;
   }
   .menuContainer .menu li {
     font-size: 14px;

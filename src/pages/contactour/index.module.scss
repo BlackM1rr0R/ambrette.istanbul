@@ -80,22 +80,24 @@
     .control {
       display: flex;
       flex-direction: column;
-      gap: 10px;
+      gap: 5px;
       .leftside {
-     
+             height: 430px;
+        gap: 10px;
           .border {
             .contactadress {
               h2 {
-                font-size: 18px;
+                font-size: 15px;
                 font-weight: 700;
                 line-height: 25.2px;
               }
               p {
-                font-size: 14px;
+                font-size: 13px;
                 font-weight: 500;
                 line-height: 21px;
               }
             }
+       
           }
         
       }

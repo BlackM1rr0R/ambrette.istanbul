@@ -54,7 +54,6 @@
   font-weight: 600;
 }
 
-/* Media query for smaller screens */
 @media (max-width: 490px) {
   .background .control .brendheaders hr {
     width: 50px;
@@ -73,7 +72,9 @@
     width: 45%;
   }
   .background .control .controlbox .controlclass .border img {
-    width: 150px;
+    width: 100%;
+    -o-object-fit: fill;
+       object-fit: fill;
   }
   .background .control .controlbox .controlclass h2 {
     font-weight: 600;
