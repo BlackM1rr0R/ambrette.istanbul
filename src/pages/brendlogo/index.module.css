@@ -79,4 +79,20 @@
   .background .control .controlbox .controlclass h2 {
     font-weight: 600;
   }
+}
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+.hidden {
+  opacity: 0;
+  transition: opacity 1s ease-in-out;
+}
+
+.visible {
+  opacity: 1;
 }/*# sourceMappingURL=index.module.css.map */

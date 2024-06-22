@@ -101,4 +101,20 @@
     width: 100%;
     height: 60vh;
   }
+}
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+.hidden {
+  opacity: 0;
+  transition: opacity 1s ease-in-out;
+}
+
+.visible {
+  opacity: 1;
 }/*# sourceMappingURL=index.module.css.map */

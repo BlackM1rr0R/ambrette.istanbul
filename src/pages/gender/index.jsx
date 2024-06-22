@@ -1,13 +1,19 @@
-import React, { useEffect, useState } from "react";
+import React, { useEffect, useRef, useState } from "react";
 import { useParams } from "react-router-dom";
 import styles from "./index.module.css";
 import Wrapper from "../../components/UI/wrapper"; 
 import DB from "../../db.json";
 import { Link } from "react-router-dom";
+import useIntersectionObserver from "../home/useIntersectionObserver";
 
 const Gender = () => {
   const { genderType } = useParams();
   const [formattedTitles, setFormattedTitles] = useState([]);
+  const [observe, unobserve, entries] = useIntersectionObserver({
+    threshold: 0.1,
+  });
+
+  const sections = useRef([]);
 
   useEffect(() => {
     const formatted = DB.filter(item => item.gender.toLowerCase() === genderType.toLowerCase())
@@ -18,6 +24,18 @@ const Gender = () => {
                         }));
     setFormattedTitles(formatted);
   }, [genderType]);
+
+  useEffect(() => {
+    sections.current.forEach((section) => {
+      observe(section);
+    });
+
+    return () => {
+      sections.current.forEach((section) => {
+        unobserve(section);
+      });
+    };
+  }, [observe, unobserve]);
 
   const formatTitle = (title) => {
     return title
@@ -30,7 +48,10 @@ const Gender = () => {
   return (
     <Wrapper>
       <div className={styles.background}>
-        <div className={styles.headers}>
+        <div
+          ref={(el) => (sections.current[0] = el)}
+          className={`${styles.headers} ${styles.hidden} ${entries[0]?.isIntersecting ? styles.visible : ""}`}
+        >
           <div className={styles.hr}>
             <hr />
           </div>
@@ -42,8 +63,13 @@ const Gender = () => {
           </div>
         </div>
         <div className={styles.box}>
-          {formattedTitles.map((item) => (
-            <Link to={"/parfum-details/" + item.id} className={styles.controlbox} key={item.id}>
+          {formattedTitles.map((item, index) => (
+            <Link
+              key={item.id}
+              to={"/parfum-details/" + item.id}
+              className={`${styles.controlbox} ${styles.hidden} ${entries[index + 1]?.isIntersecting ? styles.visible : ""}`}
+              ref={(el) => (sections.current[index + 1] = el)}
+            >
               <div className={styles.border}>
                 <img src={item.innerImageUrl} alt="" /> 
               </div>

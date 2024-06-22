@@ -5,8 +5,17 @@
   font-family: "Nunito" !important;
 }
 
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
 .background {
   padding-top: 20px;
+  animation: fadeIn 2s ease-in-out;
 }
 .background .icons {
   display: flex;
@@ -112,6 +121,7 @@
 
 .menuContainer {
   position: relative;
+  animation: fadeIn 2s ease-in-out;
 }
 .menuContainer .menu {
   list-style: none;

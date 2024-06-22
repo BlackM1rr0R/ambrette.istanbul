@@ -1,8 +1,9 @@
-import React from "react";
+import React, { useEffect, useRef } from "react";
 import styles from "./index.module.css";
 import Wrapper from "../../components/UI/wrapper";
 import { Link, useParams } from "react-router-dom";
 import DB from "../../db.json";
+import useIntersectionObserver from "../home/useIntersectionObserver"; // Import the custom hook
 
 const BrendPerfume = () => {
   const { brendId } = useParams();
@@ -16,14 +17,33 @@ const BrendPerfume = () => {
 
   const filteredResult = filterByBrand(DB, brendId);
 
+  const [observe, unobserve, entries] = useIntersectionObserver({
+    threshold: 0.1,
+  });
+
+  const sections = useRef([]);
+
+  useEffect(() => {
+    sections.current.forEach((section) => {
+      observe(section);
+    });
+
+    return () => {
+      sections.current.forEach((section) => {
+        unobserve(section);
+      });
+    };
+  }, [observe, unobserve, filteredResult]);
+
   return (
     <Wrapper>
       <div className={styles.background}>
         <div className={styles.control}>
-          {filteredResult.map((item) => (
+          {filteredResult.map((item, index) => (
             <Link
               to={"/parfum-details/" + item.id}
-              className={styles.flexborder}
+              className={`${styles.flexborder} ${styles.hidden} ${entries[index]?.isIntersecting ? styles.visible : ''}`}
+              ref={(el) => (sections.current[index] = el)}
               key={item.id}
             >
               <div className={styles.border}>

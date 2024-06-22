@@ -84,7 +84,7 @@ const LaunchesPerfume = () => {
             <ul>
               {uniqueBrands.slice(0, more ? 48 : 24).map((brand, index) => (
                 <li key={index}>
-                  <Link to={`/brand/${brand.replace(/\s+/g, "").toLowerCase()}`}>
+                  <Link to={`/brend/${brand.replace(/\s+/g, "").toLowerCase()}`}>
                     {capitalizeWords(brand)}
                   </Link>
                 </li>

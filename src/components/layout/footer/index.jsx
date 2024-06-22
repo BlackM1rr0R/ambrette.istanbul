@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect, useRef, useState } from "react";
 import styles from "./index.module.css";
 import Logo from "../../../assets/images/logo2.png";
 import Wrapper from "../../UI/wrapper";
@@ -10,9 +10,29 @@ import {
   TikTokIcon,
   YouTubeIcon,
 } from "../../../icons";
+
 const Footer = () => {
+  const [isVisible, setIsVisible] = useState(false);
+  const footerRef = useRef(null);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      if (footerRef.current) {
+        const topOffset = footerRef.current.getBoundingClientRect().top;
+        const isVisible = topOffset < window.innerHeight - 100;
+        setIsVisible(isVisible);
+      }
+    };
+
+    window.addEventListener("scroll", handleScroll);
+    return () => window.removeEventListener("scroll", handleScroll);
+  }, []);
+
   return (
-    <div className={styles.background}>
+    <div
+      ref={footerRef}
+      className={`${styles.background} ${isVisible ? "" : styles.hidden}`}
+    >
       <Wrapper>
         <div className={styles.control}>
           <div className={styles.list2}>
@@ -53,13 +73,12 @@ const Footer = () => {
           </div>
         </div>
         <div className={styles.iconscontrol}>
-            <div className={styles.textp}>
-
+          <div className={styles.textp}>
             <p>Contact with our:</p>
-            </div>
+          </div>
           <div className={styles.list1}>
             <form>
-              <input placeholder="E-mail" type="email" name="email"/>
+              <input placeholder="E-mail" type="email" name="email" />
               <button type="submit">Submit</button>
             </form>
             <div className={styles.icons}>

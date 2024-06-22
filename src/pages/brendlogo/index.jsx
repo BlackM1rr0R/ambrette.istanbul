@@ -1,10 +1,12 @@
-import React from "react";
+import React, { useEffect, useRef } from "react";
 import styles from "./index.module.css";
 import DB from "../../db.json";
 import brands from "../../brends.json";
 import { Link } from "react-router-dom";
 import Wrapper from '../../components/UI/wrapper';
-import Azzaro from '../../assets/images/ajmal.jpg'
+import Azzaro from '../../assets/images/ajmal.jpg';
+import useIntersectionObserver from "../home/useIntersectionObserver"; 
+
 const BrendLogo = () => {
   const uniqueBrands = [...new Set(DB.map((product) => product.brands))].sort();
 
@@ -17,11 +19,33 @@ const BrendLogo = () => {
     return acc;
   }, {});
 
+  const [observe, unobserve, entries] = useIntersectionObserver({
+    threshold: 0.1,
+  });
+
+  const sections = useRef([]);
+
+  useEffect(() => {
+    sections.current.forEach((section) => {
+      observe(section);
+    });
+
+    return () => {
+      sections.current.forEach((section) => {
+        unobserve(section);
+      });
+    };
+  }, [observe, unobserve]);
+
   return (
     <Wrapper>
       <div className={styles.background}>
         {Object.keys(groupedBrands).map((letter, index) => (
-          <div className={styles.control} key={index}>
+          <div
+            ref={(el) => (sections.current[index] = el)}
+            className={`${styles.control} ${styles.hidden} ${entries[index]?.isIntersecting ? styles.visible : ''}`}
+            key={index}
+          >
             <div className={styles.brendheaders}>
               <hr />
               <h2>{letter}</h2>
