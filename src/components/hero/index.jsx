@@ -1,9 +1,9 @@
 import React, { useState } from "react";
 import styles from "./index.module.css";
 import Wrapper from "../UI/wrapper";
-import BannerBackground from '../../assets/images/bannerbackground.png'
-import Banner from '../../assets/images/imagephoto4.png'
-import Banner2 from '../../assets/images/bannerbackground1.png'
+import BannerBackground from '../../assets/images/premium.webp'
+import Banner from '../../assets/images/premium1.webp'
+import Banner2 from '../../assets/images/perfume3.webp'
 import { Autoplay, Navigation} from "swiper/modules";
 
 import { Swiper, SwiperSlide } from "swiper/react";

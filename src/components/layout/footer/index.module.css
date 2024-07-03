@@ -28,6 +28,10 @@
   flex-direction: column;
   gap: 20px;
 }
+.background .control .list2 ul a {
+  text-decoration: none;
+  color: white;
+}
 .background .iconscontrol {
   padding-top: 40px;
 }

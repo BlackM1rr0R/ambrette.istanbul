@@ -109,7 +109,9 @@
 .background .control .selected svg {
   width: 30px;
 }
-.background .control .selected h2 {
+.background .control .selected a {
+  text-decoration: none;
+  color: black;
   font-weight: 600;
   font-size: 22px;
   border-bottom: 1px solid black;

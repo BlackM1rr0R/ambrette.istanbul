@@ -18,7 +18,7 @@
 .background .control {
   padding-top: 50px;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
 }
 .background .control li {
   border: 1px solid gray;
@@ -26,7 +26,7 @@
   padding: 20px;
 }
 .background .control li a img {
-  width: 200px;
+  width: 150px;
   -o-object-fit: cover;
      object-fit: cover;
 }

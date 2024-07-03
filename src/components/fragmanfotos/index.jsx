@@ -1,9 +1,11 @@
 import React, { useState } from "react";
 import styles from "./index.module.css";
-import Collections from "../../assets/images/backgroundsnip.png";
-import Collections1 from "../../assets/images/backgroundsnip1.png";
-import Collections2 from "../../assets/images/backgroundsnip2.png";
-import Collections3 from "../../assets/images/backgroundsnip3.png";
+import Collections from "../../assets/images/fragrance1.jpg";
+import Collections1 from "../../assets/images/fragrance2.jpg";
+import Collections2 from "../../assets/images/fragrance3.jpg";
+import Collections3 from "../../assets/images/fragrance4.jpg";
+import Collections4 from "../../assets/images/fragrance5.jpg";
+import Collections5 from "../../assets/images/fragrance6.jpg";
 import { Navigation, Pagination } from "swiper/modules";
 
 import { Swiper, SwiperSlide } from "swiper/react";
@@ -28,14 +30,12 @@ const FragmanFotos = () => {
       image: `${Collections3}`,
     },
     {
-      image: `${Collections}`,
+      image: `${Collections4}`,
     },
     {
-      image: `${Collections}`,
+      image: `${Collections5}`,
     },
-    {
-      image: `${Collections}`,
-    },
+   
   ]);
   return (
     <Wrapper>

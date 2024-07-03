@@ -10,6 +10,7 @@ import {
   TikTokIcon,
   YouTubeIcon,
 } from "../../../icons";
+import { Link } from "react-router-dom";
 
 const Footer = () => {
   const [isVisible, setIsVisible] = useState(false);
@@ -38,35 +39,35 @@ const Footer = () => {
           <div className={styles.list2}>
             <h2>PERFUMES</h2>
             <ul>
-              <li>Men</li>
-              <li>Women</li>
-              <li>Unisex</li>
+              <Link target="_blank" to="/gender/men">Men</Link>
+              <Link target="_blank" to="/gender/women">Women</Link>
+              <Link target="_blank" to="/gender/unisex">Unisex</Link>
             </ul>
           </div>
           <div className={styles.list2}>
             <h2>LOGO PERFUMES</h2>
             <ul>
-              <li>Perfumes</li>
-              <li>Brands</li>
-              <li>About us</li>
-              <li>Magazens</li>
-              <li>Contact us</li>
+              <Link target="_blank" to="/genderselected">Perfumes</Link>
+              <Link target="_blank" to="/brends">Brands</Link>
+              <Link target="_blank" to="/about">About us</Link>
+              <Link target="_blank" to="/magazins">Magazens</Link>
+              <Link target="_blank" to="/contact">Contact us</Link>
             </ul>
           </div>
           <div className={styles.list2}>
             <h2>MAGAZENS</h2>
             <ul>
-              <li>1.Moskow branch</li>
-              <li>2.Moskow branch</li>
-              <li>3.Kyrgyzstan branch</li>
-              <li>4.Kazakhstan branch</li>
-              <li>5.Uzbekistan branch</li>
+              <Link to="/magazins" target="_blank">Moskow branch</Link>
+              <Link to="/magazins" target="_blank">Moskow branch</Link>
+              <Link to="/magazins" target="_blank">Kyrgyzstan branch</Link>
+              <Link to="/magazins" target="_blank">Kazakhstan branch</Link>
+              <Link to="/magazins" target="_blank">Uzbekistan branch</Link>
             </ul>
           </div>
           <div className={styles.list2}>
             <h2>CONTACT US</h2>
             <ul>
-              <li>+996 501 662 222</li>
+              <a target="_blank" href="https://wa.me/996501662222">+996 501 662 222</a>
               <li>Instagram Adress</li>
               <li>09:00-22:00</li>
             </ul>

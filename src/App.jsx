@@ -23,9 +23,10 @@ function App() {
         </Routes>
         <Footer />
         <Link 
-          to="https://wa.me/yourwhatsappphonenumber" 
-          className="whatsappButton" 
+          to="https://wa.me/996501662222"
           target="_blank"
+          className="whatsappButton" 
+ 
           rel="noopener noreferrer"
         >
           <div>

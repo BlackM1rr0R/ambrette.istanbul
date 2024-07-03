@@ -16,14 +16,14 @@
   .control {
     padding-top: 50px;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     li {
       border: 1px solid gray;
       background-color: white;
       padding: 20px;
       a {
         img {
-          width: 200px;
+          width: 150px;
           object-fit: cover;
         }
       }

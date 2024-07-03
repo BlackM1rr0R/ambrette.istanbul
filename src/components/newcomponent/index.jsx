@@ -1,10 +1,10 @@
 import React, { useState } from "react";
 import styles from "./index.module.css";
 import Wrapper from "../UI/wrapper";
-import BackgroundImage1 from "../../assets/images/iyde1.png";
-import BackgroundImage2 from "../../assets/images/iyde2.png";
-import BackgroundImage3 from "../../assets/images/iyde3.png";
-import BackgroundImage4 from "../../assets/images/iyde4.png";
+import BackgroundImage1 from "../../assets/images/banner66.jpg";
+import BackgroundImage2 from "../../assets/images/banner77.jpg";
+import BackgroundImage3 from "../../assets/images/banner88.jpg";
+import BackgroundImage4 from "../../assets/images/banner100.jpg";
 const NewComponent = () => {
   const [data, setData] = useState([
     {
