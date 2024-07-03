@@ -242,7 +242,7 @@
   .background .control {
     gap: 10px;
   }
-  .background .control .selected h2 {
+  .background .control .selected a {
     font-size: 12px;
     text-align: center;
   }
