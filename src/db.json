@@ -224,21 +224,7 @@
     "brands": "Antonio Banderas",
     "gender": "Women"
   },
-  {
-    "id": 4025873,
-    "title": "Armani Basi Homme Men",
-    "description": "The Golden Secret men's fragrance by Banderas is an unmistakable distillation of seduction, thanks to the perfect blend of spicy red peppercorn and nutmeg accords and the warmth of cedar wood and leather. A spicy, woody fragrance with a leather scent, presented in a luxurious gold bottle made for special moments.",
-    "fragrance": {
-      "family": "Floral,Amber",
-      "topnotes": "Mandarin",
-      "midnotes": "Rose,Jasmine",
-      "basenotes": "Patchouli"
-    },
-    "innerimageurl": "/logo/antoniobanderas1.webp",
-    "imageurl": "/logo/parfuim1webp.webp",
-    "brands": "Armani Basi",
-    "gender": "Men"
-  },
+ 
   {
     "id": 4362177,
     "title": "Armani Code Men",
@@ -284,21 +270,7 @@
     "brands": "Armani Basi",
     "gender": "Women"
   },
-  {
-    "id": 4318290,
-    "title": "Armani Si Passione Women",
-    "description": "The Golden Secret men's fragrance by Banderas is an unmistakable distillation of seduction, thanks to the perfect blend of spicy red peppercorn and nutmeg accords and the warmth of cedar wood and leather. A spicy, woody fragrance with a leather scent, presented in a luxurious gold bottle made for special moments.",
-    "fragrance": {
-      "family": "Floral,Amber",
-      "topnotes": "Mandarin",
-      "midnotes": "Rose,Jasmine",
-      "basenotes": "Patchouli"
-    },
-    "innerimageurl": "/logo/antoniobanderas1.webp",
-    "imageurl": "/logo/parfuim1webp.webp",
-    "brands": "Armani Basi",
-    "gender": "Women"
-  },
+
   {
     "id": 4289925,
     "title": "Armani Stronger With You Men",
@@ -449,21 +421,7 @@
     "brands": "Black Afgano",
     "gender": "Unisex"
   },
-  {
-    "id": 4274869,
-    "title": "BLACK AFGANO Unisex",
-    "description": "The Golden Secret men's fragrance by Banderas is an unmistakable distillation of seduction, thanks to the perfect blend of spicy red peppercorn and nutmeg accords and the warmth of cedar wood and leather. A spicy, woody fragrance with a leather scent, presented in a luxurious gold bottle made for special moments.",
-    "fragrance": {
-      "family": "Floral,Amber",
-      "topnotes": "Mandarin",
-      "midnotes": "Rose,Jasmine",
-      "basenotes": "Patchouli"
-    },
-    "innerimageurl": "/logo/antoniobanderas1.webp",
-    "imageurl": "/logo/parfuim1webp.webp",
-    "brands": "Black Afgano",
-    "gender": "Unisex"
-  },
+  
   {
     "id": 4550878,
     "title": "BOADICEA KNIGHT OF LOVE T Women",
@@ -494,36 +452,8 @@
     "brands": "Bois",
     "gender": "Unisex"
   },
-  {
-    "id": 4142248,
-    "title": "B.OMNIA CRYSTALLINE T Women",
-    "description": "The Golden Secret men's fragrance by Banderas is an unmistakable distillation of seduction, thanks to the perfect blend of spicy red peppercorn and nutmeg accords and the warmth of cedar wood and leather. A spicy, woody fragrance with a leather scent, presented in a luxurious gold bottle made for special moments.",
-    "fragrance": {
-      "family": "Floral,Amber",
-      "topnotes": "Mandarin",
-      "midnotes": "Rose,Jasmine",
-      "basenotes": "Patchouli"
-    },
-    "innerimageurl": "/logo/antoniobanderas1.webp",
-    "imageurl": "/logo/parfuim1webp.webp",
-    "brands": "Bvlgari",
-    "gender": "Women"
-  },
-  {
-    "id": 4406365,
-    "title": "BOND WEST SIDE",
-    "description": "The Golden Secret men's fragrance by Banderas is an unmistakable distillation of seduction, thanks to the perfect blend of spicy red peppercorn and nutmeg accords and the warmth of cedar wood and leather. A spicy, woody fragrance with a leather scent, presented in a luxurious gold bottle made for special moments.",
-    "fragrance": {
-      "family": "Floral,Amber",
-      "topnotes": "Mandarin",
-      "midnotes": "Rose,Jasmine",
-      "basenotes": "Patchouli"
-    },
-    "innerimageurl": "/logo/antoniobanderas1.webp",
-    "imageurl": "/logo/parfuim1webp.webp",
-    "brands": "Bond",
-    "gender": "Unisex"
-  },
+  
+
   {
     "id": 4447210,
     "title": "BRIONI",
@@ -584,21 +514,7 @@
     "brands": "My Burberry",
     "gender": "Unisex"
   },
-  {
-    "id": 4127472,
-    "title": "BVLGARI AQVA AMARA Men",
-    "description": "The Golden Secret men's fragrance by Banderas is an unmistakable distillation of seduction, thanks to the perfect blend of spicy red peppercorn and nutmeg accords and the warmth of cedar wood and leather. A spicy, woody fragrance with a leather scent, presented in a luxurious gold bottle made for special moments.",
-    "fragrance": {
-      "family": "Floral,Amber",
-      "topnotes": "Mandarin",
-      "midnotes": "Rose,Jasmine",
-      "basenotes": "Patchouli"
-    },
-    "innerimageurl": "/logo/antoniobanderas1.webp",
-    "imageurl": "/logo/parfuim1webp.webp",
-    "brands": "Bvlgari",
-    "gender": "Men"
-  },
+
   {
     "id": 4044095,
     "title": "BVLGARI AQVA P.H MARINE Men",
@@ -631,7 +547,7 @@
   },
   {
     "id": 4024462,
-    "title": "BVLGARI OMNIA CRYSTALLINE W Women",
+    "title": "OMNIA CRYSTALLINE W Women",
     "description": "The Golden Secret men's fragrance by Banderas is an unmistakable distillation of seduction, thanks to the perfect blend of spicy red peppercorn and nutmeg accords and the warmth of cedar wood and leather. A spicy, woody fragrance with a leather scent, presented in a luxurious gold bottle made for special moments.",
     "fragrance": {
       "family": "Floral,Amber",
@@ -1004,21 +920,7 @@
     "brands": "Christian Dior",
     "gender": "Women"
   },
-  {
-    "id": 4330957,
-    "title": "C.DIOR EAU SAUVAGE DELUX",
-    "description": "The Golden Secret men's fragrance by Banderas is an unmistakable distillation of seduction, thanks to the perfect blend of spicy red peppercorn and nutmeg accords and the warmth of cedar wood and leather. A spicy, woody fragrance with a leather scent, presented in a luxurious gold bottle made for special moments.",
-    "fragrance": {
-      "family": "Floral,Amber",
-      "topnotes": "Mandarin",
-      "midnotes": "Rose,Jasmine",
-      "basenotes": "Patchouli"
-    },
-    "innerimageurl": "/logo/antoniobanderas1.webp",
-    "imageurl": "/logo/parfuim1webp.webp",
-    "brands": "Christian Dior",
-    "gender": "Men"
-  },
+
   {
     "id": 4116915,
     "title": "C.DIOR FAHRENHEIT LE PARFUM",
@@ -1126,7 +1028,7 @@
   },
   {
     "id": 4181858,
-    "title": "C.DIOR SAUVAGE",
+    "title": "Sauvage",
     "description": "The Golden Secret men's fragrance by Banderas is an unmistakable distillation of seduction, thanks to the perfect blend of spicy red peppercorn and nutmeg accords and the warmth of cedar wood and leather. A spicy, woody fragrance with a leather scent, presented in a luxurious gold bottle made for special moments.",
     "fragrance": {
       "family": "Floral,Amber",
@@ -1134,8 +1036,8 @@
       "midnotes": "Rose,Jasmine",
       "basenotes": "Patchouli"
     },
-    "innerimageurl": "/logo/antoniobanderas1.webp",
-    "imageurl": "/logo/parfuim1webp.webp",
+    "innerimageurl": "/logo/sauvage.webp",
+    "imageurl": "/logo/sauvage.webp",
     "brands": "Christian Dior",
     "gender": "Men"
   },
@@ -1829,21 +1731,7 @@
     "brands": "DIP",
     "gender": "Unisex"
   },
-  {
-    "id": 4117493,
-    "title": "DOLCE",
-    "description": "The Golden Secret men's fragrance by Banderas is an unmistakable distillation of seduction, thanks to the perfect blend of spicy red peppercorn and nutmeg accords and the warmth of cedar wood and leather. A spicy, woody fragrance with a leather scent, presented in a luxurious gold bottle made for special moments.",
-    "fragrance": {
-      "family": "Floral,Amber",
-      "topnotes": "Mandarin",
-      "midnotes": "Rose,Jasmine",
-      "basenotes": "Patchouli"
-    },
-    "innerimageurl": "/logo/antoniobanderas1.webp",
-    "imageurl": "/logo/parfuim1webp.webp",
-    "brands": "D&G",
-    "gender": "Unisex"
-  },
+
   {
     "id": 4312038,
     "title": "BE DELICIOUS",
@@ -4559,21 +4447,7 @@
     "brands": "Paco Rabanne",
     "gender": "Male"
   },
-  {
-    "id": 4360330,
-    "title": "PARFUMS DE MARLEY DELINA",
-    "description": "The Golden Secret men's fragrance by Banderas is an unmistakable distillation of seduction, thanks to the perfect blend of spicy red peppercorn and nutmeg accords and the warmth of cedar wood and leather. A spicy, woody fragrance with a leather scent, presented in a luxurious gold bottle made for special moments.",
-    "fragrance": {
-      "family": "Floral,Amber",
-      "topnotes": "Mandarin",
-      "midnotes": "Rose,Jasmine",
-      "basenotes": "Patchouli"
-    },
-    "innerimageurl": "/logo/antoniobanderas1.webp",
-    "imageurl": "/logo/parfuim1webp.webp",
-    "brands": "Parfums de Marley",
-    "gender": "Female"
-  },
+
   {
     "id": 4321939,
     "title": "PARFUMS DE MARLEY DELINA D",
@@ -4604,21 +4478,7 @@
     "brands": "Parfums de Marley",
     "gender": "Male"
   },
-  {
-    "id": 4242345,
-    "title": "PARFUMS DE MARLEY OAJAN T",
-    "description": "The Golden Secret men's fragrance by Banderas is an unmistakable distillation of seduction, thanks to the perfect blend of spicy red peppercorn and nutmeg accords and the warmth of cedar wood and leather. A spicy, woody fragrance with a leather scent, presented in a luxurious gold bottle made for special moments.",
-    "fragrance": {
-      "family": "Floral,Amber",
-      "topnotes": "Mandarin",
-      "midnotes": "Rose,Jasmine",
-      "basenotes": "Patchouli"
-    },
-    "innerimageurl": "/logo/antoniobanderas1.webp",
-    "imageurl": "/logo/parfuim1webp.webp",
-    "brands": "Parfums de Marley",
-    "gender": "Male"
-  },
+
   {
     "id": 4333271,
     "title": "Paco Rabanne INVICTUS AGUA",
@@ -4694,21 +4554,7 @@
     "brands": "Paco Rabanne",
     "gender": "Male"
   },
-  {
-    "id": 4069226,
-    "title": "PRADA CANDY",
-    "description": "The Golden Secret men's fragrance by Banderas is an unmistakable distillation of seduction, thanks to the perfect blend of spicy red peppercorn and nutmeg accords and the warmth of cedar wood and leather. A spicy, woody fragrance with a leather scent, presented in a luxurious gold bottle made for special moments.",
-    "fragrance": {
-      "family": "Floral,Amber",
-      "topnotes": "Mandarin",
-      "midnotes": "Rose,Jasmine",
-      "basenotes": "Patchouli"
-    },
-    "innerimageurl": "/logo/antoniobanderas1.webp",
-    "imageurl": "/logo/parfuim1webp.webp",
-    "brands": "Prada",
-    "gender": "Female"
-  },
+ 
   {
     "id": 4022638,
     "title": "PRADA CANDY",
@@ -6554,21 +6400,7 @@
     "brands": "Alexandra",
     "gender": "Unisex"
   },
-  {
-    "id": 4015463,
-    "title": "DESIRE BLUE",
-    "description": "The Golden Secret men's fragrance by Banderas is an unmistakable distillation of seduction, thanks to the perfect blend of spicy red peppercorn and nutmeg accords and the warmth of cedar wood and leather. A spicy, woody fragrance with a leather scent, presented in a luxurious gold bottle made for special moments.",
-    "fragrance": {
-      "family": "Floral,Amber",
-      "topnotes": "Mandarin",
-      "midnotes": "Rose,Jasmine",
-      "basenotes": "Patchouli"
-    },
-    "innerimageurl": "/logo/antoniobanderas1.webp",
-    "imageurl": "/logo/parfuim1webp.webp",
-    "brands": "Dunhill",
-    "gender": "Men"
-  },
+
   {
     "id": 4023166,
     "title": "DUNHILL",
@@ -6586,7 +6418,7 @@
   },
   {
     "id": 4245462,
-    "title": "ICON",
+    "title": "Dunhill Icon",
     "brands": "Dunhill",
     "description": "The Golden Secret men's fragrance by Banderas is an unmistakable distillation of seduction, thanks to the perfect blend of spicy red peppercorn and nutmeg accords and the warmth of cedar wood and leather. A spicy, woody fragrance with a leather scent, presented in a luxurious gold bottle made for special moments.",
     "fragrance": {
@@ -7649,21 +7481,7 @@
     "brands": "Bvlgari",
     "gender": "Unisex"
   },
-  {
-    "id": 4024462,
-    "title": "BVLGARI OMNIA CRYSTALLINE W",
-    "description": "The Golden Secret men's fragrance by Banderas is an unmistakable distillation of seduction, thanks to the perfect blend of spicy red peppercorn and nutmeg accords and the warmth of cedar wood and leather. A spicy, woody fragrance with a leather scent, presented in a luxurious gold bottle made for special moments.",
-    "fragrance": {
-      "family": "Floral,Amber",
-      "topnotes": "Mandarin",
-      "midnotes": "Rose,Jasmine",
-      "basenotes": "Patchouli"
-    },
-    "innerimageurl": "/logo/antoniobanderas1.webp",
-    "imageurl": "/logo/parfuim1webp.webp",
-    "brands": "Bvlgari",
-    "gender": "Women"
-  },
+
   {
     "id": 4019063,
     "title": "BVLGARI POUR FEMME",
@@ -7960,37 +7778,37 @@
   },
   {
     "id": 4286207,
-    "title": "C.D.FAHRENHEIT",
+    "title": "Christian DiorFAHRENHEIT",
     "brands": "Christian Dior",
     "gender": "Men"
   },
   {
     "id": 4319170,
-    "title": "C.DIOR ADICT C",
+    "title": "Christian Dior ADICT C",
     "brands": "Christian Dior",
     "gender": "Unisex"
   },
   {
     "id": 4330957,
-    "title": "C.DIOR EAU SAUVAGE DELUX",
+    "title": "SAVUAGE",
     "brands": "Christian Dior",
     "gender": "Unisex"
   },
   {
     "id": 4009039,
-    "title": "C.DIOR FAHRENHEIT",
+    "title": "Christian Dior FAHRENHEIT",
     "brands": "Christian Dior",
     "gender": "Men"
   },
   {
     "id": 4116915,
-    "title": "C.DIOR FAHRENHEIT LE PARFUM",
+    "title": "Christian Dior FAHRENHEIT LE PARFUM",
     "brands": "Christian Dior",
     "gender": "Men"
   },
   {
     "id": 4066389,
-    "title": "C.DIOR HOME SPORT T",
+    "title": "Christian Dior HOME SPORT T",
     "brands": "Christian Dior",
     "gender": "Unisex"
   },
@@ -8026,7 +7844,7 @@
   },
   {
     "id": 4490238,
-    "title": "C.DIOR SAUVAGE ELIXIR",
+    "title": "Sauvage Elixir",
     "brands": "Christian Dior",
     "gender": "Unisex"
   },

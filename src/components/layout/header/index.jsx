@@ -37,7 +37,7 @@ const Header = () => {
     setSearchTerm(term);
     if (term.length > 0) {
       const filtered = DB.filter((product) =>
-        product.title.toLowerCase().includes(term.toLowerCase())
+        product.brands.toLowerCase().startsWith(term.toLowerCase())
       );
       setFilteredPerfumes(filtered);
       setShowResults(true);
@@ -90,7 +90,7 @@ const Header = () => {
           <div className={styles.input} ref={searchRef}>
             <input
               type="text"
-              placeholder="Search..."
+              placeholder="Search by brand..."
               value={searchTerm}
               onChange={handleSearchChange}
               className={styles.input}
