@@ -87,19 +87,27 @@
       }
     }
 
-    .images {
-      display: grid;
-      grid-template-columns: repeat(4, 1fr);
-      gap: 30px;
-      position: relative;
+  .images {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 30px;
+  position: relative;
 
-      img {
-        width: 100%;
-        padding: 10px;
-        border: 1px solid black;
-        border-radius: 10px;
-      }
+  img {
+    width: 100%;
+    padding: 10px;
+
+    border-radius: 10px;
+    transition: transform 0.2s ease-in-out;
+    cursor: pointer;
+
+    &:hover {
+      z-index: 9999999999999999999999999999999999999999999999999999999999;
+      transform: scale(1.5); // Fare üzerine gelindiğinde resmi 1.1 kat büyüt
     }
+  }
+}
+
   }
 }
 
@@ -151,7 +159,12 @@
         justify-content: space-between;
 
         img {
-          width: 150px;
+          width: 80%;
+          margin: auto;
+          &:hover {
+            z-index: 9999999999999999999999999999999999999999999999999999999999;
+            transform: scale(1.4); // Fare üzerine gelindiğinde resmi 1.1 kat büyüt
+          }
         }
       }
     }

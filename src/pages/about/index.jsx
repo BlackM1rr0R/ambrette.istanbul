@@ -5,11 +5,11 @@ import CertificateImage1 from '../../assets/images/sertifikat1.jpg'
 import CertificateImage2 from '../../assets/images/sertifikat2.jpg'
 import CertificateImage3 from '../../assets/images/sertifikat3.png'
 import CertificateImage4 from '../../assets/images/sertifikat4.jpg'
-import CertificateImage5 from '../../assets/images/sertifikat5.png'
+
 import CertificateImage6 from '../../assets/images/sertifikat6.jpg'
 import CertificateImage7 from '../../assets/images/sertifikat7.png'
 import CertificateImage8 from '../../assets/images/sertifikat8.png'
-import CertificateImage9 from '../../assets/images/sertifikat9.png'
+
 import CertificateImage10 from '../../assets/images/sertifikat10.png'
 
 const About = () => {
@@ -124,11 +124,11 @@ const About = () => {
             <img src={CertificateImage2} alt="" />
             <img src={CertificateImage3} alt="" />
             <img src={CertificateImage4} alt="" />
-            <img src={CertificateImage5} alt="" />
+        
             <img src={CertificateImage6} alt="" />
             <img src={CertificateImage7} alt="" />
             <img src={CertificateImage8} alt="" />
-            <img src={CertificateImage9} alt="" />
+
             <img src={CertificateImage10} alt="" />
           </div>
         </div>

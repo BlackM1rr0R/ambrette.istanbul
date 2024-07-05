@@ -86,8 +86,13 @@
 .background .certificates .images img {
   width: 100%;
   padding: 10px;
-  border: 1px solid black;
   border-radius: 10px;
+  transition: transform 0.2s ease-in-out;
+  cursor: pointer;
+}
+.background .certificates .images img:hover {
+  z-index: 10000000000000000000000000000000000000000000000000000000000;
+  transform: scale(1.5);
 }
 
 @media (max-width: 490px) {
@@ -126,6 +131,11 @@
     justify-content: space-between;
   }
   .background .certificates .images img {
-    width: 150px;
+    width: 80%;
+    margin: auto;
+  }
+  .background .certificates .images img:hover {
+    z-index: 10000000000000000000000000000000000000000000000000000000000;
+    transform: scale(1.4);
   }
 }/*# sourceMappingURL=index.module.css.map */
