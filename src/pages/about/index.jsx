@@ -9,6 +9,8 @@ import CertificateImage5 from '../../assets/images/sertifikat5.png'
 import CertificateImage6 from '../../assets/images/sertifikat6.jpg'
 import CertificateImage7 from '../../assets/images/sertifikat7.png'
 import CertificateImage8 from '../../assets/images/sertifikat8.png'
+import CertificateImage9 from '../../assets/images/sertifikat9.png'
+import CertificateImage10 from '../../assets/images/sertifikat10.png'
 
 const About = () => {
   const principleRef = useRef(null);
@@ -126,6 +128,8 @@ const About = () => {
             <img src={CertificateImage6} alt="" />
             <img src={CertificateImage7} alt="" />
             <img src={CertificateImage8} alt="" />
+            <img src={CertificateImage9} alt="" />
+            <img src={CertificateImage10} alt="" />
           </div>
         </div>
       </Wrapper>

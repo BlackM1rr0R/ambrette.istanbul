@@ -67,8 +67,8 @@ const Footer = () => {
           <div className={styles.list2}>
             <h2>CONTACT US</h2>
             <ul>
-              <a target="_blank" href="https://wa.me/996501662222">+996 501 662 222</a>
-              <li>Instagram Adress</li>
+              <a target="_blank" href="https://wa.me/79682694534">+7 968 269 45 34</a>
+              <a target="_blank" href="https://www.instagram.com/ambrette_parfume/">Instagram Adress</a>
               <li>09:00-22:00</li>
             </ul>
           </div>
