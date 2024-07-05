@@ -116,7 +116,7 @@ const Header = () => {
           <div className={styles.selected}>
             <WhatsappIcon/>
             <hr />
-            <a target="_blank" href="https://wa.me/996501662222">+996 501 66 22 22</a>
+            <a target="_blank" href="https://wa.me/79682694534">+7 968 269 45 34</a>
           </div>
         </div>
       </div>

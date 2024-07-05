@@ -1,5 +1,5 @@
 import React from 'react';
-import './App.css';  // CSS dosyasını doğru import edin
+import './App.css'; 
 import { routeArr } from './routes';
 import Header from './components/layout/header';
 import Footer from './components/layout/footer';
@@ -23,7 +23,7 @@ function App() {
         </Routes>
         <Footer />
         <Link 
-          to="https://wa.me/996501662222"
+          to="https://wa.me/79682694534"
           target="_blank"
           className="whatsappButton" 
  

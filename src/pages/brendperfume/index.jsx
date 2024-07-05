@@ -1,4 +1,4 @@
-import React, { useEffect, useRef } from "react";
+import React, { useEffect, useRef, useState } from "react";
 import styles from "./index.module.css";
 import Wrapper from "../../components/UI/wrapper";
 import { Link, useParams } from "react-router-dom";
@@ -7,6 +7,12 @@ import useIntersectionObserver from "../home/useIntersectionObserver"; // Import
 
 const BrendPerfume = () => {
   const { brendId } = useParams();
+  const [filteredResult, setFilteredResult] = useState([]);
+  const [observe, unobserve, entries] = useIntersectionObserver({
+    threshold: 0.1,
+  });
+
+  const sections = useRef([]);
 
   function filterByBrand(data, brand) {
     const normalizedBrand = brand.replace(/\s+/g, "").toLowerCase();
@@ -15,13 +21,10 @@ const BrendPerfume = () => {
     );
   }
 
-  const filteredResult = filterByBrand(DB, brendId);
-
-  const [observe, unobserve, entries] = useIntersectionObserver({
-    threshold: 0.1,
-  });
-
-  const sections = useRef([]);
+  useEffect(() => {
+    const result = filterByBrand(DB, brendId);
+    setFilteredResult(result);
+  }, [brendId]);
 
   useEffect(() => {
     sections.current.forEach((section) => {
