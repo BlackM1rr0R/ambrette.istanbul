@@ -33,12 +33,12 @@ const Header = () => {
   const searchRef = useRef(null);
 
   const handleSearchChange = (event) => {
-    const term = event.target.value;
+    const term = event.target.value.toLowerCase();
     setSearchTerm(term);
     if (term.length > 0) {
-      const filtered = DB.filter((product) =>
-        product.brands.toLowerCase().startsWith(term.toLowerCase())
-      );
+      const filtered = DB.filter((product) => {
+        return product.title && product.title.toLowerCase().startsWith(term);
+      });
       setFilteredPerfumes(filtered);
       setShowResults(true);
     } else {
@@ -90,23 +90,22 @@ const Header = () => {
           <div className={styles.input} ref={searchRef}>
             <input
               type="text"
-              placeholder="Search by brand..."
+              placeholder="Search by title..."
               value={searchTerm}
               onChange={handleSearchChange}
-              className={styles.input}
             />
             {showResults && (
               <div className={styles.searchControl}>
                 <div className={styles.searchResults}>
-                  {filteredPerfumes.map((perfume) => (
-                    <div className={styles.imageControl} key={perfume.id}>
+                  {filteredPerfumes.map((item) => (
+                    <div className={styles.imageControl} key={item.id}>
                       <Link
-                        to={`/parfum-details/${perfume.id}`}
+                        to={`/parfum-details/${item.id}`}
                         className={styles.searchResultItem}
                       >
-                        {perfume.title}
+                        {item.title}
                       </Link>
-                      <img src={ParfumLogo} alt="" />
+                      <img src={ParfumLogo} alt={item.title} />
                     </div>
                   ))}
                 </div>
@@ -114,9 +113,11 @@ const Header = () => {
             )}
           </div>
           <div className={styles.selected}>
-            <WhatsappIcon/>
+            <WhatsappIcon />
             <hr />
-            <a target="_blank" href="https://wa.me/79682694534">+7 968 269 45 34</a>
+            <a target="_blank" href="https://wa.me/79682694534">
+              +7 968 269 45 34
+            </a>
           </div>
         </div>
       </div>
