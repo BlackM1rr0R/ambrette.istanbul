@@ -144,8 +144,8 @@
       "midnotes": "Rose,Jasmine",
       "basenotes": "Patchouli"
     },
-    "innerimageurl": "/perfumes/dunhilldesiremen.jpeg",
-    "imageurl": "/perfumes/dunhilldesiremen.jpeg",
+    "innerimageurl": "/perfumes/dunhildesiremen.jpeg",
+    "imageurl": "/perfumes/dunhildesiremen.jpeg",
     "brands": "Dunhill",
     "gender": "Men"
   },
@@ -1481,21 +1481,7 @@
     "gender": "Women"
   },
 
-  {
-    "id": 4343704,
-    "title": "VIKING M",
-    "description": "The Golden Secret men's fragrance by Banderas is an unmistakable distillation of seduction, thanks to the perfect blend of spicy red peppercorn and nutmeg accords and the warmth of cedar wood and leather. A spicy, woody fragrance with a leather scent, presented in a luxurious gold bottle made for special moments.",
-    "fragrance": {
-      "family": "Floral,Amber",
-      "topnotes": "Mandarin",
-      "midnotes": "Rose,Jasmine",
-      "basenotes": "Patchouli"
-    },
-    "innerimageurl": "/logo/antoniobanderas1.webp",
-    "imageurl": "/logo/parfuim1webp.webp",
-    "brands": "Creed",
-    "gender": "Men"
-  },
+
   {
     "id": 4447208,
     "title": "DALAL",
@@ -11668,7 +11654,7 @@
     "gender": "Unisex"
   },
   {
-    "id": 4069129,
+    "id": 4069128,
      "description": "The Golden Secret men's fragrance by Banderas is an unmistakable distillation of seduction, thanks to the perfect blend of spicy red peppercorn and nutmeg accords and the warmth of cedar wood and leather. A spicy, woody fragrance with a leather scent, presented in a luxurious gold bottle made for special moments.",
     "fragrance": {
       "family": "Floral,Amber",
