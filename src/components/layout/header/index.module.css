@@ -50,9 +50,9 @@
   color: black;
 }
 .background .control .images img {
-  width: 150px;
-  -o-object-fit: cover;
-     object-fit: cover;
+  width: 250px;
+  -o-object-fit: fill;
+     object-fit: fill;
 }
 .background .control .input input {
   width: 400px;
@@ -134,6 +134,7 @@
   display: flex;
   justify-content: space-between;
   position: relative;
+  padding-top: 15px;
 }
 .menuContainer .menu a {
   font-size: 20px;

@@ -38,7 +38,7 @@ const Header = () => {
     
     if (term.length > 0) {
       const filtered = DB.filter((product) => {
-        return product.title && product.title.toLowerCase().includes(term);
+        return product.title && product.title.toLowerCase().includes(term) && product.innerimageurl;
       });
       setFilteredPerfumes(filtered);
       setShowResults(filtered.length > 0);
@@ -106,7 +106,7 @@ const Header = () => {
                       >
                         {item.title}
                       </Link>
-                      <img src={ParfumLogo} alt={item.title} />
+                      <img src={item.innerimageurl} alt={item.title} />
                     </div>
                   ))}
                 </div>

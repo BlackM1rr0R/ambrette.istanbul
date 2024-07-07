@@ -4,6 +4,9 @@
   box-sizing: border-box;
 }
 
+.background {
+  padding-top: 16px;
+}
 .background .headers {
   margin-top: 15px;
 }

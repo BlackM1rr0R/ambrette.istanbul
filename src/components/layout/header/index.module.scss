@@ -47,8 +47,8 @@
       text-decoration: none;
       color: black;
       img {
-        width: 150px;
-        object-fit: cover;
+        width: 250px;
+        object-fit: fill;
       }
     }
     .input {
@@ -134,6 +134,7 @@
     display: flex;
     justify-content: space-between;
     position: relative;
+    padding-top: 15px;
     a {
       font-size: 20px;
       font-weight: 600;
