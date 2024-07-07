@@ -60,8 +60,10 @@
         }
         .boxs{
             .border{
+                min-height: 250px;
                 img{
                     width: 150px;
+                    height: 150px;
                 }
                 h2{
                     font-size: 14px;

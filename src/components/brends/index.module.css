@@ -58,8 +58,12 @@
     font-size: 16px;
     font-weight: 600;
   }
+  .background .boxs .border {
+    min-height: 250px;
+  }
   .background .boxs .border img {
     width: 150px;
+    height: 150px;
   }
   .background .boxs .border h2 {
     font-size: 14px;

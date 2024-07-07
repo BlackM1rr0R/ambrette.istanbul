@@ -241,11 +241,11 @@
     font-size: 16px;
   }
   .background .boxs .border {
-    min-height: 300px;
+    min-height: 250px;
   }
   .background .boxs .border img {
-    width: 180px;
-    width: 180px;
+    width: 150px;
+    height: 150px;
   }
   .background .boxs .border a {
     font-size: 14px;
