@@ -4,12 +4,20 @@ import Wrapper from "../../components/UI/wrapper";
 import { Link, useParams } from "react-router-dom";
 import DB from '../../db.json';
 import useIntersectionObserver from "../home/useIntersectionObserver";
+import { Autoplay, Pagination } from "swiper/modules";
+import { Swiper, SwiperSlide } from "swiper/react";
+import "swiper/css";
+import "swiper/css/navigation";
+import "swiper/css/pagination";
+import "swiper/css/scrollbar";
 
 const ParfumDetails = () => {
   const [modal, setModal] = useState(false);
   const [notes, setNotes] = useState(false);
   const [brends, setBrends] = useState(false);
   const [foundObject, setFoundObject] = useState(null);
+  const [relatedPerfumes, setRelatedPerfumes] = useState([]);
+  const certificatesRef = useRef(null);
 
   const handleClick = () => {
     setModal((prevModal) => !prevModal);
@@ -28,6 +36,10 @@ const ParfumDetails = () => {
   useEffect(() => {
     const obj = DB.find((item) => item.id === parseInt(id, 10));
     setFoundObject(obj);
+    if (obj) {
+      const related = DB.filter((item) => item.brands === obj.brands && item.id !== obj.id);
+      setRelatedPerfumes(related);
+    }
   }, [id]);
 
   const [observe, unobserve, entries] = useIntersectionObserver({
@@ -120,6 +132,47 @@ const ParfumDetails = () => {
               <hr />
             </div>
           </div>
+        </div>
+        <div className={styles.boxs}>
+          <Swiper
+            modules={[Autoplay, Pagination]}
+            className={styles.price}
+            spaceBetween={50}
+            slidesPerView={3}
+            pagination={{ clickable: true }} 
+            onSwiper={(swiper) => console.log(swiper)}
+            onSlideChange={() => console.log("slide change")}
+            breakpoints={{
+              0: {
+                spaceBetween: 24,
+                slidesPerView: 1,
+              },
+              768: {
+                spaceBetween: 24,
+                slidesPerView: 2,
+              },
+              992: {
+                spaceBetween: 50,
+                slidesPerView: 4,
+              },
+            }}
+          >
+            {relatedPerfumes.map((item) => (
+              <SwiperSlide key={item.id}>
+                <div className={styles.border}>
+                  <img src={item.imageurl} alt="" />
+                  <h2>{item.title}</h2>
+                  <Link
+                    to={"/parfum-details/" + item.id}
+                    target="_blank"
+                    className={styles.button}
+                  >
+                    <Link target="_blank" to={"/parfum-details/"+item.id}>See More</Link>
+                  </Link>
+                </div>
+              </SwiperSlide>
+            ))}
+          </Swiper>
         </div>
       </div>
     </Wrapper>

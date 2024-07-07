@@ -30,7 +30,7 @@ const Brends = () => {
           breakpoints={{
             0: {
               spaceBetween: 24,
-              slidesPerView: 2,
+              slidesPerView: 1,
             },
             768: {
               spaceBetween: 24,
@@ -38,7 +38,7 @@ const Brends = () => {
             },
             992: {
               spaceBetween: 50,
-              slidesPerView: 5,
+              slidesPerView: 4,
             },
           }}
         >

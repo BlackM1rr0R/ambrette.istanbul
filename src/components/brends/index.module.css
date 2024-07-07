@@ -28,10 +28,12 @@
   flex-direction: column;
   align-items: center;
   gap: 10px;
+  min-height: 400px;
   margin-bottom: 50px;
 }
 .background .boxs .border img {
   width: 250px;
+  height: 250px;
 }
 .background .boxs .border .button {
   padding-top: 20px;

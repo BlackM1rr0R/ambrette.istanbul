@@ -20,6 +20,10 @@
 }
 .background .control .images img {
   width: 400px;
+  transition: transform 0.3s ease-in-out;
+}
+.background .control .images img:hover {
+  transform: scale(1.4);
 }
 .background .control .images h2 {
   font-size: 32px;
@@ -119,6 +123,45 @@
 .background .perfumelist .twoside ul li {
   font-size: 24px;
 }
+.background .boxs {
+  padding-top: 80px;
+}
+.background .boxs .border {
+  text-decoration: none;
+  color: black;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 50px;
+  min-height: 400px;
+  justify-content: space-between;
+}
+.background .boxs .border img {
+  width: 250px;
+  height: 250px;
+}
+.background .boxs .border h2 {
+  text-align: center;
+  flex: 1;
+  padding-top: 30px;
+}
+.background .boxs .border .button {
+  padding-top: 20px;
+  text-decoration: none;
+}
+.background .boxs .border .button a {
+  border: none;
+  text-decoration: none;
+  outline: none;
+  cursor: pointer;
+  padding: 10px 40px;
+  text-decoration: none;
+  color: white;
+  border-radius: 25px;
+  background-color: #0055b8;
+}
 
 @media (max-width: 490px) {
   .background .control {
@@ -196,6 +239,16 @@
   }
   .background .perfumelist .twoside ul li {
     font-size: 16px;
+  }
+  .background .boxs .border {
+    min-height: 300px;
+  }
+  .background .boxs .border img {
+    width: 180px;
+    width: 180px;
+  }
+  .background .boxs .border a {
+    font-size: 14px;
   }
 }
 @keyframes fadeIn {
