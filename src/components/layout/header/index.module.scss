@@ -15,29 +15,27 @@
 .background {
   padding-top: 20px;
   animation: fadeIn 2s ease-in-out;
-  
 
-
-  .icons{
+  .icons {
     display: flex;
     flex-direction: column;
     gap: 10px;
     padding-bottom: 20px;
-    .iconscontrol{
+    .iconscontrol {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      .iconsflex {
         display: flex;
-        align-items: center;
-        justify-content: space-between;
-        .iconsflex{
-          display: flex;
-          gap: 20px;
-          svg{
-            width: 25px;
-          }
+        gap: 20px;
+        svg {
+          width: 25px;
         }
-        .language{
-          display: flex;
-          gap: 10px;
-        }
+      }
+      .language {
+        display: flex;
+        gap: 10px;
+      }
     }
   }
   .control {
@@ -65,50 +63,54 @@
       input::placeholder {
         font-family: "Ubuntu", sans-serif;
       }
-      .searchControl{
+      .searchControl {
+        position: relative;
 
-      position: relative;
-      .searchResults{
-        position: absolute;
-        top: 100%;
-        left: 0;
-        width: 100%;
-        background-color: white;
-        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-        z-index: 1000;
-        display: flex;
-        flex-direction: column;
-        border-radius: 10px;
-        gap: 10px;
-        .imageControl{
-          border: 1px solid rgb(192, 192, 192);
+        .searchResults {
+          position: absolute;
+          top: 100%;
+          left: 0;
+          width: 100%;
+          max-height: 600px; // Max height to 300px
+          background-color: white;
+          box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+          z-index: 1000;
           display: flex;
-          justify-content: space-between;
-          gap: 30px;
-          align-items: center;
-        border-radius: 5px;
-        padding: 20px;
-        a{
-          text-decoration: none;
-          color: black;
-          padding: 10px;
-        }
-        img{
-          width: 50px;
+          flex-direction: column;
+          border-radius: 10px;
+          gap: 10px;
+          overflow-y: auto; // Add vertical scrolling
+          padding: 20px;
+          .imageControl {
+            border: 1px solid rgb(192, 192, 192);
+            display: flex;
+            justify-content: space-between;
+            gap: 30px;
+            align-items: center;
+            border-radius: 5px;
+            padding: 20px;
+
+            a {
+              text-decoration: none;
+              color: black;
+              padding: 10px;
+            }
+
+            img {
+              width: 50px;
+            }
+          }
         }
       }
-    }
-    }
-     
     }
     .selected {
       display: flex;
       align-items: center;
       gap: 10px;
-      svg{
+      svg {
         width: 30px;
       }
-      a{
+      a {
         text-decoration: none;
         color: black;
         font-weight: 600;
@@ -230,20 +232,19 @@
           gap: 20px;
           padding: 20px;
           .brendheaders {
-            h2{
+            h2 {
               color: red;
               font-size: 18px;
             }
           }
-        a{
-          color: black;
-          font-size: 14px;
+          a {
+            color: black;
+            font-size: 14px;
+          }
+          a:hover {
+            color: red;
+          }
         }
-        a:hover{
-          color: red;
-        }
-        }
-    
       }
     }
   }
@@ -252,8 +253,8 @@
   .background {
     .control {
       gap: 10px;
-      .selected{
-        a{
+      .selected {
+        a {
           font-size: 12px;
           text-align: center;
         }
@@ -267,16 +268,43 @@
         input {
           width: auto;
         }
-        .searchControl{
-          .searchResults{
-            .imageControl{
+        .searchControl {
+          position: relative;
+
+          .searchResults {
+            position: absolute;
+            top: 100%;
+            left: 0;
+            width: 100%;
+            max-height: 600px; 
+            background-color: white;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            z-index: 9999999999999999999999999999999999999999999999999999999999999;
+            display: flex;
+            flex-direction: column;
+            border-radius: 10px;
+            gap: 10px;
+            overflow-y: auto; 
+            padding: 20px;
+            .imageControl {
+              border: 1px solid rgb(192, 192, 192);
+              display: flex;
+              justify-content: space-between;
+              gap: 30px;
+              align-items: center;
+              border-radius: 5px;
               padding: 10px;
-              a{
+
+              a {
+                text-decoration: none;
+                color: black;
+                padding: 10px;
                 font-size: 10px;
                 line-height: 17px;
               }
-              img{
-                width: 40px;
+
+              img {
+             width: 20px;
               }
             }
           }
@@ -290,7 +318,6 @@
       grid-template-columns: repeat(3, 1fr);
       gap: 20px;
       a {
-    
         font-size: 16px;
       }
       li {

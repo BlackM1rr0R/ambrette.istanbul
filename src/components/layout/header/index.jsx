@@ -35,18 +35,19 @@ const Header = () => {
   const handleSearchChange = (event) => {
     const term = event.target.value.toLowerCase();
     setSearchTerm(term);
+    
     if (term.length > 0) {
       const filtered = DB.filter((product) => {
-        return product.title && product.title.toLowerCase().startsWith(term);
+        return product.title && product.title.toLowerCase().includes(term);
       });
       setFilteredPerfumes(filtered);
-      setShowResults(true);
+      setShowResults(filtered.length > 0);
     } else {
       setFilteredPerfumes([]);
       setShowResults(false);
     }
   };
-
+  
   useEffect(() => {
     const handleClickOutside = (event) => {
       if (searchRef.current && !searchRef.current.contains(event.target)) {
