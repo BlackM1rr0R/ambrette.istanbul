@@ -152,7 +152,7 @@
 }
 .background .boxs .border h2 {
   text-align: center;
-  padding-top: 30px;
+  padding-top: 5px;
   font-weight: 600;
 }
 .background .boxs .border h3 {
@@ -162,6 +162,7 @@
 .background .boxs .border .button {
   padding-top: 10px;
   text-decoration: none;
+  padding-bottom: 30px;
 }
 .background .boxs .border .button a {
   border: none;

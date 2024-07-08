@@ -166,7 +166,7 @@ const ParfumDetails = () => {
           >
             {relatedPerfumes.map((item) => (
               <SwiperSlide key={item.id}>
-                <div className={styles.border}>
+                <Link target="_blank" to={"/parfum-details/" + item.id} className={styles.border}>
                   <img src={item.imageurl} alt="" />
                   <h2>{item.title}</h2>
                   <h3>{item.gender}</h3>
@@ -179,7 +179,7 @@ const ParfumDetails = () => {
                       See More
                     </Link>
                   </Link>
-                </div>
+                </Link>
               </SwiperSlide>
             ))}
           </Swiper>
