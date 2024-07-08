@@ -72,10 +72,13 @@ const ParfumDetails = () => {
           }`}
         >
           <div className={styles.images}>
-            <h2>{foundObject?.title}</h2>
+            
             <img src={foundObject?.innerimageurl} alt="" />
           </div>
           <div className={styles.description}>
+            <div className={styles.nameParfum}>
+            <h2>{foundObject?.title}</h2>
+            </div>
             <div onClick={handleClick} className={styles.info}>
               <h2>Description</h2>
               <h2>+</h2>
