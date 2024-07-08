@@ -44,7 +44,7 @@ const Brends = () => {
         >
           {DB.slice(0, 15).map((item) => (
             <SwiperSlide key={item.id}>
-              <div className={styles.border}>
+              <Link to={"/parfum-details/" + item.id} className={styles.border}>
                 <img src={item.imageurl} alt="" />
                 <h2>{item.title}</h2>
                 <h3>{item.gender}</h3>
@@ -55,7 +55,7 @@ const Brends = () => {
                 >
                   <button>See More</button>
                 </Link>
-              </div>
+              </Link>
             </SwiperSlide>
           ))}
         </Swiper>

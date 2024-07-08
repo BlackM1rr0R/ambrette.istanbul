@@ -179,6 +179,7 @@
 @media (max-width: 490px) {
   .background .control {
     display: flex;
+    align-items: center;
     flex-direction: column;
     gap: 30px;
   }
@@ -191,6 +192,9 @@
   }
   .background .control .description {
     width: 100%;
+  }
+  .background .control .description .nameParfum {
+    padding-bottom: 15px;
   }
   .background .control .description .info h2 {
     font-size: 18px;
