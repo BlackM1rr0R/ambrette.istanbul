@@ -144,11 +144,15 @@
 }
 .background .boxs .border h2 {
   text-align: center;
-  flex: 1;
   padding-top: 30px;
+  font-weight: 600;
+}
+.background .boxs .border h3 {
+  font-weight: 500;
+  color: blue;
 }
 .background .boxs .border .button {
-  padding-top: 20px;
+  padding-top: 10px;
   text-decoration: none;
 }
 .background .boxs .border .button a {
@@ -242,10 +246,15 @@
   }
   .background .boxs .border {
     min-height: 250px;
+    gap: 15px;
   }
   .background .boxs .border img {
     width: 150px;
     height: 150px;
+  }
+  .background .boxs .border .button {
+    padding-top: 20px;
+    padding-bottom: 30px;
   }
   .background .boxs .border a {
     font-size: 14px;

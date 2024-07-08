@@ -27,7 +27,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 10px;
+  gap: 15px;
   min-height: 400px;
   margin-bottom: 50px;
 }
@@ -35,8 +35,15 @@
   width: 250px;
   height: 250px;
 }
+.background .boxs .border h2 {
+  font-weight: 600;
+}
+.background .boxs .border h3 {
+  font-weight: 500;
+  color: blue;
+}
 .background .boxs .border .button {
-  padding-top: 20px;
+  padding-top: 10px;
 }
 .background .boxs .border .button button {
   border: none;

@@ -152,12 +152,18 @@
 
       h2 {
         text-align: center;
-        flex: 1;
+ 
         padding-top: 30px;
+            font-weight: 600;
+
       }
 
+        h3{
+            font-weight: 500;
+            color: blue;
+        }
       .button {
-        padding-top: 20px;
+        padding-top: 10px;
         text-decoration: none;
 
         a {
@@ -277,9 +283,14 @@
     .boxs {
       .border {
         min-height: 250px;
+        gap: 15px;
         img {
           width: 150px;
           height: 150px;
+        }
+        .button{
+          padding-top: 20px;
+          padding-bottom: 30px;
         }
         a {
           font-size: 14px;

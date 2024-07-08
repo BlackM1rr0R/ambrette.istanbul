@@ -47,6 +47,7 @@ const Brends = () => {
               <div className={styles.border}>
                 <img src={item.imageurl} alt="" />
                 <h2>{item.title}</h2>
+                <h3>{item.gender}</h3>
                 <Link
                   to={"/parfum-details/" + item.id}
                   target="_blank"
