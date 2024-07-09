@@ -53,11 +53,13 @@
     }
     .input {
       input {
-        width: 400px;
+        width: 600px;
         background-color: #f4f4f4;
         border: none;
         border-radius: 30px;
-        padding: 10px 26px;
+        font-weight: 600;
+        padding: 20px 26px;
+        font-size: 14px;
         outline: none;
       }
       input::placeholder {
@@ -259,6 +261,9 @@
           font-size: 12px;
           text-align: center;
         }
+        svg{
+          width: 20px;
+        }
       }
       .images {
         img {
@@ -266,8 +271,17 @@
         }
       }
       .input {
+        
         input {
-          width: auto;
+          width: 100%;
+        background-color: #f4f4f4;
+        border: none;
+        border-radius: 30px;
+        font-weight: 600;
+        padding: 10px 26px;
+        font-size: 14px;
+        outline: none;
+      
         }
         .searchControl {
           position: relative;

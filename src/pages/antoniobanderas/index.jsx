@@ -160,7 +160,7 @@ const ParfumDetails = () => {
               },
               992: {
                 spaceBetween: 50,
-                slidesPerView: 4,
+                slidesPerView: 3,
               },
             }}
           >

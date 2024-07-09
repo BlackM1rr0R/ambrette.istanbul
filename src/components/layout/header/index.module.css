@@ -55,11 +55,13 @@
      object-fit: fill;
 }
 .background .control .input input {
-  width: 400px;
+  width: 600px;
   background-color: #f4f4f4;
   border: none;
   border-radius: 30px;
-  padding: 10px 26px;
+  font-weight: 600;
+  padding: 20px 26px;
+  font-size: 14px;
   outline: none;
 }
 .background .control .input input::-moz-placeholder {
@@ -250,11 +252,21 @@
     font-size: 12px;
     text-align: center;
   }
+  .background .control .selected svg {
+    width: 20px;
+  }
   .background .control .images img {
     width: 50px;
   }
   .background .control .input input {
-    width: auto;
+    width: 100%;
+    background-color: #f4f4f4;
+    border: none;
+    border-radius: 30px;
+    font-weight: 600;
+    padding: 10px 26px;
+    font-size: 14px;
+    outline: none;
   }
   .background .control .input .searchControl {
     position: relative;
