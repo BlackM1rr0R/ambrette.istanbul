@@ -28,6 +28,10 @@
 .background .control .flexborder .border img {
   width: 150px;
   height: 150px;
+  transition: transform 0.3s ease-in-out;
+}
+.background .control .flexborder .border img:hover {
+  transform: scale(1.5);
 }
 .background .control .flexborder h2 {
   font-weight: 500;

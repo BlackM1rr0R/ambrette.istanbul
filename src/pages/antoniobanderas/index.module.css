@@ -181,10 +181,6 @@
     flex-direction: column;
     gap: 30px;
   }
-  .background .control .images h2 {
-    font-size: 20px;
-    font-weight: 600;
-  }
   .background .control .images img {
     width: 250px;
   }
@@ -193,6 +189,11 @@
   }
   .background .control .description .nameParfum {
     padding-bottom: 15px;
+  }
+  .background .control .description .nameParfum h2 {
+    text-align: center;
+    font-size: 26px;
+    font-weight: 700;
   }
   .background .control .description .info h2 {
     font-size: 18px;
