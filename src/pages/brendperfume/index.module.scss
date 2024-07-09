@@ -5,24 +5,24 @@
 }
 .background {
   .control {
-    display: flex;
-    justify-content: space-between;
+    display: grid;
+   grid-template-columns: repeat(3,1fr);
     padding-top: 80px;
     padding-bottom: 80px;
     flex-wrap: wrap;
-   gap: 50px;
+    gap: 50px;
     .flexborder {
       display: flex;
       flex-direction: column;
-      width: 20%;
-        gap: 20px;
-        text-decoration: none;
-        color: black;
+     
+      gap: 20px;
+      text-decoration: none;
+      color: black;
       .border {
         display: flex;
 
         justify-content: center;
-  
+
         background-color: white;
         padding: 30px;
         img {
@@ -30,7 +30,7 @@
           height: 150px;
         }
       }
-      h2{
+      h2 {
         font-weight: 500;
         font-size: 18px;
         text-align: center;
@@ -38,12 +38,12 @@
     }
   }
 }
-@media(max-width:490px){
-  .background{
-    .control{
+@media (max-width: 490px) {
+  .background {
+    .control {
       display: flex;
       flex-direction: column;
-      .flexborder{
+      .flexborder {
         width: 100%;
       }
     }
