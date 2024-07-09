@@ -23,7 +23,6 @@
 .background .control .flexborder .border {
   display: flex;
   justify-content: center;
-  border: 1px solid gray;
   background-color: white;
   padding: 30px;
 }
