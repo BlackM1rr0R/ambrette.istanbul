@@ -204,8 +204,8 @@
       "midnotes": "Rose,Jasmine",
       "basenotes": "Patchouli"
     },
-    "innerimageurl": "/perfumes/antoniobanderasblue.jpeg",
-    "imageurl": "/perfumes/antoniobanderasblue.jpeg",
+    "innerimageurl": "/perfumes/antoniobanderasblue2.jpeg",
+    "imageurl": "/perfumes/antoniobanderasblue2.jpeg",
     "brands": "Antonio Banderas",
     "gender": "Men"
   },
@@ -1613,21 +1613,7 @@
     "brands": "Christian Dior",
     "gender": "Men"
   },
-  {
-    "id": 1054700,
-    "title": "DIP",
-    "description": "The Golden Secret men's fragrance by Banderas is an unmistakable distillation of seduction, thanks to the perfect blend of spicy red peppercorn and nutmeg accords and the warmth of cedar wood and leather. A spicy, woody fragrance with a leather scent, presented in a luxurious gold bottle made for special moments.",
-    "fragrance": {
-      "family": "Floral,Amber",
-      "topnotes": "Mandarin",
-      "midnotes": "Rose,Jasmine",
-      "basenotes": "Patchouli"
-    },
-    "innerimageurl": "/logo/antoniobanderas1.webp",
-    "imageurl": "/logo/parfuim1webp.webp",
-    "brands": "DIP",
-    "gender": "Unisex"
-  },
+
 
   {
     "id": 4312038,
@@ -1934,16 +1920,16 @@
   {
     "id": 4286109,
     "title": "Fleur Narcotique Delux",
-    "description": "The Golden Secret men's fragrance by Banderas is an unmistakable distillation of seduction, thanks to the perfect blend of spicy red peppercorn and nutmeg accords and the warmth of cedar wood and leather. A spicy, woody fragrance with a leather scent, presented in a luxurious gold bottle made for special moments.",
+    "description": "Fleur Narcotique est une explosion de senteurs affirmées et subtiles qui s'ouvre sur des notes fraiche de bergamote et pêche. Extrêmement séductrice, la fragrance offre un bouquet de fleurs blanches mêlé à de l'hédione en coeur. Le sillage repose ensuite sur un lit de musc blanc.",
     "fragrance": {
       "family": "Floral,Amber",
       "topnotes": "Mandarin",
       "midnotes": "Rose,Jasmine",
       "basenotes": "Patchouli"
     },
-    "innerimageurl": "/logo/antoniobanderas1.webp",
-    "imageurl": "/logo/parfuim1webp.webp",
-    "brands": "Fleur",
+    "innerimageurl": "/perfumes/fleurnarcotique.jpeg",
+    "imageurl": "/perfumes/fleurnarcotique.jpeg",
+    "brands": "Ex Nihilo",
     "gender": "Unisex"
   },
   {
@@ -2525,7 +2511,7 @@
   },
   {
     "id": 4533959,
-    "title": "Kenzo Elektrik",
+    "title": "Kenzo Electric",
     "description": "L'Eau par Kenzo Electric Wave pour Homme by Kenzo is a Citrus Aromatic fragrance for men. Top notes are Yuzu and Pink Grapefruit; middle notes are Mint and Green Apple; base notes are Tonka Bean and Palisander Rosewood.",
     "fragrance": {
       "family": "Floral,Amber",
@@ -2837,7 +2823,7 @@
       "midnotes": "Rose,Jasmine",
       "basenotes": "Patchouli"
     },
-    "innerimageurl": "/perfumes/lacosterored.jpeg",
+    "innerimageurl": "/perfumes/lacostered.jpeg",
     "imageurl": "/perfumes/lacostered.jpeg",
     "brands": "Lacoste",
     "gender": "Male"
@@ -2882,8 +2868,8 @@
       "midnotes": "Rose,Jasmine",
       "basenotes": "Patchouli"
     },
-    "innerimageurl": "/perfumes/lacosteyellow.jpeg",
-    "imageurl": "/perfumes/lacosteyellow.jpeg",
+    "innerimageurl": "/perfumes/lacosteyellow1.jpeg",
+    "imageurl": "/perfumes/lacosteyellow1.jpeg",
     "brands": "Lacoste",
     "gender": "Female"
   },
@@ -3840,16 +3826,16 @@
 
   {
     "id": 4260696,
-    "title": "N.RODRIGUEZ POUDREE",
-    "description": "The Golden Secret men's fragrance by Banderas is an unmistakable distillation of seduction, thanks to the perfect blend of spicy red peppercorn and nutmeg accords and the warmth of cedar wood and leather. A spicy, woody fragrance with a leather scent, presented in a luxurious gold bottle made for special moments.",
+    "title": "Narciso Rodriguez Poudree",
+    "description": "This powdery floral fragrance envelops the senses, cocooning the skin in a diaphanous veil of scent. Sublimely feminine, NARCISO eau de parfum poudrée opens with a beguiling floral bouquet, the velvety smoothness of white jasmine petals interwoven with precious Bulgarian rose.",
     "fragrance": {
       "family": "Floral,Amber",
       "topnotes": "Mandarin",
       "midnotes": "Rose,Jasmine",
       "basenotes": "Patchouli"
     },
-    "innerimageurl": "/logo/antoniobanderas1.webp",
-    "imageurl": "/logo/parfuim1webp.webp",
+    "innerimageurl": "/perfumes/narcisopoudree.jpeg",
+    "imageurl": "/perfumes/narcisopoudree.jpeg",
     "brands": "Narciso Rodriguez",
     "gender": "Female"
   },
@@ -3916,97 +3902,97 @@
   },
   {
     "id": 4060341,
-    "title": "PACO RABANE LADY MILLION",
-    "description": "The Golden Secret men's fragrance by Banderas is an unmistakable distillation of seduction, thanks to the perfect blend of spicy red peppercorn and nutmeg accords and the warmth of cedar wood and leather. A spicy, woody fragrance with a leather scent, presented in a luxurious gold bottle made for special moments.",
+    "title": "Paco Rabanne Lady Million",
+    "description": "With hints of neroli, raspberry and bitter orange, Lady Million is an opulent, white floral fragrance made to stand out everywhere. For the Masculine fragrance lover, 1 Million is a beautiful spicy leather scent made for the who obeys no one.",
     "fragrance": {
       "family": "Floral,Amber",
       "topnotes": "Mandarin",
       "midnotes": "Rose,Jasmine",
       "basenotes": "Patchouli"
     },
-    "innerimageurl": "/logo/antoniobanderas1.webp",
-    "imageurl": "/logo/parfuim1webp.webp",
+    "innerimageurl": "/perfumes/pacolady.jpeg",
+    "imageurl": "/perfumes/pacolady.jpeg",
     "brands": "Paco Rabanne",
     "gender": "Female"
   },
   {
     "id": 4198971,
-    "title": "PACO RABANE OLYMPEA",
-    "description": "The Golden Secret men's fragrance by Banderas is an unmistakable distillation of seduction, thanks to the perfect blend of spicy red peppercorn and nutmeg accords and the warmth of cedar wood and leather. A spicy, woody fragrance with a leather scent, presented in a luxurious gold bottle made for special moments.",
+    "title": "Paco Rabanne Olympea",
+    "description": "Olympéa. Goddess of modern times, A fresh, powerful amber scent, carried by a salty vanilla harmony that adores skin. And a fresh-carnal duel: floral impulse with green tangerine, water jasmine and ginger flower. Skin effect of salted vanilla.",
     "fragrance": {
       "family": "Floral,Amber",
       "topnotes": "Mandarin",
       "midnotes": "Rose,Jasmine",
       "basenotes": "Patchouli"
     },
-    "innerimageurl": "/logo/antoniobanderas1.webp",
-    "imageurl": "/logo/parfuim1webp.webp",
+    "innerimageurl": "/perfumes/pacoolympea.jpeg",
+    "imageurl": "/perfumes/pacoolympea.jpeg",
     "brands": "Paco Rabanne",
     "gender": "Female"
   },
   {
     "id": 4091886,
-    "title": "PACO RABANNE BLACK XS L'EXCES T",
-    "description": "The Golden Secret men's fragrance by Banderas is an unmistakable distillation of seduction, thanks to the perfect blend of spicy red peppercorn and nutmeg accords and the warmth of cedar wood and leather. A spicy, woody fragrance with a leather scent, presented in a luxurious gold bottle made for special moments.",
+    "title": "Paco Rabanne Black Xs L'Exces T",
+    "description": "Follow your instincts. Intensely, excessively. Break the rules. Capture the moment. The Black XS fragrance For Men. Uncompromising freshness. A fragrance with radical, sensual and unpredictable appeal. Rock. In excess.The radical charm of a woody amber eau de toilette that hits the spot. Top notes of Calabrian lemon and Kalamanzi. Fresh, overflowing energy. Praline-cinnamon accord: full-bodied, sensual. Unpredictable. Black amber and an overload of patchouli for a powerful finish. A fragrance for men with a singular intensity.",
     "fragrance": {
       "family": "Floral,Amber",
       "topnotes": "Mandarin",
       "midnotes": "Rose,Jasmine",
       "basenotes": "Patchouli"
     },
-    "innerimageurl": "/logo/antoniobanderas1.webp",
-    "imageurl": "/logo/parfuim1webp.webp",
+    "innerimageurl": "/perfumes/pacoxsmen.jpeg",
+    "imageurl": "/perfumes/pacoxsmen.jpeg",
     "brands": "Paco Rabanne",
     "gender": "Male"
   },
   {
     "id": 4533651,
-    "title": "PACO RABANNE FAME",
-    "description": "The Golden Secret men's fragrance by Banderas is an unmistakable distillation of seduction, thanks to the perfect blend of spicy red peppercorn and nutmeg accords and the warmth of cedar wood and leather. A spicy, woody fragrance with a leather scent, presented in a luxurious gold bottle made for special moments.",
+    "title": "Paco Rabanne Fame",
+    "description": "FAME Eau de Parfum has top notes of mango and bergamot, heart notes of jasmine and incense, and base notes of sandalwood and vanilla. This is a truly irresistible scent radiating joy and audacious sensuality.",
     "fragrance": {
       "family": "Floral,Amber",
       "topnotes": "Mandarin",
       "midnotes": "Rose,Jasmine",
       "basenotes": "Patchouli"
     },
-    "innerimageurl": "/logo/antoniobanderas1.webp",
-    "imageurl": "/logo/parfuim1webp.webp",
+    "innerimageurl": "/perfumes/pacofame.jpeg",
+    "imageurl": "/perfumes/pacofame.jpeg",
     "brands": "Paco Rabanne",
     "gender": "Unisex"
   },
   {
     "id": 4100495,
-    "title": "PACO RABANNE INVICTUS",
-    "description": "The Golden Secret men's fragrance by Banderas is an unmistakable distillation of seduction, thanks to the perfect blend of spicy red peppercorn and nutmeg accords and the warmth of cedar wood and leather. A spicy, woody fragrance with a leather scent, presented in a luxurious gold bottle made for special moments.",
+    "title": "Paco Rabanne Invictus",
+    "description": "Paco Rabanne Invictus is a strong, aquatic Eau de Toilette that boasts top notes of grapefruit, mandarin orange, and sea notes, Middle notes of bay leaf and jasmine, and base notes of patchouli, guaiac wood, ambergris, and oakmoss.",
     "fragrance": {
       "family": "Floral,Amber",
       "topnotes": "Mandarin",
       "midnotes": "Rose,Jasmine",
       "basenotes": "Patchouli"
     },
-    "innerimageurl": "/logo/antoniobanderas1.webp",
-    "imageurl": "/logo/parfuim1webp.webp",
+    "innerimageurl": "/perfumes/pacoinvictus.jpeg",
+    "imageurl": "/perfumes/pacoinvictus.jpeg",
     "brands": "Paco Rabanne",
     "gender": "Male"
   },
   {
     "id": 4289042,
-    "title": "PACO RABANNE ONE MILLION",
-    "description": "The Golden Secret men's fragrance by Banderas is an unmistakable distillation of seduction, thanks to the perfect blend of spicy red peppercorn and nutmeg accords and the warmth of cedar wood and leather. A spicy, woody fragrance with a leather scent, presented in a luxurious gold bottle made for special moments.",
+    "title": "Paco Rabanne One Million",
+    "description": "One Million Eau de Toilette is a fresh and spicy fragrance for men with notes of amber, leather, and tangerine. It defies all the rules and upsets the codes while adding a touch of irresistible seduction. It contains head-turning aromas to suit a man with rebellious charm.",
     "fragrance": {
       "family": "Floral,Amber",
       "topnotes": "Mandarin",
       "midnotes": "Rose,Jasmine",
       "basenotes": "Patchouli"
     },
-    "innerimageurl": "/logo/antoniobanderas1.webp",
-    "imageurl": "/logo/parfuim1webp.webp",
+    "innerimageurl": "/perfumes/pacoonemillion.jpeg",
+    "imageurl": "/perfumes/pacoonemillion.jpeg",
     "brands": "Paco Rabanne",
     "gender": "Male"
   },
   {
     "id": 4011646,
-    "title": "PACO RABANNE ULTRAVIOLET",
+    "title": "Paco Rabanne ULTRAVIOLET",
     "description": "The Golden Secret men's fragrance by Banderas is an unmistakable distillation of seduction, thanks to the perfect blend of spicy red peppercorn and nutmeg accords and the warmth of cedar wood and leather. A spicy, woody fragrance with a leather scent, presented in a luxurious gold bottle made for special moments.",
     "fragrance": {
       "family": "Floral,Amber",
@@ -4068,47 +4054,47 @@
   },
   {
     "id": 4470205,
-    "title": "Paco Rabanne INVICTUS VICTORY",
-    "description": "The Golden Secret men's fragrance by Banderas is an unmistakable distillation of seduction, thanks to the perfect blend of spicy red peppercorn and nutmeg accords and the warmth of cedar wood and leather. A spicy, woody fragrance with a leather scent, presented in a luxurious gold bottle made for special moments.",
+    "title": "Paco Rabanne Invictus Victory",
+    "description": " Invictus Victory features a fresh boost of sharp lemon and powerful incense followed by full-bodied tonka bean and potent vanilla for perfectly matched freshness and intensity.",
     "fragrance": {
       "family": "Floral,Amber",
       "topnotes": "Mandarin",
       "midnotes": "Rose,Jasmine",
       "basenotes": "Patchouli"
     },
-    "innerimageurl": "/logo/antoniobanderas1.webp",
-    "imageurl": "/logo/parfuim1webp.webp",
+    "innerimageurl": "/perfumes/pacoinvictusvictory.jpeg",
+    "imageurl": "/perfumes/pacoinvictusvictory.jpeg",
     "brands": "Paco Rabanne",
     "gender": "Male"
   },
 
   {
     "id": 4485890,
-    "title": "Paco Rabanne PHANTOM",
-    "description": "The Golden Secret men's fragrance by Banderas is an unmistakable distillation of seduction, thanks to the perfect blend of spicy red peppercorn and nutmeg accords and the warmth of cedar wood and leather. A spicy, woody fragrance with a leather scent, presented in a luxurious gold bottle made for special moments.",
+    "title": "Paco Rabanne Phantom",
+    "description": "A futuristic aromatic fragrance born from the clash between luxury craftmanship and new-tech. Using a cutting-edge creative process to select ingredients to make you feel energized, powerfully confident and sexy. A bold scent with notes of addictive creamy lavender, energizing fusing lemon and sexy woody vanilla.",
     "fragrance": {
       "family": "Floral,Amber",
       "topnotes": "Mandarin",
       "midnotes": "Rose,Jasmine",
       "basenotes": "Patchouli"
     },
-    "innerimageurl": "/logo/antoniobanderas1.webp",
-    "imageurl": "/logo/parfuim1webp.webp",
+    "innerimageurl": "/perfumes/pacophantom.jpeg",
+    "imageurl": "/perfumes/pacophantom.jpeg",
     "brands": "Paco Rabanne",
     "gender": "Male"
   },
   {
     "id": 4285433,
-    "title": "Paco Rabanne BLACK XS MEN",
-    "description": "The Golden Secret men's fragrance by Banderas is an unmistakable distillation of seduction, thanks to the perfect blend of spicy red peppercorn and nutmeg accords and the warmth of cedar wood and leather. A spicy, woody fragrance with a leather scent, presented in a luxurious gold bottle made for special moments.",
+    "title": "Paco Rabanne Black Xs Men",
+    "description": "Follow your instincts. Intensely, excessively. Break the rules. Capture the moment. The Black XS fragrance For Men. Uncompromising freshness. A fragrance with radical, sensual and unpredictable appeal. Rock. In excess.The radical charm of a woody amber eau de toilette that hits the spot. Top notes of Calabrian lemon and Kalamanzi. Fresh, overflowing energy. Praline-cinnamon accord: full-bodied, sensual. Unpredictable. Black amber and an overload of patchouli for a powerful finish. A fragrance for men with a singular intensity.",
     "fragrance": {
       "family": "Floral,Amber",
       "topnotes": "Mandarin",
       "midnotes": "Rose,Jasmine",
       "basenotes": "Patchouli"
     },
-    "innerimageurl": "/logo/antoniobanderas1.webp",
-    "imageurl": "/logo/parfuim1webp.webp",
+    "innerimageurl": "/perfumes/pacoxsmen.jpeg",
+    "imageurl": "/perfumes/pacoxsmen.jpeg",
     "brands": "Paco Rabanne",
     "gender": "Male"
   },
@@ -4280,31 +4266,31 @@
   },
   {
     "id": 4618639,
-    "title": "S.ERBA PURO D BROWN",
-    "description": "The Golden Secret men's fragrance by Banderas is an unmistakable distillation of seduction, thanks to the perfect blend of spicy red peppercorn and nutmeg accords and the warmth of cedar wood and leather. A spicy, woody fragrance with a leather scent, presented in a luxurious gold bottle made for special moments.",
+    "title": "Sospiro Erba Pura D Brown",
+    "description": "Erba Pura is a delicious and modern blend of Mediterranean citrus and sweet fruits layered over a warm and sensual amber oriental base. The extended heart and base of the perfume holds a little secret... a rare molecule extracted from a rare Indian herb.",
     "fragrance": {
       "family": "Floral,Amber",
       "topnotes": "Mandarin",
       "midnotes": "Rose,Jasmine",
       "basenotes": "Patchouli"
     },
-    "innerimageurl": "/logo/antoniobanderas1.webp",
-    "imageurl": "/logo/parfuim1webp.webp",
+    "innerimageurl": "/perfumes/sospiroerbapura.jpeg",
+    "imageurl": "/perfumes/sospiroerbapura.jpeg",
     "brands": "Sospiro",
     "gender": "Unisex"
   },
   {
     "id": 4618641,
-    "title": "S.ERBA PURO S BROWN",
-    "description": "The Golden Secret men's fragrance by Banderas is an unmistakable distillation of seduction, thanks to the perfect blend of spicy red peppercorn and nutmeg accords and the warmth of cedar wood and leather. A spicy, woody fragrance with a leather scent, presented in a luxurious gold bottle made for special moments.",
+    "title": "Sospiro Erba Pura S Brown",
+    "description": "Erba Pura is a delicious and modern blend of Mediterranean citrus and sweet fruits layered over a warm and sensual amber oriental base. The extended heart and base of the perfume holds a little secret... a rare molecule extracted from a rare Indian herb.",
     "fragrance": {
       "family": "Floral,Amber",
       "topnotes": "Mandarin",
       "midnotes": "Rose,Jasmine",
       "basenotes": "Patchouli"
     },
-    "innerimageurl": "/logo/antoniobanderas1.webp",
-    "imageurl": "/logo/parfuim1webp.webp",
+    "innerimageurl": "/perfumes/sospiroerbapura.jpeg",
+    "imageurl": "/perfumes/sospiroerbapura.jpeg",
     "brands": "Sospiro",
     "gender": "Unisex"
   },
@@ -4385,76 +4371,76 @@
   },
   {
     "id": 4187203,
-    "title": "SOSPIRO ACCENTO D",
-    "description": "The Golden Secret men's fragrance by Banderas is an unmistakable distillation of seduction, thanks to the perfect blend of spicy red peppercorn and nutmeg accords and the warmth of cedar wood and leather. A spicy, woody fragrance with a leather scent, presented in a luxurious gold bottle made for special moments.",
+    "title": "Sospiro Accento D",
+    "description": "The tropical juicy sweetness of pineapple and freshness of hyacinth blend with a delicate floral heart of Iris and jasmine, spiced by Pink Pepper, infused with a decadent mist of earthy Vetiver and a warm mix of Patchouli, Amber, and Vanilla notes, with the enticing accents of Musk.",
     "fragrance": {
       "family": "Floral,Amber",
       "topnotes": "Mandarin",
       "midnotes": "Rose,Jasmine",
       "basenotes": "Patchouli"
     },
-    "innerimageurl": "/logo/antoniobanderas1.webp",
-    "imageurl": "/logo/parfuim1webp.webp",
+    "innerimageurl": "/perfumes/sospiroaccento.jpeg",
+    "imageurl": "/perfumes/sospiroaccento.jpeg",
     "brands": "Sospiro",
     "gender": "Women"
   },
   {
     "id": 4349855,
-    "title": "SOSPIRO DIAPASON",
-    "description": "The Golden Secret men's fragrance by Banderas is an unmistakable distillation of seduction, thanks to the perfect blend of spicy red peppercorn and nutmeg accords and the warmth of cedar wood and leather. A spicy, woody fragrance with a leather scent, presented in a luxurious gold bottle made for special moments.",
+    "title": "Sospiro Diapason",
+    "description": "Diapason by Sospiro Perfumes is a Woody Floral Musk fragrance for women and men. Diapason was launched in 2017. The nose behind this fragrance is Chris Maurice. Top notes are Bulgarian Rose and Geranium; middle notes are Guaiac Wood and Atlas Cedar; base notes are Amber, Haitian Vetiver and Musk.",
     "fragrance": {
       "family": "Floral,Amber",
       "topnotes": "Mandarin",
       "midnotes": "Rose,Jasmine",
       "basenotes": "Patchouli"
     },
-    "innerimageurl": "/logo/antoniobanderas1.webp",
-    "imageurl": "/logo/parfuim1webp.webp",
+    "innerimageurl": "/perfumes/sospirodiapason.jpeg",
+    "imageurl": "/perfumes/sospirodiapason.jpeg",
     "brands": "Sospiro",
     "gender": "Men"
   },
   {
     "id": 4196084,
-    "title": "SOSPIRO ERBA PURA",
-    "description": "The Golden Secret men's fragrance by Banderas is an unmistakable distillation of seduction, thanks to the perfect blend of spicy red peppercorn and nutmeg accords and the warmth of cedar wood and leather. A spicy, woody fragrance with a leather scent, presented in a luxurious gold bottle made for special moments.",
+    "title": "Sospiro Erba Pura",
+    "description": "Erba Pura is a delicious and modern blend of Mediterranean citrus and sweet fruits layered over a warm and sensual amber oriental base. The extended heart and base of the perfume holds a little secret... a rare molecule extracted from a rare Indian herb.",
     "fragrance": {
       "family": "Floral,Amber",
       "topnotes": "Mandarin",
       "midnotes": "Rose,Jasmine",
       "basenotes": "Patchouli"
     },
-    "innerimageurl": "/logo/antoniobanderas1.webp",
-    "imageurl": "/logo/parfuim1webp.webp",
+    "innerimageurl": "/perfumes/sospiroerbapura.jpeg",
+    "imageurl": "/perfumes/sospiroerbapura.jpeg",
     "brands": "Sospiro",
     "gender": "Women"
   },
   {
     "id": 4187205,
-    "title": "SOSPIRO ERBA PURA D",
-    "description": "The Golden Secret men's fragrance by Banderas is an unmistakable distillation of seduction, thanks to the perfect blend of spicy red peppercorn and nutmeg accords and the warmth of cedar wood and leather. A spicy, woody fragrance with a leather scent, presented in a luxurious gold bottle made for special moments.",
+    "title": "Sospiro Erba Pura D",
+    "description": "Erba Pura is a delicious and modern blend of Mediterranean citrus and sweet fruits layered over a warm and sensual amber oriental base. The extended heart and base of the perfume holds a little secret... a rare molecule extracted from a rare Indian herb.",
     "fragrance": {
       "family": "Floral,Amber",
       "topnotes": "Mandarin",
       "midnotes": "Rose,Jasmine",
       "basenotes": "Patchouli"
     },
-    "innerimageurl": "/logo/antoniobanderas1.webp",
-    "imageurl": "/logo/parfuim1webp.webp",
+    "innerimageurl": "/perfumes/sospiroerbapura.jpeg",
+    "imageurl": "/perfumes/sospiroerbapura.jpeg",
     "brands": "Sospiro",
     "gender": "Women"
   },
   {
     "id": 4187204,
-    "title": "SOSPIRO LAYLATI D",
-    "description": "The Golden Secret men's fragrance by Banderas is an unmistakable distillation of seduction, thanks to the perfect blend of spicy red peppercorn and nutmeg accords and the warmth of cedar wood and leather. A spicy, woody fragrance with a leather scent, presented in a luxurious gold bottle made for special moments.",
+    "title": "Sospiro Laylati D",
+    "description": "Laylati is a stark and mysterious scent. A blend of smoldering and exotic herbs bring about an unusual yet seductive start to the scent. Rising from those ashes is a hint of smoked cedar and complex patchouli working to create a dark, animalic and resinous blend.",
     "fragrance": {
       "family": "Floral,Amber",
       "topnotes": "Mandarin",
       "midnotes": "Rose,Jasmine",
       "basenotes": "Patchouli"
     },
-    "innerimageurl": "/logo/antoniobanderas1.webp",
-    "imageurl": "/logo/parfuim1webp.webp",
+    "innerimageurl": "/perfumes/sospirolaylati.jpeg",
+    "imageurl": "/perfumes/sospirolaylati.jpeg",
     "brands": "Sospiro",
     "gender": "Women"
   },
@@ -7579,8 +7565,8 @@
       "midnotes": "Rose,Jasmine",
       "basenotes": "Patchouli"
     },
-    "innerimageurl": "/perfumes/purepoison.jpeg",
-    "imageurl": "/perfumes/purepoison.jpeg",
+    "innerimageurl": "/perfumes/purepoison1.jpeg",
+    "imageurl": "/perfumes/purepoison1.jpeg",
     "brands": "Christian Dior",
     "gender": "Unisex"
   },
@@ -8171,16 +8157,16 @@
   },
   {
     "id": 4276695,
-    "title": "CLIVE CHRISTIAN NO 1",
-    "description": "The Golden Secret men's fragrance by Banderas is an unmistakable distillation of seduction, thanks to the perfect blend of spicy red peppercorn and nutmeg accords and the warmth of cedar wood and leather. A spicy, woody fragrance with a leather scent, presented in a luxurious gold bottle made for special moments.",
+    "title": "Clive Christian No1",
+    "description": "No1 is a fragrant symphony that celebrates rare and exotic botanicals, earning its name as a true masterpiece, with a complexity of 248 components. This floral amber creation opens with a burst of fruity brilliance, featuring notes of mirabelle plum, white peach, and bergamot.",
     "fragrance": {
       "family": "Floral,Amber",
       "topnotes": "Mandarin",
       "midnotes": "Rose,Jasmine",
       "basenotes": "Patchouli"
     },
-    "innerimageurl": "/logo/antoniobanderas1.webp",
-    "imageurl": "/logo/parfuim1webp.webp",
+    "innerimageurl": "/perfumes/clivechristian.jpeg",
+    "imageurl": "/perfumes/clivechristian.jpeg",
     "brands": "Clive Christian",
     "gender": "Unisex"
   },
@@ -8664,21 +8650,7 @@
     "imageurl": "/logo/parfuim1webp.webp",
     "gender": "Women"
   },
-  {
-    "id": 500146,
-    "title": "D.P.G",
-    "brands": "D.P.G",
-    "description": "The Golden Secret men's fragrance by Banderas is an unmistakable distillation of seduction, thanks to the perfect blend of spicy red peppercorn and nutmeg accords and the warmth of cedar wood and leather. A spicy, woody fragrance with a leather scent, presented in a luxurious gold bottle made for special moments.",
-    "fragrance": {
-      "family": "Floral,Amber",
-      "topnotes": "Mandarin",
-      "midnotes": "Rose,Jasmine",
-      "basenotes": "Patchouli"
-    },
-    "innerimageurl": "/logo/antoniobanderas1.webp",
-    "imageurl": "/logo/parfuim1webp.webp",
-    "gender": "Unisex"
-  },
+
   {
     "id": 4330940,
     "title": "Elizabeth Arden Green Tea T",
@@ -8726,17 +8698,17 @@
   },
   {
     "id": 4000002,
-    "title": "ERBA PURA T",
+    "title": "Sospiro Erba Pura T",
     "brands": "Sospiro",
-    "description": "The Golden Secret men's fragrance by Banderas is an unmistakable distillation of seduction, thanks to the perfect blend of spicy red peppercorn and nutmeg accords and the warmth of cedar wood and leather. A spicy, woody fragrance with a leather scent, presented in a luxurious gold bottle made for special moments.",
+    "description": "Erba Pura is a delicious and modern blend of Mediterranean citrus and sweet fruits layered over a warm and sensual amber oriental base. The extended heart and base of the perfume holds a little secret... a rare molecule extracted from a rare Indian herb.",
     "fragrance": {
       "family": "Floral,Amber",
       "topnotes": "Mandarin",
       "midnotes": "Rose,Jasmine",
       "basenotes": "Patchouli"
     },
-    "innerimageurl": "/logo/antoniobanderas1.webp",
-    "imageurl": "/logo/parfuim1webp.webp",
+    "innerimageurl": "/perfumes/sospiroerbapura.jpeg",
+    "imageurl": "/perfumes/sospiroerbapura.jpeg",
     "gender": "Unisex"
   },
   {
@@ -9011,15 +8983,15 @@
   },
   {
     "id": 4265493,
-    "description": "The Golden Secret men's fragrance by Banderas is an unmistakable distillation of seduction, thanks to the perfect blend of spicy red peppercorn and nutmeg accords and the warmth of cedar wood and leather. A spicy, woody fragrance with a leather scent, presented in a luxurious gold bottle made for special moments.",
+    "description": "Fleur Narcotique est une explosion de senteurs affirmées et subtiles qui s'ouvre sur des notes fraiche de bergamote et pêche. Extrêmement séductrice, la fragrance offre un bouquet de fleurs blanches mêlé à de l'hédione en coeur. Le sillage repose ensuite sur un lit de musc blanc.",
     "fragrance": {
       "family": "Floral,Amber",
       "topnotes": "Mandarin",
       "midnotes": "Rose,Jasmine",
       "basenotes": "Patchouli"
     },
-    "innerimageurl": "/perfumes/exnihilofleur.jpeg",
-    "imageurl": "/perfumes/exnihilofleur.jpeg",
+    "innerimageurl": "/perfumes/fleurnarcotique.jpeg",
+    "imageurl": "/perfumes/fleurnarcotique.jpeg",
     "title": "Ex Nihilio Fleur Narcotique T",
     "brands": "Ex Nihilo",
     "gender": "Women"
@@ -9498,9 +9470,9 @@
       "midnotes": "Rose,Jasmine",
       "basenotes": "Patchouli"
     },
-    "innerimageurl": "/perfumes/guccifloraclk.jpeg",
-    "imageurl": "/perfumes/guccifloraclk.jpeg",
-    "title": "Gucci Flora Clk",
+    "innerimageurl": "/perfumes/gucciflora1.jpeg",
+    "imageurl": "/perfumes/gucciflora1.jpeg",
+    "title": "Gucci Flora",
     "brands": "Gucci",
     "gender": "Women"
   },
@@ -10770,46 +10742,46 @@
   },
   {
     "id": 4468793,
-    "description": "The Golden Secret men's fragrance by Banderas is an unmistakable distillation of seduction, thanks to the perfect blend of spicy red peppercorn and nutmeg accords and the warmth of cedar wood and leather. A spicy, woody fragrance with a leather scent, presented in a luxurious gold bottle made for special moments.",
+    "description": "The result of this collaboration is ANOTHER 13, a hypnotizing and unique scent. It's composed of ambroxyde, a synthetic animal musk, making ANOTHER 13 an addictive dirty potion blended with other carefully selected ingredients such as jasmine and moss – which give it spike and shine.",
     "fragrance": {
       "family": "Floral,Amber",
       "topnotes": "Mandarin",
       "midnotes": "Rose,Jasmine",
       "basenotes": "Patchouli"
     },
-    "innerimageurl": "/logo/antoniobanderas1.webp",
-    "imageurl": "/logo/parfuim1webp.webp",
-    "title": "LE LABO ANOTHER 13",
+    "innerimageurl": "/perfumes/lelaboanother.jpeg",
+    "imageurl": "/perfumes/lelaboanother.jpeg",
+    "title": "Le Labo Another 13",
     "brands": "Le Labo",
     "gender": "Unisex"
   },
   {
     "id": 4335023,
-    "description": "The Golden Secret men's fragrance by Banderas is an unmistakable distillation of seduction, thanks to the perfect blend of spicy red peppercorn and nutmeg accords and the warmth of cedar wood and leather. A spicy, woody fragrance with a leather scent, presented in a luxurious gold bottle made for special moments.",
+    "description": "The result of this collaboration is ANOTHER 13, a hypnotizing and unique scent. It's composed of ambroxyde, a synthetic animal musk, making ANOTHER 13 an addictive dirty potion blended with other carefully selected ingredients such as jasmine and moss – which give it spike and shine.",
     "fragrance": {
       "family": "Floral,Amber",
       "topnotes": "Mandarin",
       "midnotes": "Rose,Jasmine",
       "basenotes": "Patchouli"
     },
-    "innerimageurl": "/logo/antoniobanderas1.webp",
-    "imageurl": "/logo/parfuim1webp.webp",
-    "title": "LE LABO ANOTHER 13 C",
+    "innerimageurl": "/perfumes/lelaboanother.jpeg",
+    "imageurl": "/perfumes/lelaboanother.jpeg",
+    "title": "Le Labo Another 13 C",
     "brands": "Le Labo",
     "gender": "Unisex"
   },
   {
     "id": 4019380,
-    "description": "The Golden Secret men's fragrance by Banderas is an unmistakable distillation of seduction, thanks to the perfect blend of spicy red peppercorn and nutmeg accords and the warmth of cedar wood and leather. A spicy, woody fragrance with a leather scent, presented in a luxurious gold bottle made for special moments.",
+    "description": " Smoky and alluring, the Santal 33 Eau de Parfum (100ml) is perfect for those who wish to adorn themselves in a musky scent.Inspired by the rugged, wide plains of the American West and indigo-blue night skies above, this fragrance boasts comforting and warm accords designed to stir the senses. With an earthy introduction that melds crackling notes of cardamon, iris and violet, it then falls onto a bed of leather and musk. You can count on it to linger in the air and on the skin, allowing you to make a memorable impression wherever you go...",
     "fragrance": {
       "family": "Floral,Amber",
       "topnotes": "Mandarin",
       "midnotes": "Rose,Jasmine",
       "basenotes": "Patchouli"
     },
-    "innerimageurl": "/logo/antoniobanderas1.webp",
-    "imageurl": "/logo/parfuim1webp.webp",
-    "title": "LE LABO SANTAL",
+    "innerimageurl": "/perfumes/lelabosantal.jpeg",
+    "imageurl": "/perfumes/lelabosantal.jpeg",
+    "title": "Le Labo Santal",
     "brands": "Le Labo",
     "gender": "Unisex"
   },
@@ -10840,7 +10812,7 @@
     "innerimageurl": "/logo/antoniobanderas1.webp",
     "imageurl": "/logo/parfuim1webp.webp",
     "title": "VIE ESTE BELLA",
-    "brands": "Le Labo",
+    "brands": "Vie Este",
     "gender": "Unisex"
   },
   {
@@ -11655,16 +11627,16 @@
   },
   {
     "id": 4252452,
-    "description": "The Golden Secret men's fragrance by Banderas is an unmistakable distillation of seduction, thanks to the perfect blend of spicy red peppercorn and nutmeg accords and the warmth of cedar wood and leather. A spicy, woody fragrance with a leather scent, presented in a luxurious gold bottle made for special moments.",
+    "description": "Narciso for Her is an embodiment of real elegance. This pink floral is elegant, sensuous, and enticing. Musk is still at the core of her eau de parfum, which is complemented with a unique pink floral weave with traces of rose, peach pulp, and gentle amber. US & Canada Shipping Only.",
     "fragrance": {
       "family": "Floral,Amber",
       "topnotes": "Mandarin",
       "midnotes": "Rose,Jasmine",
       "basenotes": "Patchouli"
     },
-    "innerimageurl": "/logo/antoniobanderas1.webp",
-    "imageurl": "/logo/parfuim1webp.webp",
-    "title": "NARCISO RODRIGUEZ FOR HER",
+    "innerimageurl": "/perfumes/narcisoforher.jpeg",
+    "imageurl": "/perfumes/narcisoforher.jpeg",
+    "title": "Narciso Rodriguez For Her",
     "brands": "Narciso Rodriguez",
     "gender": "Women"
   },
@@ -11820,16 +11792,16 @@
   },
   {
     "id": 4284877,
-    "description": "The Golden Secret men's fragrance by Banderas is an unmistakable distillation of seduction, thanks to the perfect blend of spicy red peppercorn and nutmeg accords and the warmth of cedar wood and leather. A spicy, woody fragrance with a leather scent, presented in a luxurious gold bottle made for special moments.",
+    "description": "Evoking a bold and passionate femininity, for her fleur musc for women surprises and captivates. Its beguiling floral fragrance, with notes of rose, spices and amber woods, radiates with an enchanting vitality. The scent is characterised by a generous floral bouquet with vibrant notes of sumptuous pink flowers.",
     "fragrance": {
       "family": "Floral,Amber",
       "topnotes": "Mandarin",
       "midnotes": "Rose,Jasmine",
       "basenotes": "Patchouli"
     },
-    "innerimageurl": "/logo/antoniobanderas1.webp",
-    "imageurl": "/logo/parfuim1webp.webp",
-    "title": "N.RODRIGUEZ FLEUR MUSC FOR HER",
+    "innerimageurl": "/perfumes/narcisofleurmusc.jpeg",
+    "imageurl": "/perfumes/narcisofleurmusc.jpeg",
+    "title": "Narciso Rodriguez Fleur Musc For Her",
     "brands": "Narciso Rodriguez",
     "gender": "Women"
   },
@@ -12543,61 +12515,61 @@
   },
   {
     "id": 4380295,
-    "description": "The Golden Secret men's fragrance by Banderas is an unmistakable distillation of seduction, thanks to the perfect blend of spicy red peppercorn and nutmeg accords and the warmth of cedar wood and leather. A spicy, woody fragrance with a leather scent, presented in a luxurious gold bottle made for special moments.",
+    "description": "Capriccio was launched in 2011. The nose behind this fragrance is Chris Maurice. Top notes are Neroli and Lemon; middle notes are White Flowers, Red Berries, Coumarin and Cinnamon; base notes are Patchouli, Musk, Agarwood (Oud), Cashmeran, Amber and Sandalwood.",
     "fragrance": {
       "family": "Floral,Amber",
       "topnotes": "Mandarin",
       "midnotes": "Rose,Jasmine",
       "basenotes": "Patchouli"
     },
-    "innerimageurl": "/logo/antoniobanderas1.webp",
-    "imageurl": "/logo/parfuim1webp.webp",
-    "title": "SOSPIRO CAPRICCIO ISPANIYA",
+    "innerimageurl": "/perfumes/sospirocapriccio.jpeg",
+    "imageurl": "/perfumes/sospirocapriccio.jpeg",
+    "title": "Sospiro Capriccio Ispaniya",
     "brands": "Sospiro",
     "gender": "Unisex"
   },
   {
     "id": 4257201,
-    "description": "The Golden Secret men's fragrance by Banderas is an unmistakable distillation of seduction, thanks to the perfect blend of spicy red peppercorn and nutmeg accords and the warmth of cedar wood and leather. A spicy, woody fragrance with a leather scent, presented in a luxurious gold bottle made for special moments.",
+    "description": "Dusky, dark and deep floral chypre notes dive into thick and glamorous rose of Grasse, pink pepper and Arabian jasmine. This sophisticated inky chypre has been beautified with oriental woods, and adorned with the savage nuances of precious oud, oak moss and sensual amber that emphasize its timeless classical glamour.",
     "fragrance": {
       "family": "Floral,Amber",
       "topnotes": "Mandarin",
       "midnotes": "Rose,Jasmine",
       "basenotes": "Patchouli"
     },
-    "innerimageurl": "/logo/antoniobanderas1.webp",
-    "imageurl": "/logo/parfuim1webp.webp",
-    "title": "SOSPIRO DUETTO",
+    "innerimageurl": "/perfumes/sospiroduetto.jpeg",
+    "imageurl": "/perfumes/sospiroduetto.jpeg",
+    "title": "Sospiro Duetto",
     "brands": "Sospiro",
     "gender": "Unisex"
   },
   {
     "id": 4261687,
-    "description": "The Golden Secret men's fragrance by Banderas is an unmistakable distillation of seduction, thanks to the perfect blend of spicy red peppercorn and nutmeg accords and the warmth of cedar wood and leather. A spicy, woody fragrance with a leather scent, presented in a luxurious gold bottle made for special moments.",
+    "description": "Erba Pura is a delicious and modern blend of Mediterranean citrus and sweet fruits layered over a warm and sensual amber oriental base. The extended heart and base of the perfume holds a little secret... a rare molecule extracted from a rare Indian herb.",
     "fragrance": {
       "family": "Floral,Amber",
       "topnotes": "Mandarin",
       "midnotes": "Rose,Jasmine",
       "basenotes": "Patchouli"
     },
-    "innerimageurl": "/logo/antoniobanderas1.webp",
-    "imageurl": "/logo/parfuim1webp.webp",
-    "title": "SOSPIRO ERBA PURA NENO EDITION LUZI",
+    "innerimageurl": "/perfumes/sospiroerbapura.jpeg",
+    "imageurl": "/perfumes/sospiroerbapura.jpeg",
+    "title": "Sospiro Erba Pura Neno Edition Luzi",
     "brands": "Sospiro",
     "gender": "Unisex"
   },
   {
     "id": 4016157,
-    "description": "The Golden Secret men's fragrance by Banderas is an unmistakable distillation of seduction, thanks to the perfect blend of spicy red peppercorn and nutmeg accords and the warmth of cedar wood and leather. A spicy, woody fragrance with a leather scent, presented in a luxurious gold bottle made for special moments.",
+    "description": "Laylati is a stark and mysterious scent. A blend of smoldering and exotic herbs bring about an unusual yet seductive start to the scent. Rising from those ashes is a hint of smoked cedar and complex patchouli working to create a dark, animalic and resinous blend.",
     "fragrance": {
       "family": "Floral,Amber",
       "topnotes": "Mandarin",
       "midnotes": "Rose,Jasmine",
       "basenotes": "Patchouli"
     },
-    "innerimageurl": "/logo/antoniobanderas1.webp",
-    "imageurl": "/logo/parfuim1webp.webp",
-    "title": "SOSPIRO LAYLATI ISPANIYAV",
+    "innerimageurl": "/perfumes/sospirolaylati.jpeg",
+    "imageurl": "/perfumes/sospirolaylati.jpeg",
+    "title": "Sospiro Laylati Ispaniya",
     "brands": "Sospiro",
     "gender": "Unisex"
   },

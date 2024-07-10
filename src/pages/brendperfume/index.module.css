@@ -26,16 +26,17 @@
   padding: 30px;
 }
 .background .control .flexborder .border img {
-  width: 150px;
-  height: 150px;
+  width: 250px;
+  height: 250px;
   transition: transform 0.3s ease-in-out;
 }
 .background .control .flexborder .border img:hover {
   transform: scale(1.5);
 }
 .background .control .flexborder h2 {
-  font-weight: 500;
-  font-size: 18px;
+  padding-top: 20px;
+  font-weight: 700;
+  font-size: 22px;
   text-align: center;
 }
 
