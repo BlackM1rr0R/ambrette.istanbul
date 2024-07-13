@@ -24,8 +24,8 @@
       "midnotes": "Rose,Jasmine",
       "basenotes": "Patchouli"
     },
-    "innerimageurl": "/logo/antoniobanderas1.webp",
-    "imageurl": "/logo/parfuim1webp.webp",
+    "innerimageurl": "/perfumes/cologne.jpg",
+    "imageurl": "/perfumes/cologne.jpg",
     "brands": "Eau De Cologne",
     "gender": "Unisex"
   },
@@ -2450,7 +2450,7 @@
   },
   {
     "id": 4543573,
-    "title": "KAJAL ALMAZ T",
+    "title": "Kajal Almaz",
     "description": "The Golden Secret men's fragrance by Banderas is an unmistakable distillation of seduction, thanks to the perfect blend of spicy red peppercorn and nutmeg accords and the warmth of cedar wood and leather. A spicy, woody fragrance with a leather scent, presented in a luxurious gold bottle made for special moments.",
     "fragrance": {
       "family": "Floral,Amber",
@@ -2458,14 +2458,14 @@
       "midnotes": "Rose,Jasmine",
       "basenotes": "Patchouli"
     },
-    "innerimageurl": "/logo/antoniobanderas1.webp",
-    "imageurl": "/logo/parfuim1webp.webp",
+    "innerimageurl": "/perfumes/kajal.webp",
+    "imageurl": "/perfumes/kajal.webp",
     "brands": "Kajal",
     "gender": "Unisex"
   },
   {
     "id": 4530761,
-    "title": "KAYALI EDEN JUICY APPLE T",
+    "title": "Kayali Eden Juicy Apple",
     "description": "The Golden Secret men's fragrance by Banderas is an unmistakable distillation of seduction, thanks to the perfect blend of spicy red peppercorn and nutmeg accords and the warmth of cedar wood and leather. A spicy, woody fragrance with a leather scent, presented in a luxurious gold bottle made for special moments.",
     "fragrance": {
       "family": "Floral,Amber",
@@ -2473,14 +2473,14 @@
       "midnotes": "Rose,Jasmine",
       "basenotes": "Patchouli"
     },
-    "innerimageurl": "/logo/antoniobanderas1.webp",
-    "imageurl": "/logo/parfuim1webp.webp",
+    "innerimageurl": "/perfumes/kayaliapple.jpg",
+    "imageurl": "/perfumes/kayaliapple.jpg",
     "brands": "Kayali",
     "gender": "Female"
   },
   {
     "id": 4606950,
-    "title": "KAYALI VANILLA T",
+    "title": "Kayali Vanilla",
     "description": "The Golden Secret men's fragrance by Banderas is an unmistakable distillation of seduction, thanks to the perfect blend of spicy red peppercorn and nutmeg accords and the warmth of cedar wood and leather. A spicy, woody fragrance with a leather scent, presented in a luxurious gold bottle made for special moments.",
     "fragrance": {
       "family": "Floral,Amber",
@@ -2488,8 +2488,8 @@
       "midnotes": "Rose,Jasmine",
       "basenotes": "Patchouli"
     },
-    "innerimageurl": "/logo/antoniobanderas1.webp",
-    "imageurl": "/logo/parfuim1webp.webp",
+    "innerimageurl": "/perfumes/kayalivanille.webp",
+    "imageurl": "/perfumes/kayalivanille.webp",
     "brands": "Kayali",
     "gender": "Unisex"
   },
@@ -8944,10 +8944,10 @@
       "midnotes": "Rose,Jasmine",
       "basenotes": "Patchouli"
     },
-    "innerimageurl": "/logo/antoniobanderas1.webp",
-    "imageurl": "/logo/parfuim1webp.webp",
-    "title": "ESTE LAUDER PLEASURES",
-    "brands": "Este Lauder",
+    "innerimageurl": "/perfumes/este1.jpg",
+    "imageurl": "/perfumes/este1.jpg",
+    "title": "Estee Lauder Pleasures",
+    "brands": "Estee Lauder",
     "gender": "Women"
   },
   {
@@ -8959,10 +8959,10 @@
       "midnotes": "Rose,Jasmine",
       "basenotes": "Patchouli"
     },
-    "innerimageurl": "/logo/antoniobanderas1.webp",
-    "imageurl": "/logo/parfuim1webp.webp",
-    "title": "ESTEE LAUDER MODERN MUSE",
-    "brands": "Este Lauder",
+    "innerimageurl": "/perfumes/este2.jpg",
+    "imageurl": "/perfumes/este2.jpg",
+    "title": "Estee Lauder Modern Muse",
+    "brands": "Estee Lauder",
     "gender": "Women"
   },
   {
@@ -9199,9 +9199,9 @@
       "midnotes": "Rose,Jasmine",
       "basenotes": "Patchouli"
     },
-    "innerimageurl": "/logo/antoniobanderas1.webp",
-    "imageurl": "/logo/parfuim1webp.webp",
-    "title": "GIORDANI GOLD ESSENZA",
+    "innerimageurl": "/perfumes/giordani2.webp",
+    "imageurl": "/perfumes/giordani2.webp",
+    "title": "Giordani Gold Essenza",
     "brands": "Giordani",
     "gender": "Unisex"
   },
@@ -9379,10 +9379,10 @@
       "midnotes": "Rose,Jasmine",
       "basenotes": "Patchouli"
     },
-    "innerimageurl": "/logo/antoniobanderas1.webp",
-    "imageurl": "/logo/parfuim1webp.webp",
-    "title": "G.M.BLOOM OF ROSE",
-    "brands": "G.M",
+    "innerimageurl": "/perfumes/guerlianrose.jpg",
+    "imageurl": "/perfumes/guerlianrose.jpg",
+    "title": "Guerlian Mon Bloom Of Rose",
+    "brands": "Guerlian",
     "gender": "Women"
   },
   {
@@ -9937,10 +9937,10 @@
       "midnotes": "Rose,Jasmine",
       "basenotes": "Patchouli"
     },
-    "innerimageurl": "/logo/antoniobanderas1.webp",
-    "imageurl": "/logo/parfuim1webp.webp",
-    "title": "JASMIN",
-    "brands": "Jasmin",
+    "innerimageurl": "/perfumes/jasmin.webp",
+    "imageurl": "/perfumes/jasmin.webp",
+    "title": "Jasmin",
+    "brands": "Al Rehab",
     "gender": "Unisex"
   },
   {
@@ -10301,7 +10301,7 @@
     "innerimageurl": "/logo/antoniobanderas1.webp",
     "imageurl": "/logo/parfuim1webp.webp",
     "title": "KINSKI KINSKI",
-    "brands": "Kinski",
+    "brands": "Escentric",
     "gender": "Unisex"
   },
   {
@@ -10568,9 +10568,9 @@
       "midnotes": "Rose,Jasmine",
       "basenotes": "Patchouli"
     },
-    "innerimageurl": "/logo/antoniobanderas1.webp",
-    "imageurl": "/logo/parfuim1webp.webp",
-    "title": "LALIQUE AMETHYST",
+    "innerimageurl": "/perfumes/laliqueametist.jpg",
+    "imageurl": "/perfumes/laliqueametist.jpg",
+    "title": "Lalique Amethyst",
     "brands": "Lalique",
     "gender": "Unisex"
   },
@@ -10583,9 +10583,9 @@
       "midnotes": "Rose,Jasmine",
       "basenotes": "Patchouli"
     },
-    "innerimageurl": "/logo/antoniobanderas1.webp",
-    "imageurl": "/logo/parfuim1webp.webp",
-    "title": "LALIQUE ENCRE NOIRE POUR HOME",
+    "innerimageurl": "/perfumes/laliqueencre.webp",
+    "imageurl": "/perfumes/laliqueencre.webp",
+    "title": "Lalique Encre Noire Pour Homme",
     "brands": "Lalique",
     "gender": "Men"
   },
@@ -10598,9 +10598,9 @@
       "midnotes": "Rose,Jasmine",
       "basenotes": "Patchouli"
     },
-    "innerimageurl": "/logo/antoniobanderas1.webp",
-    "imageurl": "/logo/parfuim1webp.webp",
-    "title": "LALIQUE ENCRE NOIRE POUR HOMME T",
+    "innerimageurl": "/perfumes/laliqueencre.webp",
+    "imageurl": "/perfumes/laliqueencre.webp",
+    "title": "Lalique Encre Noire Pour Homme",
     "brands": "Lalique",
     "gender": "Men"
   },
@@ -10613,9 +10613,9 @@
       "midnotes": "Rose,Jasmine",
       "basenotes": "Patchouli"
     },
-    "innerimageurl": "/logo/antoniobanderas1.webp",
-    "imageurl": "/logo/parfuim1webp.webp",
-    "title": "LALIQUE L'AMOUR",
+    "innerimageurl": "/perfumes/laliquelamour1.jpg",
+    "imageurl": "/perfumes/laliquelamour1.jpg",
+    "title": "Lalique L'Amour",
     "brands": "Lalique",
     "gender": "Unisex"
   },
@@ -10793,9 +10793,9 @@
       "midnotes": "Rose,Jasmine",
       "basenotes": "Patchouli"
     },
-    "innerimageurl": "/logo/antoniobanderas1.webp",
-    "imageurl": "/logo/parfuim1webp.webp",
-    "title": "LIZ CLAIBORNE BORA BORA",
+    "innerimageurl": "/perfumes/bora.jpg",
+    "imageurl": "/perfumes/bora.jpg",
+    "title": "Liz Claiborne Bora",
     "brands": "Liz Claiborne",
     "gender": "Unisex"
   },
@@ -10913,10 +10913,10 @@
       "midnotes": "Rose,Jasmine",
       "basenotes": "Patchouli"
     },
-    "innerimageurl": "/logo/antoniobanderas1.webp",
-    "imageurl": "/logo/parfuim1webp.webp",
-    "title": "LUCIA",
-    "brands": "Lucia",
+    "innerimageurl": "/perfumes/lucia.webp",
+    "imageurl": "/perfumes/lucia.webp",
+    "title": "Oriflame Lucia",
+    "brands": "Oriflame",
     "gender": "Unisex"
   },
   {
