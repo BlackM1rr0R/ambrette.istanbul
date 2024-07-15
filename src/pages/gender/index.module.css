@@ -23,7 +23,7 @@
 .background .box {
   padding-top: 60px;
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(3, 1fr);
   gap: 20px;
 }
 .background .box .controlbox {
@@ -35,14 +35,22 @@
 }
 .background .box .controlbox .border {
   background-color: white;
-  border: 1px solid gray;
   border-radius: 10px;
   padding: 20px;
 }
 .background .box .controlbox .border img {
-  width: 200px;
+  width: 250px;
+  height: 250px;
+  transition: transform 0.3s ease-in-out;
+}
+.background .box .controlbox .border img:hover {
+  transform: scale(1.3);
 }
 .background .box .controlbox h2 {
+  padding-top: 20px;
+  font-weight: 700;
+  font-size: 22px;
+  text-align: center;
   color: black;
 }
 
@@ -54,16 +62,17 @@
     font-size: 24px;
   }
   .background .box {
-    display: flex;
-    gap: 30px;
-    flex-wrap: wrap;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 50px;
   }
   .background .box .controlbox {
     gap: 20px;
-    width: 45%;
+    width: 100%;
   }
   .background .box .controlbox .border img {
-    width: 100px;
+    width: 200px;
+    height: 200px;
   }
   .background .box .controlbox h2 {
     font-weight: 500;
