@@ -9,6 +9,7 @@ import GenderSelected from "./pages/genderselected";
 import Home from "./pages/home";
 import MagazinsLocation from "./pages/magazins";
 import NotFound from "./pages/notFound";
+import AllPerfume from "./pages/allperfume";
 const routeItem = (id, title, path, component) => {
   return {
     id,
@@ -29,8 +30,9 @@ const routes = {
   gender:routeItem(8,"gender","/gender/:genderType",Gender),
   brendperfume:routeItem(9,"brend-perfume","/brend-perfume/:brendId",BrendPerfume),
   genderselected:routeItem(10,"genderselected","/genderselected",GenderSelected),
-
-  contactour:routeItem(11,"contact","/contact",ContactOur)
+  
+  contactour:routeItem(11,"contact","/contact",ContactOur),
+  allperfumes:routeItem(12,"allperfumes","/allperfumes",AllPerfume)
 };
 
 const routeArr = Object.values(routes);

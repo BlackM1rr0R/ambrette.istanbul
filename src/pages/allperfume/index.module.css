@@ -1,0 +1,97 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.background {
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+.background .headers {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.background .headers .hr hr {
+  width: 500px;
+  border: 1px solid black;
+}
+.background .headers .headersh2 h2 {
+  font-size: 32px;
+}
+.background .box {
+  padding-top: 60px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+.background .box .controlbox {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-decoration: none;
+  gap: 10px;
+}
+.background .box .controlbox .border {
+  background-color: white;
+  border-radius: 10px;
+  padding: 20px;
+}
+.background .box .controlbox .border img {
+  width: 250px;
+  height: 250px;
+  transition: transform 0.3s ease-in-out;
+}
+.background .box .controlbox .border img:hover {
+  transform: scale(1.3);
+}
+.background .box .controlbox h2 {
+  padding-top: 20px;
+  font-weight: 700;
+  font-size: 22px;
+  text-align: center;
+  color: black;
+}
+
+@media (max-width: 490px) {
+  .background .headers .hr hr {
+    width: 80px;
+  }
+  .background .headers .headersh2 h2 {
+    font-size: 24px;
+  }
+  .background .box {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 50px;
+  }
+  .background .box .controlbox {
+    gap: 20px;
+    width: 100%;
+  }
+  .background .box .controlbox .border img {
+    width: 200px;
+    height: 200px;
+  }
+  .background .box .controlbox h2 {
+    font-weight: 500;
+    text-align: center;
+  }
+}
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+.hidden {
+  opacity: 0;
+  transition: opacity 1s ease-in-out;
+}
+
+.visible {
+  opacity: 1;
+}/*# sourceMappingURL=index.module.css.map */

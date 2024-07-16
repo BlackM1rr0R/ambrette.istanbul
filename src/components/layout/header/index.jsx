@@ -14,7 +14,6 @@ import {
   YouTubeIcon,
 } from "../../../icons";
 import DB from "../../../db.json";
-import ParfumLogo from "../../../assets/images/parfum1.jpg";
 
 const uniqueBrands = [...new Set(DB.map((product) => product.brands))].sort();
 const groupedBrands = uniqueBrands.reduce((acc, brand) => {
@@ -35,7 +34,7 @@ const Header = () => {
   const handleSearchChange = (event) => {
     const term = event.target.value.toLowerCase();
     setSearchTerm(term);
-    
+
     if (term.length > 0) {
       const filtered = DB.filter((product) => {
         return product.title && product.title.toLowerCase().includes(term) && product.innerimageurl;
@@ -47,7 +46,7 @@ const Header = () => {
       setShowResults(false);
     }
   };
-  
+
   useEffect(() => {
     const handleClickOutside = (event) => {
       if (searchRef.current && !searchRef.current.contains(event.target)) {
@@ -129,7 +128,7 @@ const Header = () => {
         <div className={styles.menuContainer}>
           <div className={styles.menu}>
             <div className={styles.dropdown}>
-              <Link to={"/genderselected"}>
+              <Link to={"/allperfumes"}>
                 Perfumes <ArrowIcon />
               </Link>
               <ul className={styles.dropdowncontent}>
@@ -140,11 +139,9 @@ const Header = () => {
                   <Link to={"/gender/women"}>Women</Link>
                 </li>
                 <li>
-                  <Link to={"/gender/unisex"}>Unisex</Link>
-                </li>
+                  <Link to={"/gender/unisex"}>Unisex</Link></li>
               </ul>
             </div>
-
             <div className={styles.dropdownbrends}>
               <Link to={"/brends"}>
                 Brends <ArrowIcon />
@@ -155,7 +152,6 @@ const Header = () => {
                     <div className={styles.brendheaders}>
                       <h2>{letter}</h2>
                     </div>
-
                     {groupedBrands[letter].map((brand, brandIndex) => {
                       const brandKey = brand.replace(/\s+/g, "").toLowerCase();
                       return (
