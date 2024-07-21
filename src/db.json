@@ -2,11 +2,11 @@
   {
     "id": 4025868,
     "title": "Armani Basi In Blue Men",
-    "description": "The Golden Secret men's fragrance by Banderas is an unmistakable distillation of seduction, thanks to the perfect blend of spicy red peppercorn and nutmeg accords and the warmth of cedar wood and leather. A spicy, woody fragrance with a leather scent, presented in a luxurious gold bottle made for special moments.",
+    "description": "Armani Basi In Blue for Men is a sophisticated and modern fragrance that embodies a sense of style and elegance. It typically features a blend of fresh, spicy, and woody notes, making it a versatile scent suitable for both casual and formal occasions.",
     "fragrance": {
-      "family": "Floral,Amber",
-      "topnotes": "Mandarin",
-      "midnotes": "Rose,Jasmine",
+      "family": "Pepper,Lavender,Neroli",
+      "topnotes": "Bergamot,Grapefruit,Mandarin",
+      "midnotes": "Sandalwood,Patchouli,Musk",
       "basenotes": "Patchouli"
     },
     "innerimageurl": "/perfumes/armandbasi.jpeg",
@@ -471,7 +471,7 @@
 
   {
     "id": 4053479,
-    "title": "BURBERRY SPORT FOR MEN Men",
+    "title": "Burberry Sport For Men",
     "description": "The Golden Secret men's fragrance by Banderas is an unmistakable distillation of seduction, thanks to the perfect blend of spicy red peppercorn and nutmeg accords and the warmth of cedar wood and leather. A spicy, woody fragrance with a leather scent, presented in a luxurious gold bottle made for special moments.",
     "fragrance": {
       "family": "Floral,Amber",
@@ -479,14 +479,14 @@
       "midnotes": "Rose,Jasmine",
       "basenotes": "Patchouli"
     },
-    "innerimageurl": "/logo/antoniobanderas1.webp",
-    "imageurl": "/logo/parfuim1webp.webp",
+    "innerimageurl": "/perfumes/burberrysport.jpg",
+    "imageurl": "/perfumes/burberrysport.jpg",
     "brands": "My Burberry",
     "gender": "Men"
   },
   {
     "id": 4035210,
-    "title": "BURBERRY WEKEND (SEHRIZAD)",
+    "title": "Burberry Weekend",
     "description": "The Golden Secret men's fragrance by Banderas is an unmistakable distillation of seduction, thanks to the perfect blend of spicy red peppercorn and nutmeg accords and the warmth of cedar wood and leather. A spicy, woody fragrance with a leather scent, presented in a luxurious gold bottle made for special moments.",
     "fragrance": {
       "family": "Floral,Amber",
@@ -494,8 +494,8 @@
       "midnotes": "Rose,Jasmine",
       "basenotes": "Patchouli"
     },
-    "innerimageurl": "/logo/antoniobanderas1.webp",
-    "imageurl": "/logo/parfuim1webp.webp",
+    "innerimageurl": "/perfumes/burberryweekend.png",
+    "imageurl": "/perfumes/burberryweekend.png",
     "brands": "My Burberry",
     "gender": "Unisex"
   },
@@ -562,7 +562,7 @@
   },
   {
     "id": 4069277,
-    "title": "BY KILIAN WHITE CRISTAL Unisex",
+    "title": "By Kilian White Cristal",
     "description": "The Golden Secret men's fragrance by Banderas is an unmistakable distillation of seduction, thanks to the perfect blend of spicy red peppercorn and nutmeg accords and the warmth of cedar wood and leather. A spicy, woody fragrance with a leather scent, presented in a luxurious gold bottle made for special moments.",
     "fragrance": {
       "family": "Floral,Amber",
@@ -570,14 +570,14 @@
       "midnotes": "Rose,Jasmine",
       "basenotes": "Patchouli"
     },
-    "innerimageurl": "/logo/antoniobanderas1.webp",
-    "imageurl": "/logo/parfuim1webp.webp",
+    "innerimageurl": "/perfumes/killianwhite.jpg",
+    "imageurl": "/perfumes/killianwhite.jpg",
     "brands": "By Killian",
     "gender": "Unisex"
   },
   {
     "id": 4134549,
-    "title": "By Redo BLANCH Women",
+    "title": "By Redo Blanche",
     "description": "The Golden Secret men's fragrance by Banderas is an unmistakable distillation of seduction, thanks to the perfect blend of spicy red peppercorn and nutmeg accords and the warmth of cedar wood and leather. A spicy, woody fragrance with a leather scent, presented in a luxurious gold bottle made for special moments.",
     "fragrance": {
       "family": "Floral,Amber",
@@ -585,14 +585,14 @@
       "midnotes": "Rose,Jasmine",
       "basenotes": "Patchouli"
     },
-    "innerimageurl": "/logo/antoniobanderas1.webp",
-    "imageurl": "/logo/parfuim1webp.webp",
+    "innerimageurl": "/perfumes/byredoblanch.webp",
+    "imageurl": "/perfumes/byredoblanch.webp",
     "brands": "By Redo",
     "gender": "Women"
   },
   {
     "id": 4420313,
-    "title": "By Redo MARIXUANA",
+    "title": "By Redo Marijuana",
     "description": "The Golden Secret men's fragrance by Banderas is an unmistakable distillation of seduction, thanks to the perfect blend of spicy red peppercorn and nutmeg accords and the warmth of cedar wood and leather. A spicy, woody fragrance with a leather scent, presented in a luxurious gold bottle made for special moments.",
     "fragrance": {
       "family": "Floral,Amber",
@@ -600,8 +600,8 @@
       "midnotes": "Rose,Jasmine",
       "basenotes": "Patchouli"
     },
-    "innerimageurl": "/logo/antoniobanderas1.webp",
-    "imageurl": "/logo/parfuim1webp.webp",
+    "innerimageurl": "/perfumes/byredomari.webp",
+    "imageurl": "/perfumes/byredomari.webp",
     "brands": "By Redo",
     "gender": "Unisex"
   },
@@ -622,7 +622,7 @@
   },
   {
     "id": 4306716,
-    "title": "By Redo PULP",
+    "title": "By Redo Pulp",
     "description": "The Golden Secret men's fragrance by Banderas is an unmistakable distillation of seduction, thanks to the perfect blend of spicy red peppercorn and nutmeg accords and the warmth of cedar wood and leather. A spicy, woody fragrance with a leather scent, presented in a luxurious gold bottle made for special moments.",
     "fragrance": {
       "family": "Floral,Amber",
@@ -630,14 +630,14 @@
       "midnotes": "Rose,Jasmine",
       "basenotes": "Patchouli"
     },
-    "innerimageurl": "/logo/antoniobanderas1.webp",
-    "imageurl": "/logo/parfuim1webp.webp",
+    "innerimageurl": "/perfumes/byredopulp.jpg",
+    "imageurl": "/perfumes/byredopulp.jpg",
     "brands": "By Redo",
     "gender": "Unisex"
   },
   {
     "id": 4302638,
-    "title": "By Redo BAL D'AFRIQUE",
+    "title": "By Redo Bal D'Afrique",
     "description": "The Golden Secret men's fragrance by Banderas is an unmistakable distillation of seduction, thanks to the perfect blend of spicy red peppercorn and nutmeg accords and the warmth of cedar wood and leather. A spicy, woody fragrance with a leather scent, presented in a luxurious gold bottle made for special moments.",
     "fragrance": {
       "family": "Floral,Amber",
@@ -645,14 +645,14 @@
       "midnotes": "Rose,Jasmine",
       "basenotes": "Patchouli"
     },
-    "innerimageurl": "/logo/antoniobanderas1.webp",
-    "imageurl": "/logo/parfuim1webp.webp",
+    "innerimageurl": "/perfumes/byredobal.jpg",
+    "imageurl": "/perfumes/byredobal.jpg",
     "brands": "By Redo",
     "gender": "Unisex"
   },
   {
     "id": 4477784,
-    "title": "By Redo BIBLIOTHEQUE T",
+    "title": "By Redo Bibliotheque",
     "description": "The Golden Secret men's fragrance by Banderas is an unmistakable distillation of seduction, thanks to the perfect blend of spicy red peppercorn and nutmeg accords and the warmth of cedar wood and leather. A spicy, woody fragrance with a leather scent, presented in a luxurious gold bottle made for special moments.",
     "fragrance": {
       "family": "Floral,Amber",
@@ -660,14 +660,14 @@
       "midnotes": "Rose,Jasmine",
       "basenotes": "Patchouli"
     },
-    "innerimageurl": "/logo/antoniobanderas1.webp",
-    "imageurl": "/logo/parfuim1webp.webp",
+    "innerimageurl": "/perfumes/byredobibli.jpg",
+    "imageurl": "/perfumes/byredobibli.jpg",
     "brands": "By Redo",
     "gender": "Unisex"
   },
   {
     "id": 4297077,
-    "title": "By Redo LA TULIPE T",
+    "title": "By Redo La Tulipe",
     "description": "The Golden Secret men's fragrance by Banderas is an unmistakable distillation of seduction, thanks to the perfect blend of spicy red peppercorn and nutmeg accords and the warmth of cedar wood and leather. A spicy, woody fragrance with a leather scent, presented in a luxurious gold bottle made for special moments.",
     "fragrance": {
       "family": "Floral,Amber",
@@ -675,14 +675,14 @@
       "midnotes": "Rose,Jasmine",
       "basenotes": "Patchouli"
     },
-    "innerimageurl": "/logo/antoniobanderas1.webp",
-    "imageurl": "/logo/parfuim1webp.webp",
+    "innerimageurl": "/perfumes/byredola.jpeg",
+    "imageurl": "/perfumes/byredola.jpeg",
     "brands": "By Redo",
     "gender": "Unisex"
   },
   {
     "id": 4421517,
-    "title": "By Redo MARIJUANNA",
+    "title": "By Redo Marijuana",
     "description": "The Golden Secret men's fragrance by Banderas is an unmistakable distillation of seduction, thanks to the perfect blend of spicy red peppercorn and nutmeg accords and the warmth of cedar wood and leather. A spicy, woody fragrance with a leather scent, presented in a luxurious gold bottle made for special moments.",
     "fragrance": {
       "family": "Floral,Amber",
@@ -690,14 +690,14 @@
       "midnotes": "Rose,Jasmine",
       "basenotes": "Patchouli"
     },
-    "innerimageurl": "/logo/antoniobanderas1.webp",
-    "imageurl": "/logo/parfuim1webp.webp",
+    "innerimageurl": "/perfumes/byredomari.webp",
+    "imageurl": "/perfumes/byredomari.webp",
     "brands": "By Redo",
     "gender": "Unisex"
   },
   {
     "id": 4359037,
-    "title": "By Redo MOJAVE GHOST",
+    "title": "By Redo Mojave Ghost",
     "description": "The Golden Secret men's fragrance by Banderas is an unmistakable distillation of seduction, thanks to the perfect blend of spicy red peppercorn and nutmeg accords and the warmth of cedar wood and leather. A spicy, woody fragrance with a leather scent, presented in a luxurious gold bottle made for special moments.",
     "fragrance": {
       "family": "Floral,Amber",
@@ -705,14 +705,14 @@
       "midnotes": "Rose,Jasmine",
       "basenotes": "Patchouli"
     },
-    "innerimageurl": "/logo/antoniobanderas1.webp",
-    "imageurl": "/logo/parfuim1webp.webp",
+    "innerimageurl": "/perfumes/byredoghost.webp",
+    "imageurl": "/perfumes/byredoghost.webp",
     "brands": "By Redo",
     "gender": "Unisex"
   },
   {
     "id": 4330022,
-    "title": "By Redo MOJAVE GOST T",
+    "title": "By Redo Mojave Ghost",
     "description": "The Golden Secret men's fragrance by Banderas is an unmistakable distillation of seduction, thanks to the perfect blend of spicy red peppercorn and nutmeg accords and the warmth of cedar wood and leather. A spicy, woody fragrance with a leather scent, presented in a luxurious gold bottle made for special moments.",
     "fragrance": {
       "family": "Floral,Amber",
@@ -720,8 +720,8 @@
       "midnotes": "Rose,Jasmine",
       "basenotes": "Patchouli"
     },
-    "innerimageurl": "/logo/antoniobanderas1.webp",
-    "imageurl": "/logo/parfuim1webp.webp",
+    "innerimageurl": "/perfumes/byredoghost.webp",
+    "imageurl": "/perfumes/byredoghost.webp",
     "brands": "By Redo",
     "gender": "Unisex"
   },
@@ -2586,7 +2586,7 @@
   },
   {
     "id": 4121310,
-    "title": "K.GOOD GIRL GONE BAD D",
+    "title": "By Kilian Good Girl Gone Bad",
     "description": "The Golden Secret men's fragrance by Banderas is an unmistakable distillation of seduction, thanks to the perfect blend of spicy red peppercorn and nutmeg accords and the warmth of cedar wood and leather. A spicy, woody fragrance with a leather scent, presented in a luxurious gold bottle made for special moments.",
     "fragrance": {
       "family": "Floral,Amber",
@@ -2594,14 +2594,14 @@
       "midnotes": "Rose,Jasmine",
       "basenotes": "Patchouli"
     },
-    "innerimageurl": "/logo/antoniobanderas1.webp",
-    "imageurl": "/logo/parfuim1webp.webp",
+    "innerimageurl": "/perfumes/killiangonebad.webp",
+    "imageurl": "/perfumes/killiangonebad.webp",
     "brands": "By Killian",
     "gender": "Female"
   },
   {
     "id": 4438710,
-    "title": "KILIAN ANGELS SHARE D",
+    "title": "By Kilian Angels Share",
     "description": "The Golden Secret men's fragrance by Banderas is an unmistakable distillation of seduction, thanks to the perfect blend of spicy red peppercorn and nutmeg accords and the warmth of cedar wood and leather. A spicy, woody fragrance with a leather scent, presented in a luxurious gold bottle made for special moments.",
     "fragrance": {
       "family": "Floral,Amber",
@@ -2609,14 +2609,14 @@
       "midnotes": "Rose,Jasmine",
       "basenotes": "Patchouli"
     },
-    "innerimageurl": "/logo/antoniobanderas1.webp",
-    "imageurl": "/logo/parfuim1webp.webp",
+    "innerimageurl": "/perfumes/killianangels.jpg",
+    "imageurl": "/perfumes/killianangels.jpg",
     "brands": "By Killian",
     "gender": "Unisex"
   },
   {
     "id": 4066610,
-    "title": "KILIAN BACK TO BLACK (APHRODISAC)",
+    "title": "By Kilian Back To Black",
     "description": "The Golden Secret men's fragrance by Banderas is an unmistakable distillation of seduction, thanks to the perfect blend of spicy red peppercorn and nutmeg accords and the warmth of cedar wood and leather. A spicy, woody fragrance with a leather scent, presented in a luxurious gold bottle made for special moments.",
     "fragrance": {
       "family": "Floral,Amber",
@@ -2624,14 +2624,14 @@
       "midnotes": "Rose,Jasmine",
       "basenotes": "Patchouli"
     },
-    "innerimageurl": "/logo/antoniobanderas1.webp",
-    "imageurl": "/logo/parfuim1webp.webp",
+    "innerimageurl": "/perfumes/killianbacktoblack.jpg",
+    "imageurl": "/perfumes/killianbacktoblack.jpg",
     "brands": "By Killian",
     "gender": "Unisex"
   },
   {
     "id": 4066592,
-    "title": "KILIAN BACK TO BLACK T",
+    "title": "By Kilian Back To Black",
     "description": "The Golden Secret men's fragrance by Banderas is an unmistakable distillation of seduction, thanks to the perfect blend of spicy red peppercorn and nutmeg accords and the warmth of cedar wood and leather. A spicy, woody fragrance with a leather scent, presented in a luxurious gold bottle made for special moments.",
     "fragrance": {
       "family": "Floral,Amber",
@@ -2639,14 +2639,14 @@
       "midnotes": "Rose,Jasmine",
       "basenotes": "Patchouli"
     },
-    "innerimageurl": "/logo/antoniobanderas1.webp",
-    "imageurl": "/logo/parfuim1webp.webp",
+    "innerimageurl": "/perfumes/killianbacktoblack.jpg",
+    "imageurl": "/perfumes/killianbacktoblack.jpg",
     "brands": "By Killian",
     "gender": "Unisex"
   },
   {
     "id": 4306715,
-    "title": "KILIAN BLACK PHANTOM",
+    "title": "By Kilian Black Phantom",
     "description": "The Golden Secret men's fragrance by Banderas is an unmistakable distillation of seduction, thanks to the perfect blend of spicy red peppercorn and nutmeg accords and the warmth of cedar wood and leather. A spicy, woody fragrance with a leather scent, presented in a luxurious gold bottle made for special moments.",
     "fragrance": {
       "family": "Floral,Amber",
@@ -2654,14 +2654,14 @@
       "midnotes": "Rose,Jasmine",
       "basenotes": "Patchouli"
     },
-    "innerimageurl": "/logo/antoniobanderas1.webp",
-    "imageurl": "/logo/parfuim1webp.webp",
+    "innerimageurl": "/perfumes/killianphantom.webp",
+    "imageurl": "/perfumes/killianphantom.webp",
     "brands": "By Killian",
     "gender": "Unisex"
   },
   {
     "id": 4121763,
-    "title": "KILIAN GOOD GIRL GONE BAD",
+    "title": "By Kilian Good Girl Gone Bad",
     "description": "The Golden Secret men's fragrance by Banderas is an unmistakable distillation of seduction, thanks to the perfect blend of spicy red peppercorn and nutmeg accords and the warmth of cedar wood and leather. A spicy, woody fragrance with a leather scent, presented in a luxurious gold bottle made for special moments.",
     "fragrance": {
       "family": "Floral,Amber",
@@ -2669,14 +2669,14 @@
       "midnotes": "Rose,Jasmine",
       "basenotes": "Patchouli"
     },
-    "innerimageurl": "/logo/antoniobanderas1.webp",
-    "imageurl": "/logo/parfuim1webp.webp",
+    "innerimageurl": "/perfumes/killiangonebad.webp",
+    "imageurl": "/perfumes/killiangonebad.webp",
     "brands": "By Killian",
     "gender": "Female"
   },
   {
     "id": 4121761,
-    "title": "KILIAN GOOD GIRL GONE BAD T",
+    "title": "By Kilian Good Girl Gone Bad",
     "description": "The Golden Secret men's fragrance by Banderas is an unmistakable distillation of seduction, thanks to the perfect blend of spicy red peppercorn and nutmeg accords and the warmth of cedar wood and leather. A spicy, woody fragrance with a leather scent, presented in a luxurious gold bottle made for special moments.",
     "fragrance": {
       "family": "Floral,Amber",
@@ -2684,14 +2684,14 @@
       "midnotes": "Rose,Jasmine",
       "basenotes": "Patchouli"
     },
-    "innerimageurl": "/logo/antoniobanderas1.webp",
-    "imageurl": "/logo/parfuim1webp.webp",
+    "innerimageurl": "/perfumes/killiangonebad.webp",
+    "imageurl": "/perfumes/killiangonebad.webp",
     "brands": "By Killian",
     "gender": "Female"
   },
   {
     "id": 4276916,
-    "title": "KILIAN INTOXICATED T",
+    "title": "By Kilian Intoxicated",
     "description": "The Golden Secret men's fragrance by Banderas is an unmistakable distillation of seduction, thanks to the perfect blend of spicy red peppercorn and nutmeg accords and the warmth of cedar wood and leather. A spicy, woody fragrance with a leather scent, presented in a luxurious gold bottle made for special moments.",
     "fragrance": {
       "family": "Floral,Amber",
@@ -2699,14 +2699,14 @@
       "midnotes": "Rose,Jasmine",
       "basenotes": "Patchouli"
     },
-    "innerimageurl": "/logo/antoniobanderas1.webp",
-    "imageurl": "/logo/parfuim1webp.webp",
+    "innerimageurl": "/perfumes/killianintox.jpg",
+    "imageurl": "/perfumes/killianintox.jpg",
     "brands": "By Killian",
     "gender": "Unisex"
   },
   {
     "id": 4062623,
-    "title": "KILIAN ROSES OUD",
+    "title": "By Kilian Roses Oud",
     "description": "The Golden Secret men's fragrance by Banderas is an unmistakable distillation of seduction, thanks to the perfect blend of spicy red peppercorn and nutmeg accords and the warmth of cedar wood and leather. A spicy, woody fragrance with a leather scent, presented in a luxurious gold bottle made for special moments.",
     "fragrance": {
       "family": "Floral,Amber",
@@ -2714,14 +2714,14 @@
       "midnotes": "Rose,Jasmine",
       "basenotes": "Patchouli"
     },
-    "innerimageurl": "/logo/antoniobanderas1.webp",
-    "imageurl": "/logo/parfuim1webp.webp",
+    "innerimageurl": "/perfumes/killianroses.png",
+    "imageurl": "/perfumes/killianroses.png",
     "brands": "By Killian",
     "gender": "Unisex"
   },
   {
     "id": 4487123,
-    "title": "KILLIAN GIRL GONE BAD EXTR D",
+    "title": "By Kilian Good Girl Gone Bad",
     "description": "The Golden Secret men's fragrance by Banderas is an unmistakable distillation of seduction, thanks to the perfect blend of spicy red peppercorn and nutmeg accords and the warmth of cedar wood and leather. A spicy, woody fragrance with a leather scent, presented in a luxurious gold bottle made for special moments.",
     "fragrance": {
       "family": "Floral,Amber",
@@ -2729,8 +2729,8 @@
       "midnotes": "Rose,Jasmine",
       "basenotes": "Patchouli"
     },
-    "innerimageurl": "/logo/antoniobanderas1.webp",
-    "imageurl": "/logo/parfuim1webp.webp",
+    "innerimageurl": "/perfumes/killiangonebad.webp",
+    "imageurl": "/perfumes/killiangonebad.webp",
     "brands": "By Killian",
     "gender": "Female"
   },
@@ -2752,7 +2752,7 @@
 
   {
     "id": 4339553,
-    "title": "K.PRINCESS MY KIND OFLOVE T",
+    "title": "By Kilian Princess My Kind Of Love",
     "description": "The Golden Secret men's fragrance by Banderas is an unmistakable distillation of seduction, thanks to the perfect blend of spicy red peppercorn and nutmeg accords and the warmth of cedar wood and leather. A spicy, woody fragrance with a leather scent, presented in a luxurious gold bottle made for special moments.",
     "fragrance": {
       "family": "Floral,Amber",
@@ -2760,8 +2760,8 @@
       "midnotes": "Rose,Jasmine",
       "basenotes": "Patchouli"
     },
-    "innerimageurl": "/logo/antoniobanderas1.webp",
-    "imageurl": "/logo/parfuim1webp.webp",
+    "innerimageurl": "/perfumes/killianprincess.jpg",
+    "imageurl": "/perfumes/killianprincess.jpg",
     "brands": "By Killian",
     "gender": "Unisex"
   },
@@ -3732,7 +3732,7 @@
   },
   {
     "id": 4129302,
-    "title": "MY BURBERRY R",
+    "title": "Burberry Women",
     "description": "The Golden Secret men's fragrance by Banderas is an unmistakable distillation of seduction, thanks to the perfect blend of spicy red peppercorn and nutmeg accords and the warmth of cedar wood and leather. A spicy, woody fragrance with a leather scent, presented in a luxurious gold bottle made for special moments.",
     "fragrance": {
       "family": "Floral,Amber",
@@ -3740,14 +3740,14 @@
       "midnotes": "Rose,Jasmine",
       "basenotes": "Patchouli"
     },
-    "innerimageurl": "/logo/antoniobanderas1.webp",
-    "imageurl": "/logo/parfuim1webp.webp",
+    "innerimageurl": "/perfumes/myburberry.jpg",
+    "imageurl": "/perfumes/myburberry.jpg",
     "brands": "My Burberry",
     "gender": "Female"
   },
   {
     "id": 4320448,
-    "title": "MY BURBERRY MEN",
+    "title": "Burberry Men",
     "description": "The Golden Secret men's fragrance by Banderas is an unmistakable distillation of seduction, thanks to the perfect blend of spicy red peppercorn and nutmeg accords and the warmth of cedar wood and leather. A spicy, woody fragrance with a leather scent, presented in a luxurious gold bottle made for special moments.",
     "fragrance": {
       "family": "Floral,Amber",
@@ -3755,8 +3755,8 @@
       "midnotes": "Rose,Jasmine",
       "basenotes": "Patchouli"
     },
-    "innerimageurl": "/logo/antoniobanderas1.webp",
-    "imageurl": "/logo/parfuim1webp.webp",
+    "innerimageurl": "/perfumes/myburberrymen.jpg",
+    "imageurl": "/perfumes/myburberrymen.jpg",
     "brands": "My Burberry",
     "gender": "Male"
   },
@@ -6820,7 +6820,7 @@
 
   {
     "id": 4020117,
-    "title": "BURBERRY BRIT FOR MEN",
+    "title": "Burberry Brit For Men",
     "description": "The Golden Secret men's fragrance by Banderas is an unmistakable distillation of seduction, thanks to the perfect blend of spicy red peppercorn and nutmeg accords and the warmth of cedar wood and leather. A spicy, woody fragrance with a leather scent, presented in a luxurious gold bottle made for special moments.",
     "fragrance": {
       "family": "Floral,Amber",
@@ -6828,8 +6828,8 @@
       "midnotes": "Rose,Jasmine",
       "basenotes": "Patchouli"
     },
-    "innerimageurl": "/logo/antoniobanderas1.webp",
-    "imageurl": "/logo/parfuim1webp.webp",
+    "innerimageurl": "/perfumes/burberrybrit.jpg",
+    "imageurl": "/perfumes/burberrybrit.jpg",
     "brands": "My Burberry",
     "gender": "Men"
   },
@@ -7031,22 +7031,23 @@
   },
   {
     "id": 4139797,
-    "title": "BY KILIAN DANGEREUSES",
+    "title": "By Kilian Dangereuses",
     "description": "The Golden Secret men's fragrance by Banderas is an unmistakable distillation of seduction, thanks to the perfect blend of spicy red peppercorn and nutmeg accords and the warmth of cedar wood and leather. A spicy, woody fragrance with a leather scent, presented in a luxurious gold bottle made for special moments.",
     "fragrance": {
       "family": "Floral,Amber",
       "topnotes": "Mandarin",
       "midnotes": "Rose,Jasmine",
       "basenotes": "Patchouli"
+      
     },
-    "innerimageurl": "/logo/antoniobanderas1.webp",
-    "imageurl": "/logo/parfuim1webp.webp",
+    "innerimageurl": "/perfumes/killiandanger.jpg",
+    "imageurl": "/perfumes/killiandanger.jpg",
     "brands": "By Killian",
     "gender": "Unisex"
   },
   {
     "id": 4122299,
-    "title": "BY KILIAN PURE OUD",
+    "title": "By Kilian Pure Oud",
     "description": "The Golden Secret men's fragrance by Banderas is an unmistakable distillation of seduction, thanks to the perfect blend of spicy red peppercorn and nutmeg accords and the warmth of cedar wood and leather. A spicy, woody fragrance with a leather scent, presented in a luxurious gold bottle made for special moments.",
     "fragrance": {
       "family": "Floral,Amber",
@@ -7054,14 +7055,14 @@
       "midnotes": "Rose,Jasmine",
       "basenotes": "Patchouli"
     },
-    "innerimageurl": "/logo/antoniobanderas1.webp",
-    "imageurl": "/logo/parfuim1webp.webp",
+    "innerimageurl": "/perfumes/killianpure.jpeg",
+    "imageurl": "/perfumes/killianpure.jpeg",
     "brands": "By Killian",
     "gender": "Unisex"
   },
   {
     "id": 4060648,
-    "title": "BY KILIAN ROSE OUD",
+    "title": "By Kilian Roses Oud",
     "description": "The Golden Secret men's fragrance by Banderas is an unmistakable distillation of seduction, thanks to the perfect blend of spicy red peppercorn and nutmeg accords and the warmth of cedar wood and leather. A spicy, woody fragrance with a leather scent, presented in a luxurious gold bottle made for special moments.",
     "fragrance": {
       "family": "Floral,Amber",
@@ -7069,14 +7070,14 @@
       "midnotes": "Rose,Jasmine",
       "basenotes": "Patchouli"
     },
-    "innerimageurl": "/logo/antoniobanderas1.webp",
-    "imageurl": "/logo/parfuim1webp.webp",
+    "innerimageurl": "/perfumes/killianroses.png",
+    "imageurl": "/perfumes/killianroses.png",
     "brands": "By Killian",
     "gender": "Unisex"
   },
   {
     "id": 4426307,
-    "title": "BYKILIAN BEYOND LOVE",
+    "title": "By Kilian Beyond Love",
     "description": "The Golden Secret men's fragrance by Banderas is an unmistakable distillation of seduction, thanks to the perfect blend of spicy red peppercorn and nutmeg accords and the warmth of cedar wood and leather. A spicy, woody fragrance with a leather scent, presented in a luxurious gold bottle made for special moments.",
     "fragrance": {
       "family": "Floral,Amber",
@@ -7084,14 +7085,14 @@
       "midnotes": "Rose,Jasmine",
       "basenotes": "Patchouli"
     },
-    "innerimageurl": "/logo/antoniobanderas1.webp",
-    "imageurl": "/logo/parfuim1webp.webp",
+    "innerimageurl": "/perfumes/killianbacktoblack.jpg",
+    "imageurl": "/perfumes/killianbacktoblack.jpg",
     "brands": "By Killian",
     "gender": "Unisex"
   },
   {
     "id": 4137457,
-    "title": "By Redo ACCORD OUD",
+    "title": "By Redo Accord Oud",
     "description": "The Golden Secret men's fragrance by Banderas is an unmistakable distillation of seduction, thanks to the perfect blend of spicy red peppercorn and nutmeg accords and the warmth of cedar wood and leather. A spicy, woody fragrance with a leather scent, presented in a luxurious gold bottle made for special moments.",
     "fragrance": {
       "family": "Floral,Amber",
@@ -7099,14 +7100,14 @@
       "midnotes": "Rose,Jasmine",
       "basenotes": "Patchouli"
     },
-    "innerimageurl": "/logo/antoniobanderas1.webp",
-    "imageurl": "/logo/parfuim1webp.webp",
+    "innerimageurl": "/perfumes/byredoaccord.jpg",
+    "imageurl": "/perfumes/byredoaccord.jpg",
     "brands": "By Redo",
     "gender": "Unisex"
   },
   {
     "id": 4380302,
-    "title": "By Redo BAL DAFRIQUE C",
+    "title": "By Redo Bal D'Afrique",
     "description": "The Golden Secret men's fragrance by Banderas is an unmistakable distillation of seduction, thanks to the perfect blend of spicy red peppercorn and nutmeg accords and the warmth of cedar wood and leather. A spicy, woody fragrance with a leather scent, presented in a luxurious gold bottle made for special moments.",
     "fragrance": {
       "family": "Floral,Amber",
@@ -7114,14 +7115,14 @@
       "midnotes": "Rose,Jasmine",
       "basenotes": "Patchouli"
     },
-    "innerimageurl": "/logo/antoniobanderas1.webp",
-    "imageurl": "/logo/parfuim1webp.webp",
+    "innerimageurl": "/perfumes/byredobal.jpg",
+    "imageurl": "/perfumes/byredobal.jpg",
     "brands": "By Redo",
     "gender": "Unisex"
   },
   {
     "id": 4337807,
-    "title": "By Redo BLANC C",
+    "title": "By Redo Blanche",
     "description": "The Golden Secret men's fragrance by Banderas is an unmistakable distillation of seduction, thanks to the perfect blend of spicy red peppercorn and nutmeg accords and the warmth of cedar wood and leather. A spicy, woody fragrance with a leather scent, presented in a luxurious gold bottle made for special moments.",
     "fragrance": {
       "family": "Floral,Amber",
@@ -7129,14 +7130,14 @@
       "midnotes": "Rose,Jasmine",
       "basenotes": "Patchouli"
     },
-    "innerimageurl": "/logo/antoniobanderas1.webp",
-    "imageurl": "/logo/parfuim1webp.webp",
+    "innerimageurl": "/perfumes/byredoblanch.webp",
+    "imageurl": "/perfumes/byredoblanch.webp",
     "brands": "By Redo",
     "gender": "Unisex"
   },
   {
     "id": 4134332,
-    "title": "By Redo FLOWERHEAD",
+    "title": "By Redo Flowerhead",
     "description": "The Golden Secret men's fragrance by Banderas is an unmistakable distillation of seduction, thanks to the perfect blend of spicy red peppercorn and nutmeg accords and the warmth of cedar wood and leather. A spicy, woody fragrance with a leather scent, presented in a luxurious gold bottle made for special moments.",
     "fragrance": {
       "family": "Floral,Amber",
@@ -7144,14 +7145,14 @@
       "midnotes": "Rose,Jasmine",
       "basenotes": "Patchouli"
     },
-    "innerimageurl": "/logo/antoniobanderas1.webp",
-    "imageurl": "/logo/parfuim1webp.webp",
+    "innerimageurl": "/perfumes/byredoflower.jpg",
+    "imageurl": "/perfumes/byredoflower.jpg",
     "brands": "By Redo",
     "gender": "Unisex"
   },
   {
     "id": 4318785,
-    "title": "By Redo GYPSY WATER",
+    "title": "By Redo Gypsy Water",
     "description": "The Golden Secret men's fragrance by Banderas is an unmistakable distillation of seduction, thanks to the perfect blend of spicy red peppercorn and nutmeg accords and the warmth of cedar wood and leather. A spicy, woody fragrance with a leather scent, presented in a luxurious gold bottle made for special moments.",
     "fragrance": {
       "family": "Floral,Amber",
@@ -7159,14 +7160,14 @@
       "midnotes": "Rose,Jasmine",
       "basenotes": "Patchouli"
     },
-    "innerimageurl": "/logo/antoniobanderas1.webp",
-    "imageurl": "/logo/parfuim1webp.webp",
+    "innerimageurl": "/perfumes/byredowater.jpg",
+    "imageurl": "/perfumes/byredowater.jpg",
     "brands": "By Redo",
     "gender": "Unisex"
   },
   {
     "id": 4380303,
-    "title": "By Redo LA TULIPE C",
+    "title": "By Redo La Tulipe",
     "description": "The Golden Secret men's fragrance by Banderas is an unmistakable distillation of seduction, thanks to the perfect blend of spicy red peppercorn and nutmeg accords and the warmth of cedar wood and leather. A spicy, woody fragrance with a leather scent, presented in a luxurious gold bottle made for special moments.",
     "fragrance": {
       "family": "Floral,Amber",
@@ -7174,14 +7175,14 @@
       "midnotes": "Rose,Jasmine",
       "basenotes": "Patchouli"
     },
-    "innerimageurl": "/logo/antoniobanderas1.webp",
-    "imageurl": "/logo/parfuim1webp.webp",
+    "innerimageurl": "/perfumes/byredola.jpeg",
+    "imageurl": "/perfumes/byredola.jpeg",
     "brands": "By Redo",
     "gender": "Unisex"
   },
   {
     "id": 4426222,
-    "title": "By Redo PALERMO W",
+    "title": "By Redo Palermo",
     "description": "The Golden Secret men's fragrance by Banderas is an unmistakable distillation of seduction, thanks to the perfect blend of spicy red peppercorn and nutmeg accords and the warmth of cedar wood and leather. A spicy, woody fragrance with a leather scent, presented in a luxurious gold bottle made for special moments.",
     "fragrance": {
       "family": "Floral,Amber",
@@ -7189,14 +7190,14 @@
       "midnotes": "Rose,Jasmine",
       "basenotes": "Patchouli"
     },
-    "innerimageurl": "/logo/antoniobanderas1.webp",
-    "imageurl": "/logo/parfuim1webp.webp",
+    "innerimageurl": "/perfumes/byredopalermo.jpg",
+    "imageurl": "/perfumes/byredopalermo.jpg",
     "brands": "By Redo",
     "gender": "Women"
   },
   {
     "id": 4608591,
-    "title": "By Redo SUNDAZED",
+    "title": "By Redo Sundazed",
     "brands": "By Redo",
     "description": "The Golden Secret men's fragrance by Banderas is an unmistakable distillation of seduction, thanks to the perfect blend of spicy red peppercorn and nutmeg accords and the warmth of cedar wood and leather. A spicy, woody fragrance with a leather scent, presented in a luxurious gold bottle made for special moments.",
     "fragrance": {
@@ -7205,8 +7206,8 @@
       "midnotes": "Rose,Jasmine",
       "basenotes": "Patchouli"
     },
-    "innerimageurl": "/logo/antoniobanderas1.webp",
-    "imageurl": "/logo/parfuim1webp.webp",
+    "innerimageurl": "/perfumes/byredosun1.jpg",
+    "imageurl": "/perfumes/byredosun1.jpg",
     "gender": "Unisex"
   },
   {
@@ -10193,9 +10194,9 @@
       "midnotes": "Rose,Jasmine",
       "basenotes": "Patchouli"
     },
-    "innerimageurl": "/logo/antoniobanderas1.webp",
-    "imageurl": "/logo/parfuim1webp.webp",
-    "title": "KILIAN BAD BOYS",
+    "innerimageurl": "/perfumes/killianbadboy.jpg",
+    "imageurl": "/perfumes/killianbadboy.jpg",
+    "title": "By Kilian Bad Boys",
     "brands": "By Killian",
     "gender": "Unisex"
   },
@@ -10208,9 +10209,9 @@
       "midnotes": "Rose,Jasmine",
       "basenotes": "Patchouli"
     },
-    "innerimageurl": "/logo/antoniobanderas1.webp",
-    "imageurl": "/logo/parfuim1webp.webp",
-    "title": "KILIAN FORBIDDEN GAMES",
+    "innerimageurl": "/perfumes/killianforbidden.webp",
+    "imageurl": "/perfumes/killianforbidden.webp",
+    "title": "By Kilian Forbidden Games",
     "brands": "By Killian",
     "gender": "Unisex"
   },
@@ -10223,9 +10224,9 @@
       "midnotes": "Rose,Jasmine",
       "basenotes": "Patchouli"
     },
-    "innerimageurl": "/logo/antoniobanderas1.webp",
-    "imageurl": "/logo/parfuim1webp.webp",
-    "title": "KILIAN LOVE",
+    "innerimageurl": "/perfumes/killianlove.jpg",
+    "imageurl": "/perfumes/killianlove.jpg",
+    "title": "By Kilian Love",
     "brands": "By Killian",
     "gender": "Unisex"
   },
@@ -10238,9 +10239,9 @@
       "midnotes": "Rose,Jasmine",
       "basenotes": "Patchouli"
     },
-    "innerimageurl": "/logo/antoniobanderas1.webp",
-    "imageurl": "/logo/parfuim1webp.webp",
-    "title": "KILIAN LOVE DONT BY SHY",
+    "innerimageurl": "/perfumes/killianlove.jpg",
+    "imageurl": "/perfumes/killianlove.jpg",
+    "title": "By Kilian Love Don't By Shy",
     "brands": "By Killian",
     "gender": "Unisex"
   },
@@ -10253,9 +10254,9 @@
       "midnotes": "Rose,Jasmine",
       "basenotes": "Patchouli"
     },
-    "innerimageurl": "/logo/antoniobanderas1.webp",
-    "imageurl": "/logo/parfuim1webp.webp",
-    "title": "KILIAN ROLLIMG IN LOVE T",
+    "innerimageurl": "/perfumes/killianlove.jpg",
+    "imageurl": "/perfumes/killianlove.jpg",
+    "title": "By Kilian Rollimg In Love",
     "brands": "By Killian",
     "gender": "Unisex"
   },
@@ -10268,9 +10269,9 @@
       "midnotes": "Rose,Jasmine",
       "basenotes": "Patchouli"
     },
-    "innerimageurl": "/logo/antoniobanderas1.webp",
-    "imageurl": "/logo/parfuim1webp.webp",
-    "title": "KILIAN SMOKE FOR THE SOUL",
+    "innerimageurl": "/perfumes/killianintox.jpg",
+    "imageurl": "/perfumes/killianintox.jpg",
+    "title": "By Kilian Smoke For The Soul",
     "brands": "By Killian",
     "gender": "Unisex"
   },
@@ -10283,9 +10284,9 @@
       "midnotes": "Rose,Jasmine",
       "basenotes": "Patchouli"
     },
-    "innerimageurl": "/logo/antoniobanderas1.webp",
-    "imageurl": "/logo/parfuim1webp.webp",
-    "title": "KILIAN VERTE L'HEURE UNI",
+    "innerimageurl": "/perfumes/killianverte.jpg",
+    "imageurl": "/perfumes/killianverte.jpg",
+    "title": "By Kilian Verte L'Heure",
     "brands": "By Killian",
     "gender": "Unisex"
   },
@@ -10313,9 +10314,9 @@
       "midnotes": "Rose,Jasmine",
       "basenotes": "Patchouli"
     },
-    "innerimageurl": "/logo/antoniobanderas1.webp",
-    "imageurl": "/logo/parfuim1webp.webp",
-    "title": "By Killian PLAYING WITH THE DEVIL W T",
+    "innerimageurl": "/perfumes/killianplaying.webp",
+    "imageurl": "/perfumes/killianplaying.webp",
+    "title": "By Killian Playing With The Devil",
     "brands": "By Killian",
     "gender": "Women"
   },
@@ -10358,9 +10359,9 @@
       "midnotes": "Rose,Jasmine",
       "basenotes": "Patchouli"
     },
-    "innerimageurl": "/logo/antoniobanderas1.webp",
-    "imageurl": "/logo/parfuim1webp.webp",
-    "title": "K.VODKA ON THE ROCKS",
+    "innerimageurl": "/perfumes/killianvodka.jpg",
+    "imageurl": "/perfumes/killianvodka.jpg",
+    "title": "By Kilian Vodka On The Rocks",
     "brands": "By Killian",
     "gender": "Unisex"
   },
@@ -11618,9 +11619,9 @@
       "midnotes": "Rose,Jasmine",
       "basenotes": "Patchouli"
     },
-    "innerimageurl": "/logo/antoniobanderas1.webp",
-    "imageurl": "/logo/parfuim1webp.webp",
-    "title": "MY BURBERRY BLUSH",
+    "innerimageurl": "/perfumes/burberryblush.jpg",
+    "imageurl": "/perfumes/burberryblush.jpg",
+    "title": "Burberry Blush",
     "brands": "My Burberry",
     "gender": "Unisex"
   },
