@@ -4,11 +4,11 @@
   box-sizing: border-box;
 }
 .background {
-  padding-bottom: 80px;
+padding-bottom: 40px;
   .control {
     display: flex;
     justify-content: space-around;
-
+    padding-top: 60px;
     .images {
       padding-top: 40px;
       display: flex;
@@ -16,9 +16,10 @@
       align-items: center;
       gap: 40px;
       img {
-        width: 400px;
+        width: 250px;
       }
       h2 {
+        font-weight: 600;
         font-size: 32px;
       }
     }
@@ -31,12 +32,13 @@
       .modalclass {
         width: 500px;
         height: 100%;
+        font-weight: 600;
         overflow: hidden;
         position: relative;
         p {
           position: absolute;
           line-height: 30px;
-          animation: slideDown 10s ease;
+          animation: slideDown 2s ease;
         }
         @keyframes slideDown {
           0% {

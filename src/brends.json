@@ -1,824 +1,840 @@
 {
-  "antoniobanderas": {
-    "imageurl": "/logo/antoniologo.jpg",
-    "title": "Antonio Banderas",
-    "description": "LoremSasasdasdiamsiddsifjdnsijfgdfijgijdfgijudfjdfnijugijn"
-  },
-  "armanibasi": {
-    "imageurl": "/logo/armandbasi.jpg",
-    "title": "Armani Basi",
-    "description": "LoremSasasdasdiamsiddsifjdnsijfgdfijgijdfgijudfjdfnijugijn"
-  },
-  "acquadiparma": {
-    "imageurl": "/logo/aquadi.png",
-    "title": "Acqua Di Parma",
-    "description": "LoremSasasdasdiamsiddsifjdnsijfgdfijgijdfgijudfjdfnijugijn"
-  },
-  "alrehab": {
-    "imageurl": "/logo/alrehab.png",
-    "title": "Al Rehab",
-    "description": "LoremSasasdasdiamsiddsifjdnsijfgdfijgijdfgijudfjdfnijugijn"
-  },
-  "angeliques": {
-    "imageurl": "/logo/angeliques.png",
-    "title": "Angeliques",
-    "description": "LoremSasasdasdiamsiddsifjdnsijfgdfijgijdfgijudfjdfnijugijn"
-  },
-  "atkinsons": {
-    "imageurl": "/logo/atkinsons.png",
-    "title": "Atkinsons",
-    "description": "LoremSasasdasdiamsiddsifjdnsijfgdfijgijdfgijudfjdfnijugijn"
-  },
-  "annasui": {
-    "imageurl": "/logo/annasui.png",
-    "title": "Anna Sui",
-    "description": "LoremSasasdasdiamsiddsifjdnsijfgdfijgijdfgijudfjdfnijugijn"
-  },
-  "dunhill": {
-    "imageurl": "/logo/alfredlogo.jpg",
-    "title": "Dunhill",
-    "description": "LoremSasasdasdiamsiddsifjdnsijfgdfijgijdfgijudfjdfnijugijn"
-  },
-  "ajmal": {
-    "imageurl": "/logo/ajmal1.png",
-    "title": "Ajmal",
-    "description": "LoremSasasdasdiamsiddsifjdnsijfgdfijgijdfgijudfjdfnijugijn"
-  },
-  "alexandra": {
-    "imageurl": "/logo/alexandralogo.jpg",
-    "title": "Alexandra",
-    "description": "LoremSasasdasdiamsiddsifjdnsijfgdfijgijdfgijudfjdfnijugijn"
-  },
-  "amor": {
-    "imageurl": "/logo/amorelogo.png",
-    "title": "Amor",
-    "description": "LoremSasasdasdiamsiddsifjdnsijfgdfijgijdfgijudfjdfnijugijn"
-  },
-  "alaksa": {
-    "imageurl": "/logo/amorelogo.png",
-    "title": "Alaksa",
-    "description": "LoremSasasdasdiamsiddsifjdnsijfgdfijgijdfgijudfjdfnijugijn"
-  },
-  "amouage": {
-    "imageurl": "/logo/amouagelogo.jpg",
-    "title": "Amouage",
-    "description": "LoremSasasdasdiamsiddsifjdnsijfgdfijgijdfgijudfjdfnijugijn"
-  },
-  "attar": {
-    "imageurl": "/logo/attarlogo.jpg",
-    "title": "Attar",
-    "description": "LoremSasasdasdiamsiddsifjdnsijfgdfijgijdfgijudfjdfnijugijn"
-  },
-  "avon": {
-    "imageurl": "/logo/avonlogo.jpg",
-    "title": "Avon",
-    "description": "LoremSasasdasdiamsiddsifjdnsijfgdfijgijdfgijudfjdfnijugijn"
-  },
-  "azzaro": {
-    "imageurl": "/logo/azzarologo.jpg",
-    "title": "Azzaro",
-    "description": "LoremSasasdasdiamsiddsifjdnsijfgdfijgijdfgijudfjdfnijugijn"
-  },
-  "boadice": {
-    "imageurl": "/logo/boadicealogo.jpg",
-    "title": "Boadice",
-    "description": "LoremSasasdasdiamsiddsifjdnsijfgdfijgijdfgijudfjdfnijugijn"
-  },
-  "bond": {
-    "imageurl": "/logo/bondlogo.jpg",
-    "title": "Bond",
-    "description": "LoremSasasdasdiamsiddsifjdnsijfgdfijgijdfgijudfjdfnijugijn"
-  },
-  "bois": {
-    "imageurl": "/logo/boislogo.png",
-    "title": "Bois",
-    "description": "LoremSasasdasdiamsiddsifjdnsijfgdfijgijdfgijudfjdfnijugijn"
-  },
-  "brioni": {
-    "imageurl": "/logo/brionilogo.jpg",
-    "title": "Brioni",
-    "description": "LoremSasasdasdiamsiddsifjdnsijfgdfijgijdfgijudfjdfnijugijn"
-  },
-  "balmya": {
-    "imageurl": "/logo/balmya.png",
-    "title": "Balmya",
-    "description": "LoremSasasdasdiamsiddsifjdnsijfgdfijgijdfgijudfjdfnijugijn"
-  },
-  "myburberry": {
-    "imageurl": "/logo/burberrylogo.jpg",
-    "title": "My Burberry",
-    "description": "LoremSasasdasdiamsiddsifjdnsijfgdfijgijdfgijudfjdfnijugijn"
-  },
-  "balmain": {
-    "imageurl": "/logo/burberrylogo.jpg",
-    "title": "Balmain",
-    "description": "LoremSasasdasdiamsiddsifjdnsijfgdfijgijdfgijudfjdfnijugijn"
-  },
-  "baldessarini": {
-    "imageurl": "/logo/baldessarini.png",
-    "title": "Baldessarini",
-    "description": "LoremSasasdasdiamsiddsifjdnsijfgdfijgijdfgijudfjdfnijugijn"
-  },
-  "bvlgari": {
-    "imageurl": "/logo/bvlgarilogo.jpg",
-    "title": "Bvlgari",
-    "description": "LoremSasasdasdiamsiddsifjdnsijfgdfijgijdfgijudfjdfnijugijn"
-  },
-  "byredo": {
-    "imageurl": "/logo/byredologo.jpg",
-    "title": "By Redo",
-    "description": "LoremSasasdasdiamsiddsifjdnsijfgdfijgijdfgijudfjdfnijugijn"
-  },
-  "blackafgano": {
-    "imageurl": "/logo/blackafganologo.png",
-    "title": "Black Afgano",
-    "description": "LoremSasasdasdiamsiddsifjdnsijfgdfijgijdfgijudfjdfnijugijn"
-  },
-  "christiandior": {
-    "imageurl": "/logo/christianlogo.jpg",
-    "title": "Christian Dior",
-    "description": "LoremSasasdasdiamsiddsifjdnsijfgdfijgijdfgijudfjdfnijugijn"
-  },
-  "carolinaherrera": {
-    "imageurl": "/logo/carolinalogo.jpg",
-    "title": "Carolina Herrera",
-    "description": "LoremSasasdasdiamsiddsifjdnsijfgdfijgijdfgijudfjdfnijugijn"
-  },
-  "cocoine": {
-    "imageurl": "/logo/cocoinelogo1.png",
-    "title": "Cocoine",
-    "description": "LoremSasasdasdiamsiddsifjdnsijfgdfijgijdfgijudfjdfnijugijn"
-  },
-  "clivechristian": {
-    "imageurl": "/logo/clive.png",
-    "title": "Clive Christian",
-    "description": "LoremSasasdasdiamsiddsifjdnsijfgdfijgijdfgijudfjdfnijugijn"
-  },
-  "chopard": {
-    "imageurl": "/logo/chopard.png",
-    "title": "Chopard",
-    "description": "LoremSasasdasdiamsiddsifjdnsijfgdfijgijdfgijudfjdfnijugijn"
-  },
-  "cosmos": {
-    "imageurl": "/logo/cosmos.png",
-    "title": "Cosmos",
-    "description": "LoremSasasdasdiamsiddsifjdnsijfgdfijgijdfgijudfjdfnijugijn"
-  },
-  "christinaaguilera": {
-    "imageurl": "/logo/christina.png",
-    "title": "Christina Aguilera",
-    "description": "LoremSasasdasdiamsiddsifjdnsijfgdfijgijdfgijudfjdfnijugijn"
-  },
-  "calvinklein": {
-    "imageurl": "/logo/calvinkleinlogo.jpg",
-    "title": "Calvin Klein",
-    "description": "LoremSasasdasdiamsiddsifjdnsijfgdfijgijdfgijudfjdfnijugijn"
-  },
-  "cerruti": {
-    "imageurl": "/logo/cerruti.png",
-    "title": "Cerruti",
-    "description": "LoremSasasdasdiamsiddsifjdnsijfgdfijgijdfgijudfjdfnijugijn"
-  },
-  "cacharel": {
-    "imageurl": "/logo/cacharel.png",
-    "title": "Cacharel",
-    "description": "LoremSasasdasdiamsiddsifjdnsijfgdfijgijdfgijudfjdfnijugijn"
-  },
-  "captainblack": {
-    "imageurl": "/logo/captainlogo.jpg",
-    "title": "Captain Black",
-    "description": "LoremSasasdasdiamsiddsifjdnsijfgdfijgijdfgijudfjdfnijugijn"
-  },
-  "cartier": {
-    "imageurl": "/logo/cartierlogo.jpg",
-    "title": "Cartier",
-    "description": "LoremSasasdasdiamsiddsifjdnsijfgdfijgijdfgijudfjdfnijugijn"
-  },
-  "chanel": {
-    "imageurl": "/logo/chanellogo.jpg",
-    "title": "Chanel",
-    "description": "LoremSasasdasdiamsiddsifjdnsijfgdfijgijdfgijudfjdfnijugijn"
-  },
-
-  "chloe": {
-    "imageurl": "/logo/chloelogo.jpg",
-    "title": "Chloe",
-    "description": "LoremSasasdasdiamsiddsifjdnsijfgdfijgijdfgijudfjdfnijugijn"
-  },
-  "clinique": {
-    "imageurl": "/logo/cliniquelogo.jpg",
-    "title": "Clinique",
-    "description": "LoremSasasdasdiamsiddsifjdnsijfgdfijgijdfgijudfjdfnijugijn"
-  },
-  "creed": {
-    "imageurl": "/logo/creedlogo.jpg",
-    "title": "CREED",
-    "description": "LoremSasasdasdiamsiddsifjdnsijfgdfijgijdfgijudfjdfnijugijn"
-  },
-  "dalal": {
-    "imageurl": "/logo/dalallogo.png",
-    "title": "Dalal",
-    "description": "LoremSasasdasdiamsiddsifjdnsijfgdfijgijdfgijudfjdfnijugijn"
-  },
-  "davidoff": {
-    "imageurl": "/logo/davidofflogo.jpg",
-    "title": "Davidoff",
-    "description": "LoremSasasdasdiamsiddsifjdnsijfgdfijgijdfgijudfjdfnijugijn"
-  },
-  "devils": {
-    "imageurl": "/logo/devilslogo.png",
-    "title": "Devils",
-    "description": "LoremSasasdasdiamsiddsifjdnsijfgdfijgijdfgijudfjdfnijugijn"
-  },
-  "d&g": {
-    "imageurl": "/logo/dolcelogo.jpg",
-    "title": "D&G",
-    "description": "LoremSasasdasdiamsiddsifjdnsijfgdfijgijdfgijudfjdfnijugijn"
-  },
-  "diesel": {
-    "imageurl": "/logo/diesel.png",
-    "title": "Diesel",
-    "description": "LoremSasasdasdiamsiddsifjdnsijfgdfijgijdfgijudfjdfnijugijn"
-  },
-  "dimabilan": {
-    "imageurl": "/logo/dimabilan1.png",
-    "title": "Dima Bilan",
-    "description": "LoremSasasdasdiamsiddsifjdnsijfgdfijgijdfgijudfjdfnijugijn"
-  },
-  "esteelauder": {
-    "imageurl": "/logo/estee.png",
-    "title": "Estee Lauder",
-    "description": "LoremSasasdasdiamsiddsifjdnsijfgdfijgijdfgijudfjdfnijugijn"
-  },
-  "elizabetharden": {
-    "imageurl": "/logo/elizabeth.png",
-    "title": "Elizabeth Arden",
-    "description": "LoremSasasdasdiamsiddsifjdnsijfgdfijgijdfgijudfjdfnijugijn"
-  },
-  "d.p.g": {
-    "imageurl": "/logo/dolcelogo.jpg",
-    "title": "D.P.G",
-    "description": "LoremSasasdasdiamsiddsifjdnsijfgdfijgijdfgijudfjdfnijugijn"
-  },
-  "escada": {
-    "imageurl": "/logo/escadalogo.jpg",
-    "title": "ESCADA",
-    "description": "LoremSasasdasdiamsiddsifjdnsijfgdfijgijdfgijudfjdfnijugijn"
-  },
-  "eclat": {
-    "imageurl": "/logo/eclatlogo.png",
-    "title": "Eclat",
-    "description": "LoremSasasdasdiamsiddsifjdnsijfgdfijgijdfgijudfjdfnijugijn"
-  },
-  "eaudecologne": {
-    "imageurl": "/logo/eaudecologne.png",
-    "title": "Eau De Cologne",
-    "description": "LoremSasasdasdiamsiddsifjdnsijfgdfijgijdfgijudfjdfnijugijn"
-  },
-
-  "explore": {
-    "imageurl": "/logo/escentriclogo.jpg",
-    "title": "Explore",
-    "description": "LoremSasasdasdiamsiddsifjdnsijfgdfijgijdfgijudfjdfnijugijn"
-  },
-  "estelauder": {
-    "imageurl": "/logo/escentriclogo.jpg",
-    "title": "Este Lauder",
-    "description": "LoremSasasdasdiamsiddsifjdnsijfgdfijgijdfgijudfjdfnijugijn"
-  },
-  "dip": {
-    "imageurl": "/logo/diptyquelogo.png",
-    "title": "DIP",
-    "description": "LoremSasasdasdiamsiddsifjdnsijfgdfijgijdfgijudfjdfnijugijn"
-  },
-  "donnakaran": {
-    "imageurl": "/logo/donnakaranlogo1.png",
-    "title": "DONNA KARAN",
-    "description": "LoremSasasdasdiamsiddsifjdnsijfgdfijgijdfgijudfjdfnijugijn"
-  },
-  "trussardi": {
-    "imageurl": "/logo/donnakaranlogo1.png",
-    "title": "Trussardi",
-    "description": "LoremSasasdasdiamsiddsifjdnsijfgdfijgijdfgijudfjdfnijugijn"
-  },
-  "escentric": {
-    "imageurl": "/logo/escentriclogo.jpg",
-    "title": "escentric",
-    "description": "LoremSasasdasdiamsiddsifjdnsijfgdfijgijdfgijudfjdfnijugijn"
-  },
-  "exnihilo": {
-    "imageurl": "/logo/exnihilologo.jpg",
-    "title": "Ex Nihilo",
-    "description": "LoremSasasdasdiamsiddsifjdnsijfgdfijgijdfgijudfjdfnijugijn"
-  },
-  "fendi": {
-    "imageurl": "/logo/fendilogo.jpg",
-    "title": "Fendi",
-    "description": "LoremSasasdasdiamsiddsifjdnsijfgdfijgijdfgijudfjdfnijugijn"
-  },
-  "firdaus": {
-    "imageurl": "/logo/firdauslogo.png",
-    "title": "Firdaus",
-    "description": "LoremSasasdasdiamsiddsifjdnsijfgdfijgijdfgijudfjdfnijugijn"
-  },
-  "frederic": {
-    "imageurl": "/logo/frederic.png",
-    "title": "Frederic",
-    "description": "LoremSasasdasdiamsiddsifjdnsijfgdfijgijdfgijudfjdfnijugijn"
-  },
-  "franck": {
-    "imageurl": "/logo/franck.png",
-    "title": "Franck",
-    "description": "LoremSasasdasdiamsiddsifjdnsijfgdfijgijdfgijudfjdfnijugijn"
-  },
-  "ferrari": {
-    "imageurl": "/logo/ferrari.png",
-    "title": "Ferrari",
-    "description": "LoremSasasdasdiamsiddsifjdnsijfgdfijgijdfgijudfjdfnijugijn"
-  },
-  "franciskurkdjian": {
-    "imageurl": "/logo/fklogo3.png",
-    "title": "Francis Kurkdjian",
-    "description": "LoremSasasdasdiamsiddsifjdnsijfgdfijgijdfgijudfjdfnijugijn"
-  },
-  "fleur": {
-    "imageurl": "/logo/fleurlogo.png",
-    "title": "Fleur",
-    "description": "LoremSasasdasdiamsiddsifjdnsijfgdfijgijdfgijudfjdfnijugijn"
-  },
-  "givenchy": {
-    "imageurl": "/logo/givenchylogo.jpg",
-    "title": "Givenchy",
-    "description": "LoremSasasdasdiamsiddsifjdnsijfgdfijgijdfgijudfjdfnijugijn"
-  },
-  "g.m": {
-    "imageurl": "/logo/gmlogo2.png",
-    "title": "G.M",
-    "description": "LoremSasasdasdiamsiddsifjdnsijfgdfijgijdfgijudfjdfnijugijn"
-  },
-  "gucci": {
-    "imageurl": "/logo/guccilogo.jpg",
-    "title": "Gucci",
-    "description": "LoremSasasdasdiamsiddsifjdnsijfgdfijgijdfgijudfjdfnijugijn"
-  },
-  "greey": {
-    "imageurl": "/logo/greey.png",
-    "title": "Greey",
-    "description": "LoremSasasdasdiamsiddsifjdnsijfgdfijgijdfgijudfjdfnijugijn"
-  },
-  "guerlian": {
-    "imageurl": "/logo/guerlian.png",
-    "title": "Guerlian",
-    "description": "LoremSasasdasdiamsiddsifjdnsijfgdfijgijdfgijudfjdfnijugijn"
-  },
-  "giordani": {
-    "imageurl": "/logo/giordani.png",
-    "title": "Giordani",
-    "description": "LoremSasasdasdiamsiddsifjdnsijfgdfijgijdfgijudfjdfnijugijn"
-  },
-  "hugoboss": {
-    "imageurl": "/logo/hugobosslogo.jpg",
-    "title": "Hugo Boss",
-    "description": "LoremSasasdasdiamsiddsifjdnsijfgdfijgijdfgijudfjdfnijugijn"
-  },
-  "hunca": {
-    "imageurl": "/logo/huncalogo.jpg",
-    "title": "Hunca",
-    "description": "LoremSasasdasdiamsiddsifjdnsijfgdfijgijdfgijudfjdfnijugijn"
-  },
-  "hermes": {
-    "imageurl": "/logo/hermes.png",
-    "title": "Hermes",
-    "description": "LoremSasasdasdiamsiddsifjdnsijfgdfijgijdfgijudfjdfnijugijn"
-  },
-  "initio": {
-    "imageurl": "/logo/initiologo.jpg",
-    "title": "Initio",
-    "description": "LoremSasasdasdiamsiddsifjdnsijfgdfijgijdfgijudfjdfnijugijn"
-  },
-  "imosan": {
-    "imageurl": "/logo/imosan.png",
-    "title": "Imosan",
-    "description": "LoremSasasdasdiamsiddsifjdnsijfgdfijgijdfgijudfjdfnijugijn"
-  },
-  "issey": {
-    "imageurl": "/logo/issey.png",
-    "title": "Issey",
-    "description": "LoremSasasdasdiamsiddsifjdnsijfgdfijgijdfgijudfjdfnijugijn"
-  },
-  "inasto": {
-    "imageurl": "/logo/inasto.png",
-    "title": "Inasto",
-    "description": "LoremSasasdasdiamsiddsifjdnsijfgdfijgijdfgijudfjdfnijugijn"
-  },
-  "jomalone": {
-    "imageurl": "/logo/jomalonelogo.jpg",
-    "title": "Jo Malone",
-    "description": "LoremSasasdasdiamsiddsifjdnsijfgdfijgijdfgijudfjdfnijugijn"
-  },
-  "juliettehasagun": {
-    "imageurl": "/logo/juliettelogo1.jpg",
-    "title": "Juliette Has a Gun",
-    "description": "LoremSasasdasdiamsiddsifjdnsijfgdfijgijdfgijudfjdfnijugijn"
-  },
-  "jimmychoo": {
-    "imageurl": "/logo/jimmychoo.png",
-    "title": "Jimmy Choo",
-    "description": "LoremSasasdasdiamsiddsifjdnsijfgdfijgijdfgijudfjdfnijugijn"
-  },
-  "jagler": {
-    "imageurl": "/logo/jagler.png",
-    "title": "Jagler",
-    "description": "LoremSasasdasdiamsiddsifjdnsijfgdfijgijdfgijudfjdfnijugijn"
-  },
-  "jasmin": {
-    "imageurl": "/logo/jimmychoo.png",
-    "title": "Jasmin",
-    "description": "LoremSasasdasdiamsiddsifjdnsijfgdfijgijdfgijudfjdfnijugijn"
-  },
-  "jessicaparker": {
-    "imageurl": "/logo/jessica.png",
-    "title": "Jessica Parker",
-    "description": "LoremSasasdasdiamsiddsifjdnsijfgdfijgijdfgijudfjdfnijugijn"
-  },
-  "jenniferlopez": {
-    "imageurl": "/logo/jennifer.png",
-    "title": "Jennifer Lopez",
-    "description": "LoremSasasdasdiamsiddsifjdnsijfgdfijgijdfgijudfjdfnijugijn"
-  },
-  "kayali": {
-    "imageurl": "/logo/kayalilogo.jpg",
-    "title": "Kayali",
-    "description": "LoremSasasdasdiamsiddsifjdnsijfgdfijgijdfgijudfjdfnijugijn"
-  },
-  "kenzo": {
-    "imageurl": "/logo/kenzologo.jpg",
-    "title": "Kenzo",
-    "description": "LoremSasasdasdiamsiddsifjdnsijfgdfijgijdfgijudfjdfnijugijn"
-  },
-  "kinski": {
-    "imageurl": "/logo/kenzologo.jpg",
-    "title": "Kinski",
-    "description": "LoremSasasdasdiamsiddsifjdnsijfgdfijgijdfgijudfjdfnijugijn"
-  },
-  "kajal": {
-    "imageurl": "/logo/kajallogo.png",
-    "title": "Kajal",
-    "description": "LoremSasasdasdiamsiddsifjdnsijfgdfijgijdfgijudfjdfnijugijn"
-  },
-  "bykillian": {
-    "imageurl": "/logo/killianlogo.jpg",
-    "title": "By Killian",
-    "description": "LoremSasasdasdiamsiddsifjdnsijfgdfijgijdfgijudfjdfnijugijn"
-  },
-  "baccarat": {
-    "imageurl": "/logo/baccarat1.png",
-    "title": "Baccarat",
-    "description": "LoremSasasdasdiamsiddsifjdnsijfgdfijgijdfgijudfjdfnijugijn"
-  },
-  "lacoste": {
-    "imageurl": "/logo/lacostelogo.jpg",
-    "title": "Lacoste",
-    "description": "LoremSasasdasdiamsiddsifjdnsijfgdfijgijdfgijudfjdfnijugijn"
-  },
-  "lancome": {
-    "imageurl": "/logo/lancomelogo.jpg",
-    "title": "Lancome",
-    "description": "LoremSasasdasdiamsiddsifjdnsijfgdfijgijdfgijudfjdfnijugijn"
-  },
-  "lanvin": {
-    "imageurl": "/logo/lanvinlogo.jpg",
-    "title": "Lanvin",
-    "description": "LoremSasasdasdiamsiddsifjdnsijfgdfijgijdfgijudfjdfnijugijn"
-  },
-  "lelabo": {
-    "imageurl": "/logo/lelabo.png",
-    "title": "Le Labo",
-    "description": "LoremSasasdasdiamsiddsifjdnsijfgdfijgijdfgijudfjdfnijugijn"
-  },
-  "lizclaiborne": {
-    "imageurl": "/logo/liz.png",
-    "title": "Liz Claiborne",
-    "description": "LoremSasasdasdiamsiddsifjdnsijfgdfijgijdfgijudfjdfnijugijn"
-  },
-  "lalique": {
-    "imageurl": "/logo/laliquelogo.png",
-    "title": "Lalique",
-    "description": "LoremSasasdasdiamsiddsifjdnsijfgdfijgijdfgijudfjdfnijugijn"
-  },
-  "lucia": {
-    "imageurl": "/logo/laliquelogo.png",
-    "title": "Lucia",
-    "description": "LoremSasasdasdiamsiddsifjdnsijfgdfijgijdfgijudfjdfnijugijn"
-  },
-  "louisvuitton": {
-    "imageurl": "/logo/louisvuittonlogo.jpg",
-    "title": "Louis Vuitton",
-    "description": "LoremSasasdasdiamsiddsifjdnsijfgdfijgijdfgijudfjdfnijugijn"
-  },
-  "mancera": {
-    "imageurl": "/logo/manceralogo.jpg",
-    "title": "Mancera",
-    "description": "LoremSasasdasdiamsiddsifjdnsijfgdfijgijdfgijudfjdfnijugijn"
-  },
-  "mango": {
-    "imageurl": "/logo/mangologo.png",
-    "title": "Mango",
-    "description": "LoremSasasdasdiamsiddsifjdnsijfgdfijgijdfgijudfjdfnijugijn"
-  },
-  "memo": {
-    "imageurl": "/logo/memologo.jpg",
-    "title": "Memo",
-    "description": "LoremSasasdasdiamsiddsifjdnsijfgdfijgijdfgijudfjdfnijugijn"
-  },
-  "molecule": {
-    "imageurl": "/logo/moleculelogo.png",
-    "title": "Molecule",
-    "description": "LoremSasasdasdiamsiddsifjdnsijfgdfijgijdfgijudfjdfnijugijn"
-  },
-  "mono": {
-    "imageurl": "/logo/monologo.png",
-    "title": "Mono",
-    "description": "LoremSasasdasdiamsiddsifjdnsijfgdfijgijdfgijudfjdfnijugijn"
-  },
-  "michaelkords": {
-    "imageurl": "/logo/michael.png",
-    "title": "Michael Kords",
-    "description": "LoremSasasdasdiamsiddsifjdnsijfgdfijgijdfgijudfjdfnijugijn"
-  },
-  "montecarlo": {
-    "imageurl": "/logo/montecarlo.png",
-    "title": "Monte Carlo",
-    "description": "LoremSasasdasdiamsiddsifjdnsijfgdfijgijdfgijudfjdfnijugijn"
-  },
-  "montblack": {
-    "imageurl": "/logo/montblack.png",
-    "title": "Mont Black",
-    "description": "LoremSasasdasdiamsiddsifjdnsijfgdfijgijdfgijudfjdfnijugijn"
-  },
-  "micallef": {
-    "imageurl": "/logo/micallef.png",
-    "title": "Micallef",
-    "description": "LoremSasasdasdiamsiddsifjdnsijfgdfijgijdfgijudfjdfnijugijn"
-  },
-  "mercedesbenz": {
-    "imageurl": "/logo/mercedes.png",
-    "title": "Mercedes Benz",
-    "description": "LoremSasasdasdiamsiddsifjdnsijfgdfijgijdfgijudfjdfnijugijn"
-  },
-  "maxmara": {
-    "imageurl": "/logo/maxmara.png",
-    "title": "Max Mara",
-    "description": "LoremSasasdasdiamsiddsifjdnsijfgdfijgijdfgijudfjdfnijugijn"
-  },
-  "marcjacobs": {
-    "imageurl": "/logo/marc.png",
-    "title": "Marc Jacobs",
-    "description": "LoremSasasdasdiamsiddsifjdnsijfgdfijgijdfgijudfjdfnijugijn"
-  },
-  "montale": {
-    "imageurl": "/logo/montalelogo.jpg",
-    "title": "Montale",
-    "description": "LoremSasasdasdiamsiddsifjdnsijfgdfijgijdfgijudfjdfnijugijn"
-  },
-  "moschino": {
-    "imageurl": "/logo/moschinologo.jpg",
-    "title": "Moschino",
-    "description": "LoremSasasdasdiamsiddsifjdnsijfgdfijgijdfgijudfjdfnijugijn"
-  },
-  "narcisorodriguez": {
-    "imageurl": "/logo/narcissologo.jpg",
-    "title": "Narciso Rodriguez",
-    "description": "LoremSasasdasdiamsiddsifjdnsijfgdfijgijdfgijudfjdfnijugijn"
-  },
-  "narcosis": {
-    "imageurl": "/logo/narcosis.png",
-    "title": "Narcosis",
-    "description": "LoremSasasdasdiamsiddsifjdnsijfgdfijgijdfgijudfjdfnijugijn"
-  },
-  "nasa": {
-    "imageurl": "/logo/narcoslogo.png",
-    "title": "Nasa",
-    "description": "LoremSasasdasdiamsiddsifjdnsijfgdfijgijdfgijudfjdfnijugijn"
-  },
-  "nasomatto": {
-    "imageurl": "/logo/nasomatto1.png",
-    "title": "Nasomatto",
-    "description": "LoremSasasdasdiamsiddsifjdnsijfgdfijgijdfgijudfjdfnijugijn"
-  },
-  "ninaricci": {
-    "imageurl": "/logo/ninariccilogo.jpg",
-    "title": "Nina Ricci",
-    "description": "LoremSasasdasdiamsiddsifjdnsijfgdfijgijdfgijudfjdfnijugijn"
-  },
-  "ortoparisi": {
-    "imageurl": "/logo/ortoparisilogo.jpg",
-    "title": "Orto Parisi",
-    "description": "LoremSasasdasdiamsiddsifjdnsijfgdfijgijdfgijudfjdfnijugijn"
-  },
-  "oriflame": {
-    "imageurl": "/logo/oriflame.png",
-    "title": "Oriflame",
-    "description": "LoremSasasdasdiamsiddsifjdnsijfgdfijgijdfgijudfjdfnijugijn"
-  },
-  "ormondejayne": {
-    "imageurl": "/logo/ormande1.png",
-    "title": "Ormonde Jayne",
-    "description": "LoremSasasdasdiamsiddsifjdnsijfgdfijgijdfgijudfjdfnijugijn"
-  },
-  "pacorabanne": {
-    "imageurl": "/logo/pacologo.jpg",
-    "title": "Paco Rabanne",
-    "description": "LoremSasasdasdiamsiddsifjdnsijfgdfijgijdfgijudfjdfnijugijn"
-  },
-  "palomapicasso": {
-    "imageurl": "/logo/paloma.png",
-    "title": "Paloma Picasso",
-    "description": "LoremSasasdasdiamsiddsifjdnsijfgdfijgijdfgijudfjdfnijugijn"
-  },
-  "parfumsdemarley": {
-    "imageurl": "/logo/parfumsdemarleylogo.jpg",
-    "title": "Parfums de Marley",
-    "description": "LoremSasasdasdiamsiddsifjdnsijfgdfijgijdfgijudfjdfnijugijn"
-  },
-  "prada": {
-    "imageurl": "/logo/pradalogo.jpg",
-    "title": "Prada",
-    "description": "LoremSasasdasdiamsiddsifjdnsijfgdfijgijdfgijudfjdfnijugijn"
-  },
-  "parishilton": {
-    "imageurl": "/logo/paris.png",
-    "title": "Paris Hilton",
-    "description": "LoremSasasdasdiamsiddsifjdnsijfgdfijgijdfgijudfjdfnijugijn"
-  },
-  "ralphlauren": {
-    "imageurl": "/logo/ralphlogo.jpg",
-    "title": "Ralph Lauren",
-    "description": "LoremSasasdasdiamsiddsifjdnsijfgdfijgijdfgijudfjdfnijugijn"
-  },
-  "rasasi": {
-    "imageurl": "/logo/rasasilogo.jpg",
-    "title": "Rasasi",
-    "description": "LoremSasasdasdiamsiddsifjdnsijfgdfijgijdfgijudfjdfnijugijn"
-  },
-  "rogergallet": {
-    "imageurl": "/logo/rogergallet.png",
-    "title": "Roger Gallet",
-    "description": "LoremSasasdasdiamsiddsifjdnsijfgdfijgijdfgijudfjdfnijugijn"
-  },
-  "rose": {
-    "imageurl": "/logo/rasasilogo.jpg",
-    "title": "Rose",
-    "description": "LoremSasasdasdiamsiddsifjdnsijfgdfijgijdfgijudfjdfnijugijn"
-  },
-  "ricardoveron": {
-    "imageurl": "/logo/ricardoveronlogo.jpg",
-    "title": "Ricardo Veron",
-    "description": "LoremSasasdasdiamsiddsifjdnsijfgdfijgijdfgijudfjdfnijugijn"
-  },
-  "roja": {
-    "imageurl": "/logo/rojalogo.jpg",
-    "title": "Roja",
-    "description": "LoremSasasdasdiamsiddsifjdnsijfgdfijgijdfgijudfjdfnijugijn"
-  },
-  "salvatoreferragamo": {
-    "imageurl": "/logo/salvadorlogo.png",
-    "title": "Salvatore Ferragamo",
-    "description": "LoremSasasdasdiamsiddsifjdnsijfgdfijgijdfgijudfjdfnijugijn"
-  },
-  "sospiro": {
-    "imageurl": "/logo/sospirologo.jpg",
-    "title": "Sospiro",
-    "description": "LoremSasasdasdiamsiddsifjdnsijfgdfijgijdfgijudfjdfnijugijn"
-  },
-  "soblanz": {
-    "imageurl": "/logo/soblanz.png",
-    "title": "Soblanz",
-    "description": "LoremSasasdasdiamsiddsifjdnsijfgdfijgijdfgijudfjdfnijugijn"
-  },
-  "sexygrafity": {
-    "imageurl": "/logo/sospirologo.jpg",
-    "title": "Sexy Grafity",
-    "description": "LoremSasasdasdiamsiddsifjdnsijfgdfijgijdfgijudfjdfnijugijn"
-  },
-  "sergelutens": {
-    "imageurl": "/logo/serge.png",
-    "title": "Serge Lutens",
-    "description": "LoremSasasdasdiamsiddsifjdnsijfgdfijgijdfgijudfjdfnijugijn"
-  },
-  "s.t.dupont": {
-    "imageurl": "/logo/dupont.png",
-    "title": "S.T Dupont",
-    "description": "LoremSasasdasdiamsiddsifjdnsijfgdfijgijdfgijudfjdfnijugijn"
-  },
-  "shaik": {
-    "imageurl": "/logo/shaiklogo.jpg",
-    "title": "Shaik",
-    "description": "LoremSasasdasdiamsiddsifjdnsijfgdfijgijdfgijudfjdfnijugijn"
-  },
-  "shiseido": {
-    "imageurl": "/logo/shiseidologo.png",
-    "title": "Shiseido",
-    "description": "LoremSasasdasdiamsiddsifjdnsijfgdfijgijdfgijudfjdfnijugijn"
-  },
-  "sisley": {
-    "imageurl": "/logo/sisleylogo.jpg",
-    "title": "Sisley",
-    "description": "LoremSasasdasdiamsiddsifjdnsijfgdfijgijdfgijudfjdfnijugijn"
-  },
-  "stefanoricci": {
-    "imageurl": "/logo/stefanologo.png",
-    "title": "Stefano Ricci",
-    "description": "LoremSasasdasdiamsiddsifjdnsijfgdfijgijdfgijudfjdfnijugijn"
-  },
-  "tomford": {
-    "imageurl": "/logo/tomfordlogo.jpg",
-    "title": "Tom Ford",
-    "description": "LoremSasasdasdiamsiddsifjdnsijfgdfijgijdfgijudfjdfnijugijn"
-  },
-  "thamen": {
-    "imageurl": "/logo/thamenlogo.png",
-    "title": "Thamen",
-    "description": "LoremSasasdasdiamsiddsifjdnsijfgdfijgijdfgijudfjdfnijugijn"
-  },
-  "tizianaterenzi": {
-    "imageurl": "/logo/tizianalogo.jpg",
-    "title": "Tiziana Terenzi",
-    "description": "LoremSasasdasdiamsiddsifjdnsijfgdfijgijdfgijudfjdfnijugijn"
-  },
-  "victoria'ssecret": {
-    "imageurl": "/logo/victorialogo.jpg",
-    "title": "Versace",
-    "description": "LoremSasasdasdiamsiddsifjdnsijfgdfijgijdfgijudfjdfnijugijn"
-  },
-  "versace": {
-    "imageurl": "/logo/versacelogo.jpg",
-    "title": "Versace",
-    "description": "LoremSasasdasdiamsiddsifjdnsijfgdfijgijdfgijudfjdfnijugijn"
-  },
-  "valentino": {
-    "imageurl": "/logo/valentinologo.jpg",
-    "title": "Valentino",
-    "description": "LoremSasasdasdiamsiddsifjdnsijfgdfijgijdfgijudfjdfnijugijn"
-  },
-  "vieeste": {
-    "imageurl": "/logo/vieeste.png",
-    "title": "Vie Este",
-    "description": "LoremSasasdasdiamsiddsifjdnsijfgdfijgijdfgijudfjdfnijugijn"
-  },
-  "victorsrolf": {
-    "imageurl": "/logo/valentinologo.jpg",
-    "title": "Victors Rolf",
-    "description": "LoremSasasdasdiamsiddsifjdnsijfgdfijgijdfgijudfjdfnijugijn"
-  },
-  "vertus": {
-    "imageurl": "/logo/vertuslogo.jpg",
-    "title": "Xerjoff",
-    "description": "LoremSasasdasdiamsiddsifjdnsijfgdfijgijdfgijudfjdfnijugijn"
-  },
-  "whitemusk": {
-    "imageurl": "/logo/whitemusklogo.png",
-    "title": "White Musk",
-    "description": "LoremSasasdasdiamsiddsifjdnsijfgdfijgijdfgijudfjdfnijugijn"
-  },
-  "xerjoff": {
-    "imageurl": "/logo/xerjofflogo.jpg",
-    "title": "Xerjoff",
-    "description": "LoremSasasdasdiamsiddsifjdnsijfgdfijgijdfgijudfjdfnijugijn"
-  },
-  "xezer": {
-    "imageurl": "/logo/xezer.png",
-    "title": "Xezer",
-    "description": "LoremSasasdasdiamsiddsifjdnsijfgdfijgijdfgijudfjdfnijugijn"
-  },
-  "ysl": {
-    "imageurl": "/logo/ysllogo.jpg",
-    "title": "YSL",
-    "description": "LoremSasasdasdiamsiddsifjdnsijfgdfijgijdfgijudfjdfnijugijn"
-  },
-  "yasemen": {
-    "imageurl": "/logo/yasemen1.png",
-    "title": "Yasemen",
-    "description": "LoremSasasdasdiamsiddsifjdnsijfgdfijgijdfgijudfjdfnijugijn"
-  },
-  "zadigvoltaire": {
-    "imageurl": "/logo/zadiglogo.jpg",
-    "title": "Zadig Voltaire",
-    "description": "LoremSasasdasdiamsiddsifjdnsijfgdfijgijdfgijudfjdfnijugijn"
-  },
-  "zara": {
-    "imageurl": "/logo/zara.png",
-    "title": "Zara",
-    "description": "LoremSasasdasdiamsiddsifjdnsijfgdfijgijdfgijudfjdfnijugijn"
-  },
-  "zemzem": {
-    "imageurl": "/logo/zemzemlogo.png",
-    "title": "Zem Zem",
-    "description": "LoremSasasdasdiamsiddsifjdnsijfgdfijgijdfgijudfjdfnijugijn"
-  },
-  "zielenski": {
-    "imageurl": "/logo/zielenskilogo.png",
-    "title": "Zielenski",
-    "description": "LoremSasasdasdiamsiddsifjdnsijfgdfijgijdfgijudfjdfnijugijn"
-  }
+  
+    "antoniobanderas": {
+      "imageurl": "/logo/antoniologo.jpg",
+      "title": "Antonio Banderas",
+      "description": "Antonio Banderas is a Spanish brand known for its unique fragrances that capture the essence of Mediterranean spirit and passion."
+    },
+    "armanibasi": {
+      "imageurl": "/logo/armandbasi.jpg",
+      "title": "Armani Basi",
+      "description": "Armani Basi combines elegance and modernity, offering a range of fragrances that exude sophistication and style."
+    },
+    "acquadiparma": {
+      "imageurl": "/logo/aquadi.png",
+      "title": "Acqua Di Parma",
+      "description": "Acqua Di Parma is an Italian luxury brand renowned for its refined and high-quality fragrances inspired by Italian lifestyle and culture."
+    },
+    "alrehab": {
+      "imageurl": "/logo/alrehab.png",
+      "title": "Al Rehab",
+      "description": "Al Rehab offers a wide variety of affordable yet high-quality perfumes, known for their rich and long-lasting scents."
+    },
+    "angeliques": {
+      "imageurl": "/logo/angeliques.png",
+      "title": "Angeliques",
+      "description": "Angeliques perfumes are characterized by their enchanting and romantic scents, perfect for those who love a touch of elegance."
+    },
+    "atkinsons": {
+      "imageurl": "/logo/atkinsons.png",
+      "title": "Atkinsons",
+      "description": "Atkinsons, a British perfume house, offers classic and timeless fragrances with a modern twist, embodying British sophistication."
+    },
+    "annasui": {
+      "imageurl": "/logo/annasui.png",
+      "title": "Anna Sui",
+      "description": "Anna Sui's perfumes are whimsical and vibrant, reflecting the designer's eclectic and playful fashion style."
+    },
+    "dunhill": {
+      "imageurl": "/logo/alfredlogo.jpg",
+      "title": "Dunhill",
+      "description": "Dunhill is a British brand that offers sophisticated and luxurious fragrances, epitomizing classic elegance."
+    },
+    "ajmal": {
+      "imageurl": "/logo/ajmal1.png",
+      "title": "Ajmal",
+      "description": "Ajmal is a Middle Eastern brand known for its rich and exotic fragrances, drawing inspiration from the region's aromatic traditions."
+    },
+    "alexandra": {
+      "imageurl": "/logo/alexandralogo.jpg",
+      "title": "Alexandra",
+      "description": "Alexandra offers a range of elegant and refined perfumes, perfect for those who appreciate classic and timeless scents."
+    },
+    "amor": {
+      "imageurl": "/logo/amorelogo.png",
+      "title": "Amor",
+      "description": "Amor perfumes are known for their passionate and romantic fragrances, ideal for expressing love and affection."
+    },
+    "alaksa": {
+      "imageurl": "/logo/amorelogo.png",
+      "title": "Alaksa",
+      "description": "Alaksa offers a variety of fresh and invigorating fragrances, inspired by the pristine natural beauty of the Alaskan wilderness."
+    },
+    "amouage": {
+      "imageurl": "/logo/amouagelogo.jpg",
+      "title": "Amouage",
+      "description": "Amouage is a luxury perfume house known for its opulent and artistic fragrances, combining tradition and modernity."
+    },
+    "attar": {
+      "imageurl": "/logo/attarlogo.jpg",
+      "title": "Attar",
+      "description": "Attar perfumes offer rich and traditional scents, inspired by the ancient art of perfumery using natural ingredients."
+    },
+    "avon": {
+      "imageurl": "/logo/avonlogo.jpg",
+      "title": "Avon",
+      "description": "Avon is a well-known brand offering a wide range of affordable and diverse fragrances, catering to various tastes and preferences."
+    },
+    "azzaro": {
+      "imageurl": "/logo/azzarologo.jpg",
+      "title": "Azzaro",
+      "description": "Azzaro perfumes are characterized by their bold and charismatic scents, perfect for those who exude confidence and charm."
+    },
+    "boadice": {
+      "imageurl": "/logo/boadicealogo.jpg",
+      "title": "Boadicea the Victorious",
+      "description": "Boadicea the Victorious offers luxurious and powerful fragrances, inspired by the legendary British warrior queen."
+    },
+    "bond": {
+      "imageurl": "/logo/bondlogo.jpg",
+      "title": "Bond No. 9",
+      "description": "Bond No. 9 captures the essence of New York City through its unique and vibrant fragrances, each inspired by a different neighborhood."
+    },
+    "bois": {
+      "imageurl": "/logo/boislogo.png",
+      "title": "Bois 1920",
+      "description": "Bois 1920 is an Italian brand offering artisanal and elegant fragrances, reflecting the rich heritage of Italian perfumery."
+    },
+    "brioni": {
+      "imageurl": "/logo/brionilogo.jpg",
+      "title": "Brioni",
+      "description": "Brioni offers sophisticated and luxurious fragrances, embodying the essence of Italian craftsmanship and elegance."
+    },
+    "balmya": {
+      "imageurl": "/logo/balmya.png",
+      "title": "Balmya",
+      "description": "Balmya perfumes are known for their modern and stylish scents, perfect for the contemporary fragrance enthusiast."
+    },
+    "myburberry": {
+      "imageurl": "/logo/burberrylogo.jpg",
+      "title": "My Burberry",
+      "description": "My Burberry captures the essence of British elegance and sophistication through its timeless and classic fragrances."
+    },
+    "balmain": {
+      "imageurl": "/logo/burberrylogo.jpg",
+      "title": "Balmain",
+      "description": "Balmain offers bold and innovative fragrances, reflecting the brand's iconic and trend-setting fashion style."
+    },
+    "baldessarini": {
+      "imageurl": "/logo/baldessarini.png",
+      "title": "Baldessarini",
+      "description": "Baldessarini fragrances are sophisticated and luxurious, designed for the modern and confident man."
+    },
+    "bvlgari": {
+      "imageurl": "/logo/bvlgarilogo.jpg",
+      "title": "Bvlgari",
+      "description": "Bvlgari is an Italian luxury brand offering exquisite and refined fragrances, inspired by its rich heritage and artistry."
+    },
+  
+  
+    
+      "byredo": {
+        "imageurl": "/logo/byredologo.jpg",
+        "title": "Byredo",
+        "description": "Byredo is a modern European luxury brand founded in Stockholm in 2006 by Ben Gorham, characterized by its focus on high-quality ingredients and craftsmanship."
+      },
+      "blackafgano": {
+        "imageurl": "/logo/blackafganologo.png",
+        "title": "Black Afgano",
+        "description": "Black Afgano is a bold and intense fragrance known for its rich, dark, and woody notes, offering a unique and memorable olfactory experience."
+      },
+      "christiandior": {
+        "imageurl": "/logo/christianlogo.jpg",
+        "title": "Christian Dior",
+        "description": "Christian Dior is a French luxury brand famous for its sophisticated and timeless fragrances that embody elegance and glamour."
+      },
+      "carolinaherrera": {
+        "imageurl": "/logo/carolinalogo.jpg",
+        "title": "Carolina Herrera",
+        "description": "Carolina Herrera is a renowned fashion and fragrance brand that blends modernity with classic elegance, offering sophisticated scents for both men and women."
+      },
+      "cocoine": {
+        "imageurl": "/logo/cocoinelogo1.png",
+        "title": "Cocoine",
+        "description": "Cocoine is known for its contemporary and unique fragrances that combine innovative ingredients to create unforgettable and dynamic scents."
+      },
+      "clivechristian": {
+        "imageurl": "/logo/clive.png",
+        "title": "Clive Christian",
+        "description": "Clive Christian is a British luxury perfume house known for its opulent and richly crafted fragrances that evoke a sense of grandeur and elegance."
+      },
+      "chopard": {
+        "imageurl": "/logo/chopard.png",
+        "title": "Chopard",
+        "description": "Chopard is a Swiss luxury brand that offers a range of exquisite fragrances inspired by its jewelry and watchmaking heritage, characterized by elegance and refinement."
+      },
+      "cosmos": {
+        "imageurl": "/logo/cosmos.png",
+        "title": "Cosmos",
+        "description": "Cosmos is known for its diverse and eclectic range of fragrances that capture the essence of various natural and exotic elements, offering a unique sensory experience."
+      },
+      "christinaaguilera": {
+        "imageurl": "/logo/christina.png",
+        "title": "Christina Aguilera",
+        "description": "Christina Aguilera's fragrance line reflects her bold and glamorous personality, offering sensual and captivating scents for the modern woman."
+      },
+      "calvinklein": {
+        "imageurl": "/logo/calvinkleinlogo.jpg",
+        "title": "Calvin Klein",
+        "description": "Calvin Klein is a global lifestyle brand known for its minimalist and modern fragrances that embody sophistication and timeless style."
+      },
+      "cerruti": {
+        "imageurl": "/logo/cerruti.png",
+        "title": "Cerruti",
+        "description": "Cerruti is an Italian fashion house that offers refined and elegant fragrances, blending traditional craftsmanship with contemporary design."
+      },
+      "cacharel": {
+        "imageurl": "/logo/cacharel.png",
+        "title": "Cacharel",
+        "description": "Cacharel is a French brand that creates youthful and romantic fragrances, characterized by their vibrant and playful notes."
+      },
+      "captainblack": {
+        "imageurl": "/logo/captainlogo.jpg",
+        "title": "Captain Black",
+        "description": "Captain Black is known for its rich and aromatic fragrances that evoke a sense of adventure and exploration, perfect for the modern explorer."
+      },
+      "cartier": {
+        "imageurl": "/logo/cartierlogo.jpg",
+        "title": "Cartier",
+        "description": "Cartier is a French luxury brand that offers sophisticated and timeless fragrances, known for their elegance and high-quality ingredients."
+      },
+      "chanel": {
+        "imageurl": "/logo/chanellogo.jpg",
+        "title": "Chanel",
+        "description": "Chanel is a legendary French fashion house that creates iconic and timeless fragrances, embodying luxury, elegance, and sophistication."
+      },
+      "chloe": {
+        "imageurl": "/logo/chloelogo.jpg",
+        "title": "Chloe",
+        "description": "Chloe is a French fashion house that offers romantic and feminine fragrances, known for their delicate and elegant compositions."
+      },
+      "clinique": {
+        "imageurl": "/logo/cliniquelogo.jpg",
+        "title": "Clinique",
+        "description": "Clinique is a skincare and cosmetics brand that offers clean and fresh fragrances, designed to complement their skincare philosophy."
+      },
+      "creed": {
+        "imageurl": "/logo/creedlogo.jpg",
+        "title": "Creed",
+        "description": "Creed is a luxury fragrance house with a rich heritage, known for its artisanal approach and exclusive, high-quality scents."
+      },
+      "dalal": {
+        "imageurl": "/logo/dalallogo.png",
+        "title": "Dalal",
+        "description": "Dalal is known for its exotic and rich fragrances that capture the essence of Middle Eastern perfumery, offering a unique and luxurious experience."
+      },
+      "davidoff": {
+        "imageurl": "/logo/davidofflogo.jpg",
+        "title": "Davidoff",
+        "description": "Davidoff is a Swiss luxury brand that offers a range of sophisticated and dynamic fragrances, known for their freshness and vitality."
+      },
+      "devils": {
+        "imageurl": "/logo/devilslogo.png",
+        "title": "Devils",
+        "description": "Devils is known for its bold and daring fragrances that push the boundaries of traditional perfumery, offering unique and provocative scents."
+      },
+      "d&g": {
+        "imageurl": "/logo/dolcelogo.jpg",
+        "title": "D&G",
+        "description": "D&G, or Dolce & Gabbana, is an Italian luxury brand known for its vibrant and sensual fragrances, capturing the essence of Mediterranean luxury."
+      },
+      "diesel": {
+        "imageurl": "/logo/diesel.png",
+        "title": "Diesel",
+        "description": "Diesel is an Italian fashion brand that offers bold and edgy fragrances, known for their rebellious spirit and modern appeal."
+      }
+    
+    ,
+    
+      "dimabilan": {
+        "imageurl": "/logo/dimabilan1.png",
+        "title": "Dima Bilan",
+        "description": "Dima Bilan is known for his captivating fragrances that reflect his vibrant and dynamic personality."
+      },
+      "esteelauder": {
+        "imageurl": "/logo/estee.png",
+        "title": "Estee Lauder",
+        "description": "Estee Lauder is a prestigious beauty brand offering elegant and sophisticated fragrances designed for the modern woman."
+      },
+      "elizabetharden": {
+        "imageurl": "/logo/elizabeth.png",
+        "title": "Elizabeth Arden",
+        "description": "Elizabeth Arden creates timeless and classic fragrances that embody luxury and refinement."
+      },
+      "d.p.g": {
+        "imageurl": "/logo/dolcelogo.jpg",
+        "title": "D.P.G",
+        "description": "D.P.G offers distinctive and high-quality fragrances, capturing a unique and memorable essence."
+      },
+      "escada": {
+        "imageurl": "/logo/escadalogo.jpg",
+        "title": "ESCADA",
+        "description": "ESCADA is known for its vibrant and feminine fragrances that evoke a sense of luxury and style."
+      },
+      "eclat": {
+        "imageurl": "/logo/eclatlogo.png",
+        "title": "Eclat",
+        "description": "Eclat features bright and sparkling fragrances that offer a fresh and invigorating experience."
+      },
+      "eaudecologne": {
+        "imageurl": "/logo/eaudecologne.png",
+        "title": "Eau De Cologne",
+        "description": "Eau De Cologne provides a classic and refreshing fragrance experience with a light and crisp composition."
+      },
+      "explore": {
+        "imageurl": "/logo/escentriclogo.jpg",
+        "title": "Explore",
+        "description": "Explore fragrances are known for their adventurous and bold scents, perfect for the modern explorer."
+      },
+      "estelauder": {
+        "imageurl": "/logo/escentriclogo.jpg",
+        "title": "Este Lauder",
+        "description": "Este Lauder offers sophisticated fragrances that blend elegance with modernity."
+      },
+      "dip": {
+        "imageurl": "/logo/diptyquelogo.png",
+        "title": "DIP",
+        "description": "DIP features unique and artistic fragrances that combine creativity with quality."
+      },
+      "donnakaran": {
+        "imageurl": "/logo/donnakaranlogo1.png",
+        "title": "DONNA KARAN",
+        "description": "DONNA KARAN is renowned for its luxurious and modern fragrances that reflect a bold and stylish personality."
+      },
+      "trussardi": {
+        "imageurl": "/logo/donnakaranlogo1.png",
+        "title": "Trussardi",
+        "description": "Trussardi offers elegant and sophisticated fragrances inspired by Italian luxury and refinement."
+      },
+      "escentric": {
+        "imageurl": "/logo/escentriclogo.jpg",
+        "title": "Escentric",
+        "description": "Escentric is known for its innovative and unconventional fragrances that push the boundaries of traditional perfumery."
+      },
+      "exnihilo": {
+        "imageurl": "/logo/exnihilologo.jpg",
+        "title": "Ex Nihilo",
+        "description": "Ex Nihilo creates high-end, artistic fragrances that blend luxury with creativity."
+      },
+      "fendi": {
+        "imageurl": "/logo/fendilogo.jpg",
+        "title": "Fendi",
+        "description": "Fendi offers opulent and sophisticated fragrances that embody the essence of Italian luxury."
+      },
+      "firdaus": {
+        "imageurl": "/logo/firdauslogo.png",
+        "title": "Firdaus",
+        "description": "Firdaus is known for its rich and exotic fragrances that evoke a sense of opulence and elegance."
+      },
+      "frederic": {
+        "imageurl": "/logo/frederic.png",
+        "title": "Frederic",
+        "description": "Frederic offers a range of refined and classic fragrances, emphasizing quality and sophistication."
+      },
+      "franck": {
+        "imageurl": "/logo/franck.png",
+        "title": "Franck",
+        "description": "Franck features distinctive and high-quality fragrances that capture a unique and elegant essence."
+      },
+      "ferrari": {
+        "imageurl": "/logo/ferrari.png",
+        "title": "Ferrari",
+        "description": "Ferrari is known for its dynamic and sophisticated fragrances that embody the spirit of luxury and performance."
+      },
+      "franciskurkdjian": {
+        "imageurl": "/logo/fklogo3.png",
+        "title": "Francis Kurkdjian",
+        "description": "Francis Kurkdjian creates high-end, artisanal fragrances that showcase creativity and craftsmanship."
+      },
+      "fleur": {
+        "imageurl": "/logo/fleurlogo.png",
+        "title": "Fleur",
+        "description": "Fleur features delicate and elegant fragrances that offer a fresh and refined olfactory experience."
+      },
+      "givenchy": {
+        "imageurl": "/logo/givenchylogo.jpg",
+        "title": "Givenchy",
+        "description": "Givenchy is renowned for its sophisticated and luxurious fragrances that exude elegance and style."
+      },
+    
+    
+      
+        "g.m": {
+          "imageurl": "/logo/gmlogo2.png",
+          "title": "G.M",
+          "description": "G.M offers distinctive and high-quality fragrances that blend innovation with tradition."
+        },
+        "gucci": {
+          "imageurl": "/logo/guccilogo.jpg",
+          "title": "Gucci",
+          "description": "Gucci is known for its luxurious and trendy fragrances that embody modern elegance."
+        },
+        "greey": {
+          "imageurl": "/logo/greey.png",
+          "title": "Greey",
+          "description": "Greey features unique and sophisticated fragrances that offer a fresh perspective on modern scents."
+        },
+        "guerlian": {
+          "imageurl": "/logo/guerlian.png",
+          "title": "Guerlian",
+          "description": "Guerlian is celebrated for its opulent and classic fragrances that evoke timeless luxury."
+        },
+        "giordani": {
+          "imageurl": "/logo/giordani.png",
+          "title": "Giordani",
+          "description": "Giordani offers elegant and refined fragrances that capture the essence of sophistication."
+        },
+        "hugoboss": {
+          "imageurl": "/logo/hugobosslogo.jpg",
+          "title": "Hugo Boss",
+          "description": "Hugo Boss is known for its modern and stylish fragrances that reflect contemporary elegance."
+        },
+        "hunca": {
+          "imageurl": "/logo/huncalogo.jpg",
+          "title": "Hunca",
+          "description": "Hunca creates high-quality fragrances that combine tradition with a modern touch."
+        },
+        "hermes": {
+          "imageurl": "/logo/hermes.png",
+          "title": "Hermes",
+          "description": "Hermes offers luxurious and sophisticated fragrances that embody French elegance and artistry."
+        },
+        "initio": {
+          "imageurl": "/logo/initiologo.jpg",
+          "title": "Initio",
+          "description": "Initio features exclusive and captivating fragrances that push the boundaries of perfumery."
+        },
+        "imosan": {
+          "imageurl": "/logo/imosan.png",
+          "title": "Imosan",
+          "description": "Imosan offers distinctive and high-quality fragrances with a focus on innovation."
+        },
+        "issey": {
+          "imageurl": "/logo/issey.png",
+          "title": "Issey",
+          "description": "Issey is known for its fresh and unique fragrances that reflect simplicity and elegance."
+        },
+        "inasto": {
+          "imageurl": "/logo/inasto.png",
+          "title": "Inasto",
+          "description": "Inasto features modern and sophisticated fragrances designed to leave a lasting impression."
+        },
+        "jomalone": {
+          "imageurl": "/logo/jomalonelogo.jpg",
+          "title": "Jo Malone",
+          "description": "Jo Malone offers elegant and versatile fragrances that combine classic and contemporary elements."
+        },
+        "juliettehasagun": {
+          "imageurl": "/logo/juliettelogo1.jpg",
+          "title": "Juliette Has a Gun",
+          "description": "Juliette Has a Gun creates bold and unique fragrances that challenge traditional norms."
+        },
+        "jimmychoo": {
+          "imageurl": "/logo/jimmychoo.png",
+          "title": "Jimmy Choo",
+          "description": "Jimmy Choo offers glamorous and sophisticated fragrances that reflect luxury and style."
+        },
+        "jagler": {
+          "imageurl": "/logo/jagler.png",
+          "title": "Jagler",
+          "description": "Jagler features bold and distinctive fragrances that make a strong and memorable statement."
+        },
+        "jasmin": {
+          "imageurl": "/logo/jimmychoo.png",
+          "title": "Jasmin",
+          "description": "Jasmin offers elegant and fresh fragrances that highlight the beauty of jasmine."
+        },
+        "jessicaparker": {
+          "imageurl": "/logo/jessica.png",
+          "title": "Jessica Parker",
+          "description": "Jessica Parker creates charming and sophisticated fragrances that exude personality and grace."
+        },
+        "jenniferlopez": {
+          "imageurl": "/logo/jennifer.png",
+          "title": "Jennifer Lopez",
+          "description": "Jennifer Lopez offers vibrant and glamorous fragrances that reflect confidence and elegance."
+        },
+        "kayali": {
+          "imageurl": "/logo/kayalilogo.jpg",
+          "title": "Kayali",
+          "description": "Kayali features luxurious and modern fragrances designed to capture the essence of contemporary beauty."
+        },
+        "kenzo": {
+          "imageurl": "/logo/kenzologo.jpg",
+          "title": "Kenzo",
+          "description": "Kenzo creates vibrant and playful fragrances that reflect a sense of adventure and creativity."
+        },
+      
+      
+        
+          "kinski": {
+            "imageurl": "/logo/kenzologo.jpg",
+            "title": "Kinski",
+            "description": "Kinski offers unique and bold fragrances that capture a sense of elegance and sophistication."
+          },
+          "kajal": {
+            "imageurl": "/logo/kajallogo.png",
+            "title": "Kajal",
+            "description": "Kajal features luxurious and refined fragrances that blend tradition with modernity."
+          },
+          "bykillian": {
+            "imageurl": "/logo/killianlogo.jpg",
+            "title": "By Killian",
+            "description": "By Killian is known for its opulent and innovative fragrances that exude glamour and sophistication."
+          },
+          "baccarat": {
+            "imageurl": "/logo/baccarat1.png",
+            "title": "Baccarat",
+            "description": "Baccarat offers elegant and exquisite fragrances that reflect timeless luxury."
+          },
+          "lacoste": {
+            "imageurl": "/logo/lacostelogo.jpg",
+            "title": "Lacoste",
+            "description": "Lacoste features fresh and sporty fragrances that embody casual sophistication."
+          },
+          "lancome": {
+            "imageurl": "/logo/lancomelogo.jpg",
+            "title": "Lancome",
+            "description": "Lancome is known for its classic and refined fragrances that embody French elegance."
+          },
+          "lanvin": {
+            "imageurl": "/logo/lanvinlogo.jpg",
+            "title": "Lanvin",
+            "description": "Lanvin offers timeless and sophisticated fragrances with a touch of classic charm."
+          },
+          "lelabo": {
+            "imageurl": "/logo/lelabo.png",
+            "title": "Le Labo",
+            "description": "Le Labo creates distinctive and artisanal fragrances that are both unique and modern."
+          },
+          "lizclaiborne": {
+            "imageurl": "/logo/liz.png",
+            "title": "Liz Claiborne",
+            "description": "Liz Claiborne features versatile and approachable fragrances that are perfect for everyday wear."
+          },
+          "lalique": {
+            "imageurl": "/logo/laliquelogo.png",
+            "title": "Lalique",
+            "description": "Lalique is renowned for its luxurious and artistic fragrances that reflect elegance and sophistication."
+          },
+          "lucia": {
+            "imageurl": "/logo/laliquelogo.png",
+            "title": "Lucia",
+            "description": "Lucia offers captivating and elegant fragrances that evoke a sense of timeless beauty."
+          },
+          "louisvuitton": {
+            "imageurl": "/logo/louisvuittonlogo.jpg",
+            "title": "Louis Vuitton",
+            "description": "Louis Vuitton is known for its high-end and luxurious fragrances that represent ultimate sophistication."
+          },
+          "mancera": {
+            "imageurl": "/logo/manceralogo.jpg",
+            "title": "Mancera",
+            "description": "Mancera features bold and dynamic fragrances that combine modernity with luxury."
+          },
+          "mango": {
+            "imageurl": "/logo/mangologo.png",
+            "title": "Mango",
+            "description": "Mango offers fresh and vibrant fragrances that capture a contemporary and fashionable spirit."
+          },
+          "memo": {
+            "imageurl": "/logo/memologo.jpg",
+            "title": "Memo",
+            "description": "Memo creates unique and memorable fragrances that transport you to exotic and luxurious places."
+          },
+          "molecule": {
+            "imageurl": "/logo/moleculelogo.png",
+            "title": "Molecule",
+            "description": "Molecule features innovative and distinctive fragrances that are both modern and intriguing."
+          },
+          "mono": {
+            "imageurl": "/logo/monologo.png",
+            "title": "Mono",
+            "description": "Mono offers simple and elegant fragrances that are perfect for everyday elegance."
+          },
+          "michaelkords": {
+            "imageurl": "/logo/michael.png",
+            "title": "Michael Kords",
+            "description": "Michael Kords is known for its stylish and luxurious fragrances that embody modern sophistication."
+          },
+          "montecarlo": {
+            "imageurl": "/logo/montecarlo.png",
+            "title": "Monte Carlo",
+            "description": "Monte Carlo features elegant and refined fragrances that reflect the glamour and allure of the French Riviera."
+          },
+          "montblack": {
+            "imageurl": "/logo/montblack.png",
+            "title": "Mont Black",
+            "description": "Mont Black offers bold and sophisticated fragrances with a touch of modern luxury."
+          },
+          "micallef": {
+            "imageurl": "/logo/micallef.png",
+            "title": "Micallef",
+            "description": "Micallef is known for its high-end and artistic fragrances that blend opulence with creativity."
+          },
+          "mercedesbenz": {
+            "imageurl": "/logo/mercedes.png",
+            "title": "Mercedes Benz",
+            "description": "Mercedes Benz features elegant and refined fragrances that reflect the brand's commitment to luxury."
+          },
+          "maxmara": {
+            "imageurl": "/logo/maxmara.png",
+            "title": "Max Mara",
+            "description": "Max Mara offers sophisticated and timeless fragrances that capture the essence of classic style."
+          },
+          "marcjacobs": {
+            "imageurl": "/logo/marc.png",
+            "title": "Marc Jacobs",
+            "description": "Marc Jacobs features playful and modern fragrances that embody contemporary charm and creativity."
+          },
+          "montale": {
+            "imageurl": "/logo/montalelogo.jpg",
+            "title": "Montale",
+            "description": "Montale creates bold and unique fragrances that are both exotic and luxurious."
+          },
+          "moschino": {
+            "imageurl": "/logo/moschinologo.jpg",
+            "title": "Moschino",
+            "description": "Moschino offers fun and quirky fragrances that reflect the brand's playful and creative spirit."
+          },
+        
+        
+          
+            "narcisorodriguez": {
+              "imageurl": "/logo/narcissologo.jpg",
+              "title": "Narciso Rodriguez",
+              "description": "Narciso Rodriguez offers sophisticated and sensual fragrances with a modern twist."
+            },
+            "narcosis": {
+              "imageurl": "/logo/narcosis.png",
+              "title": "Narcosis",
+              "description": "Narcosis features intense and captivating fragrances that push the boundaries of traditional scent."
+            },
+            "nasa": {
+              "imageurl": "/logo/narcoslogo.png",
+              "title": "Nasa",
+              "description": "Nasa blends innovative and futuristic scents that evoke a sense of exploration and discovery."
+            },
+            "nasomatto": {
+              "imageurl": "/logo/nasomatto1.png",
+              "title": "Nasomatto",
+              "description": "Nasomatto is known for its bold and experimental fragrances that are both distinctive and luxurious."
+            },
+            "ninaricci": {
+              "imageurl": "/logo/ninariccilogo.jpg",
+              "title": "Nina Ricci",
+              "description": "Nina Ricci offers elegant and timeless fragrances that exude femininity and sophistication."
+            },
+            "ortoparisi": {
+              "imageurl": "/logo/ortoparisilogo.jpg",
+              "title": "Orto Parisi",
+              "description": "Orto Parisi creates unique and artisanal fragrances that reflect a sense of individuality and artistry."
+            },
+            "oriflame": {
+              "imageurl": "/logo/oriflame.png",
+              "title": "Oriflame",
+              "description": "Oriflame features versatile and accessible fragrances that offer a touch of everyday luxury."
+            },
+            "ormondejayne": {
+              "imageurl": "/logo/ormande1.png",
+              "title": "Ormonde Jayne",
+              "description": "Ormonde Jayne is known for its sophisticated and unique fragrances that blend tradition with modernity."
+            },
+            "pacorabanne": {
+              "imageurl": "/logo/pacologo.jpg",
+              "title": "Paco Rabanne",
+              "description": "Paco Rabanne offers bold and innovative fragrances that push the boundaries of conventional scent."
+            },
+            "palomapicasso": {
+              "imageurl": "/logo/paloma.png",
+              "title": "Paloma Picasso",
+              "description": "Paloma Picasso features distinctive and elegant fragrances that capture a sense of creativity and sophistication."
+            },
+            "parfumsdemarley": {
+              "imageurl": "/logo/parfumsdemarleylogo.jpg",
+              "title": "Parfums de Marley",
+              "description": "Parfums de Marley offers luxurious and opulent fragrances inspired by classic French perfumery."
+            },
+            "prada": {
+              "imageurl": "/logo/pradalogo.jpg",
+              "title": "Prada",
+              "description": "Prada features sophisticated and contemporary fragrances that embody modern luxury."
+            },
+            "parishilton": {
+              "imageurl": "/logo/paris.png",
+              "title": "Paris Hilton",
+              "description": "Paris Hilton offers trendy and youthful fragrances that reflect a glamorous and fun lifestyle."
+            },
+            "ralphlauren": {
+              "imageurl": "/logo/ralphlogo.jpg",
+              "title": "Ralph Lauren",
+              "description": "Ralph Lauren creates classic and elegant fragrances that capture the essence of American sophistication."
+            },
+            "rasasi": {
+              "imageurl": "/logo/rasasilogo.jpg",
+              "title": "Rasasi",
+              "description": "Rasasi offers rich and exotic fragrances that blend traditional and modern elements."
+            },
+            "rogergallet": {
+              "imageurl": "/logo/rogergallet.png",
+              "title": "Roger Gallet",
+              "description": "Roger Gallet features refreshing and classic fragrances with a touch of French elegance."
+            },
+            "rose": {
+              "imageurl": "/logo/rasasilogo.jpg",
+              "title": "Rose",
+              "description": "Rose offers elegant and timeless fragrances that highlight the beauty of classic floral notes."
+            },
+            "ricardoveron": {
+              "imageurl": "/logo/ricardoveronlogo.jpg",
+              "title": "Ricardo Veron",
+              "description": "Ricardo Veron creates distinctive and sophisticated fragrances with a unique character."
+            },
+            "roja": {
+              "imageurl": "/logo/rojalogo.jpg",
+              "title": "Roja",
+              "description": "Roja offers luxurious and opulent fragrances that exude grandeur and refinement."
+            },
+            "salvatoreferragamo": {
+              "imageurl": "/logo/salvadorlogo.png",
+              "title": "Salvatore Ferragamo",
+              "description": "Salvatore Ferragamo features elegant and sophisticated fragrances that reflect Italian craftsmanship."
+            },
+            "sospiro": {
+              "imageurl": "/logo/sospirologo.jpg",
+              "title": "Sospiro",
+              "description": "Sospiro creates luxurious and enchanting fragrances that combine opulence with artistry."
+            },
+            "soblanz": {
+              "imageurl": "/logo/soblanz.png",
+              "title": "Soblanz",
+              "description": "Soblanz offers unique and bold fragrances that stand out with their modern and distinctive notes."
+            },
+            "sexygrafity": {
+              "imageurl": "/logo/sospirologo.jpg",
+              "title": "Sexy Grafity",
+              "description": "Sexy Grafity features bold and seductive fragrances that embody contemporary allure."
+            },
+            "sergelutens": {
+              "imageurl": "/logo/serge.png",
+              "title": "Serge Lutens",
+              "description": "Serge Lutens is known for its artistic and complex fragrances that push the boundaries of traditional perfumery."
+            },
+            "s.t.dupont": {
+              "imageurl": "/logo/dupont.png",
+              "title": "S.T Dupont",
+              "description": "S.T Dupont offers refined and sophisticated fragrances that reflect the brand's commitment to luxury."
+            },
+            "shaik": {
+              "imageurl": "/logo/shaiklogo.jpg",
+              "title": "Shaik",
+              "description": "Shaik features opulent and exotic fragrances that blend tradition with modern elegance."
+            },
+            "shiseido": {
+              "imageurl": "/logo/shiseidologo.png",
+              "title": "Shiseido",
+              "description": "Shiseido offers elegant and refined fragrances that combine Japanese artistry with modern sophistication."
+            },
+            "sisley": {
+              "imageurl": "/logo/sisleylogo.jpg",
+              "title": "Sisley",
+              "description": "Sisley features luxurious and sophisticated fragrances that reflect the brand's commitment to quality."
+            },
+            "stefanoricci": {
+              "imageurl": "/logo/stefanologo.png",
+              "title": "Stefano Ricci",
+              "description": "Stefano Ricci offers exclusive and elegant fragrances that embody high-end luxury and craftsmanship."
+            },
+            "tomford": {
+              "imageurl": "/logo/tomfordlogo.jpg",
+              "title": "Tom Ford",
+              "description": "Tom Ford creates bold and luxurious fragrances that are both modern and sophisticated."
+            },
+            "thamen": {
+              "imageurl": "/logo/thamenlogo.png",
+              "title": "Thamen",
+              "description": "Thamen features distinctive and modern fragrances that reflect a unique sense of style."
+            },
+            "tizianaterenzi": {
+              "imageurl": "/logo/tizianalogo.jpg",
+              "title": "Tiziana Terenzi",
+              "description": "Tiziana Terenzi offers opulent and imaginative fragrances that blend tradition with contemporary flair."
+            },
+            "victoria'ssecret": {
+              "imageurl": "/logo/victorialogo.jpg",
+              "title": "Victoria's Secret",
+              "description": "Victoria's Secret features sensual and glamorous fragrances that capture the essence of modern femininity."
+            },
+            "versace": {
+              "imageurl": "/logo/versacelogo.jpg",
+              "title": "Versace",
+              "description": "Versace creates bold and luxurious fragrances that embody the brand's iconic glamour and style."
+            },
+            "valentino": {
+              "imageurl": "/logo/valentinologo.jpg",
+              "title": "Valentino",
+              "description": "Valentino offers sophisticated and elegant fragrances that reflect Italian luxury and refinement."
+            },
+            "vieeste": {
+              "imageurl": "/logo/vieeste.png",
+              "title": "Vie Este",
+              "description": "Vie Este features modern and captivating fragrances that embody a sense of contemporary elegance."
+            },
+            "victorsrolf": {
+              "imageurl": "/logo/valentinologo.jpg",
+              "title": "Victors Rolf",
+              "description": "Victors Rolf offers innovative and distinctive fragrances that reflect a creative and avant-garde spirit."
+            },
+            "vertus": {
+              "imageurl": "/logo/vertuslogo.jpg",
+              "title": "Xerjoff",
+              "description": "Xerjoff creates luxurious and exclusive fragrances that blend opulence with modern artistry."
+            },
+            "whitemusk": {
+              "imageurl": "/logo/whitemusklogo.png",
+              "title": "White Musk",
+              "description": "White Musk features clean and fresh fragrances that offer a subtle and refined touch."
+            },
+            "xerjoff": {
+              "imageurl": "/logo/xerjofflogo.jpg",
+              "title": "Xerjoff",
+              "description": "Xerjoff is known for its extravagant and sophisticated fragrances that exemplify high-end perfumery."
+            },
+            "xezer": {
+              "imageurl": "/logo/xezer.png",
+              "title": "Xezer",
+              "description": "Xezer offers rich and exotic fragrances with a unique blend of traditional and modern elements."
+            },
+            "ysl": {
+              "imageurl": "/logo/ysllogo.jpg",
+              "title": "YSL",
+              "description": "YSL features bold and elegant fragrances that capture the essence of modern luxury and sophistication."
+            },
+          
+          
+            "yasemen": {
+              "imageurl": "/logo/yasemen1.png",
+              "title": "Yasemen",
+              "description": "Yasemen offers elegant and refined fragrances with a touch of contemporary sophistication."
+            },
+            "zadigvoltaire": {
+              "imageurl": "/logo/zadiglogo.jpg",
+              "title": "Zadig Voltaire",
+              "description": "Zadig Voltaire features bold and edgy fragrances that reflect a modern and rebellious spirit."
+            },
+            "zara": {
+              "imageurl": "/logo/zara.png",
+              "title": "Zara",
+              "description": "Zara provides accessible and trendy fragrances that capture current fashion and style trends."
+            },
+            "zemzem": {
+              "imageurl": "/logo/zemzemlogo.png",
+              "title": "Zem Zem",
+              "description": "Zem Zem offers rich and exotic fragrances that blend traditional influences with modern appeal."
+            },
+            "zielenski": {
+              "imageurl": "/logo/zielenskilogo.png",
+              "title": "Zielenski",
+              "description": "Zielenski creates distinctive and luxurious fragrances with a focus on unique and high-quality ingredients."
+            }
 }

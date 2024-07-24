@@ -5,11 +5,12 @@
 }
 
 .background {
-  padding-bottom: 80px;
+  padding-bottom: 40px;
 }
 .background .control {
   display: flex;
   justify-content: space-around;
+  padding-top: 60px;
 }
 .background .control .images {
   padding-top: 40px;
@@ -19,9 +20,10 @@
   gap: 40px;
 }
 .background .control .images img {
-  width: 400px;
+  width: 250px;
 }
 .background .control .images h2 {
+  font-weight: 600;
   font-size: 32px;
 }
 .background .control .description {
@@ -33,13 +35,14 @@
 .background .control .description .modalclass {
   width: 500px;
   height: 100%;
+  font-weight: 600;
   overflow: hidden;
   position: relative;
 }
 .background .control .description .modalclass p {
   position: absolute;
   line-height: 30px;
-  animation: slideDown 10s ease;
+  animation: slideDown 2s ease;
 }
 @keyframes slideDown {
   0% {
