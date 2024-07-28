@@ -24,18 +24,19 @@
     .iconscontrol {
       display: flex;
       align-items: center;
-      justify-content: space-between;
+      justify-content: center;
+      width: 100%;
       .iconsflex {
         display: flex;
+        justify-content: space-between;
+
+
         gap: 20px;
         svg {
           width: 25px;
         }
       }
-      .language {
-        display: flex;
-        gap: 10px;
-      }
+  
     }
   }
   .control {
@@ -254,6 +255,18 @@
 }
 @media (max-width: 490px) {
   .background {
+    .icons{
+      .iconscontrol{
+         display: flex;
+      align-items: center;
+      justify-content: center;
+      .iconsflex{
+                display: flex;
+        justify-content: space-between;
+        width: 100%;
+      }
+      }
+    }
     .control {
       gap: 10px;
       .selected {

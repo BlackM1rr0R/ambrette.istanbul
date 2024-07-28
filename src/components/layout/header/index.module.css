@@ -26,18 +26,16 @@
 .background .icons .iconscontrol {
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: center;
+  width: 100%;
 }
 .background .icons .iconscontrol .iconsflex {
   display: flex;
+  justify-content: space-between;
   gap: 20px;
 }
 .background .icons .iconscontrol .iconsflex svg {
   width: 25px;
-}
-.background .icons .iconscontrol .language {
-  display: flex;
-  gap: 10px;
 }
 .background .control {
   padding-bottom: 20px;
@@ -245,6 +243,16 @@
 }
 
 @media (max-width: 490px) {
+  .background .icons .iconscontrol {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .background .icons .iconscontrol .iconsflex {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+  }
   .background .control {
     gap: 10px;
   }

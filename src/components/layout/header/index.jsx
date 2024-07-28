@@ -72,11 +72,7 @@ const Header = () => {
               <FacebookIcon />
               <YouTubeIcon />
             </div>
-            <div className={styles.language}>
-              <h2>en</h2>
-              <hr />
-              <h2>ru</h2>
-            </div>
+     
           </div>
 
           <div className={styles.iconshr}>
