@@ -1,8 +1,17 @@
 import React, { useState } from "react";
 import styles from "./index.module.css";
 import Wrapper from "../../components/UI/wrapper";
-import { ClockIcon, InstagramIcon, KgIcon, KzIcon, LocationIcon, MoskowIcon, PhoneIcon, UzIcon } from "../../icons";
-
+import {
+  ClockIcon,
+  InstagramIcon,
+  KgIcon,
+  KzIcon,
+  LocationIcon,
+  MoskowIcon,
+  PhoneIcon,
+  UzIcon,
+} from "../../icons";
+import KazakVideo from "../../assets/images/kazakvideo.mp4";
 const MagazinsLocation = () => {
   const [azadliq, setAzadliq] = useState(true);
   const [moskow, setMoskow] = useState(false);
@@ -57,7 +66,9 @@ const MagazinsLocation = () => {
               onClick={() => clickAzadliq()}
               className={`${styles.azadlig} ${azadliq ? styles.active : ""}`} // Apply active class if azadliq is true
             >
-              <h2>1.Moskow branch <MoskowIcon/></h2>
+              <h2>
+                1.Moskow branch <MoskowIcon />
+              </h2>
             </div>
 
             {azadliq && (
@@ -89,7 +100,9 @@ const MagazinsLocation = () => {
               onClick={() => clickMoskow()}
               className={`${styles.moskow} ${moskow ? styles.active : ""}`} // Apply active class if azadliq is true
             >
-              <h2>2.Moskow branch <MoskowIcon/></h2>
+              <h2>
+                2.Moskow branch <MoskowIcon />
+              </h2>
             </div>
 
             {moskow && (
@@ -119,7 +132,9 @@ const MagazinsLocation = () => {
               onClick={() => clickGenclik()}
               className={`${styles.genclik} ${genclik ? styles.active : ""}`}
             >
-              <h2>3.Kyrgyzstan branch <KgIcon/></h2>
+              <h2>
+                3.Kyrgyzstan branch <KgIcon />
+              </h2>
             </div>
             {genclik && (
               <div className={styles.modalclass}>
@@ -152,7 +167,9 @@ const MagazinsLocation = () => {
                 nerimanov ? styles.active : ""
               }`}
             >
-              <h2>4.Kazakhstan branch <KzIcon/></h2>
+              <h2>
+                4.Kazakhstan branch <KzIcon />
+              </h2>
             </div>
 
             {nerimanov && (
@@ -186,7 +203,9 @@ const MagazinsLocation = () => {
                 ozbekistan ? styles.active : ""
               }`}
             >
-              <h2>5.Uzbekistan branch <UzIcon/></h2>
+              <h2>
+                5.Uzbekistan branch <UzIcon />
+              </h2>
             </div>
 
             {ozbekistan && (
@@ -211,27 +230,29 @@ const MagazinsLocation = () => {
             )}
           </div>
           <div className={styles.rightside}>
-            <iframe
-              className={styles.frame1}
-              width="1000"
-              height="355"
-              src="https://www.youtube.com/embed/Vo5YEWBSKmU?si=iF3x-oGIRqR9O3v7"
-              title="YouTube video player"
-              frameBorder="0"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-              referrerPolicy="strict-origin-when-cross-origin"
-              allowFullScreen
-            ></iframe>
             {azadliq ? (
-              <iframe
-                className={styles.frame1}
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d36039.24113655372!2d37.754901193154964!3d55.62894055411103!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x414ab6f25a8fc615%3A0x4002efd7d787ef83!2sRynok%20Sadovod!5e0!3m2!1str!2saz!4v1718458378532!5m2!1str!2saz"
-                width="1000"
-                height="350"
-                allowFullScreen=""
-                loading="lazy"
-                referrerPolicy="no-referrer-when-downgrade"
-              ></iframe>
+              <>
+                <iframe
+                  className={styles.frame1}
+                  width="1000"
+                  height="355"
+                  src="https://www.youtube.com/embed/Vo5YEWBSKmU?si=iF3x-oGIRqR9O3v7"
+                  title="YouTube video player"
+                  frameBorder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                  referrerPolicy="strict-origin-when-cross-origin"
+                  allowFullScreen
+                ></iframe>
+                <iframe
+                  className={styles.frame1}
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d36039.24113655372!2d37.754901193154964!3d55.62894055411103!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x414ab6f25a8fc615%3A0x4002efd7d787ef83!2sRynok%20Sadovod!5e0!3m2!1str!2saz!4v1718458378532!5m2!1str!2saz"
+                  width="1000"
+                  height="350"
+                  allowFullScreen=""
+                  loading="lazy"
+                  referrerPolicy="no-referrer-when-downgrade"
+                ></iframe>
+              </>
             ) : (
               ""
             )}
@@ -248,7 +269,18 @@ const MagazinsLocation = () => {
             ) : (
               ""
             )}
-            {genclik ? (
+            {genclik ? (<>
+                        <iframe
+                        className={styles.frame1}
+                        width="1000"
+                        height="355"
+                        src={KazakVideo}
+                        title="YouTube video player"
+                        frameBorder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        referrerPolicy="strict-origin-when-cross-origin"
+                        allowFullScreen
+                        ></iframe>
               <iframe
                 className={styles.frame1}
                 src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6078735.82869839!2d71.50639727073073!3d41.93299919258743!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x389eb85f5aa63e5f%3A0x659a7367b793882c!2sDordoi%20Bazaar!5e0!3m2!1str!2saz!4v1718458570665!5m2!1str!2saz"
@@ -257,7 +289,8 @@ const MagazinsLocation = () => {
                 allowFullScreen=""
                 loading="lazy"
                 referrerPolicy="no-referrer-when-downgrade"
-              ></iframe>
+                ></iframe>
+                </>
             ) : (
               ""
             )}
