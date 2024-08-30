@@ -269,28 +269,28 @@ const MagazinsLocation = () => {
             ) : (
               ""
             )}
-            {genclik ? (<>
-                        <iframe
-                        className={styles.frame1}
-                        width="1000"
-                        height="355"
-                        src={KazakVideo}
-                        title="YouTube video player"
-                        frameBorder="0"
-                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                        referrerPolicy="strict-origin-when-cross-origin"
-                        allowFullScreen
-                        ></iframe>
-              <iframe
-                className={styles.frame1}
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6078735.82869839!2d71.50639727073073!3d41.93299919258743!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x389eb85f5aa63e5f%3A0x659a7367b793882c!2sDordoi%20Bazaar!5e0!3m2!1str!2saz!4v1718458570665!5m2!1str!2saz"
-                width="1000"
-                height="350"
-                allowFullScreen=""
-                loading="lazy"
-                referrerPolicy="no-referrer-when-downgrade"
+            {genclik ? (
+              <>
+                <iframe
+                  width="1000"
+                  height="355"
+                  src="https://www.youtube.com/embed/gq9gKWCa7Nc?si=E5FMUWTU-10CSgno"
+                  title="YouTube video player"
+                  frameborder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                  referrerpolicy="strict-origin-when-cross-origin"
+                  allowfullscreen
                 ></iframe>
-                </>
+                <iframe
+                  className={styles.frame1}
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6078735.82869839!2d71.50639727073073!3d41.93299919258743!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x389eb85f5aa63e5f%3A0x659a7367b793882c!2sDordoi%20Bazaar!5e0!3m2!1str!2saz!4v1718458570665!5m2!1str!2saz"
+                  width="1000"
+                  height="350"
+                  allowFullScreen=""
+                  loading="lazy"
+                  referrerPolicy="no-referrer-when-downgrade"
+                ></iframe>
+              </>
             ) : (
               ""
             )}
