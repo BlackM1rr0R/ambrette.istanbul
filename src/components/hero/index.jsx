@@ -31,7 +31,8 @@ const Hero = () => {
    
 
     <div className={styles.background}>
-     
+     <Wrapper>
+
       <div className={styles.boxs}>
               <Swiper
                 modules={[Autoplay]}
@@ -65,6 +66,8 @@ const Hero = () => {
             ))}
               </Swiper>
           </div>
+     </Wrapper>
+
     </div>
    
 
