@@ -92,4 +92,4 @@ const ContactOur = () => {
   );
 };
 
-export default ContactOur;
+export default React.memo(ContactOur);

@@ -29,7 +29,7 @@ const AllPerfume = () => {
           {perfumes.map((item) => (
             <Link key={item.id} to={`/parfum-details/${item.id}`} className={styles.controlbox}>
               <div className={styles.border}>
-                <img src={item.innerimageurl} alt={item.title} />
+                <img src={item.innerimageurl} alt={item.title} loading="lazy"/>
               </div>
               <h2>{item.title}</h2>
             </Link>
@@ -40,4 +40,4 @@ const AllPerfume = () => {
   );
 };
 
-export default AllPerfume;
+export default React.memo(AllPerfume);

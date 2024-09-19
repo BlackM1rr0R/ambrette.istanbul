@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useMemo, useState } from "react";
 import styles from "./index.module.css";
 import Collections from "../../assets/images/fragrance1.jpg";
 import Collections1 from "../../assets/images/fragrance2.jpg";
@@ -16,7 +16,7 @@ import "swiper/css/pagination";
 import "swiper/css/scrollbar";
 import Wrapper from "../UI/wrapper";
 const FragmanFotos = () => {
-  const [data, setData] = useState([
+  const data=useMemo(()=>[
     {
       image: `${Collections}`,
     },
@@ -29,10 +29,7 @@ const FragmanFotos = () => {
     {
       image: `${Collections3}`,
     },
-   
-
-   
-  ]);
+  ],[])
   return (
     <Wrapper>
       <div className={styles.background}>
@@ -63,10 +60,10 @@ const FragmanFotos = () => {
               },
             }}
           >
-            {data.map((item) => (
-              <SwiperSlide>
+            {data.map((item,index) => (
+              <SwiperSlide key={index}>
                 <div className={styles.border}>
-                  <img src={item.image} alt="" />
+                  <img src={item.image} alt="" loading="lazy" />
                 </div>
               </SwiperSlide>
             ))}
@@ -77,4 +74,4 @@ const FragmanFotos = () => {
   );
 };
 
-export default FragmanFotos;
+export default React.memo(FragmanFotos);

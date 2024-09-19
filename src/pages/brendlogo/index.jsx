@@ -67,6 +67,7 @@ const BrendLogo = () => {
                         <img
                           src={brandData.imageurl}
                           alt={brand}
+                          loading="lazy"
                         />
                       ) : (
                         <img src={Azzaro} alt="" />
@@ -84,4 +85,4 @@ const BrendLogo = () => {
   );
 };
 
-export default BrendLogo;
+export default React.memo(BrendLogo);

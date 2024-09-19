@@ -120,16 +120,16 @@ const About = () => {
             <h2>Our Certificates</h2>
           </div>
           <div className={styles.images}>
-            <img src={CertificateImage1} alt="" />
-            <img src={CertificateImage2} alt="" />
-            <img src={CertificateImage3} alt="" />
-            <img src={CertificateImage4} alt="" />
-        
-            <img src={CertificateImage6} alt="" />
-            <img src={CertificateImage7} alt="" />
-            <img src={CertificateImage8} alt="" />
+            <img src={CertificateImage1} alt="" loading="lazy" />
+            <img src={CertificateImage2} alt="" loading="lazy" />
+            <img src={CertificateImage3} alt="" loading="lazy" />
+            <img src={CertificateImage4} alt="" loading="lazy" />
+   
+            <img src={CertificateImage6} alt="" loading="lazy" />
+            <img src={CertificateImage7} alt="" loading="lazy" />
+            <img src={CertificateImage8} alt="" loading="lazy" />
 
-            <img src={CertificateImage10} alt="" />
+            <img src={CertificateImage10} alt="" loading="lazy" />
           </div>
         </div>
       </Wrapper>
@@ -137,4 +137,4 @@ const About = () => {
   );
 };
 
-export default About;
+export default React.memo(About);

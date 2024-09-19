@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useMemo, useState } from "react";
 import styles from "./index.module.css";
 import Wrapper from "../UI/wrapper";
 import BannerBackground1 from "../../assets/images/meyve1.png";
@@ -20,7 +20,7 @@ import "swiper/css/scrollbar";
 
 import { Link } from "react-router-dom";
 const Notes = () => {
-  const [data, setData] = useState([
+  const data=useMemo(()=>[
     {
       image: `${BannerBackground1}`,
     },
@@ -42,8 +42,7 @@ const Notes = () => {
     {
       image: `${BannerBackground7}`,
     },
-  ]);
-
+  ],[])
   return (
     <Wrapper>
 
@@ -76,10 +75,10 @@ const Notes = () => {
           },
         }}
       >
-        {data.map((item) => (
-          <SwiperSlide>
+        {data.map((item,index) => (
+          <SwiperSlide key={index}>
             <div className={styles.border}>
-              <img src={item.image} alt="" />
+              <img src={item.image} alt="" loading="lazy" />
             </div>
           </SwiperSlide>
         ))}
@@ -92,4 +91,4 @@ const Notes = () => {
   );
 };
 
-export default Notes;
+export default React.memo(Notes);

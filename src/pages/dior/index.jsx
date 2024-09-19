@@ -58,4 +58,4 @@ const DiorPerfume = () => {
   );
 };
 
-export default DiorPerfume;
+export default React.memo(DiorPerfume);

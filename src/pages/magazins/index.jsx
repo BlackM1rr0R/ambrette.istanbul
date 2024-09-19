@@ -64,7 +64,7 @@ const MagazinsLocation = () => {
           <div className={styles.leftside}>
             <div
               onClick={() => clickAzadliq()}
-              className={`${styles.azadlig} ${azadliq ? styles.active : ""}`} // Apply active class if azadliq is true
+              className={`${styles.azadlig} ${azadliq ? styles.active : ""}`}
             >
               <h2>
                 1.Moskow branch <MoskowIcon />
@@ -98,7 +98,7 @@ const MagazinsLocation = () => {
             </div>
             <div
               onClick={() => clickMoskow()}
-              className={`${styles.moskow} ${moskow ? styles.active : ""}`} // Apply active class if azadliq is true
+              className={`${styles.moskow} ${moskow ? styles.active : ""}`} 
             >
               <h2>
                 2.Moskow branch <MoskowIcon />
@@ -326,4 +326,4 @@ const MagazinsLocation = () => {
   );
 };
 
-export default MagazinsLocation;
+export default React.memo(MagazinsLocation);

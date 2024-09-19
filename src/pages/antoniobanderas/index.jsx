@@ -167,7 +167,7 @@ const ParfumDetails = () => {
             {relatedPerfumes.map((item) => (
               <SwiperSlide key={item.id}>
                 <Link target="_blank" to={"/parfum-details/" + item.id} className={styles.border}>
-                  <img src={item.imageurl} alt="" />
+                  <img src={item.imageurl} alt="" loading="lazy" />
                   <h2>{item.title}</h2>
                   <h3>{item.gender}</h3>
                   <Link
@@ -189,4 +189,4 @@ const ParfumDetails = () => {
   );
 };
 
-export default ParfumDetails;
+export default React.memo(ParfumDetails);

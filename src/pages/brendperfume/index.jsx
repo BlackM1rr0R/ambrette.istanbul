@@ -50,7 +50,7 @@ const BrendPerfume = () => {
               key={item.id}
             >
               <div className={styles.border}>
-                <img src={item.imageurl} alt={item.title} />
+                <img src={item.imageurl} alt={item.title} loading="lazy" />
               </div>
               <h2>{item.title}</h2>
             </Link>
@@ -61,4 +61,4 @@ const BrendPerfume = () => {
   );
 };
 
-export default BrendPerfume;
+export default React.memo(BrendPerfume);

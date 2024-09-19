@@ -41,7 +41,7 @@ const GenderSelected = () => {
             className={`${styles.hidden} ${entries[1]?.isIntersecting ? styles.visible : ""}`}
           >
             <Link to={"/gender/men"}>
-              <img src={ManLogo} alt="Men" />
+              <img src={ManLogo} alt="Men" loading="lazy" />
             </Link>
           </li>
           <li
@@ -49,7 +49,7 @@ const GenderSelected = () => {
             className={`${styles.hidden} ${entries[2]?.isIntersecting ? styles.visible : ""}`}
           >
             <Link to={"/gender/women"}>
-              <img src={WomanLogo} alt="Women" />
+              <img src={WomanLogo} alt="Women" loading="lazy" />
             </Link>
           </li>
           <li
@@ -57,7 +57,7 @@ const GenderSelected = () => {
             className={`${styles.hidden} ${entries[3]?.isIntersecting ? styles.visible : ""}`}
           >
             <Link to={"/gender/unisex"}>
-              <img src={UnisexLogo} alt="Unisex" />
+              <img src={UnisexLogo} alt="Unisex" loading="lazy" />
             </Link>
           </li>
         </ul>
@@ -66,4 +66,4 @@ const GenderSelected = () => {
   );
 };
 
-export default GenderSelected;
+export default React.memo(GenderSelected);

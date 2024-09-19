@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useMemo, useState } from "react";
 import styles from "./index.module.css";
 import Collections from "../../assets/images/collections.webp";
 import { Pagination } from "swiper/modules";
@@ -13,7 +13,7 @@ import ShaghafCollection from '../../assets/images/SHAGHAF_COLLECTION.webp.png'
 import LoveCollection from '../../assets/images/LOVE_COLLECTION.webp.png'
 import HeritageCollection from '../../assets/images/HERITAGE_COLLECTION.webp.png'
 const CollectionsPerfume = () => {
-  const [data, setData] = useState([
+  const data=useMemo(()=>[
     {
       image: `${Collections}`,
     },
@@ -35,7 +35,7 @@ const CollectionsPerfume = () => {
     {
       image: `${Collections}`,
     },
-  ]);
+  ],[])
   return (
     <Wrapper>
 
@@ -69,10 +69,10 @@ const CollectionsPerfume = () => {
       }}
     >
  
-          {data.map((item) => (
-            <SwiperSlide>
+          {data.map((item,index) => (
+            <SwiperSlide key={index}>
               <div className={styles.border}>
-                <img src={item.image} alt="" />
+                <img src={item.image} alt="" loading="lazy"/>
               </div>
             </SwiperSlide>
           ))}
@@ -85,4 +85,4 @@ const CollectionsPerfume = () => {
   );
 };
 
-export default CollectionsPerfume;
+export default React.memo(CollectionsPerfume);

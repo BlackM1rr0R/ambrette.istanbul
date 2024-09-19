@@ -76,7 +76,7 @@ const Gender = () => {
               ref={(el) => (sections.current[index + 1] = el)}
             >
               <div className={styles.border}>
-                <img src={item.innerImageUrl} alt="" />
+                <img src={item.innerImageUrl} alt="" loading="lazy" />
               </div>
               <h2>{item.formattedTitle}</h2>
             </Link>
@@ -87,4 +87,4 @@ const Gender = () => {
   );
 };
 
-export default Gender;
+export default React.memo(Gender);
