@@ -1,4 +1,4 @@
-import React, { useState, useRef, useEffect } from "react";
+import React, { useState, useRef, useEffect, useCallback, useMemo } from "react";
 import styles from "./index.module.css";
 import Logo from "../../../assets/images/logo2.png";
 import Wrapper from "../../UI/wrapper";
@@ -27,25 +27,25 @@ const groupedBrands = uniqueBrands.reduce((acc, brand) => {
 
 const Header = () => {
   const [searchTerm, setSearchTerm] = useState("");
-  const [filteredPerfumes, setFilteredPerfumes] = useState([]);
   const [showResults, setShowResults] = useState(false);
   const searchRef = useRef(null);
 
-  const handleSearchChange = (event) => {
-    const term = event.target.value.toLowerCase();
-    setSearchTerm(term);
+  const handleSearchChange = useCallback((event) => {
+    setSearchTerm(event.target.value.toLowerCase());
+  }, []);
 
-    if (term.length > 0) {
-      const filtered = DB.filter((product) => {
-        return product.title && product.title.toLowerCase().includes(term) && product.innerimageurl;
-      });
-      setFilteredPerfumes(filtered);
-      setShowResults(filtered.length > 0);
-    } else {
-      setFilteredPerfumes([]);
-      setShowResults(false);
+  const filteredPerfumes = useMemo(() => {
+    if (searchTerm.length > 0) {
+      return DB.filter((product) =>
+        product.title?.toLowerCase().includes(searchTerm) && product.innerimageurl
+      );
     }
-  };
+    return [];
+  }, [searchTerm, DB]);
+
+  useEffect(() => {
+    setShowResults(filteredPerfumes.length > 0);
+  }, [filteredPerfumes]);
 
   useEffect(() => {
     const handleClickOutside = (event) => {
@@ -58,7 +58,6 @@ const Header = () => {
       document.removeEventListener("mousedown", handleClickOutside);
     };
   }, [searchRef]);
-
   return (
     <Wrapper>
       <div className={styles.background}>
