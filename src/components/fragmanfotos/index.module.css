@@ -28,7 +28,7 @@
   width: 100%;
 }
 
-@media (max-width: 490px) {
+@media (max-width: 992px) {
   .background {
     padding-top: 0;
     padding-bottom: 40px;
