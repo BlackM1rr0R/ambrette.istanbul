@@ -3,7 +3,7 @@
   margin: auto;
 }
 
-@media (max-width: 490px) {
+@media (max-width: 1440px) {
   .background {
     max-width: 90%;
     margin: auto;
