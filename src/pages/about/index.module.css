@@ -95,7 +95,7 @@
   transform: scale(1.5);
 }
 
-@media (max-width: 490px) {
+@media (max-width: 992px) {
   .background .principle {
     padding: 25px;
   }

@@ -40,7 +40,7 @@
   text-align: center;
 }
 
-@media (max-width: 490px) {
+@media (max-width: 992px) {
   .background .control {
     display: flex;
     flex-direction: column;
