@@ -10,6 +10,22 @@
   padding-top: 80px;
   padding-bottom: 80px;
 
+      .allBrends {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 30px;
+      margin-bottom: 50px;
+      hr {
+        width: 50px;
+        border: 1px solid black;
+        margin: 0;
+      }
+
+      h2 {
+        font-size: 48px;
+      }
+    }
   .control {
     
     .brendheaders {
@@ -68,6 +84,22 @@
 
 @media (max-width: 992px) {
   .background {
+          .allBrends {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 30px;
+      margin-bottom: 50px;
+      hr {
+        width: 50px;
+        border: 1px solid black;
+        margin: 0;
+      }
+
+      h2 {
+        font-size: 32px;
+      }
+    }
     .control {
       .brendheaders {
         hr {

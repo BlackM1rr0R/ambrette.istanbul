@@ -40,6 +40,11 @@ const BrendLogo = () => {
   return (
     <Wrapper>
       <div className={styles.background}>
+        <div className={styles.allBrends}>
+        <hr />
+              <h2>All Perfume</h2>
+              <hr />
+        </div>
         {Object.keys(groupedBrands).map((letter, index) => (
           <div
             ref={(el) => (sections.current[index] = el)}

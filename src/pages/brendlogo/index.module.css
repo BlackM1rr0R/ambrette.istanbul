@@ -8,6 +8,21 @@
   padding-top: 80px;
   padding-bottom: 80px;
 }
+.background .allBrends {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  margin-bottom: 50px;
+}
+.background .allBrends hr {
+  width: 50px;
+  border: 1px solid black;
+  margin: 0;
+}
+.background .allBrends h2 {
+  font-size: 48px;
+}
 .background .control .brendheaders {
   display: flex;
   justify-content: center;
@@ -55,6 +70,21 @@
 }
 
 @media (max-width: 992px) {
+  .background .allBrends {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    margin-bottom: 50px;
+  }
+  .background .allBrends hr {
+    width: 50px;
+    border: 1px solid black;
+    margin: 0;
+  }
+  .background .allBrends h2 {
+    font-size: 32px;
+  }
   .background .control .brendheaders hr {
     width: 50px;
   }

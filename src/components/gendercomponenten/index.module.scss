@@ -18,12 +18,12 @@
     display: flex;
     justify-content: space-around;
     li {
-      border: 1px solid gray;
+    
       background-color: white;
-      padding: 20px;
+   
       a {
         img {
-          width: 150px;
+          width: 100%;
           object-fit: cover;
         }
       }
@@ -42,7 +42,7 @@
       li {
         a {
           img {
-            width: 100px;
+            width: 100%;
           }
         }
       }

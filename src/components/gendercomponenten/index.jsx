@@ -2,9 +2,9 @@ import React, { useMemo } from "react";
 import styles from "./index.module.css";
 import { Link } from "react-router-dom";
 import Wrapper from "../../components/UI/wrapper";
-import ManLogo from "../../assets/images/manlogo2.png";
-import WomanLogo from "../../assets/images/womanlogo.png";
-import UnisexLogo from "../../assets/images/unisexlogo.png";
+import ManLogo from "../../assets/images/menslogo.png";
+import WomanLogo from "../../assets/images/womenslogo.png";
+import UnisexLogo from "../../assets/images/unisexslogo.png";
 const GenderComponenten = React.memo(() => {
   const genderLinks = useMemo(
     () => [

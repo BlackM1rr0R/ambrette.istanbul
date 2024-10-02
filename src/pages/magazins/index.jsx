@@ -232,22 +232,22 @@ const MagazinsLocation = () => {
           <div className={styles.rightside}>
             {azadliq ? (
               <>
-                <iframe
+                 <iframe
                   className={styles.frame1}
                   width="1000"
-                  height="355"
-                  src="https://www.youtube.com/embed/Vo5YEWBSKmU?si=iF3x-oGIRqR9O3v7"
+                  height="250"
+                  src="https://www.youtube.com/embed/gq9gKWCa7Nc?si=E5FMUWTU-10CSgno"
                   title="YouTube video player"
-                  frameBorder="0"
+                  frameborder="0"
                   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                  referrerPolicy="strict-origin-when-cross-origin"
-                  allowFullScreen
+                  referrerpolicy="strict-origin-when-cross-origin"
+                  allowfullscreen
                 ></iframe>
                 <iframe
                   className={styles.frame1}
                   src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d36039.24113655372!2d37.754901193154964!3d55.62894055411103!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x414ab6f25a8fc615%3A0x4002efd7d787ef83!2sRynok%20Sadovod!5e0!3m2!1str!2saz!4v1718458378532!5m2!1str!2saz"
                   width="1000"
-                  height="350"
+                  height="250"
                   allowFullScreen=""
                   loading="lazy"
                   referrerPolicy="no-referrer-when-downgrade"
@@ -257,23 +257,36 @@ const MagazinsLocation = () => {
               ""
             )}
             {moskow ? (
-              <iframe
+              <>
+                      <iframe  className={styles.frame1}
+                  width="1000"
+                  height="250"
+                  src="https://www.youtube.com/embed/gq9gKWCa7Nc?si=E5FMUWTU-10CSgno"
+                  title="YouTube video player"
+                  frameborder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                  referrerpolicy="strict-origin-when-cross-origin"
+                  allowfullscreen
+                ></iframe>  
+                   <iframe
                 className={styles.frame1}
                 src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2239.1556858815893!2d37.95659709414908!3d55.85996521444058!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x414acd42291920d5%3A0x786a43c4924083c!2s13%20Liniya%2C%20Zabota%2C%20Moskovskaya%20oblast&#39;%2C%20Rusya%2C%20141143!5e0!3m2!1str!2saz!4v1718458485688!5m2!1str!2saz"
                 width="1000"
-                height="350"
+                height="250"
                 allowFullScreen=""
                 loading="lazy"
                 referrerPolicy="no-referrer-when-downgrade"
               ></iframe>
+              </>
+         
             ) : (
               ""
             )}
             {genclik ? (
               <>
-                <iframe
+                <iframe  className={styles.frame1}
                   width="1000"
-                  height="355"
+                  height="250"
                   src="https://www.youtube.com/embed/gq9gKWCa7Nc?si=E5FMUWTU-10CSgno"
                   title="YouTube video player"
                   frameborder="0"
@@ -285,7 +298,7 @@ const MagazinsLocation = () => {
                   className={styles.frame1}
                   src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6078735.82869839!2d71.50639727073073!3d41.93299919258743!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x389eb85f5aa63e5f%3A0x659a7367b793882c!2sDordoi%20Bazaar!5e0!3m2!1str!2saz!4v1718458570665!5m2!1str!2saz"
                   width="1000"
-                  height="350"
+                  height="250"
                   allowFullScreen=""
                   loading="lazy"
                   referrerPolicy="no-referrer-when-downgrade"
@@ -294,28 +307,54 @@ const MagazinsLocation = () => {
             ) : (
               ""
             )}
-            {nerimanov ? (
+            {nerimanov ? (<>
+              <iframe  className={styles.frame1}
+                  width="1000"
+                  height="250"
+                  src="https://www.youtube.com/embed/gq9gKWCa7Nc?si=E5FMUWTU-10CSgno"
+                  title="YouTube video player"
+                  frameborder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                  referrerpolicy="strict-origin-when-cross-origin"
+                  allowfullscreen
+                ></iframe>
               <iframe
                 className={styles.frame1}
                 src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2904.6484540776232!2d76.88639777651541!3d43.279740176504475!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38836bc6c96e2e81%3A0xf14f0854bdaac884!2sAdem%202%2C3!5e0!3m2!1str!2saz!4v1718458646332!5m2!1str!2saz"
                 width="1000"
-                height="350"
+                height="250"
                 allowFullScreen=""
                 loading="lazy"
                 referrerPolicy="no-referrer-when-downgrade"
               ></iframe>
+            </>
+
             ) : (
               ""
             )}
             {ozbekistan ? (
-              <iframe
+              <>
+                     <iframe  className={styles.frame1}
+                  width="1000"
+                  height="250"
+                  src="https://www.youtube.com/embed/gq9gKWCa7Nc?si=E5FMUWTU-10CSgno"
+                  title="YouTube video player"
+                  frameborder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                  referrerpolicy="strict-origin-when-cross-origin"
+                  allowfullscreen
+                ></iframe>
+                 <iframe
                 className={styles.frame1}
                 src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5997.708519121998!2d69.24787219705037!3d41.26850904935911!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38ae8a9b5941f68d%3A0xebec127243e4f2aa!2zQmFzaGx5aywgMTAwMDIyLCBUYcWfa2VudCwgw5Z6YmVraXN0YW4!5e0!3m2!1str!2saz!4v1718920939370!5m2!1str!2saz"
-                height="350"
+                height="250"
+                width="1000"
                 allowFullScreen=""
                 loading="lazy"
                 referrerPolicy="no-referrer-when-downgrade"
               ></iframe>
+              </>
+             
             ) : (
               ""
             )}

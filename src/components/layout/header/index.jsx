@@ -1,4 +1,10 @@
-import React, { useState, useRef, useEffect, useCallback, useMemo } from "react";
+import React, {
+  useState,
+  useRef,
+  useEffect,
+  useCallback,
+  useMemo,
+} from "react";
 import styles from "./index.module.css";
 import Logo from "../../../assets/images/logo2.png";
 import Wrapper from "../../UI/wrapper";
@@ -14,7 +20,8 @@ import {
   YouTubeIcon,
 } from "../../../icons";
 import DB from "../../../db.json";
-
+import { Sling as Hamburger } from "hamburger-react";
+import SearchIcon from "../../../assets/images/search.svg";
 const uniqueBrands = [...new Set(DB.map((product) => product.brands))].sort();
 const groupedBrands = uniqueBrands.reduce((acc, brand) => {
   const firstLetter = brand.charAt(0).toUpperCase();
@@ -29,24 +36,36 @@ const Header = () => {
   const [searchTerm, setSearchTerm] = useState("");
   const [showResults, setShowResults] = useState(false);
   const searchRef = useRef(null);
-
+  const [isMenuOpen, setIsMenuOpen] = useState(false);
+  const [openInput, setOpenInput] = useState(false);
+  
+  const toggleMenu = () => {
+    setIsMenuOpen(!isMenuOpen);
+  };
+  
+  const toggleInput = () => {
+    setOpenInput(!openInput);
+  };
+  
   const handleSearchChange = useCallback((event) => {
     setSearchTerm(event.target.value.toLowerCase());
   }, []);
-
+  
   const filteredPerfumes = useMemo(() => {
     if (searchTerm.length > 0) {
-      return DB.filter((product) =>
-        product.title?.toLowerCase().includes(searchTerm) && product.innerimageurl
+      return DB.filter(
+        (product) =>
+          product.title?.toLowerCase().includes(searchTerm) &&
+          product.innerimageurl
       );
     }
     return [];
   }, [searchTerm, DB]);
-
+  
   useEffect(() => {
     setShowResults(filteredPerfumes.length > 0);
   }, [filteredPerfumes]);
-
+  
   useEffect(() => {
     const handleClickOutside = (event) => {
       if (searchRef.current && !searchRef.current.contains(event.target)) {
@@ -58,55 +77,59 @@ const Header = () => {
       document.removeEventListener("mousedown", handleClickOutside);
     };
   }, [searchRef]);
+  
   return (
     <Wrapper>
       <div className={styles.background}>
-        <div className={styles.icons}>
-          <div className={styles.iconscontrol}>
-            <div className={styles.iconsflex}>
-              <LinkedinIcon />
-              <TikTokIcon />
-              <TelegramIcon />
-              <InstagramIcon />
-              <FacebookIcon />
-              <YouTubeIcon />
-            </div>
-     
-          </div>
-
-          <div className={styles.iconshr}>
-            <hr />
-          </div>
-        </div>
         <div className={styles.control}>
-          <Link to={"/"} className={styles.images}>
-            <img src={Logo} alt="" />
-          </Link>
-          <div className={styles.input} ref={searchRef}>
-            <input
-              type="text"
-              placeholder="Search by title..."
-              value={searchTerm}
-              onChange={handleSearchChange}
+          <div className={styles.hamburger}>
+            <Hamburger
+              size={22}
+              distance="lg"
+              toggled={isMenuOpen}
+              toggle={toggleMenu}
             />
-            {showResults && (
-              <div className={styles.searchControl}>
-                <div className={styles.searchResults}>
-                  {filteredPerfumes.map((item) => (
-                    <div className={styles.imageControl} key={item.id}>
-                      <Link
-                        to={`/parfum-details/${item.id}`}
-                        className={styles.searchResultItem}
-                      >
-                        {item.title}
-                      </Link>
-                      <img src={item.innerimageurl} alt={item.title} />
-                    </div>
-                  ))}
-                </div>
-              </div>
-            )}
           </div>
+          <Link to={"/"} className={styles.images}>
+            <img src={Logo} alt="Logo" />
+            <h2>AMBRETTE</h2>
+          </Link>
+          
+        
+          <div className={styles.searchIcon}>
+            <img
+              src={SearchIcon}
+              alt="Search"
+              onClick={toggleInput} 
+            />
+          </div>
+          <div className={styles.input} ref={searchRef}>
+              <input
+                type="text"
+                placeholder="Search by title..."
+                value={searchTerm}
+                onChange={handleSearchChange}
+              />
+              {showResults && (
+                <div className={styles.searchControl}>
+                  <div className={styles.searchResults}>
+                    {filteredPerfumes.map((item) => (
+                      <div className={styles.imageControl} key={item.id}>
+                        <Link
+                          to={`/parfum-details/${item.id}`}
+                          className={styles.searchResultItem}
+                        >
+                          {item.title}
+                        </Link>
+                        <img src={item.innerimageurl} alt={item.title} />
+                      </div>
+                    ))}
+                  </div>
+                </div>
+              )}
+            </div>
+      
+  
           <div className={styles.selected}>
             <WhatsappIcon />
             <hr />
@@ -115,10 +138,51 @@ const Header = () => {
             </a>
           </div>
         </div>
+         
+            {openInput && (
+            <div className={styles.input1} ref={searchRef}>
+              <input
+                type="text"
+                placeholder="Search by title..."
+                value={searchTerm}
+                onChange={handleSearchChange}
+              />
+              {showResults && (
+                <div className={styles.searchControl}>
+                  <div className={styles.searchResults}>
+                    {filteredPerfumes.map((item) => (
+                      <div className={styles.imageControl} key={item.id}>
+                        <Link
+                          to={`/parfum-details/${item.id}`}
+                          className={styles.searchResultItem}
+                        >
+                          {item.title}
+                        </Link>
+                        <img src={item.innerimageurl} alt={item.title} />
+                      </div>
+                    ))}
+                  </div>
+                </div>
+              )}
+            </div>
+          )}
       </div>
+      
+      {isMenuOpen && (
+        <div className={styles.overlay}>
+          <Link to={"/allperfumes"}>Perfumes</Link>
+          <Link to={"/brends"}>Brends</Link>
+          <Link to={"/about"}>About us</Link>
+          <Link to={"/magazins"}>Magazins</Link>
+          <Link to={"/contact"}>Contact us</Link>
+        </div>
+      )}
+      
       <div className={styles.headers}>
         <hr />
       </div>
+ 
+
       <Wrapper>
         <div className={styles.menuContainer}>
           <div className={styles.menu}>
@@ -134,7 +198,8 @@ const Header = () => {
                   <Link to={"/gender/women"}>Women</Link>
                 </li>
                 <li>
-                  <Link to={"/gender/unisex"}>Unisex</Link></li>
+                  <Link to={"/gender/unisex"}>Unisex</Link>
+                </li>
               </ul>
             </div>
             <div className={styles.dropdownbrends}>
