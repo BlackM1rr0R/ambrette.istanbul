@@ -38,19 +38,19 @@ const Header = () => {
   const searchRef = useRef(null);
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [openInput, setOpenInput] = useState(false);
-  
+
   const toggleMenu = () => {
     setIsMenuOpen(!isMenuOpen);
   };
-  
+
   const toggleInput = () => {
     setOpenInput(!openInput);
   };
-  
+
   const handleSearchChange = useCallback((event) => {
     setSearchTerm(event.target.value.toLowerCase());
   }, []);
-  
+
   const filteredPerfumes = useMemo(() => {
     if (searchTerm.length > 0) {
       return DB.filter(
@@ -61,11 +61,11 @@ const Header = () => {
     }
     return [];
   }, [searchTerm, DB]);
-  
+
   useEffect(() => {
     setShowResults(filteredPerfumes.length > 0);
   }, [filteredPerfumes]);
-  
+
   useEffect(() => {
     const handleClickOutside = (event) => {
       if (searchRef.current && !searchRef.current.contains(event.target)) {
@@ -77,7 +77,7 @@ const Header = () => {
       document.removeEventListener("mousedown", handleClickOutside);
     };
   }, [searchRef]);
-  
+
   return (
     <Wrapper>
       <div className={styles.background}>
@@ -94,42 +94,36 @@ const Header = () => {
             <img src={Logo} alt="Logo" />
             <h2>AMBRETTE</h2>
           </Link>
-          
-        
+
           <div className={styles.searchIcon}>
-            <img
-              src={SearchIcon}
-              alt="Search"
-              onClick={toggleInput} 
-            />
+            <img src={SearchIcon} alt="Search" onClick={toggleInput} />
           </div>
           <div className={styles.input} ref={searchRef}>
-              <input
-                type="text"
-                placeholder="Search by title..."
-                value={searchTerm}
-                onChange={handleSearchChange}
-              />
-              {showResults && (
-                <div className={styles.searchControl}>
-                  <div className={styles.searchResults}>
-                    {filteredPerfumes.map((item) => (
-                      <div className={styles.imageControl} key={item.id}>
-                        <Link
-                          to={`/parfum-details/${item.id}`}
-                          className={styles.searchResultItem}
-                        >
-                          {item.title}
-                        </Link>
-                        <img src={item.innerimageurl} alt={item.title} />
-                      </div>
-                    ))}
-                  </div>
+            <input
+              type="text"
+              placeholder="Search by title..."
+              value={searchTerm}
+              onChange={handleSearchChange}
+            />
+            {showResults && (
+              <div className={styles.searchControl}>
+                <div className={styles.searchResults}>
+                  {filteredPerfumes.map((item) => (
+                    <div className={styles.imageControl} key={item.id}>
+                      <Link
+                        to={`/parfum-details/${item.id}`}
+                        className={styles.searchResultItem}
+                      >
+                        {item.title}
+                      </Link>
+                      <img src={item.innerimageurl} alt={item.title} />
+                    </div>
+                  ))}
                 </div>
-              )}
-            </div>
-      
-  
+              </div>
+            )}
+          </div>
+
           <div className={styles.selected}>
             <WhatsappIcon />
             <hr />
@@ -138,8 +132,8 @@ const Header = () => {
             </a>
           </div>
         </div>
-         
-            {openInput && (
+        <div className={styles.inputControl}>
+          {openInput && (
             <div className={styles.input1} ref={searchRef}>
               <input
                 type="text"
@@ -166,8 +160,9 @@ const Header = () => {
               )}
             </div>
           )}
+        </div>
       </div>
-      
+
       {isMenuOpen && (
         <div className={styles.overlay}>
           <Link to={"/allperfumes"}>Perfumes</Link>
@@ -177,11 +172,10 @@ const Header = () => {
           <Link to={"/contact"}>Contact us</Link>
         </div>
       )}
-      
+
       <div className={styles.headers}>
         <hr />
       </div>
- 
 
       <Wrapper>
         <div className={styles.menuContainer}>
