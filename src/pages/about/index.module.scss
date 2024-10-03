@@ -16,37 +16,66 @@
 .background {
   padding-top: 20px;
   animation: fadeIn 2s ease-in-out;
+  .futureControl {
+    background-color: #F8F8F8;
 
-  .future {
+    margin-top: 50px;
     display: flex;
-    justify-content: space-between;
-    padding-top: 50px;
-
+    align-items: center;
+    .futureImage {
+      width: 50%;
+      img {
+        width: 100%;
+        object-fit: cover;
+      }
+    }
     .futuretext {
-      padding: 50px;
-      border-radius: 10px;
-      border: 1px solid gray;
+      width: 50%;
       display: flex;
       flex-direction: column;
-      justify-content: center;
-      align-items: center;
+
       gap: 20px;
       cursor: pointer;
 
       h2 {
-        font-weight: 600;
+        font-weight: 700;
         font-size: 32px;
+        padding-left: 50px;
+
       }
 
       p {
-        text-align: center;
-        width: 300px;
+        width: 500px;
+        padding-left: 50px;
         font-size: 20px;
         line-height: 40px;
       }
     }
   }
+  .ourPurpose{
+    margin-top: 40px;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 
+    border-radius: 10px;
+    cursor: pointer;
+    gap: 20px;
+
+    h2 {
+      font-weight: 700;
+      font-size: 32px;
+    }
+
+    p {
+      text-align: center;
+      font-size: 20px;
+      width: 750px;
+      line-height: 40px;
+    }
+  }
   .principle {
     margin-top: 40px;
     padding: 50px;
@@ -54,24 +83,26 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    border: 1px solid gray;
+
     border-radius: 10px;
     cursor: pointer;
     gap: 20px;
 
     h2 {
-      font-weight: 600;
+      font-weight: 700;
       font-size: 32px;
     }
 
     p {
       text-align: center;
       font-size: 20px;
+      width: 750px;
       line-height: 40px;
     }
   }
 
   .certificates {
+    padding-top: 50px;
     padding-bottom: 80px;
 
     .certificatesheaders {
@@ -87,27 +118,26 @@
       }
     }
 
-  .images {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  gap: 30px;
-  position: relative;
+    .images {
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      gap: 50px;
 
-  img {
-    width: 100%;
-    padding: 10px;
+      img {
+        width: 20%;
+        padding: 10px;
 
-    border-radius: 10px;
-    transition: transform 0.2s ease-in-out;
-    cursor: pointer;
+        border-radius: 10px;
+        transition: transform 0.2s ease-in-out;
+        cursor: pointer;
 
-    &:hover {
-      z-index: 9999999999999999999999999999999999999999999999999999999999;
-      transform: scale(1.5); // Fare üzerine gelindiğinde resmi 1.1 kat büyüt
+        &:hover {
+          z-index: 9999999999999999999999999999999999999999999999999999999999;
+          // transform: scale(1.5); // Fare üzerine gelindiğinde resmi 1.1 kat büyüt
+        }
+      }
     }
-  }
-}
-
   }
 }
 
@@ -123,29 +153,44 @@
       p {
         font-size: 12px;
         line-height: 24px;
+        width: 300px;
       }
     }
 
-    .future {
+    .futureControl {
       display: flex;
       flex-direction: column;
       gap: 20px;
-      padding-top: 20px;
 
+      .futureImage{
+        width: 100%;
+      }
       .futuretext {
+        width: 100%;
         padding: 25px;
-
+        text-align: center;
         h2 {
+          padding-top: 10px;
           font-size: 24px;
         }
 
         p {
           font-size: 12px;
           line-height: 24px;
+          width: 300px;
         }
       }
     }
-
+.ourPurpose{
+  h2{
+    font-size: 24px;
+  }
+  p{
+    font-size: 12px;
+    line-height: 24px;
+    width: 300px;
+  }
+}
     .certificates {
       .certificatesheaders {
         h2 {
@@ -163,7 +208,7 @@
           margin: auto;
           &:hover {
             z-index: 9999999999999999999999999999999999999999999999999999999999;
-            transform: scale(1.4); // Fare üzerine gelindiğinde resmi 1.1 kat büyüt
+            // transform: scale(1.4); // Fare üzerine gelindiğinde resmi 1.1 kat büyüt
           }
         }
       }

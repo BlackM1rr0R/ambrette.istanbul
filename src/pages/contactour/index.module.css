@@ -8,7 +8,12 @@
   padding-top: 80px;
   padding-bottom: 80px;
 }
+.background .headerContact h2 {
+  font-size: 32px;
+  font-weight: 700;
+}
 .background .headers {
+  margin-top: 40px;
   display: flex;
   flex-direction: column;
   align-items: center;

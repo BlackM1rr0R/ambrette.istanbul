@@ -1,17 +1,19 @@
 import React, { useEffect, useRef } from "react";
 import styles from "./index.module.css";
 import Wrapper from "../../components/UI/wrapper";
-import CertificateImage1 from '../../assets/images/sertifikat1.jpg'
-import CertificateImage2 from '../../assets/images/sertifikat2.jpg'
-import CertificateImage3 from '../../assets/images/sertifikat3.png'
-import CertificateImage4 from '../../assets/images/sertifikat4.jpg'
+import CertificateImage1 from "../../assets/images/sertifikat1.jpg";
+import CertificateImage2 from "../../assets/images/sertifikat2.jpg";
+import CertificateImage3 from "../../assets/images/sertifikat3.png";
+import CertificateImage4 from "../../assets/images/sertifikat4.jpg";
 
-import CertificateImage6 from '../../assets/images/sertifikat6.jpg'
-import CertificateImage7 from '../../assets/images/sertifikat7.png'
-import CertificateImage8 from '../../assets/images/sertifikat8.png'
+import CertificateImage6 from "../../assets/images/sertifikat6.jpg";
+import CertificateImage7 from "../../assets/images/sertifikat7.png";
+import CertificateImage8 from "../../assets/images/sertifikat8.png";
 
-import CertificateImage10 from '../../assets/images/sertifikat10.png'
-
+import CertificateImage10 from "../../assets/images/sertifikat10.png";
+import futurePhoto from "../../assets/images/gelecek.png";
+import taskPhoto from "../../assets/images/misya.png";
+import taskPhoto1 from "../../assets/images/misya1.jpg";
 const About = () => {
   const principleRef = useRef(null);
   const futureRef = useRef(null);
@@ -20,7 +22,8 @@ const About = () => {
   const handleScroll = () => {
     const principlePosition = principleRef.current.getBoundingClientRect().top;
     const futurePosition = futureRef.current.getBoundingClientRect().top;
-    const certificatesPosition = certificatesRef.current.getBoundingClientRect().top;
+    const certificatesPosition =
+      certificatesRef.current.getBoundingClientRect().top;
     const screenHeight = window.innerHeight;
 
     if (principlePosition < screenHeight) {
@@ -50,9 +53,15 @@ const About = () => {
   }, []);
 
   return (
-    <div className={styles.background}>
+    <div
+      ref={certificatesRef}
+      className={`${styles.background} ${styles.hidden}`}
+    >
       <Wrapper>
-        <div ref={principleRef} className={`${styles.principle} ${styles.hidden}`}>
+        <div
+          ref={principleRef}
+          className={`${styles.principle} ${styles.hidden}`}
+        >
           <h2>Who are we?</h2>
           <p>
             Since 2016, we started our activities in the world of Azerbaijan's
@@ -64,7 +73,8 @@ const About = () => {
             deluxe categories and in accordance with quality standards.
           </p>
         </div>
-        <div ref={futureRef} className={`${styles.future} ${styles.hidden}`}>
+
+        <div className={`${styles.futureControl} ${styles.hidden}`}>
           <div className={styles.futuretext}>
             <h2>Vision of The Future</h2>
             <p>
@@ -74,14 +84,24 @@ const About = () => {
               its new office in Uzbekistan.
             </p>
           </div>
-          <div className={styles.futuretext}>
-            <h2>Our Purpose</h2>
-            <p>
-              Currently, we operate large area warehouses and stores in Moscow's
-              Sodovoy and Lubna markets, Kazakhstan, Kyrgyzstan, and Uzbekistan.
-              In the near future, our company is preparing to open the doors of
-              its new office in Uzbekistan.
-            </p>
+          <div className={styles.futureImage}>
+            <img src={futurePhoto} alt="" />
+          </div>
+        </div>
+
+        <div className={`${styles.ourPurpose} ${styles.hidden}`}>
+          <h2>Our Purpose</h2>
+          <p>
+            Currently, we operate large area warehouses and stores in Moscow's
+            Sodovoy and Lubna markets, Kazakhstan, Kyrgyzstan, and Uzbekistan.
+            In the near future, our company is preparing to open the doors of
+            its new office in Uzbekistan.
+          </p>
+        </div>
+
+        <div className={`${styles.futureControl} ${styles.hidden}`}>
+          <div className={styles.futureImage}>
+            <img src={taskPhoto} alt="" />
           </div>
           <div className={styles.futuretext}>
             <h2>Fragrances</h2>
@@ -93,7 +113,11 @@ const About = () => {
             </p>
           </div>
         </div>
-        <div ref={principleRef} className={`${styles.principle} ${styles.hidden}`}>
+
+        <div
+          ref={principleRef}
+          className={`${styles.principle} ${styles.hidden}`}
+        >
           <h2>Main Principle</h2>
           <p>
             As the most widely recognized perfume company in the CIS countries,
@@ -106,16 +130,25 @@ const About = () => {
             customers in a total of 10 countries.
           </p>
         </div>
-        <div ref={futureRef} className={`${styles.principle} ${styles.hidden}`}>
-          <h2>Participating </h2>
-          <p>
-            By participating in the major fragrance exhibitions held in Dubai
-            once a year, we confirm that we are part of the global fragrance
-            market. As a company engaged in wholesale fragrance sales, we always
-            prioritize trust and quality.
-          </p>
+        <div className={styles.futureControl}>
+          <div
+            ref={futureRef}
+            className={`${styles.futuretext} ${styles.hidden}`}
+          >
+            <h2>Participating </h2>
+            <p>
+              By participating in the major fragrance exhibitions held in Dubai
+              once a year, we confirm that we are part of the global fragrance
+              market. As a company engaged in wholesale fragrance sales, we
+              always prioritize trust and quality.
+            </p>
+          </div>
+          <div className={styles.futureImage}>
+            <img src={taskPhoto1} alt="" />
+          </div>
         </div>
-        <div ref={certificatesRef} className={`${styles.certificates} ${styles.hidden}`}>
+
+        <div className={`${styles.certificates} ${styles.hidden}`}>
           <div className={styles.certificatesheaders}>
             <h2>Our Certificates</h2>
           </div>
@@ -124,7 +157,7 @@ const About = () => {
             <img src={CertificateImage2} alt="" loading="lazy" />
             <img src={CertificateImage3} alt="" loading="lazy" />
             <img src={CertificateImage4} alt="" loading="lazy" />
-   
+
             <img src={CertificateImage6} alt="" loading="lazy" />
             <img src={CertificateImage7} alt="" loading="lazy" />
             <img src={CertificateImage8} alt="" loading="lazy" />

@@ -26,6 +26,9 @@ const ContactOur = () => {
   return (
     <Wrapper>
       <div className={styles.background}>
+        <div className={styles.headerContact}>
+          <h2>CONTACT US</h2>
+        </div>
         <div
           ref={(el) => (sections.current[0] = el)}
           className={`${styles.headers} ${styles.hidden} ${entries[0]?.isIntersecting ? styles.visible : ''}`}

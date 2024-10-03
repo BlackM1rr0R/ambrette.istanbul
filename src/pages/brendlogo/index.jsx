@@ -40,10 +40,16 @@ const BrendLogo = () => {
   return (
     <Wrapper>
       <div className={styles.background}>
-        <div className={styles.allBrends}>
-        <hr />
-              <h2>All Perfume</h2>
-              <hr />
+      <div className={styles.headers}>
+          <div className={styles.hr}>
+            <hr />
+          </div>
+          <div className={styles.headersh2}>
+            <h2>All Brends</h2>
+          </div>
+          <div className={styles.hr}>
+            <hr />
+          </div>
         </div>
         {Object.keys(groupedBrands).map((letter, index) => (
           <div

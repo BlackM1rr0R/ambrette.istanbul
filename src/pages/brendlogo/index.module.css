@@ -8,20 +8,20 @@
   padding-top: 80px;
   padding-bottom: 80px;
 }
-.background .allBrends {
+.background .headers {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
-  gap: 30px;
-  margin-bottom: 50px;
 }
-.background .allBrends hr {
-  width: 50px;
+.background .headers .hr hr {
+  width: 500px;
   border: 1px solid black;
-  margin: 0;
 }
-.background .allBrends h2 {
-  font-size: 48px;
+.background .headers .headersh2 h2 {
+  font-size: 32px;
+}
+.background .control {
+  margin-top: 50px;
 }
 .background .control .brendheaders {
   display: flex;
@@ -35,7 +35,7 @@
   margin: 0;
 }
 .background .control .brendheaders h2 {
-  font-size: 32px;
+  font-size: 24px;
 }
 .background .control .controlbox {
   padding-top: 60px;
@@ -70,26 +70,17 @@
 }
 
 @media (max-width: 992px) {
-  .background .allBrends {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 30px;
-    margin-bottom: 50px;
+  .background .headers .hr hr {
+    width: 80px;
   }
-  .background .allBrends hr {
-    width: 50px;
-    border: 1px solid black;
-    margin: 0;
-  }
-  .background .allBrends h2 {
-    font-size: 32px;
+  .background .headers .headersh2 h2 {
+    font-size: 24px;
   }
   .background .control .brendheaders hr {
     width: 50px;
   }
   .background .control .brendheaders h2 {
-    font-size: 24px;
+    font-size: 20px;
   }
   .background .control .controlbox {
     display: flex;

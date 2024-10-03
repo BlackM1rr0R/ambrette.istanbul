@@ -1,9 +1,9 @@
 import React, { useMemo, useState } from "react";
 import styles from "./index.module.css";
 import Wrapper from "../UI/wrapper";
-import BannerBackground from "../../assets/images/premium.webp";
-import Banner from "../../assets/images/premium1.webp";
-import Banner2 from "../../assets/images/perfume3.webp";
+import BannerBackground from "../../assets/images/backgroundswiper.png";
+import Banner from "../../assets/images/backgroundswiper1.png";
+import Banner2 from "../../assets/images/backgroundswiper2.png";
 import { Autoplay, Navigation } from "swiper/modules";
 
 import { Swiper, SwiperSlide } from "swiper/react";

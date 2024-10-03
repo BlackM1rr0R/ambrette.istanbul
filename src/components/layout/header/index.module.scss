@@ -30,13 +30,11 @@
         display: flex;
         justify-content: space-between;
 
-
         gap: 20px;
         svg {
           width: 25px;
         }
       }
-  
     }
   }
   .control {
@@ -44,7 +42,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    .hamburger{
+    .hamburger {
       display: none;
     }
     .images {
@@ -54,13 +52,11 @@
         width: 250px;
         object-fit: fill;
       }
-      h2{
+      h2 {
         display: none;
-      
       }
     }
     .input {
-
       input {
         width: 600px;
         background-color: #f4f4f4;
@@ -133,15 +129,17 @@
         border: 1px solid black;
       }
     }
-    .searchIcon{
+    .searchIcon {
       display: none;
     }
   }
-  .input1{
+  .input1 {
     display: none;
   }
 }
-
+.headers{
+  display: block;
+}
 .menuContainer {
   position: relative;
   animation: fadeIn 2s ease-in-out;
@@ -270,22 +268,21 @@
 }
 @media (max-width: 992px) {
   .background {
-  
-    .icons{
-      .iconscontrol{
-         display: flex;
-      align-items: center;
-      justify-content: center;
-      .iconsflex{
-                display: flex;
-        justify-content: space-between;
-        width: 100%;
-      }
+    .icons {
+      .iconscontrol {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        .iconsflex {
+          display: flex;
+          justify-content: space-between;
+          width: 100%;
+        }
       }
     }
     .control {
       gap: 10px;
-      .hamburger{
+      .hamburger {
         display: flex;
       }
       .selected {
@@ -294,11 +291,11 @@
           font-size: 12px;
           text-align: center;
         }
-        svg{
+        svg {
           width: 20px;
         }
       }
-      .searchIcon{
+      .searchIcon {
         display: flex;
       }
       .images {
@@ -309,25 +306,23 @@
         img {
           width: 70px;
         }
-        h2{
+        h2 {
           display: block;
           font-size: 14px;
           font-weight: 700;
-      
         }
       }
       .input {
         display: none;
         input {
           width: 100%;
-        background-color: #f4f4f4;
-        border: none;
-        border-radius: 30px;
-        font-weight: 600;
-        padding: 10px 26px;
-        font-size: 14px;
-        outline: none;
-      
+          background-color: #f4f4f4;
+          border: none;
+          border-radius: 30px;
+          font-weight: 600;
+          padding: 10px 26px;
+          font-size: 14px;
+          outline: none;
         }
         .searchControl {
           position: relative;
@@ -337,7 +332,7 @@
             top: 100%;
             left: 0;
             width: 100%;
-            max-height: 600px; 
+            max-height: 600px;
             background-color: white;
             box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
             z-index: 9999999999999999999999999999999999999999999999999999999999999;
@@ -345,7 +340,7 @@
             flex-direction: column;
             border-radius: 10px;
             gap: 10px;
-            overflow-y: auto; 
+            overflow-y: auto;
             padding: 20px;
             .imageControl {
               border: 1px solid rgb(192, 192, 192);
@@ -366,7 +361,7 @@
               }
 
               img {
-             width: 20px;
+                width: 20px;
               }
             }
           }
@@ -375,37 +370,34 @@
     }
     .input1 {
       z-index: 999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999;
-     display: block;
+      display: block;
       margin-bottom: 10px;
       input {
         width: 100%;
-      background-color: #f4f4f4;
-      border: none;
-      border-radius: 30px;
-      font-weight: 600;
-      padding: 10px 26px;
-      font-size: 14px;
-      outline: none;
-    
+        background-color: #f4f4f4;
+        border: none;
+        border-radius: 30px;
+        font-weight: 600;
+        padding: 10px 26px;
+        font-size: 14px;
+        outline: none;
       }
       .searchControl {
         position: relative;
-              z-index: 999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999;
         .searchResults {
           position: absolute;
           top: 100%;
-        
           left: 0;
           width: 100%;
-          max-height: 600px; 
+          max-height: 600px;
           background-color: white;
           box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-             z-index: 999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999;
+          z-index: 99999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999;
           display: flex;
           flex-direction: column;
           border-radius: 10px;
           gap: 10px;
-          overflow-y: auto; 
+          overflow-y: auto;
           padding: 20px;
           .imageControl {
             border: 1px solid rgb(192, 192, 192);
@@ -416,7 +408,7 @@
             align-items: center;
             border-radius: 5px;
             padding: 10px;
-      z-index: 999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999;
+            z-index: 999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999;
             a {
               text-decoration: none;
               color: black;
@@ -426,20 +418,22 @@
             }
 
             img {
-           width: 20px;
+              width: 20px;
             }
           }
         }
       }
     }
-    
   }
-  .overlay{
+  .headers{
+    display: none;
+  }
+  .overlay {
     display: flex;
     gap: 10px;
     flex-direction: column;
 
-    a{
+    a {
       text-decoration: none;
       color: black;
       padding-bottom: 25px;
