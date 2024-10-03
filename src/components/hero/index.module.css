@@ -1,3 +1,4 @@
+@charset "UTF-8";
 * {
   margin: 0;
   padding: 0;
@@ -30,6 +31,8 @@
 @media (max-width: 992px) {
   .background {
     padding: 0;
+    position: relative; /* Bu, resmin yerleşimiyle alakalı */
+    z-index: 1; /* Resim için z-index daha düşük tutuluyor */
   }
   .background .boxs {
     padding: 0;
@@ -37,5 +40,7 @@
   .background .boxs .border img {
     width: 100%;
     height: 40vh;
+    z-index: -1; /* Resmi geriye atıyoruz */
+    position: relative;
   }
 }/*# sourceMappingURL=index.module.css.map */

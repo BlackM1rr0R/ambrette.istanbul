@@ -1,3 +1,4 @@
+@charset "UTF-8";
 * {
   margin: 0;
   padding: 0;
@@ -355,7 +356,7 @@
     width: 20px;
   }
   .background .inputControl {
-    z-index: 1000000000000000000000000000000000000000000000000;
+    z-index: 999;
   }
   .background .inputControl .input1 {
     display: block;
@@ -382,7 +383,7 @@
     max-height: 600px;
     background-color: white;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    z-index: 10000000000000000000000000000000000000000000000000000000000000;
+    z-index: 1000; /* Bu z-index değeri resmi geçecek */
     display: flex;
     flex-direction: column;
     border-radius: 10px;
