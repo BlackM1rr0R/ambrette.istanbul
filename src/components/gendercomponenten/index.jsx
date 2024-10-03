@@ -18,9 +18,7 @@ const GenderComponenten = React.memo(() => {
   return (
     <Wrapper>
       <div className={styles.background}>
-        <div className={styles.gender}>
-          <h2>Gender:</h2>
-        </div>
+    
         <ul className={styles.control}>
           {genderLinks.map((link, index) => (
             <li key={index}>

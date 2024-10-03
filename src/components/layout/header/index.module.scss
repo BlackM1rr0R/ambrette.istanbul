@@ -12,31 +12,25 @@
     opacity: 1;
   }
 }
+.iconsControl{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 10px;
+  .icons{
+    display: flex;
+    gap: 40px;
+  }
+  .iconsLogo{
+    h2{
+      font-weight: 700;
+      letter-spacing: 18px;
+    }
+  }
+}
 .background {
   padding-top: 20px;
   animation: fadeIn 2s ease-in-out;
-
-  .icons {
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-    padding-bottom: 20px;
-    .iconscontrol {
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      width: 100%;
-      .iconsflex {
-        display: flex;
-        justify-content: space-between;
-
-        gap: 20px;
-        svg {
-          width: 25px;
-        }
-      }
-    }
-  }
   .control {
     padding-bottom: 20px;
     display: flex;
@@ -267,6 +261,10 @@
   }
 }
 @media (max-width: 992px) {
+  .iconsControl{
+    
+ display: none;
+  }
   .background {
     .icons {
       .iconscontrol {

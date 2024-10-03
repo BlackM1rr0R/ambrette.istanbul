@@ -4,7 +4,7 @@ import { routeArr } from './routes';
 import Header from './components/layout/header';
 import Footer from './components/layout/footer';
 import { BrowserRouter, Routes, Route, Link } from 'react-router-dom';
-import { WhatsappIcon } from './icons';
+import { BlackWhatsApp, WhatsappIcon } from './icons';
 import { Helmet } from 'react-helmet';
 import ScrollToTop from './components/scrolltop'; // ScrollToTop'u içe aktar
 
@@ -38,7 +38,7 @@ function App() {
           rel="noopener noreferrer"
         >
           <div>
-            <WhatsappIcon className="svgWhatsapp" />
+            <BlackWhatsApp className="svgWhatsapp" />
           </div>
         </Link>
       </div>

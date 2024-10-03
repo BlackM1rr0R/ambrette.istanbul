@@ -531,7 +531,6 @@ const UzIcon = () => {
     >
       <mask
         id="mask0_270_51147"
-   
         maskUnits="userSpaceOnUse"
         x="0"
         y="0"
@@ -569,22 +568,106 @@ const UzIcon = () => {
     </svg>
   );
 };
-const MoskowIcon=()=>{
+const MoskowIcon = () => {
+  return (
+    <svg
+      width="20"
+      height="16"
+      viewBox="0 0 16 12"
+      fill="none"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <mask
+        id="mask0_270_51699"
+        maskUnits="userSpaceOnUse"
+        x="0"
+        y="0"
+        width="16"
+        height="12"
+      >
+        <rect width="16" height="12" fill="white" />
+      </mask>
+      <g mask="url(#mask0_270_51699)">
+        <path
+          fill-rule="evenodd"
+          clip-rule="evenodd"
+          d="M0 0V12H16V0H0Z"
+          fill="#3D58DB"
+        />
+        <mask
+          id="mask1_270_51699"
+          maskUnits="userSpaceOnUse"
+          x="0"
+          y="0"
+          width="16"
+          height="12"
+        >
+          <path
+            fill-rule="evenodd"
+            clip-rule="evenodd"
+            d="M0 0V12H16V0H0Z"
+            fill="white"
+          />
+        </mask>
+        <g mask="url(#mask1_270_51699)">
+          <path
+            fill-rule="evenodd"
+            clip-rule="evenodd"
+            d="M0 0V4H16V0H0Z"
+            fill="#F7FCFF"
+          />
+          <path
+            fill-rule="evenodd"
+            clip-rule="evenodd"
+            d="M0 8V12H16V8H0Z"
+            fill="#C51918"
+          />
+        </g>
+      </g>
+    </svg>
+  );
+};
+const BlackInstagram = () => {
+  return (
+    <svg
+      width="24"
+      height="24"
+      viewBox="0 0 64 64"
+      fill="none"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        d="M51.9713 62H12.0288C6.50924 62 2 57.4908 2 51.9713V12.0287C2 6.50924 6.50924 2 12.0288 2H51.9713C57.4908 2 62 6.50924 62 12.0287V51.9713C62 57.5154 57.5154 62 51.9713 62Z"
+        stroke="black"
+        stroke-width="4"
+      />
+      <path
+        d="M21.1212 42.9035C24.0288 45.8111 27.8974 47.4128 32.0123 47.4128C36.1273 47.4128 39.9713 45.8111 42.9035 42.9035C45.8111 39.9959 47.4128 36.1273 47.4128 32.0123C47.4128 27.8974 45.8111 24.0288 42.9035 21.1212C39.9959 18.2136 36.1273 16.6119 32.0123 16.6119C27.8974 16.6119 24.0288 18.2136 21.1212 21.1212C18.2136 24.0288 16.6119 27.8974 16.6119 32.0123C16.6119 36.1273 18.2136 39.9959 21.1212 42.9035Z"
+        stroke="black"
+        stroke-width="4"
+      />
+      <path
+        d="M50.4145 16.1059C52.0476 16.1059 53.3715 14.782 53.3715 13.1489C53.3715 11.5158 52.0476 10.192 50.4145 10.192C48.7815 10.192 47.4576 11.5158 47.4576 13.1489C47.4576 14.782 48.7815 16.1059 50.4145 16.1059Z"
+        stroke="black"
+        stroke-width="4"
+      />
+    </svg>
+  );
+};
+const BlackYoutube=()=>{
   return(
-    <svg width="20" height="16" viewBox="0 0 16 12" fill="none" xmlns="http://www.w3.org/2000/svg">
-<mask id="mask0_270_51699"  maskUnits="userSpaceOnUse" x="0" y="0" width="16" height="12">
-<rect width="16" height="12" fill="white"/>
-</mask>
-<g mask="url(#mask0_270_51699)">
-<path fill-rule="evenodd" clip-rule="evenodd" d="M0 0V12H16V0H0Z" fill="#3D58DB"/>
-<mask id="mask1_270_51699"  maskUnits="userSpaceOnUse" x="0" y="0" width="16" height="12">
-<path fill-rule="evenodd" clip-rule="evenodd" d="M0 0V12H16V0H0Z" fill="white"/>
-</mask>
-<g mask="url(#mask1_270_51699)">
-<path fill-rule="evenodd" clip-rule="evenodd" d="M0 0V4H16V0H0Z" fill="#F7FCFF"/>
-<path fill-rule="evenodd" clip-rule="evenodd" d="M0 8V12H16V8H0Z" fill="#C51918"/>
-</g>
-</g>
+    <svg width="53" height="24" viewBox="0 0 93 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M76.5024 62H16.4975C8.46861 62 2 54.8994 2 46.1657V17.8343C2 9.06509 8.50112 2 16.4975 2H76.5024C84.5313 2 90.9999 9.10059 90.9999 17.8343V46.1657C91.0324 54.9349 84.5313 62 76.5024 62Z" stroke="black" stroke-width="4"/>
+<path d="M62.2426 31.5562L37 17V46.1124L62.2426 31.5562Z" stroke="black" stroke-width="4"/>
+</svg>
+
+  )
+}
+const BlackWhatsApp=()=>{
+  return(
+    <svg width="24" height="24" viewBox="0 0 75 76" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M69.6189 22.1393C67.8402 18.209 65.287 14.6803 62.0452 11.6393C58.8034 8.62705 55.0452 6.2459 50.8566 4.58197C46.5247 2.86066 41.9345 2 37.2009 2C32.4673 2 27.8771 2.86066 23.5451 4.58197C19.3566 6.2459 15.5984 8.59836 12.3566 11.6393C9.11478 14.6803 6.56153 18.209 4.78284 22.1393C2.94678 26.2131 2 30.5738 2 35.0492C2 42.8811 4.9262 50.3975 10.291 56.3648L7.4221 72L22.6845 65.2008C27.2459 67.1516 32.0943 68.127 37.1722 68.127C41.9058 68.127 46.496 67.2664 50.8279 65.5451C55.0164 63.8811 58.7746 61.5287 62.0164 58.4877C65.2582 55.4467 67.8115 51.918 69.5902 47.9877C71.4263 43.9139 72.373 39.5533 72.373 35.0779C72.4017 30.5738 71.455 26.2418 69.6189 22.1393Z" stroke="black" stroke-width="4"/>
+<path d="M51.4879 41.6474C49.9961 40.9015 48.906 40.4425 48.1314 40.1556C47.6437 39.9835 46.4961 39.4671 46.0945 39.7826C44.8322 40.8154 43.4838 43.7417 42.0494 44.2867C38.492 43.5982 35.1929 41.1597 32.6109 38.6638C31.4633 37.5736 29.3404 34.4753 28.8814 33.6433C28.7953 32.7826 30.3444 31.6351 30.6887 30.9753C32.4674 28.9671 31.1191 27.7048 30.8896 26.8728C30.4879 26.0122 29.7994 24.463 29.197 23.2007C28.6806 22.3687 28.5657 21.1351 27.6477 20.6761C23.746 18.6679 21.5085 22.6843 20.5904 24.7785C15.0535 38.1187 48.3322 63.5081 55.1027 46.0081C55.4469 44.4876 55.3034 43.9138 54.7871 43.2253C53.7543 42.5081 52.5494 42.1925 51.4879 41.6474Z" stroke="black" stroke-width="4"/>
 </svg>
 
   )
@@ -607,5 +690,8 @@ export {
   KgIcon,
   KzIcon,
   UzIcon,
-  MoskowIcon
+  MoskowIcon,
+  BlackInstagram,
+  BlackYoutube,
+  BlackWhatsApp
 };

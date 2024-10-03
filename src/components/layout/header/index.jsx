@@ -11,6 +11,9 @@ import Wrapper from "../../UI/wrapper";
 import { Link } from "react-router-dom";
 import {
   ArrowIcon,
+  BlackInstagram,
+  BlackWhatsApp,
+  BlackYoutube,
   FacebookIcon,
   InstagramIcon,
   LinkedinIcon,
@@ -38,6 +41,10 @@ const Header = () => {
   const searchRef = useRef(null);
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [openInput, setOpenInput] = useState(false);
+
+  const handleSearchItemClick = () => {
+    setShowResults(false);
+  };
 
   const toggleMenu = () => {
     setIsMenuOpen(!isMenuOpen);
@@ -80,6 +87,17 @@ const Header = () => {
 
   return (
     <Wrapper>
+      <div className={styles.iconsControl}>
+        <div className={styles.icons}>
+          <BlackInstagram />
+          <BlackWhatsApp />
+          <BlackYoutube />
+        </div>
+        <div className={styles.iconsLogo}>
+          <h2>AMBRETTE</h2>
+        </div>
+      </div>
+
       <div className={styles.background}>
         <div className={styles.control}>
           <div className={styles.hamburger}>
@@ -113,6 +131,7 @@ const Header = () => {
                       <Link
                         to={`/parfum-details/${item.id}`}
                         className={styles.searchResultItem}
+                        onClick={handleSearchItemClick}
                       >
                         {item.title}
                       </Link>
@@ -125,7 +144,7 @@ const Header = () => {
           </div>
 
           <div className={styles.selected}>
-            <WhatsappIcon />
+            <BlackWhatsApp/>
             <hr />
             <a target="_blank" href="https://wa.me/79682694534">
               +7 968 269 45 34
@@ -149,6 +168,7 @@ const Header = () => {
                         <Link
                           to={`/parfum-details/${item.id}`}
                           className={styles.searchResultItem}
+                          onClick={handleSearchItemClick}
                         >
                           {item.title}
                         </Link>

@@ -7,14 +7,6 @@
 .background {
   padding-bottom: 80px;
 }
-.background .gender {
-  display: flex;
-  justify-content: center;
-}
-.background .gender h2 {
-  font-size: 25px;
-  font-weight: 600;
-}
 .background .control {
   padding-top: 50px;
   display: flex;
