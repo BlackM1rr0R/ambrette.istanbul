@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 import Wrapper from "../../components/UI/wrapper";
 import ManLogo from "../../assets/images/menslogo.png";
 import WomanLogo from "../../assets/images/womenslogo.png";
-import UnisexLogo from "../../assets/images/unisexslogo.png";
+import UnisexLogo from "../../assets/images/unisex3.png";
 const GenderComponenten = React.memo(() => {
   const genderLinks = useMemo(
     () => [

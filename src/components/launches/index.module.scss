@@ -35,7 +35,6 @@
         grid-template-columns: repeat(4, 1fr);
         gap: 30px;
         li {
-         
           font-size: 16px;
           a {
             text-decoration: none;
@@ -94,8 +93,6 @@
 
         gap: 20px;
         li {
- 
-
           a {
             text-decoration: none;
             font-size: 16px;
@@ -123,6 +120,8 @@
 }
 @media (max-width: 992px) {
   .background {
+    padding-top: 40px;
+    padding-bottom: 40px;
     .headers1 {
       .hr {
         hr {
@@ -141,20 +140,22 @@
       .firstside1 {
         display: flex;
         flex-direction: column;
-        justify-content: center;
-        align-items: center;
+
         gap: 30px;
         ul {
-          display: grid;
-          grid-template-columns: repeat(2, 1fr);
+          display: flex;
+          flex-wrap: wrap;
+          justify-content: space-between;
           li {
             display: flex;
-            align-items: center;
-            justify-content: center;
+            width: 40%;
             padding: 8px;
-            font-size: 14px;
-            text-align: center;
+            font-size: 16px;
             line-height: 25px;
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            max-width: 200px;
           }
         }
       }
@@ -176,25 +177,23 @@
     .perfumelist {
       .firstside {
         display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-wrap: wrap;
+        flex-direction: column;
+
+        gap: 30px;
         ul {
-          display: grid;
-          grid-template-columns: repeat(2, 1fr);
-          gap: 30px;
-          width: 100%;
+          display: flex;
+          flex-wrap: wrap;
+          justify-content: space-between;
           li {
-            padding: 12px;
             display: flex;
-            align-items: center;
-            justify-content: space-between;
-            justify-content: center;
-            text-align: center;
+            width: 40%;
+            padding: 8px;
+            font-size: 14px;
             line-height: 25px;
-            a {
-              font-size: 14px;
-            }
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            max-width: 200px;
           }
         }
       }

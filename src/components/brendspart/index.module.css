@@ -1,0 +1,78 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Nunito" !important;
+}
+
+.background {
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+.background .headers {
+  display: flex;
+  justify-content: center;
+}
+.background .headers h2 {
+  font-size: 25px;
+  font-weight: 500;
+}
+.background .boxs {
+  padding-top: 40px;
+}
+.background .boxs .border {
+  text-decoration: none;
+  color: black;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+  min-height: 400px;
+  margin-bottom: 50px;
+}
+.background .boxs .border img {
+  width: 250px;
+  height: 250px;
+}
+.background .boxs .border h2 {
+  font-weight: 600;
+}
+.background .boxs .border h3 {
+  font-weight: 500;
+  color: blue;
+}
+.background .boxs .border .button {
+  padding-top: 10px;
+}
+.background .boxs .border .button button {
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 10px 40px;
+  text-decoration: none;
+  color: white;
+  border-radius: 25px;
+  background-color: #0055B8;
+}
+
+@media (max-width: 992px) {
+  .background {
+    padding-top: 80px;
+    padding-bottom: 40px;
+  }
+  .background .headers h2 {
+    font-size: 16px;
+    font-weight: 600;
+  }
+  .background .boxs .border {
+    min-height: 250px;
+  }
+  .background .boxs .border img {
+    width: 150px;
+    height: 150px;
+  }
+  .background .boxs .border h2 {
+    font-size: 14px;
+  }
+}/*# sourceMappingURL=index.module.css.map */

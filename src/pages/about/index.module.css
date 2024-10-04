@@ -150,10 +150,12 @@
   .background .futureControl .futuretext h2 {
     padding-top: 10px;
     font-size: 24px;
+    padding: 0;
   }
   .background .futureControl .futuretext p {
     font-size: 12px;
     line-height: 24px;
+    padding: 0;
     width: 300px;
   }
   .background .ourPurpose h2 {
