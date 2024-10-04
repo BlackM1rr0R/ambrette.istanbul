@@ -35,12 +35,12 @@ const Home = () => {
       <div ref={(el) => (sections.current[0] = el)} className={`${styles.hidden} ${entries[0]?.isIntersecting ? styles.visible : ''}`}><Hero /></div>
       <div ref={(el) => (sections.current[1] = el)} className={`${styles.hidden} ${entries[1]?.isIntersecting ? styles.visible : ''}`}><Brends /></div>
       <div ref={(el) => (sections.current[2] = el)} className={`${styles.hidden} ${entries[2]?.isIntersecting ? styles.visible : ''}`}><GenderComponenten /></div>
-      <div ref={(el) => (sections.current[3] = el)} className={`${styles.hidden} ${entries[3]?.isIntersecting ? styles.visible : ''}`}><NewComponent /></div>
       <div ref={(el) => (sections.current[4] = el)} className={`${styles.hidden} ${entries[4]?.isIntersecting ? styles.visible : ''}`}><CollectionsPerfume /></div>
       <div ref={(el) => (sections.current[5] = el)} className={`${styles.hidden} ${entries[5]?.isIntersecting ? styles.visible : ''}`}><Notes /></div>
       <div ref={(el) => (sections.current[6] = el)} className={`${styles.hidden} ${entries[6]?.isIntersecting ? styles.visible : ''}`}><FragmanFotos /></div>
       <div ref={(el) => (sections.current[7] = el)} className={`${styles.hidden} ${entries[7]?.isIntersecting ? styles.visible : ''}`}><LaunchesPerfume /></div>
     </div>
+    //      <div ref={(el) => (sections.current[3] = el)} className={`${styles.hidden} ${entries[3]?.isIntersecting ? styles.visible : ''}`}><NewComponent /></div>
   );
 };
 
