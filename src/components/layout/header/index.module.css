@@ -47,7 +47,7 @@
   color: black;
 }
 .background .control .images img {
-  width: 250px;
+  width: 100px;
   -o-object-fit: fill;
      object-fit: fill;
 }
@@ -55,20 +55,13 @@
   display: none;
 }
 .background .control .input input {
-  width: 600px;
+  width: 400px;
   background-color: #f4f4f4;
   border: none;
-  border-radius: 30px;
   font-weight: 600;
-  padding: 20px 26px;
+  padding: 14px 26px;
   font-size: 14px;
   outline: none;
-}
-.background .control .input input::-moz-placeholder {
-  font-family: "Ubuntu", sans-serif;
-}
-.background .control .input input::placeholder {
-  font-family: "Ubuntu", sans-serif;
 }
 .background .control .input .searchControl {
   position: relative;
@@ -84,7 +77,8 @@
   z-index: 1000;
   display: flex;
   flex-direction: column;
-  border-radius: 10px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
   gap: 10px;
   overflow-y: auto;
   padding: 20px;
@@ -112,13 +106,13 @@
   gap: 10px;
 }
 .background .control .selected svg {
-  width: 30px;
+  width: 20px;
 }
 .background .control .selected a {
   text-decoration: none;
   color: black;
   font-weight: 600;
-  font-size: 22px;
+  font-size: 16px;
   border-bottom: 1px solid black;
 }
 .background .control .selected hr {
@@ -149,11 +143,11 @@
   padding-top: 15px;
 }
 .menuContainer .menu a {
-  font-size: 20px;
+  font-size: 17px;
   font-weight: 600;
 }
 .menuContainer .menu li {
-  font-size: 20px;
+  font-size: 14px;
 }
 .menuContainer .menu .dropdown {
   position: relative;
@@ -364,7 +358,6 @@
     width: 100%;
     background-color: #f4f4f4;
     border: none;
-    border-radius: 30px;
     font-weight: 600;
     padding: 10px 26px;
     font-size: 14px;
@@ -384,7 +377,8 @@
     z-index: 1000; /* Bu z-index değeri resmi geçecek */
     display: flex;
     flex-direction: column;
-    border-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
     gap: 10px;
     overflow-y: auto;
     padding: 20px;
