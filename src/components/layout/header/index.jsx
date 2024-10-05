@@ -184,14 +184,40 @@ const Header = () => {
       </div>
 
       {isMenuOpen && (
-        <div className={styles.overlay}>
-          <Link to={"/allperfumes"}>Perfumes</Link>
-          <Link to={"/brends"}>Brends</Link>
-          <Link to={"/about"}>About us</Link>
-          <Link to={"/magazins"}>Magazins</Link>
-          <Link to={"/contact"}>Contact us</Link>
-        </div>
-      )}
+  <div className={styles.overlay}>
+    <Link
+      to="/allperfumes"
+      onClick={() => setIsMenuOpen(false)}
+    >
+      Perfumes
+    </Link>
+    <Link
+      to="/brends"
+      onClick={() => setIsMenuOpen(false)}
+    >
+      Brends
+    </Link>
+    <Link
+      to="/about"
+      onClick={() => setIsMenuOpen(false)}
+    >
+      About us
+    </Link>
+    <Link
+      to="/magazins"
+      onClick={() => setIsMenuOpen(false)}
+    >
+      Magazins
+    </Link>
+    <Link
+      to="/contact"
+      onClick={() => setIsMenuOpen(false)}
+    >
+      Contact us
+    </Link>
+  </div>
+)}
+
 
       <div className={styles.headers}>
         <hr />
