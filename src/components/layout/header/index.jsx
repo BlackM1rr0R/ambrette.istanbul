@@ -99,7 +99,9 @@ const Header = () => {
           </Link>
         </div>
         <div className={styles.iconsLogo}>
-          <h2>AMBRETTE</h2>
+          <h2>en</h2>
+          <hr />
+          <h2>ru</h2>
         </div>
       </div>
 

@@ -56,7 +56,8 @@
         .iconsclass {
           display: flex;
           align-items: center;
-          
+          text-decoration: none;
+          color: black;
           gap: 10px;
           svg{
             width: 17px;

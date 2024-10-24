@@ -13,6 +13,7 @@ import {
   UzIcon,
 } from "../../icons";
 import KazakVideo from "../../assets/images/kazakvideo.mp4";
+import { Link } from "react-router-dom";
 const MagazinsLocation = () => {
   const [azadliq, setAzadliq] = useState(true);
   const [moskow, setMoskow] = useState(false);
@@ -102,10 +103,10 @@ const MagazinsLocation = () => {
                   <ClockIcon />
                   <h2>09:00-22:00</h2>
                 </div>
-                <div className={styles.iconsclass}>
+                <Link to={"https://www.instagram.com/ambrette.ru/"} target="_blank" className={styles.iconsclass}>
                   <InstagramIcon />
                   <h2>Instagram Adress</h2>
-                </div>
+                </Link>
               </div>
             )}
             <div className={styles.hr}>
@@ -134,10 +135,10 @@ const MagazinsLocation = () => {
                   <ClockIcon />
                   <h2>09:00-22:00</h2>
                 </div>
-                <div className={styles.iconsclass}>
+                <Link to={"https://www.instagram.com/ambrette_lublino/"} target="_blank" className={styles.iconsclass}>
                   <InstagramIcon />
                   <h2>Instagram Adress</h2>
-                </div>
+                </Link>
               </div>
             )}
             <div className={styles.hr}>
@@ -167,10 +168,10 @@ const MagazinsLocation = () => {
                   <PhoneIcon />
                   <h2>+996 501 662 222</h2>
                 </div>
-                <div className={styles.iconsclass}>
+                <Link to={"https://www.instagram.com/ambrette.kg/"} target="_blank" className={styles.iconsclass}>
                   <InstagramIcon />
                   <h2>Instagram Adress</h2>
-                </div>
+                </Link>
               </div>
             )}
             <div className={styles.hr}>
@@ -203,10 +204,14 @@ const MagazinsLocation = () => {
                   <ClockIcon />
                   <h2>09:00-22:00</h2>
                 </div>
-                <div className={styles.iconsclass}>
+                <Link
+                  to={"https://www.instagram.com/ambrette.kz/"}
+                  target="_blank"
+                  className={styles.iconsclass}
+                >
                   <InstagramIcon />
                   <h2>Instagram Adress</h2>
-                </div>
+                </Link>
               </div>
             )}
             <div className={styles.hr}>
@@ -237,10 +242,14 @@ const MagazinsLocation = () => {
                   <ClockIcon />
                   <h2>09:00-22:00</h2>
                 </div>
-                <div className={styles.iconsclass}>
+                <Link
+                  to={"https://www.instagram.com/ambrette.uz/"}
+                  target="_blank"
+                  className={styles.iconsclass}
+                >
                   <InstagramIcon />
                   <h2>Instagram Adress</h2>
-                </div>
+                </Link>
               </div>
             )}
             <div className={styles.hr}>
@@ -253,7 +262,7 @@ const MagazinsLocation = () => {
               }`}
             >
               <h2>
-                6.Azerbaijan branch <AzerbaijanIcon/>
+                6.Azerbaijan branch <AzerbaijanIcon />
               </h2>
             </div>
 
@@ -261,7 +270,9 @@ const MagazinsLocation = () => {
               <div className={styles.modalclass}>
                 <div className={styles.iconsclass}>
                   <LocationIcon />
-                  <h2>Abşeron ticarət mərkəzi prestij B korpus 21 mağaga 6.7.8</h2>
+                  <h2>
+                    Abşeron ticarət mərkəzi prestij B korpus 21 mağaga 6.7.8
+                  </h2>
                 </div>
                 <div className={styles.iconsclass}>
                   <PhoneIcon />
@@ -271,10 +282,14 @@ const MagazinsLocation = () => {
                   <ClockIcon />
                   <h2>09:00-22:00</h2>
                 </div>
-                <div className={styles.iconsclass}>
+                <Link
+                  to={"https://www.instagram.com/ambrette.az/"}
+                  target="_blank"
+                  className={styles.iconsclass}
+                >
                   <InstagramIcon />
                   <h2>Instagram Adress</h2>
-                </div>
+                </Link>
               </div>
             )}
           </div>

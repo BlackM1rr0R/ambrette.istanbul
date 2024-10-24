@@ -24,9 +24,13 @@
   display: flex;
   gap: 40px;
 }
+.iconsControl .iconsLogo {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
 .iconsControl .iconsLogo h2 {
   font-weight: 700;
-  letter-spacing: 18px;
 }
 
 .background {
