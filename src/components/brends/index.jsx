@@ -9,7 +9,9 @@ import "swiper/css/scrollbar";
 import { Link } from "react-router-dom";
 import DB from "../../db.json";
 import Wrapper from '../UI/wrapper'
+import { useTranslation } from "react-i18next";
 const Brends = () => {
+  const {t}=useTranslation();
   const perfumes = useMemo(() => {
     // DB'yi karıştır
     const shuffledDB = [...DB].sort(() => 0.5 - Math.random());
@@ -21,7 +23,7 @@ const Brends = () => {
     <Wrapper>
       <div className={styles.background}>
         <div className={styles.headers}>
-          <h2>Explore Our Best Sellers</h2>
+          <h2>{t("explore")}</h2>
         </div>
         <div className={styles.boxs}>
           <Swiper

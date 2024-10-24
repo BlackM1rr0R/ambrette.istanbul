@@ -7,7 +7,7 @@ import { BrowserRouter, Routes, Route, Link } from 'react-router-dom';
 import { BlackWhatsApp, WhatsappIcon } from './icons';
 import { Helmet } from 'react-helmet';
 import ScrollToTop from './components/scrolltop'; // ScrollToTop'u içe aktar
-
+import "./i18n"
 function App() {
   return (
     <BrowserRouter>

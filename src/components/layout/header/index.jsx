@@ -25,6 +25,7 @@ import {
 import DB from "../../../db.json";
 import { Sling as Hamburger } from "hamburger-react";
 import SearchIcon from "../../../assets/images/search.svg";
+import { useTranslation } from "react-i18next";
 const uniqueBrands = [...new Set(DB.map((product) => product.brands))].sort();
 const groupedBrands = uniqueBrands.reduce((acc, brand) => {
   const firstLetter = brand.charAt(0).toUpperCase();
@@ -36,12 +37,16 @@ const groupedBrands = uniqueBrands.reduce((acc, brand) => {
 }, {});
 
 const Header = () => {
+  const { t, i18n } = useTranslation();
   const [searchTerm, setSearchTerm] = useState("");
   const [showResults, setShowResults] = useState(false);
   const searchRef = useRef(null);
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [openInput, setOpenInput] = useState(false);
-
+  
+  const changeLanguage=(lang)=>{
+    i18n.changeLanguage(lang);
+  }
   const handleSearchItemClick = () => {
     setShowResults(false);
   };
@@ -53,7 +58,6 @@ const Header = () => {
   const toggleInput = () => {
     setOpenInput(!openInput);
   };
-
   const handleSearchChange = useCallback((event) => {
     setSearchTerm(event.target.value.toLowerCase());
   }, []);
@@ -90,26 +94,28 @@ const Header = () => {
       <div className={styles.iconsControl}>
         <div className={styles.icons}>
           <Link to={"https://www.instagram.com/ambrette.ru/"}>
-          <BlackInstagram />
+            <BlackInstagram />
           </Link>
-          <Link to="https://wa.me/79682694534"  target="_blank"
-         >
-          <BlackWhatsApp />
+          <Link to="https://wa.me/79682694534" target="_blank">
+            <BlackWhatsApp />
           </Link>
-          <Link to={"https://www.youtube.com/@Ambretteofficial"} target="_blank">
-          <BlackYoutube />
+          <Link
+            to={"https://www.youtube.com/@Ambretteofficial"}
+            target="_blank"
+          >
+            <BlackYoutube />
           </Link>
         </div>
         <div className={styles.iconsLogo}>
-          <h2>en</h2>
+          <h2 onClick={()=>changeLanguage("en")}>en</h2>
           <hr />
-          <h2>ru</h2>
+          <h2 onClick={()=>changeLanguage("ru")}>ru</h2>
         </div>
       </div>
 
       <div className={styles.background}>
         <div className={styles.control}>
-        <div className={styles.hamburger}>
+          <div className={styles.hamburger}>
             <Hamburger
               size={22}
               distance="lg"
@@ -118,46 +124,45 @@ const Header = () => {
             />
           </div>
           <div className={styles.leftSide}>
-          <Link to={"/"} className={styles.images}>
-            <img src={Logo} alt="Logo" />
-            <h2>AMBRETTE</h2>
-          </Link>
+            <Link to={"/"} className={styles.images}>
+              <img src={Logo} alt="Logo" />
+              <h2>AMBRETTE</h2>
+            </Link>
 
-          
-          <div className={styles.input} ref={searchRef}>
-            <input
-              type="text"
-              placeholder="Search by title..."
-              value={searchTerm}
-              onChange={handleSearchChange}
-            />
-            {showResults && (
-              <div className={styles.searchControl}>
-                <div className={styles.searchResults}>
-                  {filteredPerfumes.map((item) => (
-                    <div className={styles.imageControl} key={item.id}>
-                      <Link
-                        to={`/parfum-details/${item.id}`}
-                        className={styles.searchResultItem}
-                        onClick={handleSearchItemClick}
-                      >
-                        {item.title}
-                      </Link>
-                      <img src={item.innerimageurl} alt={item.title} />
-                    </div>
-                  ))}
+            <div className={styles.input} ref={searchRef}>
+              <input
+                type="text"
+                placeholder="Search by title..."
+                value={searchTerm}
+                onChange={handleSearchChange}
+              />
+              {showResults && (
+                <div className={styles.searchControl}>
+                  <div className={styles.searchResults}>
+                    {filteredPerfumes.map((item) => (
+                      <div className={styles.imageControl} key={item.id}>
+                        <Link
+                          to={`/parfum-details/${item.id}`}
+                          className={styles.searchResultItem}
+                          onClick={handleSearchItemClick}
+                        >
+                          {item.title}
+                        </Link>
+                        <img src={item.innerimageurl} alt={item.title} />
+                      </div>
+                    ))}
+                  </div>
                 </div>
-              </div>
-            )}
+              )}
+            </div>
           </div>
-          </div>
-    
+
           <div className={styles.searchIcon}>
             <img src={SearchIcon} alt="Search" onClick={toggleInput} />
           </div>
 
           <div className={styles.selected}>
-            <BlackWhatsApp/>
+            <BlackWhatsApp />
             <hr />
             <a target="_blank" href="https://wa.me/79682694534">
               +7 968 269 45 34
@@ -197,40 +202,24 @@ const Header = () => {
       </div>
 
       {isMenuOpen && (
-  <div className={styles.overlay}>
-    <Link
-      to="/allperfumes"
-      onClick={() => setIsMenuOpen(false)}
-    >
-      Perfumes
-    </Link>
-    <Link
-      to="/brends"
-      onClick={() => setIsMenuOpen(false)}
-    >
-      Brends
-    </Link>
-    <Link
-      to="/about"
-      onClick={() => setIsMenuOpen(false)}
-    >
-      About us
-    </Link>
-    <Link
-      to="/magazins"
-      onClick={() => setIsMenuOpen(false)}
-    >
-      Magazins
-    </Link>
-    <Link
-      to="/contact"
-      onClick={() => setIsMenuOpen(false)}
-    >
-      Contact us
-    </Link>
-  </div>
-)}
-
+        <div className={styles.overlay}>
+          <Link to="/allperfumes" onClick={() => setIsMenuOpen(false)}>
+            Perfumes
+          </Link>
+          <Link to="/brends" onClick={() => setIsMenuOpen(false)}>
+            Brends
+          </Link>
+          <Link to="/about" onClick={() => setIsMenuOpen(false)}>
+            About us
+          </Link>
+          <Link to="/magazins" onClick={() => setIsMenuOpen(false)}>
+            Magazins
+          </Link>
+          <Link to="/contact" onClick={() => setIsMenuOpen(false)}>
+            Contact us
+          </Link>
+        </div>
+      )}
 
       <div className={styles.headers}>
         <hr />
@@ -241,7 +230,7 @@ const Header = () => {
           <div className={styles.menu}>
             <div className={styles.dropdown}>
               <Link to={"/allperfumes"}>
-                Perfumes <ArrowIcon />
+                {t("perfumes")} <ArrowIcon />
               </Link>
               <ul className={styles.dropdowncontent}>
                 <li>
@@ -257,7 +246,7 @@ const Header = () => {
             </div>
             <div className={styles.dropdownbrends}>
               <Link to={"/brends"}>
-                Brends <ArrowIcon />
+                {t("brends")} <ArrowIcon />
               </Link>
               <div className={styles.dropdowncontrol}>
                 {Object.keys(groupedBrands).map((letter, index) => (
@@ -281,9 +270,9 @@ const Header = () => {
                 ))}
               </div>
             </div>
-            <Link to={"/about"}>About us</Link>
-            <Link to={"/magazins"}>Magazins</Link>
-            <Link to={"/contact"}>Contact us</Link>
+            <Link to={"/about"}>{t("about_us")}</Link>
+            <Link to={"/magazins"}>{t("magazin")}</Link>
+            <Link to={"/contact"}>{t("contact_us")}</Link>
           </div>
         </div>
       </Wrapper>
