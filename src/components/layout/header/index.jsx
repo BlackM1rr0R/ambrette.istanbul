@@ -109,7 +109,7 @@ const Header = () => {
 
       <div className={styles.background}>
         <div className={styles.control}>
-          <div className={styles.hamburger}>
+        <div className={styles.hamburger}>
             <Hamburger
               size={22}
               distance="lg"
@@ -117,14 +117,13 @@ const Header = () => {
               toggle={toggleMenu}
             />
           </div>
+          <div className={styles.leftSide}>
           <Link to={"/"} className={styles.images}>
             <img src={Logo} alt="Logo" />
             <h2>AMBRETTE</h2>
           </Link>
 
-          <div className={styles.searchIcon}>
-            <img src={SearchIcon} alt="Search" onClick={toggleInput} />
-          </div>
+          
           <div className={styles.input} ref={searchRef}>
             <input
               type="text"
@@ -150,6 +149,11 @@ const Header = () => {
                 </div>
               </div>
             )}
+          </div>
+          </div>
+    
+          <div className={styles.searchIcon}>
+            <img src={SearchIcon} alt="Search" onClick={toggleInput} />
           </div>
 
           <div className={styles.selected}>
