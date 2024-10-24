@@ -118,10 +118,15 @@ const Footer = () => {
             </form>
             <div className={styles.icons}>
               <TikTokIcon />
-
-              <InstagramIcon />
-            
+              <Link
+                to={"https://www.instagram.com/ambrette.ru/"}
+                target="_blank"
+              >
+                <InstagramIcon />
+              </Link>
+    <Link to={"https://www.youtube.com/@Ambretteofficial"} target="_blank">
               <YouTubeIcon />
+    </Link>
             </div>
           </div>
         </div>

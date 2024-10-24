@@ -89,7 +89,9 @@ const Header = () => {
     <Wrapper>
       <div className={styles.iconsControl}>
         <div className={styles.icons}>
+          <Link to={"https://www.instagram.com/ambrette.ru/"}>
           <BlackInstagram />
+          </Link>
           <Link to="https://wa.me/79682694534"  target="_blank"
          >
           <BlackWhatsApp />
