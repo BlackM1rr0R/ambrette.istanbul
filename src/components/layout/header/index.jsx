@@ -90,8 +90,13 @@ const Header = () => {
       <div className={styles.iconsControl}>
         <div className={styles.icons}>
           <BlackInstagram />
+          <Link to="https://wa.me/79682694534"  target="_blank"
+         >
           <BlackWhatsApp />
+          </Link>
+          <Link to={"https://www.youtube.com/@Ambretteofficial"} target="_blank">
           <BlackYoutube />
+          </Link>
         </div>
         <div className={styles.iconsLogo}>
           <h2>AMBRETTE</h2>

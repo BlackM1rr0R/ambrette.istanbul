@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import styles from "./index.module.css";
 import Wrapper from "../../components/UI/wrapper";
 import {
+  AzerbaijanIcon,
   ClockIcon,
   InstagramIcon,
   KgIcon,
@@ -18,6 +19,7 @@ const MagazinsLocation = () => {
   const [genclik, setGenclik] = useState(false);
   const [nerimanov, setNerimanov] = useState(false);
   const [ozbekistan, setOzbekistan] = useState(false);
+  const [azerbaijan, setAzerbaijan] = useState(false);
 
   const clickAzadliq = () => {
     setGenclik(false);
@@ -25,6 +27,7 @@ const MagazinsLocation = () => {
     setNerimanov(false);
     setOzbekistan(false);
     setAzadliq((prevAzadliq) => !prevAzadliq);
+    setAzerbaijan(false);
   };
 
   const clickGenclik = () => {
@@ -33,6 +36,7 @@ const MagazinsLocation = () => {
     setNerimanov(false);
     setOzbekistan(false);
     setGenclik((prevGenclik) => !prevGenclik);
+    setAzerbaijan(false);
   };
 
   const clickNerimanov = () => {
@@ -41,20 +45,31 @@ const MagazinsLocation = () => {
     setMoskow(false);
     setOzbekistan(false);
     setNerimanov((prevNerimanov) => !prevNerimanov);
+    setAzerbaijan(false);
   };
   const clickMoskow = () => {
     setGenclik(false);
     setAzadliq(false);
     setNerimanov(false);
     setOzbekistan(false);
-    setMoskow((prevNerimanov) => !prevNerimanov);
+    setMoskow((prevMoskow) => !prevMoskow);
+    setAzerbaijan(false);
   };
   const clickOzbekistan = () => {
     setGenclik(false);
     setAzadliq(false);
     setNerimanov(false);
     setMoskow(false);
-    setOzbekistan((prevNerimanov) => !prevNerimanov);
+    setOzbekistan((prevOzbekistan) => !prevOzbekistan);
+    setAzerbaijan(false);
+  };
+  const clickAzerbaijan = () => {
+    setGenclik(false);
+    setAzadliq(false);
+    setNerimanov(false);
+    setMoskow(false);
+    setOzbekistan(false);
+    setAzerbaijan((prevAzerbaijan) => !prevAzerbaijan);
   };
   return (
     <Wrapper>
@@ -98,7 +113,7 @@ const MagazinsLocation = () => {
             </div>
             <div
               onClick={() => clickMoskow()}
-              className={`${styles.moskow} ${moskow ? styles.active : ""}`} 
+              className={`${styles.moskow} ${moskow ? styles.active : ""}`}
             >
               <h2>
                 2.Moskow branch <MoskowIcon />
@@ -228,15 +243,49 @@ const MagazinsLocation = () => {
                 </div>
               </div>
             )}
+            <div className={styles.hr}>
+              <hr />
+            </div>
+            <div
+              onClick={() => clickAzerbaijan()}
+              className={`${styles.ozbekistan} ${
+                azerbaijan ? styles.active : ""
+              }`}
+            >
+              <h2>
+                6.Azerbaijan branch <AzerbaijanIcon/>
+              </h2>
+            </div>
+
+            {azerbaijan && (
+              <div className={styles.modalclass}>
+                <div className={styles.iconsclass}>
+                  <LocationIcon />
+                  <h2>Abşeron ticarət mərkəzi prestij B korpus 21 mağaga 6.7.8</h2>
+                </div>
+                <div className={styles.iconsclass}>
+                  <PhoneIcon />
+                  <h2>+994553230101</h2>
+                </div>
+                <div className={styles.iconsclass}>
+                  <ClockIcon />
+                  <h2>09:00-22:00</h2>
+                </div>
+                <div className={styles.iconsclass}>
+                  <InstagramIcon />
+                  <h2>Instagram Adress</h2>
+                </div>
+              </div>
+            )}
           </div>
           <div className={styles.rightside}>
             {azadliq ? (
               <>
-                 <iframe
+                <iframe
                   className={styles.frame1}
                   width="1000"
                   height="250"
-                  src="https://www.youtube.com/embed/gq9gKWCa7Nc?si=E5FMUWTU-10CSgno"
+                  src="https://www.youtube.com/embed/PYt-RFMcuy0?si=mztw8hl8x-8Wjn4K"
                   title="YouTube video player"
                   frameborder="0"
                   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
@@ -258,33 +307,34 @@ const MagazinsLocation = () => {
             )}
             {moskow ? (
               <>
-                      <iframe  className={styles.frame1}
+                <iframe
+                  className={styles.frame1}
                   width="1000"
                   height="250"
-                  src="https://www.youtube.com/embed/gq9gKWCa7Nc?si=E5FMUWTU-10CSgno"
+                  src="https://www.youtube.com/embed/qyTlW81Zzqo?si=MMjaGlNBkezoQCku"
                   title="YouTube video player"
                   frameborder="0"
                   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                   referrerpolicy="strict-origin-when-cross-origin"
                   allowfullscreen
-                ></iframe>  
-                   <iframe
-                className={styles.frame1}
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2239.1556858815893!2d37.95659709414908!3d55.85996521444058!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x414acd42291920d5%3A0x786a43c4924083c!2s13%20Liniya%2C%20Zabota%2C%20Moskovskaya%20oblast&#39;%2C%20Rusya%2C%20141143!5e0!3m2!1str!2saz!4v1718458485688!5m2!1str!2saz"
-                width="1000"
-                height="250"
-                allowFullScreen=""
-                loading="lazy"
-                referrerPolicy="no-referrer-when-downgrade"
-              ></iframe>
+                ></iframe>
+                <iframe
+                  className={styles.frame1}
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2239.1556858815893!2d37.95659709414908!3d55.85996521444058!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x414acd42291920d5%3A0x786a43c4924083c!2s13%20Liniya%2C%20Zabota%2C%20Moskovskaya%20oblast&#39;%2C%20Rusya%2C%20141143!5e0!3m2!1str!2saz!4v1718458485688!5m2!1str!2saz"
+                  width="1000"
+                  height="250"
+                  allowFullScreen=""
+                  loading="lazy"
+                  referrerPolicy="no-referrer-when-downgrade"
+                ></iframe>
               </>
-         
             ) : (
               ""
             )}
             {genclik ? (
               <>
-                <iframe  className={styles.frame1}
+                <iframe
+                  className={styles.frame1}
                   width="1000"
                   height="250"
                   src="https://www.youtube.com/embed/gq9gKWCa7Nc?si=E5FMUWTU-10CSgno"
@@ -307,8 +357,10 @@ const MagazinsLocation = () => {
             ) : (
               ""
             )}
-            {nerimanov ? (<>
-              <iframe  className={styles.frame1}
+            {nerimanov ? (
+              <>
+                <iframe
+                  className={styles.frame1}
                   width="1000"
                   height="250"
                   src="https://www.youtube.com/embed/gq9gKWCa7Nc?si=E5FMUWTU-10CSgno"
@@ -318,23 +370,23 @@ const MagazinsLocation = () => {
                   referrerpolicy="strict-origin-when-cross-origin"
                   allowfullscreen
                 ></iframe>
-              <iframe
-                className={styles.frame1}
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2904.6484540776232!2d76.88639777651541!3d43.279740176504475!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38836bc6c96e2e81%3A0xf14f0854bdaac884!2sAdem%202%2C3!5e0!3m2!1str!2saz!4v1718458646332!5m2!1str!2saz"
-                width="1000"
-                height="250"
-                allowFullScreen=""
-                loading="lazy"
-                referrerPolicy="no-referrer-when-downgrade"
-              ></iframe>
-            </>
-
+                <iframe
+                  className={styles.frame1}
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2904.6484540776232!2d76.88639777651541!3d43.279740176504475!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38836bc6c96e2e81%3A0xf14f0854bdaac884!2sAdem%202%2C3!5e0!3m2!1str!2saz!4v1718458646332!5m2!1str!2saz"
+                  width="1000"
+                  height="250"
+                  allowFullScreen=""
+                  loading="lazy"
+                  referrerPolicy="no-referrer-when-downgrade"
+                ></iframe>
+              </>
             ) : (
               ""
             )}
             {ozbekistan ? (
               <>
-                     <iframe  className={styles.frame1}
+                <iframe
+                  className={styles.frame1}
                   width="1000"
                   height="250"
                   src="https://www.youtube.com/embed/gq9gKWCa7Nc?si=E5FMUWTU-10CSgno"
@@ -344,17 +396,42 @@ const MagazinsLocation = () => {
                   referrerpolicy="strict-origin-when-cross-origin"
                   allowfullscreen
                 ></iframe>
-                 <iframe
-                className={styles.frame1}
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5997.708519121998!2d69.24787219705037!3d41.26850904935911!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38ae8a9b5941f68d%3A0xebec127243e4f2aa!2zQmFzaGx5aywgMTAwMDIyLCBUYcWfa2VudCwgw5Z6YmVraXN0YW4!5e0!3m2!1str!2saz!4v1718920939370!5m2!1str!2saz"
-                height="250"
-                width="1000"
-                allowFullScreen=""
-                loading="lazy"
-                referrerPolicy="no-referrer-when-downgrade"
-              ></iframe>
+                <iframe
+                  className={styles.frame1}
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5997.708519121998!2d69.24787219705037!3d41.26850904935911!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38ae8a9b5941f68d%3A0xebec127243e4f2aa!2zQmFzaGx5aywgMTAwMDIyLCBUYcWfa2VudCwgw5Z6YmVraXN0YW4!5e0!3m2!1str!2saz!4v1718920939370!5m2!1str!2saz"
+                  height="250"
+                  width="1000"
+                  allowFullScreen=""
+                  loading="lazy"
+                  referrerPolicy="no-referrer-when-downgrade"
+                ></iframe>
               </>
-             
+            ) : (
+              ""
+            )}
+            {azerbaijan ? (
+              <>
+                <iframe
+                  className={styles.frame1}
+                  width="1000"
+                  height="250"
+                  src="https://www.youtube.com/embed/gq9gKWCa7Nc?si=E5FMUWTU-10CSgno"
+                  title="YouTube video player"
+                  frameborder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                  referrerpolicy="strict-origin-when-cross-origin"
+                  allowfullscreen
+                ></iframe>
+                <iframe
+                  className={styles.frame1}
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5997.708519121998!2d69.24787219705037!3d41.26850904935911!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38ae8a9b5941f68d%3A0xebec127243e4f2aa!2zQmFzaGx5aywgMTAwMDIyLCBUYcWfa2VudCwgw5Z6YmVraXN0YW4!5e0!3m2!1str!2saz!4v1718920939370!5m2!1str!2saz"
+                  height="250"
+                  width="1000"
+                  allowFullScreen=""
+                  loading="lazy"
+                  referrerPolicy="no-referrer-when-downgrade"
+                ></iframe>
+              </>
             ) : (
               ""
             )}
