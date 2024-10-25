@@ -10,12 +10,14 @@ import Home from "./pages/home";
 import MagazinsLocation from "./pages/magazins";
 import NotFound from "./pages/notFound";
 import AllPerfume from "./pages/allperfume";
-const routeItem = (id, title, path, component) => {
+
+const routeItem = (id, title, path, component, meta) => {
   return {
     id,
     title,
     path,
     component,
+    ...meta,
   };
 };
 
@@ -32,16 +34,10 @@ const routes = {
     title: "404 - Page Not Found",
     description: "Page not found.",
   }),
-  parfumdetails: routeItem(
-    4,
-    "parfumdetails",
-    "/parfum-details/:id",
-    ParfumDetails,
-    {
-      title: "Perfume Details",
-      description: "Discover the perfume details here.",
-    }
-  ),
+  parfumdetails: routeItem(4, "parfumdetails", "/parfum-details/:id", ParfumDetails, {
+    title: "Perfume Details",
+    description: "Discover the perfume details here.",
+  }),
   magazins: routeItem(5, "magazins", "/magazins", MagazinsLocation, {
     title: "Magazins Location",
     description: "Find the nearest perfume store location.",
@@ -58,26 +54,14 @@ const routes = {
     title: "Perfumes by Gender",
     description: "Explore perfumes by gender.",
   }),
-  brendperfume: routeItem(
-    9,
-    "brendperfume",
-    "/brend-perfume/:brendId",
-    BrendPerfume,
-    {
-      title: "Perfumes by Brand",
-      description: "Check out the perfumes of selected brand.",
-    }
-  ),
-  genderselected: routeItem(
-    10,
-    "genderselected",
-    "/genderselected",
-    GenderSelected,
-    {
-      title: "Selected Gender Perfumes",
-      description: "Perfumes selected by gender.",
-    }
-  ),
+  brendperfume: routeItem(9, "brendperfume", "/brend-perfume/:brendId", BrendPerfume, {
+    title: "Perfumes by Brand",
+    description: "Check out the perfumes of selected brand.",
+  }),
+  genderselected: routeItem(10, "genderselected", "/genderselected", GenderSelected, {
+    title: "Selected Gender Perfumes",
+    description: "Perfumes selected by gender.",
+  }),
   contactour: routeItem(11, "contact", "/contact", ContactOur, {
     title: "Contact Us",
     description: "Get in touch with us.",

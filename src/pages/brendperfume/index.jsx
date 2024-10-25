@@ -4,16 +4,23 @@ import Wrapper from "../../components/UI/wrapper";
 import { Link, useParams } from "react-router-dom";
 import DB from "../../db.json";
 import useIntersectionObserver from "../home/useIntersectionObserver"; // Import the custom hook
-
+import { useTranslation } from "react-i18next";
+import RUD from '../../rudb.json'
 const BrendPerfume = () => {
   const { brendId } = useParams();
+  const [perfumes, setPerfumes] = useState([]);
   const [filteredResult, setFilteredResult] = useState([]);
   const [observe, unobserve, entries] = useIntersectionObserver({
     threshold: 0.1,
   });
 
   const sections = useRef([]);
+  const { t, i18n } = useTranslation(); // Dil kontrolü için useTranslation kullanıldı
 
+  useEffect(() => {
+    const currentDB = i18n.language === "ru" ? RUD : DB; // Dil kontrolü yapılıyor
+    setPerfumes(currentDB);
+  }, [i18n.language]); // Dil değiştiğinde yeniden yükleniyor
   function filterByBrand(data, brand) {
     const normalizedBrand = brand.replace(/\s+/g, "").toLowerCase();
     return data.filter(
