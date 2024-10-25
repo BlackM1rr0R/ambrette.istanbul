@@ -19,7 +19,10 @@ import "swiper/css/pagination";
 import "swiper/css/scrollbar";
 
 import { Link } from "react-router-dom";
+import { useTranslation } from "react-i18next";
 const Notes = () => {
+  const {t}=useTranslation()
+
   const data=useMemo(()=>[
     {
       image: `${BannerBackground1}`,
@@ -48,7 +51,7 @@ const Notes = () => {
 
     <div className={styles.background}>
     <div className={styles.headers}>
-      <h2>Notes</h2>
+      <h2>{t("notes")}</h2>
     </div>
     <div className={styles.boxs}>
       <Swiper

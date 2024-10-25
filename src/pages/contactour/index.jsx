@@ -3,12 +3,13 @@ import styles from "./index.module.css";
 import Wrapper from "../../components/UI/wrapper";
 import { ContactLocationIcon, ContactMailIcon } from "../../icons";
 import useIntersectionObserver from "../home/useIntersectionObserver"; // Import the custom hook
+import { useTranslation } from "react-i18next";
 
 const ContactOur = () => {
   const [observe, unobserve, entries] = useIntersectionObserver({
     threshold: 0.1,
   });
-
+  const {t}=useTranslation()
   const sections = useRef([]);
 
   useEffect(() => {
@@ -27,14 +28,14 @@ const ContactOur = () => {
     <Wrapper>
       <div className={styles.background}>
         <div className={styles.headerContact}>
-          <h2>CONTACT US</h2>
+          <h2>{t("contact_us")}</h2>
         </div>
         <div
           ref={(el) => (sections.current[0] = el)}
           className={`${styles.headers} ${styles.hidden} ${entries[0]?.isIntersecting ? styles.visible : ''}`}
         >
-          <h2>Contact with Our</h2>
-          <p>Our working hours: from 09:00 to 22:00</p>
+          <h2>{t("contact_us")}</h2>
+          <p>{t("worktime")}</p>
         </div>
         <div className={styles.control}>
           <div className={styles.leftside}>
@@ -46,7 +47,7 @@ const ContactOur = () => {
                 <ContactLocationIcon />
               </div>
               <div className={styles.contactadress}>
-                <h2>Our location</h2>
+                <h2>{t("ourlocation")}</h2>
                 <p>МОСКВА Тк Садовод, корпус Б, этаж 1, линия 1, место 07-13</p>
               </div>
             </div>
@@ -58,7 +59,7 @@ const ContactOur = () => {
                 <ContactMailIcon />
               </div>
               <div className={styles.contactadress}>
-                <h2>Email Us</h2>
+                <h2>{t("email")}</h2>
                 <p>hello@gmail.com</p>
                 <p>fax@gmail.com</p>
               </div>
@@ -71,7 +72,7 @@ const ContactOur = () => {
                 <ContactMailIcon />
               </div>
               <div className={styles.contactadress}>
-                <h2>Phone</h2>
+                <h2>{t("phone")}</h2>
                 <p>+996 501 662 222</p>
               </div>
             </div>

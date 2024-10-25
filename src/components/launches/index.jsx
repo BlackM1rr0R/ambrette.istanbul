@@ -3,12 +3,13 @@ import styles from "./index.module.css";
 import Wrapper from "../UI/wrapper";
 import { Link } from "react-router-dom";
 import DB from "../../db.json";
+import { useTranslation } from "react-i18next";
 
 const LaunchesPerfume = () => {
   const [more, setMore] = useState(false);
   const [moreRandom, setMoreRandom] = useState(false);
   const shuffleCounter = useRef(0);
-
+  const {t}=useTranslation()
   const uniqueBrands = [...new Set(DB.map((product) => product.brands))];
   const capitalizeWords = (str) => {
     return str
@@ -24,7 +25,7 @@ const LaunchesPerfume = () => {
     }
     return array;
   };
-
+ 
   useEffect(() => {
     shuffleCounter.current += 1;
 
@@ -44,7 +45,7 @@ const LaunchesPerfume = () => {
             <hr />
           </div>
           <div className={styles.h2}>
-            <h2>Most Popular Perfumes</h2>
+            <h2>{t("popularperfume")}</h2>
           </div>
           <div className={styles.hr}>
             <hr />
@@ -63,7 +64,7 @@ const LaunchesPerfume = () => {
             </ul>
             <div className={styles.button}>
               <button onClick={() => setMoreRandom(!moreRandom)} className={styles.seeMore}>
-                {moreRandom ? "See Less" : "See More"}
+                {moreRandom ? t("seeless") : t("seemore")}
               </button>
             </div>
           </div>
@@ -73,7 +74,7 @@ const LaunchesPerfume = () => {
             <hr />
           </div>
           <div className={styles.h2}>
-            <h2>Most Popular Brands</h2>
+            <h2>{t("popularbrands")}</h2>
           </div>
           <div className={styles.hr}>
             <hr />
@@ -92,7 +93,7 @@ const LaunchesPerfume = () => {
             </ul>
             <div className={styles.button}>
               <button onClick={() => setMore(!more)} className={styles.seeMore}>
-                {more ? "See Less" : "See More"}
+                {more ? t("seeless") : t("seemore")}
               </button>
             </div>
           </div>

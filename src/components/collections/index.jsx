@@ -12,7 +12,10 @@ import "swiper/css/scrollbar";
 import ShaghafCollection from '../../assets/images/SHAGHAF_COLLECTION.webp.png'
 import LoveCollection from '../../assets/images/LOVE_COLLECTION.webp.png'
 import HeritageCollection from '../../assets/images/HERITAGE_COLLECTION.webp.png'
+import { useTranslation } from "react-i18next";
+
 const CollectionsPerfume = () => {
+  
   const data=useMemo(()=>[
     {
       image: `${Collections}`,
@@ -36,12 +39,13 @@ const CollectionsPerfume = () => {
       image: `${Collections}`,
     },
   ],[])
+  const {t}=useTranslation()
   return (
     <Wrapper>
 
     <div className={styles.background}>
       <div className={styles.headers}>
-        <h2>Discover Our Collections</h2>
+        <h2>{t("discover")}</h2>
       </div>
       <div className={styles.boxs}>
       <Swiper

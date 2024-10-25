@@ -23,9 +23,12 @@ import {
   YouTubeIcon,
 } from "../../../icons";
 import DB from "../../../db.json";
+import RUD from '../../../rudb.json'
 import { Sling as Hamburger } from "hamburger-react";
 import SearchIcon from "../../../assets/images/search.svg";
 import { useTranslation } from "react-i18next";
+
+
 const uniqueBrands = [...new Set(DB.map((product) => product.brands))].sort();
 const groupedBrands = uniqueBrands.reduce((acc, brand) => {
   const firstLetter = brand.charAt(0).toUpperCase();
@@ -38,15 +41,22 @@ const groupedBrands = uniqueBrands.reduce((acc, brand) => {
 
 const Header = () => {
   const { t, i18n } = useTranslation();
+  const [currentDB, setCurrentDB] = useState(DB);
   const [searchTerm, setSearchTerm] = useState("");
   const [showResults, setShowResults] = useState(false);
   const searchRef = useRef(null);
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [openInput, setOpenInput] = useState(false);
   
-  const changeLanguage=(lang)=>{
+  const changeLanguage = (lang) => {
     i18n.changeLanguage(lang);
-  }
+    if (lang === "ru") {
+      setCurrentDB(RUD);
+    } else {
+      setCurrentDB(DB);
+    }
+  };
+
   const handleSearchItemClick = () => {
     setShowResults(false);
   };
@@ -58,20 +68,21 @@ const Header = () => {
   const toggleInput = () => {
     setOpenInput(!openInput);
   };
+
   const handleSearchChange = useCallback((event) => {
     setSearchTerm(event.target.value.toLowerCase());
   }, []);
 
   const filteredPerfumes = useMemo(() => {
     if (searchTerm.length > 0) {
-      return DB.filter(
+      return currentDB.filter( // DB yerine currentDB kullan
         (product) =>
           product.title?.toLowerCase().includes(searchTerm) &&
           product.innerimageurl
       );
     }
     return [];
-  }, [searchTerm, DB]);
+  }, [searchTerm, currentDB]); // DB yerine currentDB kullan
 
   useEffect(() => {
     setShowResults(filteredPerfumes.length > 0);
@@ -88,6 +99,7 @@ const Header = () => {
       document.removeEventListener("mousedown", handleClickOutside);
     };
   }, [searchRef]);
+
 
   return (
     <Wrapper>
@@ -132,7 +144,7 @@ const Header = () => {
             <div className={styles.input} ref={searchRef}>
               <input
                 type="text"
-                placeholder="Search by title..."
+                placeholder={t("inputplace")}
                 value={searchTerm}
                 onChange={handleSearchChange}
               />
@@ -174,7 +186,7 @@ const Header = () => {
             <div className={styles.input1} ref={searchRef}>
               <input
                 type="text"
-                placeholder="Search by title..."
+                placeholder={t("inputplace")}
                 value={searchTerm}
                 onChange={handleSearchChange}
               />
@@ -204,19 +216,19 @@ const Header = () => {
       {isMenuOpen && (
         <div className={styles.overlay}>
           <Link to="/allperfumes" onClick={() => setIsMenuOpen(false)}>
-            Perfumes
+            {t("perfumes")}
           </Link>
           <Link to="/brends" onClick={() => setIsMenuOpen(false)}>
-            Brends
+          {t("brends")}
           </Link>
           <Link to="/about" onClick={() => setIsMenuOpen(false)}>
-            About us
+          {t("about_us")}
           </Link>
           <Link to="/magazins" onClick={() => setIsMenuOpen(false)}>
-            Magazins
+          {t("magazin")}
           </Link>
           <Link to="/contact" onClick={() => setIsMenuOpen(false)}>
-            Contact us
+          {t("contact_us")}
           </Link>
         </div>
       )}
@@ -234,13 +246,13 @@ const Header = () => {
               </Link>
               <ul className={styles.dropdowncontent}>
                 <li>
-                  <Link to={"/gender/men"}>Man</Link>
+                  <Link to={"/gender/men"}>{t("men")}</Link>
                 </li>
                 <li>
-                  <Link to={"/gender/women"}>Women</Link>
+                  <Link to={"/gender/women"}>{t("women")}</Link>
                 </li>
                 <li>
-                  <Link to={"/gender/unisex"}>Unisex</Link>
+                  <Link to={"/gender/unisex"}>{t("unisex")}</Link>
                 </li>
               </ul>
             </div>

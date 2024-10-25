@@ -136,6 +136,10 @@
   display: none;
 }
 
+.overlay {
+  display: none;
+}
+
 .headers {
   display: block;
 }
@@ -259,9 +263,6 @@
 }
 
 @media (max-width: 992px) {
-  .iconsControl {
-    display: none;
-  }
   .background .icons .iconscontrol {
     display: flex;
     align-items: center;

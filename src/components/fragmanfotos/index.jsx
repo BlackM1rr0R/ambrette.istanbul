@@ -15,7 +15,9 @@ import "swiper/css/navigation";
 import "swiper/css/pagination";
 import "swiper/css/scrollbar";
 import Wrapper from "../UI/wrapper";
+import { useTranslation } from "react-i18next";
 const FragmanFotos = () => {
+  const {t}=useTranslation()
   const data=useMemo(()=>[
     {
       image: `${Collections}`,
@@ -34,7 +36,7 @@ const FragmanFotos = () => {
     <Wrapper>
       <div className={styles.background}>
         <div className={styles.headers}>
-          <h2>Fragman Photos</h2>
+          <h2>{t("fragment")}</h2>
         </div>
         <div className={styles.boxs}>
           <Swiper

@@ -12,11 +12,12 @@ import {
   YouTubeIcon,
 } from "../../../icons";
 import { Link } from "react-router-dom";
+import { useTranslation } from "react-i18next";
 
 const Footer = () => {
   const [isVisible, setIsVisible] = useState(false);
   const footerRef = useRef(null);
-
+  const { t } = useTranslation();
   useEffect(() => {
     const handleScroll = () => {
       if (footerRef.current) {
@@ -38,61 +39,64 @@ const Footer = () => {
       <Wrapper>
         <div className={styles.control}>
           <div className={styles.list2}>
-            <h2>PERFUMES</h2>
+            <h2>{t("perfumes")}</h2>
             <ul>
               <Link target="_blank" to="/gender/men">
-                Men
+                {t("men")}
               </Link>
               <Link target="_blank" to="/gender/women">
-                Women
+                {t("women")}
               </Link>
               <Link target="_blank" to="/gender/unisex">
-                Unisex
+                {t("unisex")}
               </Link>
             </ul>
           </div>
           <div className={styles.list2}>
-            <h2>TITLE PAGES</h2>
+            <h2>{t("welcome")}</h2>
             <ul>
               <Link target="_blank" to="/genderselected">
-                Perfumes
+                {t("perfumes")}
               </Link>
               <Link target="_blank" to="/brends">
-                Brands
+                {t("brends")}
               </Link>
               <Link target="_blank" to="/about">
-                About us
+                {t("about_us")}
               </Link>
               <Link target="_blank" to="/magazins">
-                Magazens
+                {t("magazin")}
               </Link>
               <Link target="_blank" to="/contact">
-                Contact us
+                {t("contact_us")}
               </Link>
             </ul>
           </div>
           <div className={styles.list2}>
-            <h2>MAGAZENS</h2>
+            <h2>{t("magazin")}</h2>
             <ul>
               <Link to="/magazins" target="_blank">
-                Moskow branch
+                {t("moskowbranch")}
               </Link>
               <Link to="/magazins" target="_blank">
-                Moskow branch
+                {t("moskowbranch")}
               </Link>
               <Link to="/magazins" target="_blank">
-                Kyrgyzstan branch
+                {t("kgbranch")}
               </Link>
               <Link to="/magazins" target="_blank">
-                Kazakhstan branch
+                {t("kzbranch")}
               </Link>
               <Link to="/magazins" target="_blank">
-                Uzbekistan branch
+                {t("uzbranch")}
+              </Link>
+              <Link to="/magazins" target="_blank">
+                {t("azbranch")}
               </Link>
             </ul>
           </div>
           <div className={styles.list2}>
-            <h2>CONTACT US</h2>
+            <h2>{t("contact_us")}</h2>
             <ul>
               <a target="_blank" href="https://wa.me/79682694534">
                 +7 968 269 45 34
@@ -101,7 +105,7 @@ const Footer = () => {
                 target="_blank"
                 href="https://www.instagram.com/ambrette_parfume/"
               >
-                Instagram Adress
+                {t("instagram")}
               </a>
               <li>09:00-22:00</li>
             </ul>
@@ -109,12 +113,12 @@ const Footer = () => {
         </div>
         <div className={styles.iconscontrol}>
           <div className={styles.textp}>
-            <p>Contact with our:</p>
+            <p>{t("contact_us")}:</p>
           </div>
           <div className={styles.list1}>
             <form>
-              <input placeholder="E-mail" type="email" name="email" />
-              <button type="submit">Submit</button>
+              <input placeholder={t("email")} type="email" name="email" />
+              <button type="submit">{t("submit")}</button>
             </form>
             <div className={styles.icons}>
               <TikTokIcon />
@@ -124,9 +128,12 @@ const Footer = () => {
               >
                 <InstagramIcon />
               </Link>
-    <Link to={"https://www.youtube.com/@Ambretteofficial"} target="_blank">
-              <YouTubeIcon />
-    </Link>
+              <Link
+                to={"https://www.youtube.com/@Ambretteofficial"}
+                target="_blank"
+              >
+                <YouTubeIcon />
+              </Link>
             </div>
           </div>
         </div>

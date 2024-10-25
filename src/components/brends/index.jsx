@@ -13,9 +13,9 @@ import { useTranslation } from "react-i18next";
 const Brends = () => {
   const {t}=useTranslation();
   const perfumes = useMemo(() => {
-    // DB'yi karıştır
+   
     const shuffledDB = [...DB].sort(() => 0.5 - Math.random());
-    // Rastgele 15 ürün seç
+ 
     return shuffledDB.slice(0, 15);
   }, [DB]);
 

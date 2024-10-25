@@ -5,6 +5,7 @@ import Wrapper from "../../components/UI/wrapper";
 import DB from "../../db.json";
 import { Link } from "react-router-dom";
 import useIntersectionObserver from "../home/useIntersectionObserver";
+import { useTranslation } from "react-i18next";
 
 const Gender = () => {
   const { genderType } = useParams();
@@ -12,10 +13,11 @@ const Gender = () => {
   const [observe, unobserve, entries] = useIntersectionObserver({
     threshold: 0.1,
   });
-
+  const { t } = useTranslation();
   const sections = useRef([]);
 
   useEffect(() => {
+    console.log("Gender Type:", genderType); // Değeri kontrol et
     const formatted = DB.filter(
       (item) => item.gender.toLowerCase() === genderType.toLowerCase()
     ).map((item) => ({
@@ -59,7 +61,7 @@ const Gender = () => {
             <hr />
           </div>
           <div className={styles.headersh2}>
-            <h2>{genderType.charAt(0).toUpperCase() + genderType.slice(1)}</h2>
+            <h2>{t(genderType.toLowerCase())}</h2> {/* Küçük harf ile çeviri */}
           </div>
           <div className={styles.hr}>
             <hr />

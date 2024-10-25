@@ -3,6 +3,7 @@ import styles from "./index.module.css";
 import Wrapper from "../../components/UI/wrapper";
 import { Link, useParams } from "react-router-dom";
 import DB from "../../db.json";
+import RUD from "../../rudb.json"; // Rusça veriler
 import useIntersectionObserver from "../home/useIntersectionObserver";
 import { Autoplay, Pagination } from "swiper/modules";
 import { Swiper, SwiperSlide } from "swiper/react";
@@ -10,14 +11,17 @@ import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
 import "swiper/css/scrollbar";
+import { useTranslation } from "react-i18next";
 
 const ParfumDetails = () => {
+  const { t, i18n } = useTranslation();
   const [modal, setModal] = useState(false);
   const [notes, setNotes] = useState(false);
   const [brends, setBrends] = useState(false);
   const [foundObject, setFoundObject] = useState(null);
   const [relatedPerfumes, setRelatedPerfumes] = useState([]);
   const certificatesRef = useRef(null);
+  const { id } = useParams();
 
   const handleClick = () => {
     setModal((prevModal) => !prevModal);
@@ -31,18 +35,17 @@ const ParfumDetails = () => {
     setBrends((prevBrends) => !prevBrends);
   };
 
-  const { id } = useParams();
-
   useEffect(() => {
-    const obj = DB.find((item) => item.id === parseInt(id, 10));
+    const currentDB = i18n.language === "ru" ? RUD : DB; // Dil kontrolü yapılıyor
+    const obj = currentDB.find((item) => item.id === parseInt(id, 10));
     setFoundObject(obj);
     if (obj) {
-      const related = DB.filter(
+      const related = currentDB.filter(
         (item) => item.brands === obj.brands && item.id !== obj.id
       );
       setRelatedPerfumes(related);
     }
-  }, [id]);
+  }, [id, i18n.language]); // Dil değiştiğinde yeniden yükleniyor
 
   const [observe, unobserve, entries] = useIntersectionObserver({
     threshold: 0.1,
@@ -72,15 +75,14 @@ const ParfumDetails = () => {
           }`}
         >
           <div className={styles.images}>
-            
             <img src={foundObject?.innerimageurl} alt="" />
           </div>
           <div className={styles.description}>
             <div className={styles.nameParfum}>
-            <h2>{foundObject?.title}</h2>
+            <h2>{i18n.language === "ru" ? foundObject?.title : foundObject?.title}</h2>
             </div>
             <div onClick={handleClick} className={styles.info}>
-              <h2>Description</h2>
+              <h2>{t("description")}</h2>
               <h2>+</h2>
             </div>
             <div className={styles.hr}>
@@ -92,7 +94,7 @@ const ParfumDetails = () => {
               </div>
             )}
             <div onClick={handleClick1} className={styles.info}>
-              <h2>Fragrance notes</h2>
+              <h2>{t("fragnot")}</h2>
               <h2>+</h2>
             </div>
             <div className={styles.hr}>
@@ -101,25 +103,25 @@ const ParfumDetails = () => {
             {notes && (
               <div className={styles.notesclass}>
                 <div className={styles.fragments}>
-                  <h2>Fragrance Family:</h2>
+                  <h2>{t("fragfamily")}:</h2>
                   <h3>{foundObject?.fragrance.family}</h3>
                 </div>
                 <div className={styles.fragments}>
-                  <h2>Top Notes:</h2>
+                  <h2>{t("topnotes")}:</h2>
                   <h3>{foundObject?.fragrance.topnotes}</h3>
                 </div>
                 <div className={styles.fragments}>
-                  <h2>Mid Notes:</h2>
+                  <h2>{t("midnotes")}:</h2>
                   <h3>{foundObject?.fragrance.midnotes}</h3>
                 </div>
                 <div className={styles.fragments}>
-                  <h2>Base Notes:</h2>
+                  <h2>{t("basenotes")}:</h2>
                   <h3>{foundObject?.fragrance.basenotes}</h3>
                 </div>
               </div>
             )}
             <div onClick={handleClick2} className={styles.info}>
-              <h2>Brends</h2>
+              <h2>{t("brends")}</h2>
               <h2>+</h2>
             </div>
             <div className={styles.hr}>
@@ -147,8 +149,6 @@ const ParfumDetails = () => {
             spaceBetween={50}
             slidesPerView={3}
             pagination={{ clickable: true }}
-            onSwiper={(swiper) => console.log(swiper)}
-            onSlideChange={() => console.log("slide change")}
             breakpoints={{
               0: {
                 spaceBetween: 24,
@@ -175,9 +175,7 @@ const ParfumDetails = () => {
                     target="_blank"
                     className={styles.button}
                   >
-                    <Link target="_blank" to={"/parfum-details/" + item.id}>
-                      See More
-                    </Link>
+                   {t("seemore")}
                   </Link>
                 </Link>
               </SwiperSlide>
