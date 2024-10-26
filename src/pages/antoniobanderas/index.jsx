@@ -79,7 +79,11 @@ const ParfumDetails = () => {
           </div>
           <div className={styles.description}>
             <div className={styles.nameParfum}>
-            <h2>{i18n.language === "ru" ? foundObject?.title : foundObject?.title}</h2>
+              <h2>
+                {i18n.language === "ru"
+                  ? foundObject?.title
+                  : foundObject?.title}
+              </h2>
             </div>
             <div onClick={handleClick} className={styles.info}>
               <h2>{t("description")}</h2>
@@ -130,10 +134,13 @@ const ParfumDetails = () => {
             {brends && (
               <div className={styles.notesclass}>
                 <div className={styles.fragments}>
-                  <h3>{foundObject?.brands}</h3>
+                  <Link to={`/brend-perfume/${foundObject?.brands}`}>
+                    {foundObject?.brands}
+                  </Link>
                 </div>
               </div>
             )}
+
             <div className={styles.info}>
               <h2>#{foundObject?.id}</h2>
             </div>
@@ -166,7 +173,11 @@ const ParfumDetails = () => {
           >
             {relatedPerfumes.map((item) => (
               <SwiperSlide key={item.id}>
-                <Link target="_blank" to={"/parfum-details/" + item.id} className={styles.border}>
+                <Link
+                  target="_blank"
+                  to={"/parfum-details/" + item.id}
+                  className={styles.border}
+                >
                   <img src={item.imageurl} alt="" loading="lazy" />
                   <h2>{item.title}</h2>
                   <h3>{item.gender}</h3>
@@ -175,7 +186,7 @@ const ParfumDetails = () => {
                     target="_blank"
                     className={styles.button}
                   >
-                   {t("seemore")}
+                    {t("seemore")}
                   </Link>
                 </Link>
               </SwiperSlide>

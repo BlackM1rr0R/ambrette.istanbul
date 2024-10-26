@@ -2,6 +2,8 @@ import React, { useEffect, useRef } from "react";
 import styles from "./index.module.css";
 import DB from "../../db.json";
 import brands from "../../brends.json";
+import RUD from '../../rudb.json';
+import RUDBRANDS from '../../rubrend.json';
 import { Link } from "react-router-dom";
 import Wrapper from "../../components/UI/wrapper";
 import Azzaro from "../../assets/images/ajmal.jpg";
@@ -9,8 +11,17 @@ import useIntersectionObserver from "../home/useIntersectionObserver";
 import { useTranslation } from "react-i18next";
 
 const BrendLogo = () => {
-  const uniqueBrands = [...new Set(DB.map((product) => product.brands))].sort();
-  const { t } = useTranslation();
+  const { t, i18n } = useTranslation();
+  const language = i18n.language;
+
+  // Dil seçimine göre verileri seçme
+  const products = language === "ru" ? RUD : DB;
+  const brandsData = language === "ru" ? RUDBRANDS : brands;
+
+  // Benzersiz markaları elde etme
+  const uniqueBrands = [...new Set(products.map((product) => product.brands))].sort();
+
+  // Markaları baş harflerine göre gruplama
   const groupedBrands = uniqueBrands.reduce((acc, brand) => {
     const firstLetter = brand.charAt(0).toUpperCase();
     if (!acc[firstLetter]) {
@@ -42,16 +53,11 @@ const BrendLogo = () => {
     <Wrapper>
       <div className={styles.background}>
         <div className={styles.headers}>
-          <div className={styles.hr}>
-            <hr />
-          </div>
-          <div className={styles.headersh2}>
-            <h2>{t("allbrends")}</h2>
-          </div>
-          <div className={styles.hr}>
-            <hr />
-          </div>
+          <div className={styles.hr}><hr /></div>
+          <div className={styles.headersh2}><h2>{t("allbrends")}</h2></div>
+          <div className={styles.hr}><hr /></div>
         </div>
+        
         {Object.keys(groupedBrands).map((letter, index) => (
           <div
             ref={(el) => (sections.current[index] = el)}
@@ -68,7 +74,7 @@ const BrendLogo = () => {
             <div className={styles.controlbox}>
               {groupedBrands[letter].map((brand, brandIndex) => {
                 const brandKey = brand.replace(/\s+/g, "").toLowerCase();
-                const brandData = brands[brandKey];
+                const brandData = brandsData[brandKey]; // Markaların veri kaynağı
 
                 return (
                   <Link
@@ -84,14 +90,14 @@ const BrendLogo = () => {
                       {brandData && brandData.imageurl ? (
                         <img
                           src={brandData.imageurl}
-                          alt={brand}
+                          alt={brandData.title || brand} // Doğru başlık gösterimi
                           loading="lazy"
                         />
                       ) : (
                         <img src={Azzaro} alt="Default" />
                       )}
                     </div>
-                    <h2>{brand}</h2>
+                    <h2>{brandData ? brandData.title : brand}</h2> {/* Rusça veya İngilizce başlık */}
                   </Link>
                 );
               })}
