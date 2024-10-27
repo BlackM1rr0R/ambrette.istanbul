@@ -23,11 +23,10 @@ import {
   YouTubeIcon,
 } from "../../../icons";
 import DB from "../../../db.json";
-import RUD from '../../../rudb.json'
+import RUD from '../../../rudb.json';
 import { Sling as Hamburger } from "hamburger-react";
 import SearchIcon from "../../../assets/images/search.svg";
 import { useTranslation } from "react-i18next";
-
 
 const uniqueBrands = [...new Set(DB.map((product) => product.brands))].sort();
 const groupedBrands = uniqueBrands.reduce((acc, brand) => {
@@ -50,11 +49,8 @@ const Header = () => {
   
   const changeLanguage = (lang) => {
     i18n.changeLanguage(lang);
-    if (lang === "ru") {
-      setCurrentDB(RUD);
-    } else {
-      setCurrentDB(DB);
-    }
+    localStorage.setItem("language", lang);  // Seçilen dili kaydet
+    setCurrentDB(lang === "ru" ? RUD : DB);  // Seçilen dile göre veri tabanını ayarla
   };
 
   const handleSearchItemClick = () => {
@@ -75,14 +71,14 @@ const Header = () => {
 
   const filteredPerfumes = useMemo(() => {
     if (searchTerm.length > 0) {
-      return currentDB.filter( // DB yerine currentDB kullan
+      return currentDB.filter(
         (product) =>
           product.title?.toLowerCase().includes(searchTerm) &&
           product.innerimageurl
       );
     }
     return [];
-  }, [searchTerm, currentDB]); // DB yerine currentDB kullan
+  }, [searchTerm, currentDB]);
 
   useEffect(() => {
     setShowResults(filteredPerfumes.length > 0);
@@ -100,6 +96,11 @@ const Header = () => {
     };
   }, [searchRef]);
 
+  useEffect(() => {
+    const savedLanguage = localStorage.getItem("language") || "en";
+    i18n.changeLanguage(savedLanguage);
+    setCurrentDB(savedLanguage === "ru" ? RUD : DB);
+  }, [i18n]);
 
   return (
     <Wrapper>
@@ -119,9 +120,9 @@ const Header = () => {
           </Link>
         </div>
         <div className={styles.iconsLogo}>
-          <h2 onClick={()=>changeLanguage("en")}>en</h2>
+          <h2 onClick={() => changeLanguage("en")}>en</h2>
           <hr />
-          <h2 onClick={()=>changeLanguage("ru")}>ru</h2>
+          <h2 onClick={() => changeLanguage("ru")}>ru</h2>
         </div>
       </div>
 

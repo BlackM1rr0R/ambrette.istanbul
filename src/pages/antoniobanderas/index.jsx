@@ -3,7 +3,7 @@ import styles from "./index.module.css";
 import Wrapper from "../../components/UI/wrapper";
 import { Link, useParams } from "react-router-dom";
 import DB from "../../db.json";
-import RUD from "../../rudb.json"; // Rusça veriler
+import RUD from "../../rudb.json"; 
 import useIntersectionObserver from "../home/useIntersectionObserver";
 import { Autoplay, Pagination } from "swiper/modules";
 import { Swiper, SwiperSlide } from "swiper/react";
@@ -19,6 +19,7 @@ const ParfumDetails = () => {
   const [notes, setNotes] = useState(false);
   const [brends, setBrends] = useState(false);
   const [foundObject, setFoundObject] = useState(null);
+  const [englishFoundObject, setEnglishFoundObject] = useState(null);
   const [relatedPerfumes, setRelatedPerfumes] = useState([]);
   const certificatesRef = useRef(null);
   const { id } = useParams();
@@ -36,16 +37,19 @@ const ParfumDetails = () => {
   };
 
   useEffect(() => {
-    const currentDB = i18n.language === "ru" ? RUD : DB; // Dil kontrolü yapılıyor
+    const currentDB = i18n.language === "ru" ? RUD : DB;
     const obj = currentDB.find((item) => item.id === parseInt(id, 10));
+    const obj2 = DB.find((item) => item.id === parseInt(id, 10));
     setFoundObject(obj);
+    setEnglishFoundObject(obj2)
     if (obj) {
       const related = currentDB.filter(
         (item) => item.brands === obj.brands && item.id !== obj.id
       );
       setRelatedPerfumes(related);
     }
-  }, [id, i18n.language]); // Dil değiştiğinde yeniden yükleniyor
+
+  }, [id, i18n.language]); 
 
   const [observe, unobserve, entries] = useIntersectionObserver({
     threshold: 0.1,
@@ -134,7 +138,7 @@ const ParfumDetails = () => {
             {brends && (
               <div className={styles.notesclass}>
                 <div className={styles.fragments}>
-                  <Link to={`/brend-perfume/${foundObject?.brands}`}>
+                  <Link to={`/brend-perfume/${englishFoundObject?.brands}`}>
                     {foundObject?.brands}
                   </Link>
                 </div>
