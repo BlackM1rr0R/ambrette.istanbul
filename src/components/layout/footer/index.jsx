@@ -121,7 +121,10 @@ const Footer = () => {
               <button type="submit">{t("submit")}</button>
             </form>
             <div className={styles.icons}>
+            <Link 
+            to={"https://www.tiktok.com/@ambrette_kz"} target="_blank">
               <TikTokIcon />
+            </Link>
               <Link
                 to={"https://www.instagram.com/ambrette.ru/"}
                 target="_blank"

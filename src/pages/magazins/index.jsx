@@ -22,6 +22,7 @@ const MagazinsLocation = () => {
   const [nerimanov, setNerimanov] = useState(false);
   const [ozbekistan, setOzbekistan] = useState(false);
   const [azerbaijan, setAzerbaijan] = useState(false);
+  const [moskowNew, setMoskowNew] = useState(false);
   const {t}=useTranslation()
   const clickAzadliq = () => {
     setGenclik(false);
@@ -30,6 +31,7 @@ const MagazinsLocation = () => {
     setOzbekistan(false);
     setAzadliq((prevAzadliq) => !prevAzadliq);
     setAzerbaijan(false);
+    setMoskowNew(false)
   };
 
   const clickGenclik = () => {
@@ -39,6 +41,8 @@ const MagazinsLocation = () => {
     setOzbekistan(false);
     setGenclik((prevGenclik) => !prevGenclik);
     setAzerbaijan(false);
+    setMoskowNew(false)
+
   };
 
   const clickNerimanov = () => {
@@ -48,6 +52,8 @@ const MagazinsLocation = () => {
     setOzbekistan(false);
     setNerimanov((prevNerimanov) => !prevNerimanov);
     setAzerbaijan(false);
+    setMoskowNew(false)
+
   };
   const clickMoskow = () => {
     setGenclik(false);
@@ -56,6 +62,8 @@ const MagazinsLocation = () => {
     setOzbekistan(false);
     setMoskow((prevMoskow) => !prevMoskow);
     setAzerbaijan(false);
+    setMoskowNew(false)
+
   };
   const clickOzbekistan = () => {
     setGenclik(false);
@@ -64,6 +72,8 @@ const MagazinsLocation = () => {
     setMoskow(false);
     setOzbekistan((prevOzbekistan) => !prevOzbekistan);
     setAzerbaijan(false);
+    setMoskowNew(false)
+
   };
   const clickAzerbaijan = () => {
     setGenclik(false);
@@ -72,6 +82,18 @@ const MagazinsLocation = () => {
     setMoskow(false);
     setOzbekistan(false);
     setAzerbaijan((prevAzerbaijan) => !prevAzerbaijan);
+    setMoskowNew(false)
+
+  };
+  const clickMoskowNew = () => {
+    setGenclik(false);
+    setAzadliq(false);
+    setNerimanov(false);
+    setMoskow(false);
+    setOzbekistan(false);
+    setAzerbaijan(false);
+    setMoskowNew((prevMoskowNew)=>!prevMoskowNew)
+
   };
   return (
     <Wrapper>
@@ -293,6 +315,45 @@ const MagazinsLocation = () => {
                 </Link>
               </div>
             )}
+               <div className={styles.hr}>
+              <hr />
+            </div>
+            <div
+              onClick={() => clickMoskowNew()}
+              className={`${styles.ozbekistan} ${
+                moskowNew ? styles.active : ""
+              }`}
+            >
+              <h2>
+                7.{t("moskowbranch")}   <MoskowIcon />
+              </h2>
+            </div>
+            {moskowNew && (
+              <div className={styles.modalclass}>
+                <div className={styles.iconsclass}>
+                  <LocationIcon />
+                  <h2>
+                  Южные ворота Выход 16 Линия -8 Павильон 53.55. 57
+                  </h2>
+                </div>
+                <div className={styles.iconsclass}>
+                  <PhoneIcon />
+                  <h2>+79627428866</h2>
+                </div>
+                <div className={styles.iconsclass}>
+                  <ClockIcon />
+                  <h2>09:00-22:00</h2>
+                </div>
+                <Link
+                  to={"https://www.instagram.com/ambrette.ru/"}
+                  target="_blank"
+                  className={styles.iconsclass}
+                >
+                  <InstagramIcon />
+                  <h2>   {t("instagram")}</h2>
+                </Link>
+              </div>
+            )}
           </div>
           <div className={styles.rightside}>
             {azadliq ? (
@@ -443,6 +504,32 @@ const MagazinsLocation = () => {
                   src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5997.708519121998!2d69.24787219705037!3d41.26850904935911!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38ae8a9b5941f68d%3A0xebec127243e4f2aa!2zQmFzaGx5aywgMTAwMDIyLCBUYcWfa2VudCwgw5Z6YmVraXN0YW4!5e0!3m2!1str!2saz!4v1718920939370!5m2!1str!2saz"
                   height="300"
                   width="1000"
+                  allowFullScreen=""
+                  loading="lazy"
+                  referrerPolicy="no-referrer-when-downgrade"
+                ></iframe>
+              </>
+            ) : (
+              ""
+            )}
+                {moskowNew ? (
+              <>
+                <iframe
+                  className={styles.frame1}
+                  width="1000"
+                  height="300"
+                  src="https://www.youtube.com/embed/qyTlW81Zzqo?si=MMjaGlNBkezoQCku"
+                  title="YouTube video player"
+                  frameborder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                  referrerpolicy="strict-origin-when-cross-origin"
+                  allowfullscreen
+                ></iframe>
+                <iframe
+                  className={styles.frame1}
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d973.3467796509542!2d37.779918519380004!3d55.62293998579055!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x414ab128e80bb21f%3A0x69ce3a23e5b431d1!2sYuzhnyye%20Vorota!5e0!3m2!1str!2saz!4v1732896337216!5m2!1str!2saz"
+                  width="1000"
+                  height="300"
                   allowFullScreen=""
                   loading="lazy"
                   referrerPolicy="no-referrer-when-downgrade"

@@ -50,13 +50,14 @@
 .background .control .leftSide {
   display: flex;
   align-items: center;
+  gap: 50px;
 }
 .background .control .leftSide .images {
   text-decoration: none;
   color: black;
 }
 .background .control .leftSide .images img {
-  width: 200px;
+  width: 120px;
   -o-object-fit: fill;
      object-fit: fill;
 }

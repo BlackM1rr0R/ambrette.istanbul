@@ -46,12 +46,13 @@
     .leftSide{
       display: flex;
       align-items: center;
+      gap: 50px;
       .images {
         text-decoration: none;
         color: black;
         img {
    
-          width: 200px;
+          width: 120px;
           object-fit: fill;
         }
         h2 {

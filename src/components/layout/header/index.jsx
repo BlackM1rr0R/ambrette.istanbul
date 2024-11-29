@@ -6,7 +6,7 @@ import React, {
   useMemo,
 } from "react";
 import styles from "./index.module.css";
-import Logo from "../../../assets/images/logo2.png";
+import Logo from "../../../logo555.png";
 import Wrapper from "../../UI/wrapper";
 import { Link } from "react-router-dom";
 import {
@@ -139,7 +139,7 @@ const Header = () => {
           <div className={styles.leftSide}>
             <Link to={"/"} className={styles.images}>
               <img src={Logo} alt="Logo" />
-              <h2>AMBRETTE</h2>
+     
             </Link>
 
             <div className={styles.input} ref={searchRef}>
