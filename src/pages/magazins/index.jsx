@@ -338,7 +338,7 @@ const MagazinsLocation = () => {
                 </div>
                 <div className={styles.iconsclass}>
                   <PhoneIcon />
-                  <h2>+79627428866</h2>
+                  <h2>+79661778866</h2>
                 </div>
                 <div className={styles.iconsclass}>
                   <ClockIcon />
